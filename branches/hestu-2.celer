@@ -1,0 +1,52 @@
+Hestu 2:
+- _Warp::Shrine::KayaWan:
+    line-color: lightsalmon
+    comment: WARP
+
+- .dir(N) short
+- _Chest<Knight's Broadsword>:
+    coord: [826.64, 112.80, 123.61]
+    comment: .rune(Mag) out of water
+
+- .dir(SE) short
+- _Discover<Wetland Stable>:
+    coord: [888.06, 131.29, 173.67]
+
+- .dir(<S) short
+- _Npc<Hestu>:
+    coord: [870.83, 131.54, 203.47]
+- .!!(3 bow, 2 weapon slots):
+    icon: bow
+    hide-icon-on-map: true
+
+- .dir(S) short
+- _Korok::Z37:
+    # notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541460437455470593?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+    comment: Among thorns
+
+- .dir(<E)
+- _Korok::Z38
+- _Equipment::Bow<Wooden Bow>:
+    coord: [1429.44, 115.67, 148.95]
+
+- .dir(SE)
+- _Discover<Goponga Village Ruins>:
+    coord: [1580.16, 109.80, 312.15]
+
+- midair .dir(N)
+- _Korok::Z39
+
+- .dir(.N)
+- _Discover<Moor Garrison Ruins>:
+    coord: [1534.40, 120.58, -155.90]
+- _Equipment::Bow<2 Spiked Boko Bow>:
+    comment: Steal from bokos
+    coord: [1534.40, 120.58, -175.90]
+
+- .dir(.N)
+- _Shrine::ShehRata:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7368s)
+
+- .dir(NE>)
+- _Korok::Z12:
+    comment: " "

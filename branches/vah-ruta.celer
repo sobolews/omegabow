@@ -1,0 +1,148 @@
+Vah Ruta:
+- .dir(<N) + .dir(N) midairs
+- _Korok::N05
+
+- .dir(W)
+- Tame mountain buck:
+    icon: tots
+    coord: [2601.50, 222.01, 552.50]
+
+- .dir(N) ride
+- _Npc::Rito<Kass>:
+    coord: [2589.68, 232.40, 444.25]
+
+- .dir(<W)
+- _Korok::N04:
+    comment: " "
+
+- .dir(NW)
+- _Korok::N02
+
+- .dir(E)
+- _Korok::N03:
+    comment: Behind shrine
+
+- _Shrine::MezzaLo:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=7036s)
+
+- .dir(E)
+- _Korok::Z42:
+    comment: Way below
+
+- midair .dir(E)
+- _Korok::Z43
+
+- .dir(S)
+- _Korok::N06
+
+- .dir(<<E)
+- _Korok::Z44
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [3526.26, 251.18, 364.97]
+    comment: Ancient arrows
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3393.74, 314.18, 49.77]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3265.50, 341.84, 38.70]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W>) down
+- _Korok::Z33
+
+- .dir(<W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3099.83, 236.67, 70.72]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(N>)
+- _Discover<Luto's Crossing>:
+    coord: [3085.11, 263.68, 8.17]
+    notes: Try to discover location as you fly past
+
+- _Korok::Z32
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3062.39, 184.92, -216.65]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(E>)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3260.31, 241.83, -145.22]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- _Material<1 Hearty Truffle>:
+    notes: Used for transmute
+    hide-icon-on-map: true
+
+- .dir(N>)
+- _Korok::Z25
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+
+- _Equipment::Shield<Zora Armor>:
+    comment: .!!(Equip)
+
+- _Shrine::NeezYohma:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=14903s)
+
+- Run
+- _Npc::ZoraMale<Muzu>:
+    coord: [3299.5,-474.5]
+    comment: Mipha Memory
+
+- .gale() + .dir(E>):
+    gale: 1
+- _Korok::Z18
+
+- .dir(S)
+- _Korok::Z26:
+    comment: Up on peak
+
+- .dir(NE)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Enter Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
+    split-type: UserDefined
+
+- Complete divine beast:
+    icon: tots
+    hide-icon-on-map: true
+    comment: .gale()
+    gale: 1
+    notes: Use 2 WBs to get to terminal 1. Use gale after terminal 5 to get to boss room.
+
+- .boss(Waterblight):
+    icon: calamity
+    comment: .rune(Stasis) 6 headshots
+    hide-icon-on-map: true
+
+- Cutscene warp
+- Mipha's Grace:
+    icon: ruta-done
+    split-type: UserDefined
+    movements:
+        - to: [3283.5,-431]
+          warp: true

@@ -1,0 +1,260 @@
+Horse Minigames:
+- .dir(SW)
+- _Korok::L48:
+    comment: On small ledge against cliff
+
+- .dir(SE) short
+- _Korok::L49
+
+- .dir(NE) down
+- _Korok::L50:
+    comment: Against cliff, hard to see
+
+- .dir(SE)
+- _Korok::L59:
+    comment: " "
+
+- .dir(S)
+- _Korok::L60:
+    comment: Up against cliff
+
+- .dir(<<E)
+- _Korok::L52
+
+- .dir(<E)
+- _Shrine::PumaagNitae:
+    comment: Minor Test of Strength
+
+- .dir(SE) run
+- _Korok::L53:
+    comment: " "
+
+- .dir(<<E) run
+- _Korok::L55
+
+- .dir(<S)
+- _Korok::L61:
+    comment: " "
+
+- Kill the .enemy(octoroks):
+    icon: calamity
+    hide-icon-on-map: true
+- _Material<Octorok Balloon>:
+    coord: [720.28, 134.40, 3276.11]
+    comment: Balloon Flight
+
+- .dir(<<W) run
+- _Korok::L66:
+    comment: .rune(Cryo) block
+
+- .dir(SE)
+- _Korok::L72:
+    comment: " "
+
+- .dir(E>>)
+- _Korok::F38
+
+- .dir(.W)
+- _Boss::Hinox::Blue:
+    comment: Ancient arrows
+    coord: [1031.43, 127.22, 3496.26]
+
+- midair .dir(S)
+- _Korok::L79
+
+- .dir(S>>)
+- _Korok::L92
+
+- .dir(N) + midair
+- _Korok::L78:
+    comment: On peak
+
+- .dir(W) down
+- Activate .loc(Malanya):
+    icon: tots
+    coord: [802.00, 186.73, 3719.93]
+
+- .dir(W>)
+- _Korok::L77:
+    comment: Up the cliff
+
+- .dir(W) down
+- _Discover<Horse God Bridge>:
+    coord: [596.95, 172.65, 3722.39]
+
+- .dir(N>>)
+- _Korok::L75:
+    comment: " "
+
+- .dir(<<N)
+- Kill 5 .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [485,3342]
+    comment: Ancient Arrows
+    notes: Horseback Hoodlums
+
+- .dir(S)
+- _Material<Swift Carrot>:
+    coord: [523.34, 152.89, 3463.33]
+    comment: Koko's Kitchen
+    notes: Behind horses
+
+- _Npc<Perosa>:
+    coord: [516.76, 152.98, 3453.71]
+    comment: Horseback Hoodlums
+
+- Take out horse:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Npc<Blynne>:
+    coord: [514.26, 152.72, 3449.75]
+
+- Complete .!!(obstacle course):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Finish below 1:30 and 1:15
+    notes: In any order
+
+- .dir(S)
+- _Shrine::KaoMakagh:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13932s)
+
+- .dir(S)
+- Start L65 race:
+    icon: tots
+    coord: [546.27, 231.59, 3580.35]
+
+- .dir(E) ride:
+    movements:
+        - to: [502,3447.5]
+        # - to: [513,3516.5]
+        - to: [274,3465.5]
+        - to: [237.5,3515]
+        - to: [190,3518]
+- Leave horse:
+    icon: tots
+    coord: [161.5,3487]
+    notes: Sets up the horse for easy pickup later
+
+- .dir(N) + .dir(NE)
+- _Korok::L65:
+    coord: [271.72, 222.37, 3289.59]
+    comment: " "
+    notes: Do not whistle sprint until after Shoqa Tatone
+
+- .dir(S>)
+- _Korok::L70:
+    comment: " "
+
+- .dir(E>) short
+- _Korok::L71
+
+- .gale() + .dir(S):
+    gale: 1
+- _Korok::L73:
+    comment: Pinwheel on peak
+
+- .dir(E)
+- _Korok::L74:
+    comment: " "
+
+- .dir(E)
+- _Korok::L76:
+    comment: " "
+
+- .dir(S>) up
+- _Korok::L91
+
+- .dir(<<W)
+- _Korok::L90:
+    comment: By the pond
+
+- .dir(<W)
+- _Korok::L89:
+    comment: " "
+
+- .dir(<<N) swim
+- _Korok::L88
+
+- .dir(W>)
+- _Npc<Loone>:
+    coord: [104.50, 109.30, 3825.50]
+    comment: Guardian Slideshow
+
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: For the Stalnoxes coming up (if needed)
+
+- _Shrine::ShoqaTatone
+
+- .dir(W>>) short
+- _Korok::L86
+
+- .dir(E>)
+- _Korok::L87:
+    comment: Above Loone's camp
+
+- .dir(<N)
+- _Boss::Hinox::Stal:
+    comment: 1 ancient arrow + .fury()
+    fury: 3
+    coord: [100.50, 111.28, 3371.00]
+- Whistle for horse:
+    icon: tots
+    hide-icon-on-map: true
+
+- Ride to .loc(Mounted Archery Camp):
+    movements:
+        - to: [25,3350]
+        - to: [-26.5,3362]
+        - to: [-153,3452.5]
+
+- _Npc<Jini>:
+    coord: [-212.39, 128.70, 3487.13]
+
+- .!!(Archery Minigame):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: Score 20 and 23
+
+- .dir(<S)
+- _Korok::L85
+
+- .dir(W)
+- _Korok::L83
+
+- .dir(S>>) run
+- _Korok::L82
+
+- .dir(E) down
+- _Korok::L84
+
+- .dir(W)
+- _Korok::L81:
+    comment: On ledge
+
+- .dir(W)
+- _Korok::L80:
+    comment: " "
+
+- .dir(<<N) + midair
+- _Korok::L69
+
+- .dir(S>) + .dir(<W)
+- _Boss::Hinox::Stal:
+    comment: Ancient arrows
+    coord: [-1062.00, 275.24, 3771.50]
+
+- .gale() + .dir(<N):
+    gale: 1
+- _Korok::L68
+
+- .dir(NW)
+- _Korok::L67:
+    comment: Pinwheel
+    notes: .link([Daruk shield block strat]https://twitter.com/TaoPlusPlus/status/1543032802559643648?s=20&t=Epe1-KX_9FguTFxJCAmwfA)
+
+- .dir(E)
+- _Shrine::IshtoSoh:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=13586s)

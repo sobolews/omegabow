@@ -1,0 +1,134 @@
+Vah Naboris:
+- _Warp::Shrine::DaqoChisay:
+    comment: WARP
+    notes: Clear ragdoll before warping
+
+- .dir(S>>)
+- _Npc::Gerudo<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Urbosa Memory
+
+- .dir(E>>)
+- _Npc::Gerudo<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- .dir(SE) surf
+- _Npc::Gerudo<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    notes: Start Perfect Drink
+
+- .dir(E) + midair:
+    notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
+
+- Complete divine beast:
+    icon: tots
+    comment: .gale()
+    hide-icon-on-map: true
+    gale: 2
+
+- .boss(Thunderblight):
+    icon: calamity
+    comment: .rune(Stasis) -> 2 body + 3 head
+    hide-icon-on-map: true
+
+- Cutscene warp
+- .!!(Urbosa's Fury):
+    icon: naboris-done
+    line-color: yellow
+    split-type: UserDefined
+    movements:
+        - to: [-3772,2851]
+          warp: true
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    notes: For 8th Heroine & Forgotten Sword
+    
+- Run
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- Examine .!!(Thunder Helm):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Select "I want it!"
+
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    notes: Search for Barta
+    comment: In training yard
+
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    notes: Silent Swordswomen
+    comment: At the gate
+
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    notes: Seven Heroines
+    comment: In the library
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    notes: Perfect Drink
+    comment: At the bar
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    notes: Mystery Polluter
+    comment: End of street
+
+- .dir(N)
+- _Npc::Gerudo<Anche>:
+    coord: [-3743.75, 146.81, 2304.44]
+    comment: Get ice
+
+- BLSS with .item(Ice Cube):
+    notes: .link([Delivery strat]https://youtu.be/V3nH1ZE2N00?t=10077)
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: Deliver ice
+
+- .dir(N>) + midair to .loc(Dako Tah)
+- _Chest<Radiant Shield>:
+    comment: In shrine
+- _Shrine::DakoTah:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12428s)
+
+- .dir(<<E)
+- _Korok::G34:
+    comment: On bridge
+
+- .dir(<S)
+- _Discover<Gerudo Desert Gateway>:
+    coord: [-2924.12, 153.42, 2329.39]
+    notes: .link([Location]https://twitter.com/TaoPlusPlus/status/1544355478746017794?s=20&t=qgS0S9EanV-wak7bHty7Ww)
+
+- .dir(E)
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    notes: Missing in Action
+
+- _Npc<Beedle>:
+    notes: Beedle leaves at 4pm. Make noon if needed.
+    hide-icon-on-map: true
+
+- Buy
+- _Shop<1 Warm Darner>:
+    hide-icon-on-map: true
+    notes: If Maypin (donkey) shows up, buy 1 warm darner and 2 cold darners from Maypin. Then cook the cold elixir with 1 cold darner instead of a butterfly.
+- _Shop<1 Winterwing Butterfly>:
+    hide-icon-on-map: true
+
+- _Cook<Cook Cold Elixir>:
+    comment: Butterfly + Lizalfos Tail
+
+- _Npc<Pirou>:
+    # coord: [-2796.56, 134.90, 2240.07]
+    notes: Rushroom Rush!

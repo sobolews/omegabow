@@ -1,0 +1,170 @@
+East Desert:
+- _Warp::VahNaboris:
+    comment: WARP
+
+- .dir(W) run
+- _Korok::W33
+
+- midair .dir(W)
+- _Korok::W31:
+    comment: On ledge
+
+- .dir(E) run
+- _Korok::W32
+
+- .dir(N)
+- _Tower::Wasteland
+
+- .dir(NE)
+- _Korok::W23:
+    comment: Way down
+
+- _Korok::W24:
+    comment: " "
+
+- .dir(.N)
+- Kill .enemy(Fire Wizzrobe):
+    coord: [-2161.96, 333.51, 2140.63]
+    icon: calamity
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2161.96, 333.51, 2140.63]
+    hide-icon-on-map: true
+    notes: Weapon Connoisseur
+- _Tod::Noon:
+    coord: [-2141.96, 333.51, 2140.63]
+    notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. If you're missing the window, make noon later in this segment.
+
+- .dir(N) run
+- _Korok::W11
+
+- .dir(SW)
+- _Korok::W12:
+    comment: Underneath rock slabs
+
+- Kill .enemy(Electric Lizalfos):
+    icon: calamity
+    movements:
+        - to: [-2210.36, 357.48, 2203.96]
+          away: true
+    notes: (Optional) For safety
+- _Material<Electric Darner>:
+    coord: [-2220.85, 356.03, 2204.36]
+    comment: Under rock
+
+- _Korok::W16:
+    comment: .rune(Stasis), 1 hit w/ two-hander
+
+- .dir(SE) + .dir(S)
+- _Korok::W34:
+    comment: " "
+
+- .dir(S>)
+- _Korok::W39
+
+- .dir(W)
+- _Korok::W38:
+    comment: On thin pillar
+
+- .dir(SE)
+- _Boss::Talus::Luminous:
+    coord: [-2096.46, 318.46, 3037.91]
+    comment: .fury() Collect drops
+    fury: 3
+    notes: Intentionally "wasting" a fury. Looking for amber, flint, and luminous stones.
+
+- .dir(SE)
+- _Korok::W50:
+    comment: " "
+
+- .dir(SW)
+- _Korok::W58:
+    comment: " "
+
+- .dir(<<E):
+    coord: [-1748.5,3470.25]
+    notes: See map for where to drop in
+- _Chest<Barbarian Armor>:
+    comment: In shrine; equip + snow boots
+    hide-icon-on-map: true
+- _Shrine::DilaMaag
+
+- .dir(N) + .dir(E>) midairs
+- _Korok::W54
+
+- .dir(S>)
+- _Korok::W59:
+    comment: " "
+
+- .dir(E>)
+- _Korok::W64
+
+- .dir(N)
+- _Korok::W60:
+    comment: " "
+
+- .dir(<N)
+- Read .!!(Mountain Peak Log):
+    icon: tots
+    hide-icon-on-map: true
+    coord: [-1387.83, 540.50, 3494.08]
+
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    notes: Between 4pm to 5:30pm
+
+- _Shrine::SumaSahma
+
+- .dir(N>)
+- _Korok::W53:
+    comment: On thin pillar
+
+- .dir(<N)
+- _Korok::W41:
+    comment: Down on overpass
+
+- .dir(SW)
+- _Korok::W46:
+    comment: Down in corner
+
+- .gale() .dir(W):
+    gale: 1
+- _Korok::W45
+
+- .dir(<W)
+- _Korok::W49
+
+- .dir(W)
+- _Korok::W48
+
+- .dir(<W)
+- _Korok::W52
+
+- Kill .enemy(Blue Lizalfos):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: Lizalfos Horn?
+    notes: Can drop fire arrows too
+
+- .dir(S)
+- _Korok::W63
+
+- .dir(S>)
+- _Korok::W68:
+    comment: On windy pillar
+
+- .dir(W>) + midairs
+- _Npc<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    notes: For Perfect Drink
+
+- _Shrine::MisaeSuma
+
+- .dir(W)
+- _Korok::W62
+
+- .dir(W)
+- _Korok::W67
+- _Material<2 Voltfruit>:
+    hide-icon-on-map: true
+    notes: Used for transmute

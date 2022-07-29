@@ -1,0 +1,110 @@
+Kohga:
+- _Warp::Shrine::MoggLatan:
+    line-color: lightyellow
+    comment: WARP
+
+- .dir(<S) + midair
+- _Korok::G19
+
+- .dir(NW) + .dir(W)
+- _Korok::G13
+
+- .dir(N) + .dir(W>)
+- _Korok::G10
+
+- .dir(W) + .dir(S)
+- _Korok::G12:
+    comment: On bridge
+
+- .dir(<<S)
+- Melt ice with Fire Arrows:
+    icon: tots
+    hide-icon-on-map: true
+    comment: 7 or 8
+- Kill .enemy(Ice Wizzrobe):
+    icon: calamity
+    hide-icon-on-map: true
+- _Equipment::Weapon<Ice Rod>:
+    coord: [-3076.70, 591.10, 1226.90]
+    notes: For Freezing Rod
+- _Material<Luminous Stones>:
+    notes: For Luminous Stone Gathering
+    hide-icon-on-map: true
+- _Shrine::KuhTakkar:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11386s)
+
+- .dir(S):
+    notes: BLSS or 2 windbombs
+- _Tower::Gerudo
+
+- _Npc::Rito<Kass>:
+    coord: [-3655.84, 471.90, 1837.15]
+    # comment: Sign of the Shadow
+    comment: Text option 2-1
+
+- .dir(S) down
+- _Korok::W29:
+    comment: " "
+
+- .dir(.S)
+- _Npc<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12049s)
+
+- .dir(<E)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(<W)
+- _Tod::Morning:
+    coord: [-3832.79, 148.98, 2948.17]
+    notes: Timing for ice house after Naboris (opens at 7am)
+
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: Buy FIRE and ICE
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(.W)
+- _Korok::W47:
+    comment: On skeleton
+
+- .dir(N)
+- _Korok::W36
+
+- midair .dir(<<N)
+- _Korok::W28
+
+
+- _Warp::Shrine::KuhTakkar:
+    comment: WARP
+
+- .dir(<W)
+- .loc(Yiga Hideout):
+    icon: house-plus
+    hide-icon-on-map: true
+    line-color: orange
+    coord: [-3510.46, 442.51, 1297.31]
+    comment: Clip in
+
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+    notes: For Weapon Connoisseur
+
+- .!!(Great Eagle Bow dupe):
+    icon: tots
+    hide-icon-on-map: true
+    notes: .link([Tutorial]https://youtu.be/ZmwUDr36i1E)
+
+- .boss(Kohga):
+    icon: calamity
+    coord: [-3451.00, 440.69, 1321.50]
+    notes: .link([Example fight]https://youtu.be/AjeIhu7vzwk?t=7903)
+
+- _Chest::Special<Thunder Helm>:
+    coord: [-3451.00, 440.69, 1341.50]

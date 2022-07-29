@@ -1,0 +1,169 @@
+Gift from the Monks:
+- _Warp::Shrine::ShadaNaw:
+    #comment: 96.36%
+    line-color: orange
+    comment: WARP
+
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: (Optional) For Salvager chest. Make night if here after 2:30am.
+
+- .dir(SE) run
+- _Korok::H20
+
+- .dir(.S) + midairs
+- _Korok::H28:
+    comment: On peak
+
+- Look .!!(Southeast) in the sky:
+    icon: tots
+    hide-icon-on-map: true
+    notes: For Salvager chest. Watch it land.
+
+- Down
+- _Shrine::GomaAsaagh
+
+- .dir(SW) run:
+    notes: Can shield jump onto ice or shoot a fire arrow between the ice blocks and run through
+- _Korok::H35:
+    comment: " "
+
+- .dir(SE)
+- _Chest<Salvager Trousers>:
+    coord: [-2605.00, 583.00, -2652.00]
+
+- .dir(<E)
+- _Korok::H36:
+    comment: " "
+
+- .dir(N) down
+- _Korok::H29:
+    comment: " "
+
+- .dir(E>)
+- _Korok::H31:
+    comment: " "
+
+- .dir(N>)
+- _Boss::Talus::Frost:
+    comment: .fury()
+    fury: 3
+    coord: [-2144.88, 491.27, -3082.59]
+
+- .dir(W) down
+- _Korok::H30
+
+- .dir(NW)
+- _Shrine::RokUwog:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16559s)
+
+- .dir(N.) + .dir(NE)
+- _Korok::H13:
+    comment: " "
+
+- .dir(NE)
+- _Korok::H05:
+    comment: Pinwheel on peak
+
+- .dir(E)
+- _Shrine::ShaGehma:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16678s)
+
+- .dir(E>)
+- _Korok::H06
+
+- .dir(SW)
+- _Korok::H14
+
+- .dir(S.) + midair
+- _Korok::H37
+
+- .dir(<S):
+    notes: Pick up/put down rock and stand on it to windbomb
+- _Npc<Juannelle>:
+    coord: [-1641.43, 339.19, -2561.69]
+    comment: Stalhorse Pictured!
+
+- Run
+- _Shrine::RinOyaa:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=17563s)
+
+- .dir(.W)
+- _Korok::H52
+
+- .dir(E>)
+- _Korok::H58
+
+- .dir(<S)
+- _Korok::H62:
+    comment: Pinwheel on cliff edge
+
+- .dir(<NE) down
+- _Korok::H59
+
+- .dir(NE)
+- _Korok::H38:
+    comment: In corner against cliff
+
+- .dir(E>) down
+- _Korok::K10:
+    comment: " "
+
+- .dir(<W)
+- _Korok::K12
+
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: For Stalnox and Kilton
+
+- .gale() + .dir(S>):
+    gale: 1
+
+- _Boss::Hinox::Stal:
+    comment: Ancient arrows
+    coord: [-1273.50, 213.08, -2113.50]
+
+- .dir(SW)
+- _Npc<Akrah, Garshan, Onya>:
+    coord: [-1541.84, 212.23, -1804.59]
+    comment: Leviathan Bones
+
+- .dir(<W)
+- _Discover<Maritta Exchange Ruins>:
+    coord: [-1781.57, 220.00, -1685.07]
+
+- .dir(<<W)
+- _Korok::R01
+
+- .dir(NE)
+- _Korok::H68
+
+- .dir(S.) way down
+- _Korok::K22
+
+- .dir(NE)
+- _Korok::K20
+
+- .dir(<E)
+- _Korok::K21
+
+- .dir(NE>)
+- _Korok::K15
+
+- .dir(W)
+- _Korok::H63
+
+- .dir(<E)
+- _Korok::K13
+
+- .dir(S) down
+- _Korok::K14
+
+- .gale() + BLSS:
+    gale: 1
+- _Korok::K09
+
+- Down
+- _Shrine::RonaKachta
+
+- _Chest::Special<Set of the Wild>

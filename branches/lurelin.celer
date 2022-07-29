@@ -1,0 +1,139 @@
+Lurelin:
+- .dir(E>)
+- _Npc<Wabbin and Perda>:
+    coord: [2584.90, 290.11, 3547.64]
+    comment: Heart pond far
+    notes: Gift of Nightshade
+
+- .dir(S.)
+- _Korok::F47:
+    comment: On peak
+
+- .dir(S>)
+- _Korok::F57
+
+- .dir(E)
+- _Chest<Any Chest of 4>:
+    coord: [3019.81, 100.82, 3897.96]
+    notes: Sunken Treasure
+    comment: Center of rock triangle
+
+- .dir(<N)
+- _Korok::F49
+
+- .dir(E)
+- _Korok::F50:
+    comment: " "
+
+- .dir(SE)
+- _Korok::F58
+
+- .dir(NE)
+- _Korok::F51
+
+- .dir(E)
+- _Korok::F52:
+    comment: End of peninsula
+
+- _Snap::Quest<Monument Shard 1>:
+    coord: [3800.81, 105.59, 3614.03]
+    comment: Fragmented Monument
+
+- .dir(NW)
+- _Snap::Quest<Monument Shard 2>:
+    coord: [3532.50, 112.28, 3365.50]
+    comment: Fragmented Monument
+
+- .dir(SW)
+- _Snap::Quest<Monument Shard 3>:
+    coord: [3390.50, 105.66, 3481.83]
+    comment: Fragmented Monument
+
+- .dir(N>)
+- _Npc<Garini>:
+    coord: [3439.86, 114.87, 3344.20]
+    comment: Fragmented Monument
+- Activate .!!(pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Crouch
+- _Shrine::KahYah:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6650s)
+
+- .gale() + .dir(W) midair:
+    gale: 1
+- _Korok::F37:
+    comment: " "
+
+- .dir(S) swim
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [3272.52, 133.05, 3409.85]
+
+- .dir(<W)
+- _Korok::F45:
+    comment: On house with 3 trees
+
+- .dir(S) run
+- _Material<Hearty Blueshell Snail>:
+    comment: What's for Dinner?
+    coord: [2948.86, 106.06, 3462.70]
+
+- _Shop<Buy Octo Balloon>:
+    coord: [2952.58, 107.66, 3493.43]
+    notes: For Balloon Flight
+    comment: (Optional) Only if missing 1
+
+- .dir(<N) run
+- _Npc<Kiana>:
+    coord: [2884.25, 112.44, 3413.51]
+    notes: What's for Dinner?
+    comment: Before 6pm
+
+- .dir(SW) run
+- _Material<Palm Fruit>:
+    coord: [2873.80, 106.90, 3432.06]
+    notes: For korok later
+- _Npc<Sebasto>:
+    coord: [2886.5,3442.5]
+    comment: Take Back the Sea
+    notes: Inside house if raining
+
+- .dir(E) run
+- _Korok::F44:
+    comment: Shoot apple off palm tree
+
+- .dir(SE) run
+- _Npc<Rozel>:
+    comment: Select "About the ocean..."
+    notes: Inside house under F44 if raining. Sunken Treasure.
+    coord: [2887.5,3495.5]
+
+- .dir(N>)
+- _Korok::F36:
+    comment: On boat
+    notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
+
+- .dir(W>)
+- _Shrine::YahRin:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=6797s)
+
+- .dir(W>>)
+- _Korok::F31
+
+- _Warp::Shrine::DahHesho:
+    comment: WARP
+
+- .dir(NE>)
+- _Npc<Hudson>:
+    line-color: mediumslateblue
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 30 wood
+
+- .dir(N>)
+- _Korok::A34:
+    comment: " "
+
+- .dir(S)
+- _Korok::A38

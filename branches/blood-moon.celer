@@ -1,0 +1,108 @@
+Blood Moon:
+- .dir(S>>)
+- _Korok::C43:
+    comment: Pinwheel
+
+- .dir(NW)
+- _Korok::C42:
+    comment: Hanging in tree
+
+- midair .dir(<W)
+- _Korok::C41
+- _Korok::C40:
+    comment: " "
+
+- .dir(<W)
+- _Korok::C39
+
+- .dir(W>)
+- _Korok::C38:
+    comment: Starts at tree stump
+
+- .dir(W)
+- _Korok::C36:
+    comment: In Sage Temple Ruins
+
+- _Material<18 Acorn>:
+    movements:
+        - to: [-1311.30, 114.29, 227.12]
+        - to: [-1371.47, 114.42, 208.08]
+        - to: [-1388.04, 114.54, 249.51]
+    notes: Each big tree has 6 acorns. Use stasis to see them.
+
+- .dir(W>>)
+- _Korok::R49:
+    comment: On beach
+
+- .dir(N)
+- _Korok::R48:
+    comment: Up
+
+- .dir(W)
+- _Discover<Jeddo Bridge>:
+    coord: [-1689.86, 205.00, 130.84]
+
+- .dir(N)
+- _Korok::R39
+
+- .dir(NE)
+- _Korok::R40
+
+- _Boss::Hinox::Blue:
+    movements:
+        - to: [-1534.88, 214.82, -171.59]
+          away: true
+    comment: Ancient arrows
+    notes: From a distance
+
+- .dir(S>)
+- _Korok::R41
+
+- .dir(S>>) surf
+- _Npc::Rito<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
+
+- .dir(<W)
+- Shoot through 2 rings:
+    coord: [-1855.25,76.25]
+    notes: Must use single-shot bow
+
+- _Shrine::SheemDagoze:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23236s)
+
+- .dir(N)
+- _Korok::R38:
+    comment: " "
+
+- .dir(S>)
+- _Korok::R47:
+    comment: Pinwheel
+
+- .dir(W>)
+- _Korok::R37:
+    comment: Ledge on cliff
+
+- .dir(<W) + midairs
+- _Npc::Rito<Kass>:
+    coord: [-2778.84, 348.24, 206.35]
+
+- Down
+- _Tod::Night:
+    coord: [-2758.84, 348.24, 206.35]
+- Activate .!!(Pedestal):
+    comment: Remove armor
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::MijahRokee:
+    comment: Major Test of Strength
+    notes: If you missed the blood moon, continue with the route and warp back. You'll get at least 3 blood moons in the run.
+
+- .dir(S)
+- _Korok::R72
+
+- .dir(<W) down
+- _Korok::R71
+
+- .dir(N)
+- _Korok::R59:
+    comment: On small island

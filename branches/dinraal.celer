@@ -1,0 +1,285 @@
+Dinraal:
+- _Tod::Morning:
+    notes: To spawn Dinraal. If it's between 12:00am and 5:00am, make morning twice to properly advance a day.
+    hide-icon-on-map: true
+
+- .dir(<E) + midair
+- _Korok::K04
+
+- .dir(W>)
+- _Korok::K01:
+    comment: On far peak
+
+- .dir(N>):
+    time-override: 720
+- Kill .enemy(White-Maned Lynel):
+    icon: calamity
+    coord: [247.00, 173.39, -3668.50]
+    comment: .fury() + shock arrows
+    fury: 3
+    
+- _Material<Lynel Hoof>:
+    hide-icon-on-map: true
+    notes: Hoof is for Riddles of Hyrule. High chance of getting one, but if you don't, kill lynel near E01.
+
+- _Equipment::Weapon<Savage Lynel Crusher>:
+    hide-icon-on-map: true
+
+- Shoot Dinraal (Scale):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: Ok to use a gale here to get the scale. In that case, skip gale 3 in maze.
+
+- _Tod::Morning:
+    coord: [267.00, 173.39, -3668.50]
+    notes: Look WEST back toward Qaza Tokki when sitting at campfire. Facing east can stop Dinraal from spawning.
+
+- .dir(E)
+- _Korok::K02
+
+- .dir(E)
+- _Korok::K03
+
+- Shoot Dinraal (Claw):
+    icon: calamity
+    hide-icon-on-map: true
+
+- _Tod::Morning:
+    coord: [1163.40, 209.96, -3742.78]
+
+- .dir(E)
+- _Korok::E01:
+    notes: (Optional) Kill .enemy(Lynel) here if previous Lynel didn't drop hoof
+
+- Shoot Dinraal (Horn):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: If you miss any parts, windbomb WEST or warp to Qaza Tokki, make morning, and return to the area to respawn Dinraal
+
+- .dir(E) + midair
+- _Korok::E02
+- _Snap::Quest<Eldin Great Skeleton>:
+    coord: [1635.10, 207.96, -3661.03]
+    notes: Look back and zoom in
+
+- .dir(NE)
+- _Korok::E03
+
+- .dir(E.) +  midair
+- _Korok::E04
+
+- .dir(<S)
+- _Korok::E05:
+    comment: On pillar around shrine
+
+- .!!(Gut Check Challenge):
+    icon: tots
+    hide-icon-on-map: true
+    comment: .gale() + .dir(E) midair
+    gale: 1
+
+- _Shrine::GoraeTorr:
+    notes: WB .dir(E) and then midair .dir(W).
+
+- _Tod::Night:
+    notes: For Kilton and Salvager chest
+    coord: [2682.92, 469.68, -3472.12]
+
+- .dir(<E)
+- _Boss::Hinox::Black:
+    coord: [2917.42, 343.68, -3561.40]
+    comment: Savage Lynel Crusher
+
+- .dir(<<E)
+- _Korok::A01
+
+- .dir(<<S) down
+- _Snap::Quest<Kilton>:
+    coord: [3244.60, 82.63, -3448.81]
+    notes: It's common for the camera to not register Kilton. Take 3 snaps from different angles to be safe.
+
+- _Npc<Kilton>:
+    comment: Talk
+
+- .dir(S>)
+- _Korok::A05:
+    comment: .gale()
+    gale: 1
+
+- .dir(<S)
+- _Korok::A10:
+    comment: " "
+
+- .dir(E)
+- _Korok::A11
+- _Snap::Quest<Blupee>
+
+- .dir(E)
+- _Korok::A12:
+    comment: Hanging under cliff
+
+- midair .dir(N)
+- _Korok::A06:
+    comment: " "
+
+- _Boss::Hinox::Black:
+    movements:
+        - to: [3489.38, 179.10, -3335.79]
+          away: true
+    comment: Ancient arrows
+
+- .dir(W>)
+- _Shrine::ZunaKai
+
+- Look up .!!(East) in the sky:
+    icon: tots
+    notes: For Salvager chest. Watch it land.
+
+- .dir(N>)
+- _Korok::A02:
+    comment: Check for rain
+    notes: If it's raining/going to rain, make noon here under enemy camp. Need clear skies for blue flame.
+
+- .dir(E)
+- _Korok::A03
+
+- .dir(E)
+- _Chest::Special<Salvager Vest>:
+    coord: [3636.00, 302.00, -3520.00]
+
+- .dir(E>)
+- _Korok::A04
+
+- .dir(SE)
+- _Korok::A13
+
+- .dir(N>>) run:
+    coord: [4017,-3231]
+- _Korok::A07
+
+- .dir(E>) + midair
+- .!!(Smuggle Blue Flame):
+    icon: tots
+    coord: [4155.5,-3170.5]
+
+- .dir(E)
+- Throw torch down:
+    notes: Korok will break hold smuggle
+- _Korok::A16
+
+- Down
+- Activate .loc(Akkala Tech Lab):
+    icon: location
+    coord: [4522.01, 354.23, -3166.63]
+
+- _Npc<Robbie>:
+    comment: Text options 1-1-2
+    coord: [4514.28, 352.96, -3158.73]
+
+- Buy
+- _Equipment::Weapon<Ancient Short Sword>:
+    comment: Weapon Connoisseur
+
+- _Npc<Jerrin>:
+    comment: Text options 1-1-3
+
+- .dir(W) run
+- _Korok::A15
+
+- .dir(<W)
+- _Korok::A14:
+    comment: " "
+
+- .dir(N>) to .loc(Lomei Labyrinth):
+    notes: See map for where to drop in
+    coord: [4627,-3693.5]
+- .gale() to .loc(Tu Ka'loh):
+    gale: 1
+- _Chest<Barbarian Helm>:
+    comment: In shrine, equip
+- _Shrine::TuKaloh
+
+- .dir(S>>)
+- _Korok::A08
+
+- .dir(E)
+- _Korok::A09:
+    comment: " "
+
+- .dir(S>)
+- _Korok::A17:
+    comment: " "
+
+- .dir(S>>)
+- _Korok::A24
+
+- .dir(<SW) + midair
+- _Korok::A29:
+    comment: Pinwheel
+
+- .dir(W)
+- _Korok::A28:
+    comment: " "
+
+- .dir(NE)
+- _Korok::A23
+
+- .dir(W) run
+- _Shrine::KatosaAug:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21036s)
+
+- .dir(W>) run
+- _Npc<Hoz>:
+    coord: [4243.71, 231.44, -2746.65]
+    notes: For A Shady Customer
+- _Npc<Nobo>:
+    coord: [4245.96, 231.45, -2747.83]
+    comment: Select "This area?"
+    notes: For Spring of Power
+- _Tod::Night:
+    notes: For stalhorse, stalnox, and quests after Rudania
+    hide-icon-on-map: true
+
+- .dir(W>>)
+- _Korok::A19
+
+- .dir(SW) surf
+- _Korok::A22
+
+- .dir(W>>)
+- _Korok::A18:
+    comment: " "
+
+- midair .dir(S)
+- _Korok::A21:
+    comment: Above Spring of Power
+- _Memory::SpringofPower
+- Offer .item(Dinraal Scale):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::TutsuwaNima:
+    comment: Major Test of Strength
+
+- .dir(S.)
+- _Korok::A26
+
+- .dir(W>)
+- _Korok::A20
+
+- .dir(E>) + midair
+- _Korok::A27
+
+- .dir(E>) run
+- _Snap::Quest<Stalhorse>:
+    coord: [4016.50, 159.88, -2355.50]
+
+- .dir(SE)
+- _Boss::Hinox::Stal:
+    coord: [4146.69, 130.35, -2225.24]
+    comment: Ancient arrow + .fury()
+    fury: 3
+
+- .dir(S.) + midairs
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 20 wood

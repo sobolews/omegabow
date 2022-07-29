@@ -1,0 +1,112 @@
+---
+_project:
+  authors:
+    - ""
+  description: ""
+  name: Corrupted Granatus (Omegafairy v2)
+  url: ""
+  version: 0.1.0
+
+_config:
+  split-format:
+    Shrine: "{{_}} .{{Korok}}"
+    Warp: "Warp {{_}} .{{Korok}}"
+
+_route:
+  - (==) This is the Omegafairy v2 (2022-07-28) version of the route.
+  - (^=) Older Routes >> .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
+  - (?=) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
+
+  - Plateau:
+    - __use__ Plateau
+  - The Glitch:
+    - __use__ The Glitch
+  - Hateno:
+    - __use__ Hateno
+  - Hestu 1:
+    - __use__ Hestu 1
+  - Vah Medoh:
+    - __use__ Vah Medoh
+  - Hestu 2:
+    - __use__ Hestu 2
+  - Kohga:
+    - __use__ Kohga
+  - Vah Naboris:
+    - __use__ Vah Naboris
+  - East Desert:
+    - __use__ East Desert
+  - Naydra:
+    - __use__ Naydra
+  - Vah Ruta:
+    - __use__ Vah Ruta
+  - Akkala Tower:
+    - __use__ Akkala Tower
+  - Eldin Tower:
+    - __use__ Eldin Tower
+  
+  - Goron City:
+    - __use__ Goron City
+  - Dinraal:
+    - __use__ Dinraal
+  - Vah Rudania:
+    - __use__ Vah Rudania
+  - Korok Forest:
+    - __use__ Korok Forest
+  - Hyrule Castle:
+    - __use__ Hyrule Castle
+  - Blood Moon:
+    - __use__ Blood Moon
+  - Plateau 2:
+    - __use__ Plateau 2
+  - Gerudo Canyon:
+    - __use__ Gerudo Canyon
+  - Gerudo Highlands:
+    - __use__ Gerudo Highlands
+  - Moldugas:
+    - __use__ Moldugas
+  - Desert Complete:
+    - __use__ Desert Complete
+
+  - Lake Tower:
+    - __use__ Lake Tower
+  - Horse Minigames:
+    - __use__ Horse Minigames
+  - Central Tower:
+    - __use__ Central Tower
+  - Dueling Peaks:
+    - __use__ Dueling Peaks
+  - Faron:
+    - __use__ Faron
+  - Lurelin:
+    - __use__ Lurelin
+  - Wetlands:
+    - __use__ Wetlands
+  - Castle Town Ruins:
+    - __use__ Castle Town Ruins
+  - Ridgeland:
+    - __use__ Ridgeland
+  - Satori Mountain:
+    - __use__ Satori Mountain
+  - Tabantha:
+    - __use__ Tabantha
+
+  - Rito Village:
+    - __use__ Rito Village
+  - Hebra:
+    - __use__ Hebra
+  - Eldin Canyon:
+    - __use__ Eldin Canyon
+  - Akkala Complete:
+    - __use__ Akkala Complete
+  - Eventide:
+    - __use__ Eventide
+  - Kakariko 3:
+    - __use__ Kakariko 3
+  - Hateno 2:
+    - __use__ Hateno 2
+  - Lanayru Complete:
+    - __use__ Lanayru Complete
+  - Forgotten Temple:
+    - __use__ Gift from the Monks
+  - Endgame:
+    - __use__ Endgame

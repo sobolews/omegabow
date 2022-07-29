@@ -1,0 +1,102 @@
+Vah Medoh:
+- _Warp::Shrine::MoggLatan:
+    comment: WARP
+    line-color: palegreen
+- _Korok::R60
+
+- BLSS .dir(<<N)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- _Shop<General Shop>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Buy everything you can
+
+- .dir(.N)
+- _Korok::T02
+
+- _Equipment::Bow<Swallow Bow>:
+    hide-icon-on-map: true
+    # coord: [-3772.61, 283.47, -2320.19]
+- _Npc::Rito<Teba>:
+    # hide-icon-on-map: true
+    coord: [-3790.43, 267.42, -2320.79]
+    comment: Shoot 5 targets
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+    # coord: [-3792.61, 283.47, -2300.19]
+
+- Enter Medoh:
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    notes: 1 ancient arrow per cannon
+    split-type: UserDefined
+- Complete divine beast:
+    icon: tots
+    hide-icon-on-map: true
+- .boss(Windblight Ganon):
+    icon: ganon
+    hide-icon-on-map: true
+    comment: .rune(Stasis) -> 2 body + 4 head
+    notes: .link([Example fight]https://twitter.com/TaoPlusPlus/status/1541426504122437633?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+
+- Cutscene warp
+- .!!(Revali's Gale):
+    line-color: mediumseagreen
+    icon: medoh-done
+    split-type: UserDefined
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    # notes: If it's after 4:00AM (?), grab the cold darner next to you on the landing
+
+- Run up
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
+    notes: DON'T use until duping
+
+- .dir(W.)
+- _Korok::T10
+
+- .dir(.W)
+- _Korok::T13
+- _Material<1 Hearty Truffle>:
+    notes: Used for transmute
+    hide-icon-on-map: true
+
+- Run
+- _Npc::Rito<Kheel>:
+    coord: [-3979.33, 271.21, -1751.18]
+
+- .dir(N>)
+- _Korok::T04
+
+- .dir(N)
+- _Shrine::ShaWarvo:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9406s)
+
+- .dir(.E)
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3572.02, 247.83, -2258.14]
+    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541444717392658436?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+
+- .dir(<S)
+- _Korok::T05
+
+- .dir(<E)
+- Shock arrow fish:
+    icon: calamity
+    hide-icon-on-map: true
+- _Korok::T03:
+    comment: " "
+- Swim
+- _Material<1 Voltfin Trout>:
+    coord: [ -3012.75, 217.66, -2157.02]
+    notes: For Riddles of Hyrule

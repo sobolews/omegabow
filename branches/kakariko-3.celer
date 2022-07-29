@@ -1,0 +1,190 @@
+Kakariko 3:
+- _Warp::Shrine::TalohNaeg:
+    line-color: gold
+    comment: WARP
+
+- _Tod::Noon:
+    comment: Repeat until no rain
+    hide-icon-on-map: true
+
+- .dir(.E)
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]
+
+- Return 2 cuccos:
+    icon: tots
+    hide-icon-on-map: true
+    comment: Near shrine and on shop
+#    movements:
+#        - to: [1847.93, 249.73, 930.14]
+#        - to: [1849.63, 236.35, 974.52]
+
+- _Npc<Cado>:
+    coord: [1838.75,964.25]
+    comment: Start Flown the Coop
+
+- _Npc<Cottla>:
+    coord: [1870.67, 228.35, 957.56]
+    notes: Playtime with Cottla
+    comment: Play tag
+
+- Return 3 cuccos:
+    icon: tots
+    hide-icon-on-map: true
+    comment: In the back
+
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [1931.10, 229.83, 987.25]
+    notes: (Optional) Backup if you missed at Shee Vaneer
+    comment: In pool against cliff
+
+- _Npc<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+
+- _Npc<Koko>:
+    coord: [1801,1016.5]
+    comment: All 4 Koko quests
+    notes: Swift carrot, goat butter, raw meat, courser bee honey
+- _Tod::Night:
+    hide-icon-on-map: true
+
+- Return orchard cucco:
+    icon: tots
+    hide-icon-on-map: true
+- Return final cucco:
+    icon: tots
+    hide-icon-on-map: true
+    comment: Near Pikango
+- _Npc<Cado>:
+    coord: [1838.75,964.25]
+    comment: Flown the Coop
+
+- Collect fireflies:
+    icon: tots
+    coord: [1901,995]
+    notes: If you miss some and scare the rest away, you can respawn them by warping to Taloh Naeg
+
+- _Npc<Lasli>:
+    coord: [1899.75,1035.75]
+    comment: By Firefly's Light
+
+- .dir(W.)
+- _Npc<Paya and Impa>:
+    coord: [1772.71, 229.43, 984.31]
+- Light torches:
+    icon: tots
+    coord: [1847.75,1000]
+    comment: Arrows of Burning Heat
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: Because shrine quest sets time of day to 7:00pm
+
+- _Korok::D03
+- _Korok::D02:
+    comment: Behind Impa's house
+
+- .dir(S)
+- _Korok::D04:
+    comment: On ledge
+- _Korok::D05
+
+- .dir(E>>)
+- _Korok::D12
+
+- .dir(W>)
+- _Korok::D08
+- _Korok::D06
+
+- .dir(N>>)
+- _Korok::N07:
+    comment: " "
+
+- .dir(<S)
+- _Korok::N08
+
+- .dir(<E)
+- _Korok::N10
+
+- .dir(E>>) .gale():
+    gale: 2
+- _Korok::N09
+
+- .dir(S>)
+- _Korok::D07:
+    comment: On 2nd peak
+
+- .dir(SW)
+- _Korok::D11:
+    comment: On peak
+
+- .dir(W>)
+- _Korok::D10:
+    comment: On 2nd peak
+
+- .dir(W>) down
+- _Korok::D09:
+    comment: " "
+
+- .dir(NE)
+- Enter cutscene:
+    icon: tots
+    coord: [2024.21, 292.86, 962.56]
+
+- Kill .enemy(Yiga Blademaster):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: 2 headshots with GEB and normal arrows will make the blademaster drop his weapon
+
+- _Equipment::Weapon<Windcleaver>:
+    comment: Weapon Connoisseur
+
+- _Shrine::LaknaRokee
+
+- .dir(S>) + .dir(E>)
+- _Korok::N28
+
+- _Shrine::KamUrog:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3066s)
+
+- .dir(.S) + midair:
+    time-override: 720
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [2527.50, 242.00, 1904.50]
+
+- .dir(SW)
+- _Boss::Hinox::Stal:
+    comment: Ancient arrows
+    coord: [1940.50, 144.41, 2396.50]
+    notes: If you don't make it here in time, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
+
+- .dir(S)
+- _Chest<Sapphire>:
+    coord: [1955.82, 178.14, 2609.72]
+    notes: Misko, the Great Bandit
+    comment: Up in cave behind rock pile
+
+- Down
+- _Korok::D59
+
+- .dir(<N)
+- _Shrine::TotoSah:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3199s)
+
+- .dir(NE) run
+- _Korok::D56:
+    comment: In tree stump
+
+- .dir(NW) + .dir(W)
+- _Korok::D55:
+    comment: On high ledge against cliff
+
+- .dir(N)
+- _Shrine::HaDahamar:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=3350s)

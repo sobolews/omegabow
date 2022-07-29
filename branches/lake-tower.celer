@@ -1,0 +1,219 @@
+Lake Tower:
+- _Warp::Shrine::KuhTakkar:
+    line-color: tomato
+    comment: WARP
+    
+- .dir(.S)
+- _Korok::G22:
+    comment: On snowy ledge
+
+- .dir(N>>)
+- _Korok::G17
+
+- .dir(E):
+    time-override: 999
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+
+- .dir(<<E)
+- _Korok::G18:
+    comment: " "
+
+- .dir(<<S)
+- _Korok::G23:
+    comment: On hill far away
+
+- .dir(<<W)
+- _Korok::G27:
+    comment: Platform against cliff
+
+- .dir(E>)
+- _Korok::G28:
+    comment: Way down against cliff
+
+- .dir(<<E)
+- _Korok::G24:
+    comment: Bomb arrows
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+    comment: Bomb arrows midair
+
+- .dir(SW)
+- _Korok::W14:
+    comment: Other end of bridge
+
+- .dir(SE)
+- _Korok::W26
+
+- Down
+- _Shrine::JeeNoh:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22511s)
+
+- .dir(N>>)
+- _Korok::G36
+
+- .dir(SE)
+- _Korok::W20
+
+- _Korok::W21
+
+- .dir(<S)
+- _Korok::W27:
+    comment: Pinwheel
+
+- .dir(<E)
+- _Korok::W22:
+    comment: Pinwheel
+
+- .dir(S)
+- _Korok::L21
+
+- .dir(E)
+- _Korok::L22
+
+- Tame Giant Horse:
+    icon: tots
+    coord: [-1196.01, 170.87, 2633.46]
+    comment: Hunt for the Giant Horse
+
+- .dir(<<S) ride
+- _Korok::L36:
+    comment: In tall tree
+
+- .dir(<<S) ride:
+    movements:
+        - to: [-920,3114]
+        - to: [-836,3240]
+        - to: [-866,3350]
+- _Korok::L62:
+    comment: " "
+
+- Ride to .loc(Mounted Archery Camp):
+    movements:
+        - to: [-716,3700]
+        - to: [-474,3738]
+        - to: [-266,3658]
+    notes: .link([Shortcut]https://discord.com/channels/269611402854006785/298175033224724500/977730091381575700)
+
+- _Npc<Straia>:
+    coord: [-212.39, 128.70, 3487.13]
+    comment: Hunt for the Giant Horse
+
+- _Cook<Cook Fruitcake>:
+    comment: Apple, melon, wheat, sugar
+    notes: Royal Recipe
+
+- _Tod::Night:
+    notes: For Salvager chest when you get to Bridge of Hylia
+
+- .dir(N) run
+- _Korok::L64
+
+- .dir(NW) glide
+- Start L47 race:
+    icon: tots
+    coord: [-276.76, 153.65, 3316.47]
+    # hide-icon-on-map: true
+    notes: Combo L47 and L63
+
+- .dir(W)
+- _Korok::L63
+
+- .dir(N)
+- _Korok::L47:
+    coord: [-387.59, 152.98, 3151.55]
+
+- .dir(<N)
+- _Korok::L38:
+    comment: 2nd beach
+
+- .dir(<<N)
+- _Korok::L24:
+    comment: 3rd beach
+
+- .dir(<N)
+- _Korok::L08:
+    comment: " "
+
+- .dir(SE)
+- _Korok::L25
+
+- .dir(SE)
+- _Shrine::YaNaga:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=14345s)
+
+- .dir(E):
+    notes: If raining, make night until it's not for D54
+- _Npc::ZoraFemale<Mei>:
+    coord: [-226.89, 90.03, 2577.47]
+    comment: Wife Washed Away
+
+- .dir(<E)
+- _Korok::L26
+
+- .dir(<N) down
+- _Korok::L15:
+    comment: In broken pillar
+
+- _Korok::L14:
+    comment: " "
+
+- .gale() + .dir(<N):
+    gale: 1
+- _Korok::D54
+
+- .dir(<S) down
+- _Korok::L09
+
+- .dir(<S)
+- _Korok::L27:
+    comment: In fountain
+
+- Look .!!(Southeast) in the sky:
+    icon: tots
+    hide-icon-on-map: true
+    notes: For Salvager chest. Watch it land.
+
+- .dir(<S) run
+- _Korok::L30
+
+- .dir(<S) down
+- _Korok::L31
+
+- .dir(E)
+- _Korok::L32
+
+- .dir(E>)
+- _Korok::L33
+
+- .dir(<W)
+- _Chest::Special<Salvager Headwear>:
+    coord: [126.03, 92.65, 2710.94]
+
+- .dir(<<S) run
+- _Korok::L39
+
+- .dir(E)
+- _Korok::L40
+
+- midair .dir(<S)
+- _Korok::L44
+
+- .dir(W)
+- _Korok::L42:
+    comment: " "
+
+- .dir(W) surf
+- _Korok::L43
+
+- .dir(<<W)
+- _Korok::L51:
+    comment: 2 .rune(Stasis) hits
+
+- .gale() + .dir(W):
+    gale: 1
+- _Tower::Lake

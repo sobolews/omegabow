@@ -1,0 +1,54 @@
+Hestu 1:
+- _Warp::Shrine::TalohNaeg:
+    comment: WARP
+    line-color: lightsalmon
+
+- .dir(S>) short
+- _Npc::SheikaMale<Olkin>:
+    coord: [1870.87, 227.97, 965.85]
+    comment: Fortified Pumpkin
+    notes: Goes to northern campfire at 5pm; starts running around the village at 8pm
+
+- .dir(SW) short
+- _Npc::SheikaFemale<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Start Arrows of Burning Heat
+- Buy all .item(FIRE) arrows:
+    icon: bow
+    hide-icon-on-map: true
+
+- Run
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+
+- .dir(E>) + .dir(SE)
+- Kill .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [2172.24, 218.76, 1369.20]
+- _Chest::Special<Hestu's Maracas>
+
+- .dir(E) short
+- _Korok::D21
+
+- .dir(W)
+- _Npc<Hestu>:
+    coord: [2069.45, 188.17, 1422.25]
+- .!!(Add 2 bow slots):
+    icon: bow
+    hide-icon-on-map: true
+
+- .dir(.W)
+- _Korok::D20:
+    comment: Golden gauntlets
+
+- .dir(<<N)
+- _Korok::D19:
+    comment: " "
+
+- .dir(NW)
+- _Korok::D18:
+    comment: " "
+
+- _Warp::SOR:
+    comment: WARP
+- _Korok::P09

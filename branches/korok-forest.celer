@@ -1,0 +1,123 @@
+Korok Forest:
+- BLSS .dir(NW):
+    notes: .link([Example]https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
+
+- _Discover<Lost Woods>:
+    coord: [723.00, 293.50, -1918.50]
+    notes: BLSS should pass through this location
+
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    comment: Start Lost Pilgramage
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't need to follow Oaki; he'll move along his path while we do the next steps.
+
+- .dir(E) to .loc(top of Deku tree)
+- _Npc<Walton>:
+    coord: [407.59, 334.17, -2180.27]
+    notes: Riddles of Hyrule
+- Drop .item(Apple, Pumpkin,):
+    icon: tots
+    hide-icon-on-map: true
+    comment: .item(Sunshroom, Voltfin, Hoof)
+
+- _Snap::Quest<Sunshroom>:
+    coord: [427.59, 334.17, -2180.27]
+
+- .dir(E.) down
+- Activate .loc(Keo Ruug):
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    notes: .!!(DON'T) enter shrine or Oaki will reset
+
+- _Equipment::Weapon<Korok Leaf>:
+    coord: [473.68, 249.02, -2125.30]
+    comment: If you don't have one
+    notes: For Voo Lota
+
+- _Material<2 Bird Egg>:
+    notes: In tree behind Hestu. For korok later.
+
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: 3 bow, 7 weapon, 4 shield
+
+- Buy
+- _Material<4 Ironshroom>:
+    hide-icon-on-map: true
+    notes: Used for transmute
+- _Material<4 Stamella Shroom>:
+    hide-icon-on-map: true
+- _Material<4 Razorshroom>:
+    hide-icon-on-map: true
+
+- Get .!!(13 hearts):
+    icon: tots
+    hide-icon-on-map: true
+
+- Equip Lynel Crusher:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: Pulling the Master Sword sets durability of equipped weapon to 40. Crusher used for Moldugas later.
+- _Material<3 Silent Princess>:
+    hide-icon-on-map: true
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
+
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+
+- Follow Oaki:
+    notes: Follow Blue Nightshades and clearings on map
+    movements:
+        - to: [257,-2249]
+        - to: [248,-2274]
+        - to: [200.5,-2262]
+        - to: [172.5,-2294]
+        - to: [173.5,-2327.5]
+        - to: [150.5,-2357.5]
+        - to: [110,-2350.5]
+        - to: [90,-2370.5]
+        - to: [76,-2414]
+
+- _Material<3+ Blue Nightshade>:
+    notes: Used for transmute
+    hide-icon-on-map: true
+- _Material<10 Restless Cricket>:
+    notes: Spin attack grass to collect during escort
+    hide-icon-on-map: true
+- _Material<5 Hot-Footed Frog>:
+    hide-icon-on-map: true
+
+- _Shrine::DaagChokah:
+    notes: Oaki finishes his walk 5h 20m in-game time from when the quest starts. Don't approach until you see the dialogue "Woo! I finally made it!"
+
+- _Warp::Shrine::KeoRuug:
+    comment: WARP
+- _Shrine::KeoRuug:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=18023s)
+
+- .dir(E)
+- _Npc<Damia>:
+    coord: [564.99, 264.83, -2160.65]
+    comment: Start Trial of Wood
+
+- .dir(NE)
+- _Shrine::MaagHalan
+
+- .dir(SW) super
+- _Npc<Zooki>:
+    coord: [251.03, 285.34, -1979.93]
+    comment: Trial of Second Sight
+
+- .dir(SW)
+- _Equipment::Shield<Rusty Shield>:
+    coord: [100.06, 286.08, -1827.37]
+    notes: Keep the shield for a korok later
+
+- _Shrine::KuhnSidajj

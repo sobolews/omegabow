@@ -1,0 +1,88 @@
+Tabantha:
+- .gale() + .dir(E.):
+    gale: 1
+- _Korok::T36
+
+- .dir(N>)
+- _Korok::T32
+
+- .dir(<<N)
+- _Korok::T27:
+    comment: 2 apples
+
+- .dir(N>)
+- _Korok::T26
+
+- .dir(<N)
+- _Korok::T23
+
+- .dir(SE)
+- _Boss::Talus::Rare:
+    comment: Boulder Breaker
+    coord: [-3929.30, 197.19, -1083.48]
+
+- .dir(<S)
+- _Korok::T28:
+    comment: " "
+
+- .dir(S) run
+- _Korok::T29
+
+- .dir(E)
+- _Korok::T30:
+    comment: " "
+
+- .dir(<N)
+- _Korok::T24
+
+- Moblin BTB:
+    icon: tots
+    hide-icon-on-map: true
+- _Tower::Tabantha
+
+- .dir(<S)
+- _Shrine::TenaKosah
+
+- .dir(<<W) run
+- _Memory::AncientColumns
+
+- .dir(NW>) run
+- _Korok::T35:
+    comment: " "
+
+- .dir(<W)
+- _Korok::T37:
+    comment: " "
+
+- .dir(NE)
+- _Korok::T33:
+    comment: Pinwheel on little platform
+
+- .dir(W>>) short
+- Activate .loc(Fairy Fountain):
+    icon: tots
+    coord: [-3541.00, 294.88, -745.00]
+
+- .dir(E)
+- _Korok::T31:
+    comment: In small cave
+
+- .dir(N>)
+- _Boss::Talus::Rare:
+    comment: Boulder Breaker
+    coord: [-3248.40, 291.68, -1078.12]
+
+- _Tod::Noon:
+    coord: [-3248.40, 291.68, -1098.12]
+    notes: For Bareeda Naag
+
+- .dir(<<N)
+- _Korok::T20
+
+- .dir(NW)
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Fire arrow before 12:45pm
+- _Shrine::BareedaNaag:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9042s)

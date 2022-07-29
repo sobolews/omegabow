@@ -1,0 +1,104 @@
+Akkala Tower:
+- .dir(N>)
+- _Korok::Z16:
+    line-color: indianred
+
+- Down
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+
+- _Chest::Special<Lightscale Trident>:
+    coord: [3328.99, 269.46, -547.36]
+    comment: Equip
+
+- _Npc::ZoraMale<Fronk>:
+    coord: [3342,-501.5]
+    comment: Wife Washed Away
+    notes: 7:00am to 8:00pm, .link([Fronk is at the pillar]https://youtu.be/gQH8hwsckaM?t=13565). Otherwise he is .link([at the pools]https://youtu.be/3EltLt0dpks?t=2686).
+
+- _Npc::ZoraFemale<Laruta>:
+    coord: [3299.29, 255.66, -522.49]
+    comment: Ceremonial Song
+
+- _Npc::ZoraMale<Gruve>:
+    coord: [3292.20, 255.43, -520.38]
+    comment: Diving is Beauty!
+    notes: Quest reward is 5 Fleet-Lotus Seed, will use for transmute.
+
+- .dir(N) + midair
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3207.40, 344.67, -736.45]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(S>)
+- Activate .!!(Pedestal):
+    icon: calamity
+    comment: Slam attack with Trident
+    coord: [3081,-459]
+
+- _Shrine::DagahKeek
+
+- Equip Barbarian Armor:
+    icon: shield
+    hide-icon-on-map: true
+
+- .dir(SW):
+    time-override: 999
+- _Boss::Hinox::Blue:
+    coord: [2930.51, 312.54, -298.40]
+    comment: .fury() + Ancient arrows
+    fury: 1
+
+- .dir(E>) run
+- _Korok::Z24:
+    comment: " "
+
+- .dir(SE)
+- _Korok::Z34:
+    comment: On peak
+
+- .dir(<E)
+- _Boss::Talus::Luminous:
+    coord: [3992.27, 353.03, -158.82]
+    comment: .fury() Collect drops
+    fury: 2
+
+- .dir(<E)
+- _Korok::Z27
+
+- .dir(N)
+- _Korok::Z19:
+    comment: .rune(Magnesis) the boulder
+    notes: Combo with Z20. Do 2 flowers of Z20 then jump down.
+
+- _Korok::Z20
+
+- .dir(<N)
+- _Korok::Z08
+
+- .dir(<W)
+- _Npc::ZoraMale<ZoraMonument>:
+    coord: [3720.59, 461.92, -532.05]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W)
+- _Korok::Z17:
+    comment: Top of Zora's Domain
+
+- .dir(N>) + midairs
+- _Chest::Special<Zora Helm>:
+    coord: [3466.36, 499.22, -889.05]
+    comment: .rune(Magnesis) chest in water
+
+- .dir(<E)
+- _Korok::Z05
+
+- .dir(W>)
+- _Korok::Z04
+
+- .dir(N>)
+- _Tower::Akkala

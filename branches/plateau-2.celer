@@ -1,0 +1,90 @@
+Plateau 2:
+- _Warp::Shrine::OwaDaim:
+    line-color: violet
+    comment: WARP
+
+- .dir(<<E)
+- _Korok::P18
+
+- _Material<Baked Apple>:
+    coord: [-787.50, 194.58, 2259.30]
+    notes: Apple of My Eye
+    comment: Inside hut
+
+- .dir(N) + midair
+- _Korok::P11:
+    comment: Spire of temple
+
+- .dir(NW) down
+- _Korok::P10:
+    comment: " "
+
+- .dir(W>)
+- _Boss::Talus::Stone:
+    coord: [-1087.75, 179.14, 1663.18]
+    comment: .fury()
+    fury: 1
+
+- .dir(E) run
+- _Korok::P04
+
+- .dir(S)
+- _Korok::P06
+
+- .dir(NE) run
+- _Material<3 Acorn>:
+    coord: [-930.78, 184.82, 1702.72]
+    notes: Need to pick up 8 more rng acorns during the run
+
+- .dir(E) run
+- _Korok::P05
+
+- .dir(NE)
+- _Korok::P02
+
+- .dir(NW) run
+- _Korok::P01
+
+- .dir(NW)
+- _Korok::C81:
+    comment: Small ruins next to coliseum
+
+- .dir(E>)
+- _Korok::C82
+
+- .dir(N>)
+- _Memory::LakeKolomo
+
+- .dir(S)
+- _Korok::C83:
+    comment: Pinwheel
+
+- .dir(SE) short
+- _Discover<Gatepost Town Ruins>:
+    coord: [-537.88, 121.27, 1445.48]
+
+- .dir(N>>)
+- _Korok::C76
+
+- .dir(N>) short
+- _Korok::C75:
+    comment: " "
+
+- .dir(W)
+- _Boss::Talus::Luminous:
+    coord: [-514.75, 127.49, 1181.74]
+    comment: .fury()
+    fury: 2
+
+- .dir(<NW)
+- _Korok::C69
+
+- midair .dir(N)
+- _Korok::C63
+
+- .dir(W)
+- _Korok::C62
+
+- .dir(W>>)
+- _Shrine::KaamYatak:
+    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=22880)

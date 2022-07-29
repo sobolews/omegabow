@@ -1,0 +1,214 @@
+Gerudo Canyon:
+- .dir(S>)
+- _Korok::C61
+
+- .dir(W>) surf
+- _Korok::C60
+
+- .dir(NW)
+- _Korok::C57
+
+- .dir(SW) surf
+- _Discover<Gleeok Bridge>:
+    coord: [-1310.03, 111.74, 786.85]
+
+- .dir(<W)
+- _Korok::C58
+
+- .dir(SW)
+- _Korok::C59:
+    comment: .rune(Cryo) block
+
+- .dir(<N)
+- _Korok::R74
+
+- .gale() + .dir(<N):
+    gale: 1
+- _Memory::SanidinPark
+
+- .dir(S>>)
+- Tame White Horse:
+    icon: tots
+    coord: [-1674.17, 222.94, 807.44]
+    comment: Royal White Stallion
+
+- _Korok::R79
+
+- Ride to .loc(Outskirt Stable):
+    movements:
+        - to: [-1796,860]
+        - to: [-1944,959]
+        - to: [-1917,1071]
+        - to: [-1644,1020]
+        - to: [-1506,1101]
+        - to: [-1475,1175]
+        - to: [-1449.49, 137.75, 1269.01]
+
+- Register horse:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Npc<Trott>:
+    coord: [-1432.50, 137.72, 1264.50]
+    comment: A Rare Find
+    notes: Raw Gourmet Meat
+
+- _Npc<Toffa>:
+    coord: [-1439.25, 137.72, 1278.45]
+    comment: Royal White Stallion
+
+- _Npc<Aliza>:
+    coord: [-1400.00, 137.72, 1280.00]
+    comment: My Hero
+
+- .dir(<E) run
+- _Korok::C78
+
+- .dir(<<N)
+- _Korok::C72:
+    comment: " "
+
+- .dir(<W)
+- _Shrine::RotaOoh:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22753s)
+
+- .dir(<W)
+- _Korok::C85
+
+- .dir(<SW)
+- _Korok::R80
+
+- .dir(NE>)
+- _Korok::C86
+
+- .dir(E>) down
+- _Korok::C87
+
+- .dir(<S)
+- _Korok::C89:
+    comment: Golden gauntlets
+
+- .dir(W>>)
+- _Shrine::DahKaso:
+    comment: Minor Test of Strength
+
+- .dir(W>)
+- _Korok::G29
+
+- .dir(<S)
+- _Boss::Hinox::Blue:
+    coord: [-1704.30, 111.60, 1776.78]
+    comment: Ancient arrows
+
+- .dir(SW)
+- _Korok::C88:
+    comment: .rune(Cryo) block
+
+- .dir(<<S)
+- _Discover<Gerudo Canyon Pass>:
+    coord: [-1665.00, 95.00, 2028.00]
+
+- Steal horse:
+    icon: tots
+    coord: [-1646.99, 86.38, 2072.51]
+
+- Ride through canyon:
+    movements:
+        - to: [-1642,2254]
+        - to: [-1782,2321]
+        - to: [-1990,2167]
+        - to: [-2029,1995]
+
+- _Npc<Zyle>:
+    coord: [-2033.50, 157.54, 1873.19]
+    comment: Good-Sized Horse
+
+- .dir(S.)
+- _Npc<Palme>:
+    comment: Missing in Action
+    coord: [-2063.50, 208.00, 1994.50]
+
+- .dir(N)
+- _Korok::W07
+
+- .dir(N) short
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+
+- .dir(E) climb
+- Test of Will:
+    icon: tots
+    coord: [-2005.45, 225.98, 1740.65]
+
+- _Shrine::JolooNah:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=22359s)
+- _Tod::Noon:
+    notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
+    hide-icon-on-map: true
+
+- .dir(W.)
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+- _Chest<5 Fire Arrows>:
+    hide-icon-on-map: true
+
+- .dir(NW) down
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
+
+- .dir(<W)
+- _Korok::G32:
+    comment: On broken bridge
+- _Korok::W08
+
+- .dir(S>>)
+- _Korok::W10:
+    comment: " "
+
+- .dir(E)
+- _Boss::Talus::Luminous:
+    coord: [-2277.50, 293.77, 1979.00]
+    comment: Bomb arrow
+
+- .dir(<W)
+- _Korok::G35:
+    comment: In overlook
+    notes: Pre-aim, walk onto start block, instant square-first windbomb
+
+- .gale() + .dir(W):
+    gale: 1
+    time-override: 999
+
+- _Boss::Talus::Luminous:
+    coord: [-2898.47, 305.79, 2210.99]
+    comment: .fury() + Bomb arrow
+    fury: 1
+
+- .dir(SW)
+- _Memory::KaraKaraBazaar
+
+- _Npc::Rito<Guy>:
+    comment: An Ice Guy
+    coord: [-3238.62, 130.10, 2574.56]
+
+- _Npc::Gerudo<Rhondson>:
+    comment: From the Ground Up
+    coord: [-3269.43, 129.00, 2585.22]
+
+- _Npc::SheikaMale<Nobiro>:
+    comment: Eye of the Sandstorm
+    coord: [-3282.89, 134.16, 2540.95]
+
+- .dir(<N)
+- _Korok::W17
+
+- .dir(W) + .dir(W) + .dir(N) + .dir(N):
+    coord: [-3607.5,2210.5]
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::SasaKai:
+    comment: 2:55pm to 3:50pm

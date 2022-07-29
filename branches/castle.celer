@@ -1,0 +1,248 @@
+Hyrule Castle:
+- .dir(S>>) + .dir(S) midairs:
+    notes: .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Can also equip metal bow, warp to Eldin Tower and BLSS.
+- _Korok::X05:
+    comment: Castle spire
+
+- Down
+- _Korok::X06:
+    comment: In belltower
+
+- .dir(N) down
+- _Korok::X10:
+    comment: " "
+
+- .dir(W)
+- _Korok::X07:
+    comment: Spire of Zelda's Study
+
+- .dir(NE)
+- Equip Barbarian, GEB, AA:
+    icon: equipment
+    coord: [-253.5,-1115.5]
+- .!!(SAVE THE GAME):
+    icon: tots
+    hide-icon-on-map: true
+    notes: For convenient location to reload
+
+- .boss(Ganon):
+    icon: ganon
+    movements:
+        - to: [-254.00, 191.01, -1061.37]
+          away: true
+    split-type: UserDefined
+    notes: .link([Skew bounce 1-cycle strat]https://youtu.be/d4s3-3IcV9A?t=22411) or just fight
+
+- Continue:
+    icon: tots
+    hide-icon-on-map: true
+
+- .dir(N) down
+- _Korok::X03:
+    notes: To do a Daruk Shield Block, equip bomb, hold ZL (shield), jump, let go of ZL in midair, double tap L.
+
+- .dir(<E) short
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+    comment: Under slab
+
+- .dir(E) down
+- _Korok::X02:
+    comment: " "
+
+- .dir(<<N) short
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+    comment: Behind rubble
+
+- .dir(N>)
+- _Korok::K30:
+    comment: Ledge across water
+
+- .dir(S)
+- _Korok::X11:
+    comment: Inside tunnel
+
+- Run:
+    time-override: 720
+- _Boss::Talus::Rare:
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury()
+    fury: 3
+
+- Updraft
+- _Chest<Shard of Farosh's Fang>:
+    coord: [-133.07, 170.48, -950.46]
+
+- Enter .loc(Library)
+- _Discover<King's Study>:
+    coord: [-172.98, 170.46, -1119.39]
+
+- _Equipment::Shield<Royal Guard's Shield>:
+    comment: Royal Guard's Gear
+
+- Down stairs
+- Light torch:
+    icon: tots
+    hide-icon-on-map: true
+- _Tod::Night:
+    notes: (Optional) If close to blood moon, making night will cancel it while you're in castle and give you enough time to get to Mijah Rokee.
+
+- _Shrine::SaasKosah:
+    comment: Major Test of Strength
+
+- _Chest<Star Fragment>:
+    coord: [-224.01, 104.73, -1177.87]
+    comment: In the water
+    notes: .v(Star)/3 star fragments
+    var-change:
+        Star: 1
+
+- Steal 1 bow from .enemy(lizalfos):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: To fill up bow. Can also pick up missing Lizalfos Horn here.
+
+- _Equipment::Weapon<Great Flameblade>:
+    coord: [-268.24, 131.34, -1153.31]
+    notes: This and the Thunderblade are high durability weapons for tree chopping
+
+- Run
+- _Korok::X01
+
+- .dir(<W)
+- _Korok::X04:
+    comment: Pinwheel on castle wall
+
+- Down, enter .loc(Lockup)
+- Shoot .enemy(eye) in hallway:
+    icon: calamity
+    hide-icon-on-map: true
+
+- _Boss::Hinox::Stal:
+    coord: [-491.34, 126.08, -1009.82]
+    comment: Ancient arrows
+    notes: Bullet time off steps
+
+- _Equipment::Weapon<Great Thunderblade>:
+    hide-icon-on-map: true
+
+- _Chest::Special<Hylian Shield>:
+    coord: [-501.57, 126.08, -1011.58]
+
+- Run out, .rune(bomb) 2 walls
+- _Korok::X13
+
+- Backtrack .gale():
+    gale: 1
+- _Korok::X08
+
+- Climb ladder
+- .rune(Bomb) switch and wall:
+    icon: tots
+    hide-icon-on-map: true
+- _Chest<Shard of Dinraal's Fang>:
+    coord: [-326.46, 151.16, -1002.40]
+
+- Updraft, run, .gale():
+    gale: 2
+- _Discover<Zelda's Study>:
+    coord: [-383.72, 273.58, -995.87]
+- _Material<1 Silent Princess>:
+    hide-icon-on-map: true
+    notes: Should have 19. If not, backup at fairy fountains later.
+- _Snap::Quest<Guardian Skywatcher>
+- _Memory::HyruleCastle
+
+- Run
+- _Korok::X09:
+    comment: On balcony
+
+- _Discover<Zelda's Room>:
+    notes: Run into the room
+
+- .dir(.S)
+- _Korok::X14
+
+- .dir(<<W)
+- _Korok::X17:
+    comment: Spire of First Gatehouse
+
+- .dir(<E)
+- _Korok::X12:
+    comment: On wall
+
+- .dir(<W)
+- _Korok::X16:
+    comment: Spire of Second Gatehouse
+
+- Down
+- _Discover<Second Gatehouse>
+
+- .dir(<S) short
+- _Discover<Dining Hall>
+
+- _Material<Raw Meat>:
+    coord: [-108.37, 210.59, -848.95]
+    comment: Koko Cuisine
+
+- _Material<Raw Gourmet Meat>:
+    coord: [-152.50, 210.39, -821.58]
+    comment: Rare Find
+
+- Run
+- _Korok::X15
+
+- Clip out to .loc(Guard's Chamber):
+    notes: .link([Example clip and oob movement]https://youtu.be/7WOPfp1bGog?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=25938). Fix ragdoll before next windbomb.
+- _Chest<Shard of Naydra's Fang>:
+    coord: [-356.28, 172.41, -810.58]
+    time-override: 274
+- _Korok::X19:
+    comment: Up stairs behind wall
+
+- Run outside .gale():
+    gale: 1
+- _Discover<First Gatehouse>:
+    coord: [-351.61, 217.85, -830.25]
+
+- Run
+- _Korok::X18
+
+- .dir(E>)
+- _Korok::X23:
+    comment: Up to pinwheel
+
+- Down
+- _Discover<Observation Room>:
+    coord: [-255.47, 211.39, -764.95]
+    notes: Walk into the malice
+- _Korok::X21:
+    notes: Shoot the top with normal arrows
+- _Korok::X22:
+    comment: Far
+    notes: Aim at top of the wall in background
+
+- .dir(E) short
+- _Korok::X20
+
+- .dir(S>>)
+- _Korok::X24
+
+- .dir(SW) down
+- _Korok::C16
+
+- _Korok::X25:
+    comment: " "
+
+- .dir(<S)
+- _Korok::C33:
+    comment: Pinwheel on outer wall
+- _Snap::Quest<Guardian Stalker>:
+    movements:
+        - to: [71.50, 135.11, -104.00]
+          away: true
+
+- .dir(S>>)
+- _Korok::C35
+- _Memory::SacredGrounds

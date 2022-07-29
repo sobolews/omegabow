@@ -1,0 +1,153 @@
+Central Tower:
+- .dir(N)
+- _Boss::Talus::Luminous:
+    comment: Bomb + ancient arrows
+    coord: [-971.13, 355.71, 3236.14]
+
+- .dir(W>>)
+- _Korok::L41
+
+- .dir(<<E)
+- _Korok::L37
+
+- midair .dir(N)
+- _Korok::L23
+
+- .dir(<<N)
+- _Korok::P17:
+    comment: On ledge under Plateau wall
+
+- .dir(W) down
+- _Korok::P16:
+    comment: " "
+
+- .gale() + .dir(NW) midair:
+    gale: 1
+- _Korok::P15
+
+- .dir(<<N) short
+- _Korok::P14:
+    comment: On ledge under Plateau wall
+
+- .dir(N)
+- _Korok::P07
+
+- .dir(<<E)
+- _Korok::P08:
+    comment: Under bridge
+    notes: Use .rune(Cryo) to move the log into position
+
+- .dir(N>)
+- _Korok::P03:
+    comment: Other side of hill
+
+- .dir(N)
+- _Korok::C80:
+    comment: " "
+
+- midair .dir(N>)
+- _Korok::C79
+
+- .dir(N>>)
+- _Korok::C74:
+    comment: High on coliseum wall
+
+- .dir(<<N) down
+- _Korok::C73:
+    comment: " "
+
+- Run
+- _Discover<Aquame Bridge>:
+    coord: [-1128.81, 142.45, 1017.05]
+- _Korok::C68:
+    comment: Under bridge
+
+- .dir(<N)
+- _Korok::C67:
+    comment: On ledge against cliff
+
+- .dir(<W)
+- _Korok::C66
+
+- .dir(N>)
+- _Korok::C52
+
+- .dir(<E) + midair
+- _Korok::C53
+
+- .dir(<<E)
+- _Tower::Central
+
+- .dir(N>) down
+- _Korok::C48
+
+- .dir(<E)
+- _Discover<Hyrule Garrison Ruins>:
+    coord: [-596.50, 132.50, 571.50]
+
+- midair .dir(E)
+- _Korok::C54
+
+- .dir(NE)
+- _Korok::C49
+
+- midair .dir(SE)
+- _Korok::C55:
+    comment: Two trees left of guardian
+
+- .dir(S)
+- _Korok::C64
+
+- .dir(S)
+- _Korok::C70:
+    comment: " "
+
+- .dir(E)
+- _Korok::C71
+
+- .dir(<E)
+- _Korok::C65
+
+- .dir(SE)
+- _Shrine::WahgoKatta:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1581s)
+
+- .dir(S) surf
+- _Npc<Parcy>:
+    coord: [345.00, 121.73, 1091.50]
+    comment: Royal Guard's Gear
+
+- _Npc<Gotter>:
+    coord: [325.82, 115.40, 1092.50]
+    comment: Royal Recipe
+
+- .dir(S.)
+- _Korok::C77
+
+- _Korok::D14:
+    comment: Under bridge
+
+- _Discover<Owlan Bridge>:
+    coord: [325.48, 102.49, 1273.41]
+
+- .dir(<S)
+- _Korok::D22
+
+- .dir(W)
+- Kill .enemy(Red Moblin):
+    icon: calamity
+    coord: [132.65, 116.42, 1397.90]
+- _Equipment::Weapon<Moblin Club>:
+    hide-icon-on-map: true
+    comment: Weapon Connoisseur
+
+- .dir(SW) run
+- _Korok::C84:
+    comment: " "
+
+- .dir(S)
+- _Korok::D26
+
+- .dir(S) down
+- _Shrine::BoshKala:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1459s)

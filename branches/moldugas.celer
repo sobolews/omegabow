@@ -1,0 +1,93 @@
+Moldugas:
+- Step back + .gale():
+    gale: 1
+- _Korok::W09:
+    comment: Top of skeleton
+
+- .dir(S.)
+- _Korok::W13:
+    comment: Top of skeleton
+
+- .dir(<S)
+- _Korok::W18:
+    comment: Pinwheel on skeleton
+
+- .dir(<W)
+- _Korok::W25
+
+- midair .dir(<S)
+- _Boss::Molduga:
+    coord: [-4832.61, 133.21, 2800.42]
+    comment: .fury()
+    fury: 3
+
+- _Material<Molduga Guts>:
+    comment: Medicinal Molduga
+    hide-icon-on-map: true
+
+- Light 4 fires:
+    icon: calamity
+    hide-icon-on-map: true
+
+- _Shrine::ThoKayu
+
+- .dir(<<S)
+- _Boss::Molduga:
+    coord: [-4555.62, 137.14, 3256.35]
+    comment: Savage Lynel Crusher
+
+- .dir(<W)
+- _Korok::W51
+
+- midair .dir(S)
+- _Korok::W65
+
+- _Snap::Quest<Gerudo Great Skeleton>:
+    coord: [-4863.96, 146.09, 3804.65]
+
+- Activate .loc(Fairy Fountain):
+    coord: [-4870.20, 125.00, 3824.80]
+    icon: tots
+
+- Set skew on shrine:
+    icon: tots
+    hide-icon-on-map: true
+- _Snap::Quest<Guardian Scout>:
+    comment: In shrine, SNAP for QUEST
+- _Shrine::HawaKoth:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=11125s)
+
+- _Npc::Gerudo<Barta>:
+    comment: Search for Barta
+    coord: [-4818.86, 130.23, 3713.28]
+
+- .dir(<<E)
+- _Korok::W55
+
+- .dir(S>)
+- _Korok::W61
+
+- midair .dir(E>)
+- _Korok::W66
+
+- _Boss::Molduga:
+    coord: [-4191.12, 126.91, 3797.45]
+    comment: Savage Lynel Crusher
+
+- .dir(<<E)
+- _Boss::Molduga:
+    coord: [-3799.06, 118.76, 3653.43]
+    comment: Savage Lynel Crusher
+
+- .dir(N)
+- _Korok::W57:
+    comment: In tree above oasis
+
+- .dir(<N)
+- _Korok::W56
+
+- .dir(N>)
+- .!!(Sand Seal Race):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::RaqaZunzo

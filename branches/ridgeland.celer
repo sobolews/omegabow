@@ -1,0 +1,156 @@
+Ridgeland:
+- .dir(W)
+- _Korok::R19:
+    comment: " "
+
+- .dir(N>)
+- _Korok::R16:
+    comment: Against cliff
+
+- .dir(<N)
+- _Korok::R10:
+    comment: In tech lab ruins
+
+- .dir(N>>)
+- _Memory::IrchPlain
+
+- .dir(<S) run
+- _Korok::R07
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [-752.49, 187.41, -1268.12]
+    comment: Ancient arrows
+
+- .dir(N>)
+- _Korok::K29
+
+- .dir(NE)
+- _Korok::K27:
+    comment: Pinwheel
+
+- .dir(E)
+- _Korok::K28
+
+- .dir(<N)
+- _Boss::Hinox::Blue:
+    coord: [-480.55, 278.99, -2039.64]
+    comment: Ancient arrows
+
+- .dir(<W)
+- _Korok::K19
+
+- midair .dir(NW)
+- _Korok::K16
+
+- .dir(S>)
+- _Korok::K18
+
+- .dir(<S)
+- _Korok::K26
+
+- .dir(<W)
+- _Korok::K24
+
+- .dir(<<E)
+- Steal horse:
+    icon: calamity
+    coord: [-1019.50, 208.96, -1721.00]
+
+- .dir(W)
+- _Korok::K25
+
+- .dir(NW)
+- _Korok::K17:
+    comment: " "
+
+- .dir(S>)
+- _Korok::K23:
+    comment: " "
+
+- midair .dir(S>)
+- _Shrine::MonyaToma:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=8580s)
+
+- .dir(W)
+- _Shrine::MaagNorah
+
+- .dir(<N)
+- _Korok::R03:
+    comment: Up on ledge against cliff
+
+- .dir(<N)
+- _Korok::H71:
+    comment: Across the canyon
+
+- .dir(S)
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 3
+    coord: [-2177.46, 322.30, -1585.39]
+    notes: Intentionally "wasting" a fury
+
+- .dir(SW) run
+- _Korok::R02
+
+- .dir(E.) + .dir(<S)
+- _Korok::R06
+
+- .dir(E>>)
+- _Korok::R09:
+    comment: " "
+
+- .dir(<S)
+- _Tower::Ridgeland
+
+- .dir(W)
+- _Korok::R15:
+    comment: " "
+
+- .dir(<<N)
+- Send red orb:
+    icon: tots
+    coord: [-2135.60, 219.98, -909.20]
+
+- .dir(NW)
+- Send orange orb:
+    icon: tots
+    coord: [-2271.02, 228.58, -1040.27]
+
+- .dir(NW)
+- _Korok::R08:
+    comment: Against cliff
+
+- .dir(<S)
+- Take green orb:
+    icon: tots
+    coord: [-2288.70, 235.47, -882.80]
+
+- Place all orbs:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Shrine::TohYahsa:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=21859s)
+
+- .dir(S) short
+- _Korok::R14
+
+- .dir(<S) + midair
+- _Korok::R23:
+    notes: Complete R24 before the last flower of R23
+- _Korok::R24:
+    comment: " "
+
+- .dir(N>>) run
+- _Korok::R18:
+    comment: .gale()
+    gale: 1
+
+- .dir(SE)
+- _Korok::R25:
+    comment: " "
+
+- .dir(<E)
+- _Shrine::ZaltaWa:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=23395s)

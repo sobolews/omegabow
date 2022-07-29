@@ -1,0 +1,148 @@
+Eventide:
+- _Warp::Tower::Hateno:
+    comment: WARP
+
+- .dir(<S)
+- _Korok::F14:
+    comment: " "
+
+- .dir(<W) swim
+- _Boss::Hinox::Red:
+    coord: [2768.06, 258.13, 2711.58]
+    comment: Ancient arrows
+
+- .dir(W)
+- Return orb:
+    icon: tots
+    coord: [2648.43, 324.55, 2822.85]
+
+- .!!(Read shrine stone):
+    icon: tots
+    hide-icon-on-map: true
+
+- .dir(.S)
+- _Boss::Hinox::Blue:
+    coord: [2693.70, 273.89, 2967.57]
+    comment: Ancient arrows
+
+- .dir(<N)
+- Return orb:
+    icon: tots
+    coord: [2632.47, 321.84, 2848.53]
+
+- _Shrine::TawaJinn
+
+- .dir(E>>)
+- _Korok::F22:
+    comment: " "
+
+- .dir(<E)
+- _Korok::F18
+
+- .dir(N>>) run
+- _Korok::N64
+
+- .dir(E) run
+- _Boss::Hinox::Red:
+    coord: [3210.17, 172.01, 2996.33]
+    comment: Ancient arrows
+    notes: Shoot from above
+
+- .dir(S) + midair
+- _Korok::F32
+
+- .dir(E>)
+- _Shrine::MuwoJeem:
+    comment: Modest Test of Strength
+
+- .dir(N>)
+- _Korok::F33
+
+- .dir(W>>) down
+- _Korok::N65
+
+- .dir(N>)
+- _Korok::N61
+
+- .dir(E)
+- _Npc<Kass>:
+    coord: [3746.19, 125.42, 2629.38]
+    comment: The Hero's Cache
+
+- Down
+- _Chest::Special<Gold Rupee>:
+    coord: [3773.34, 100.52, 2647.44]
+    comment: .rune(Magnesis) chest in water
+    notes: The Hero's Cache
+
+- .dir(<N)
+- _Korok::N60:
+    comment: " "
+
+- .dir(E>)
+- _Korok::N62
+
+- .dir(N)
+- .fury() .!!(Enemy Camp):
+    icon: calamity
+    fury: 1
+    notes: Sheep Rustlers
+    coord: [4121.98, 113.17, 2369.62]
+    comment: Ancient arrow white boko
+
+- .dir(NE)
+- _Korok::N54:
+    notes: Palm fruit on nearby tree if needed
+
+- .dir(E>) + midair
+- _Korok::N56:
+    comment: " "
+
+- .dir(S)
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 2
+    coord: [4558.50, 105.41, 2465.00]
+
+- .dir(S)
+- _Korok::N63
+
+- .dir(<E) run
+- _Korok::N57
+
+- .dir(W>)
+- _Korok::N55:
+    comment: " "
+
+- .dir(SW) + midairs
+- _Shrine::ChaasQeta
+
+- _Korok::N66
+
+- .dir(E>>)
+- Shoot arrow at ground:
+    icon: calamity
+    hide-icon-on-map: true
+    comment: Use single shot bow
+- _Boss::Hinox::Blue:
+    comment: Ancient arrow midair
+    coord: [4537.11, 110.76, 3701.95]
+
+- Begin .!!(Stranded on Eventide)
+
+- Pick up club, bow, arrow:
+    icon: tots
+    hide-icon-on-map: true
+- Return 3 orbs:
+    icon: tots
+    hide-icon-on-map: true
+    movements:
+        - to: [4483.25, 142.10, 3746.42]
+        - to: [4640,3626]
+        - to: [4500.46, 109.56, 3392.43]
+        - to: [4500.46, 109.56, 3392.43]
+        - to: [4674.92, 168.30, 3742.44]
+
+- .gale():
+    gale: 1
+- _Shrine::KorguChideh

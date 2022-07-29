@@ -1,0 +1,170 @@
+Vah Rudania:
+- _Warp::Shrine::ShaeMosah:
+    line-color: crimson
+    comment: WARP
+    
+- .dir(S.)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk Memory
+
+- .dir(E)
+- _Korok::E16
+
+- .dir(<<S)
+- _Korok::E17:
+    comment: " "
+
+- .dir(E) + .dir(S>)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+    notes: For Death Mountain's Secret
+    comment: Behind rubble
+
+- .dir(NE)
+- _Shrine::DaqaKoh:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19375s)
+
+- .dir(E>)
+- Kill .enemy(2 moblins):
+    icon: calamity
+    coord: [2142.43, 634.02, -2288.29]
+
+- Enter Rudania:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+    notes: Ancient arrow everything. Break ores during escort if missing amber (10) or flint (11)
+
+- Complete divine beast:
+    icon: tots
+    hide-icon-on-map: true
+    comment: .gale()
+    gale: 1
+
+- _Chest<Knight's Bow>:
+    notes: Need a single shot bow for the trickshot and a metal bow for later Eldin. Get this one if you didn't pick up one earlier.
+
+- .boss(Fireblight):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: .rune(Stasis) 1 body, 5 head
+
+- Cutscene warp
+- Daruk's Protection:
+    line-color: cyan
+    icon: rudania-done
+    split-type: UserDefined
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+
+- Run
+- _Npc::Goron<Bladon>:
+    notes: A Brother's Roast
+    comment: Text option 2-1
+    coord: [1648.50, 490.02, -2472.50]
+
+- _Npc::Goron<Fugo>:
+    notes: Road to Respect
+    comment: Twice
+    coord: [1676.75,-2479.5]
+
+- _Npc::Gerudo<Ramella>:
+    notes: Jewel Trade
+    comment: Twice
+    coord: [1707.75,-2422.5]
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- _Chest::Special<Boulder Breaker>:
+    coord: [1740.58, 504.08, -2447.19]
+
+- .dir(E.) + .dir(.S)
+- _Npc::Goron<Dugby>:
+    coord: [1787.98, 581.97, -2244.39]
+    comment: Death Mountain's Secret
+
+- .dir(SE)
+- _Npc::Goron<Gonguron>:
+    coord: [2045.68, 521.76, -2040.42]
+    comment: A Brother's Roast
+
+- .dir(SW)
+- Deliver rock meat:
+    icon: tots
+    movements:
+        - to: [1823.00, 453.77, -1891.17]
+          away: true
+
+- _Shrine::KayraMah:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19670s)
+
+- .dir(N)
+- _Korok::E20:
+    comment: " "
+
+- .dir(<E)
+- _Boss::Talus::Igneo:
+    coord: [2141.56, 559.13, -2178.47]
+    comment: Boulder Breaker
+    notes: Get any missing luminous stones here
+
+- .dir(<<S) short
+- _Korok::E21
+
+- .dir(E>>):
+    time-override: 720
+- _Boss::Talus::Igneo:
+    coord: [2372.52, 507.89, -1998.62]
+    comment: Boulder Breaker or .fury()
+    fury: 3
+    notes: If fury is recharged
+
+- .gale():
+    gale: 1
+- _Korok::E22:
+    comment: " "
+
+- .dir(E)
+- _Korok::E23:
+    comment: In tunnel
+
+- .dir(<W)
+- _Korok::E28:
+    comment: Down in skull
+
+- .dir(<W)
+- _Shrine::QuaRaym:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
+
+- .dir(<N)
+- _Korok::E25:
+    comment: On skeleton in lava
+
+- .dir(<W)
+- _Korok::E24:
+    comment: " "
+
+- .dir(S.)
+- _Memory::EldinCanyon
+- _Korok::E31:
+    comment: Next to memory
+
+- .dir(S>)
+- _Korok::E35
+
+- .dir(E)
+- _Korok::K32
+
+- midair .dir(N>)
+- _Korok::K31:
+    comment: On scaffolding
+
+- .gale() + .dir(W):
+    gale: 1
+- _Tower::Woodland

@@ -1,0 +1,159 @@
+Wetlands:
+- _Warp::Tower::DuelingPeaks:
+    line-color: dodgerblue
+    comment: WARP
+    
+- .dir(E)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [1186.62, 254.28, 1642.77]
+
+- .dir(<N)
+- _Korok::D16:
+    comment: On small island
+
+- .dir(NW)
+- Steal horse:
+    icon: calamity
+    coord: [927.95, 117.06, 1211.55]
+
+- .dir(S>>) ride
+- _Korok::D25:
+    comment: " "
+
+- .dir(<<S)
+- _Korok::D29:
+    comment: On small island
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(NW)
+- _Korok::D23
+
+- .dir(E)
+- _Korok::D24:
+    comment: " "
+
+- .dir(E)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(N>)
+- _Korok::D15
+
+- .dir(NW)
+- _Korok::D13:
+    comment: " "
+
+- .dir(NE)
+- _Discover<Horwell Bridge>:
+    coord: [680.19, 111.37, 977.87]
+
+- .dir(NE)
+- _Shrine::HilaRao:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=1690s)
+
+- Run (avoid flowers)
+- _Npc<Magda>:
+    coord: [816.80, 115.22, 836.77]
+    comment: Watch Out for the Flowers
+
+- .dir(E>>)
+- _Discover<Eagus Bridge>:
+    coord: [969.69, 129.13, 942.83]
+
+- _Korok::D01:
+    comment: Below bridge
+
+- .dir(N>)
+- _Korok::Z47
+
+- .dir(<E)
+- _Korok::Z48
+
+- .dir(E>>) short
+- _Korok::Z49:
+    comment: " "
+
+- .dir(E>)
+- _Korok::Z50
+
+- .dir(S>)
+- _Korok::Z60
+
+- .dir(<E) + .dir(N.)
+- _Korok::N01
+
+- .dir(N)
+- _Boss::Hinox::Red:
+    coord: [1969.04, 115.44, 97.40]
+    comment: Ancient arrows
+
+- .dir(E>>)
+- _Korok::Z41
+
+- .dir(NE>)
+- _Boss::Hinox::Black:
+    coord: [2485.10, 152.09, -133.56]
+    comment: Ancient arrows
+
+- .dir(NW)
+- _Korok::Z22
+
+- .dir(E>>)
+- _Npc::ZoraFemale<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    comment: Special Delivery
+
+- Shoot letter:
+    icon: tots
+    hide-icon-on-map: true
+    notes: When you return to Finley, the letter will respawn on land
+
+- .dir(N)
+- _Korok::Z23
+
+- .dir(SE)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2868.11, 249.51, -68.34]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(S) run
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2877.09, 229.49, -32.75]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- Down
+- _Discover<Oren Bridge>:
+    coord: [2875.32, 187.50, 32.60]
+
+- .dir(S.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2838.09, 228.01, 188.33]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(NW)
+- _Korok::Z31
+
+- .dir(<E)
+- Deliver letter BLSS:
+    icon: tots
+    movements:
+        - to: [2754.00, 189.53, -73.50]
+        - to: [2662.5,-145.5]
+        - to: [2598,-201.5]
+    notes: .link([Example BLSS]https://youtu.be/CCYh2UXCDk4?t=9413), fall and let Mipha's Grace/fairy protect you, don't pull glider, and the letter will survive
+
+- _Npc<Sasan>:
+    coord: [1760.46, 115.80, -56.04]
+    comment: Special Delivery

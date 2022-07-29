@@ -1,0 +1,104 @@
+Eldin Canyon:
+- _Warp::Shrine::NeezYohma:
+    line-color: lime
+    comment: WARP
+
+- _Npc<Tumbo>:
+    coord: [3320.59, 244.66, -474.01]
+    comment: Frog Catching 
+    notes: Wakes up at 7am. In front of Mipha's statue.
+
+- _Npc<Ledo>:
+    coord: [3290.09, 244.86, -451.28]
+    comment: Luminous Stone Gathering
+    notes: At the gate
+
+- _Npc<Finley>:
+    coord: [3264.00, 249.76, -480.00]
+    comment: Special Delivery
+    notes: Up the stairs
+
+- _Npc<Torfeau>:
+    coord: [3300.84, 255.66, -505.93]
+    comment: Giant of Ralis Pond
+    notes: For these NPCs, make a counterclockwise run around the pools under the throne room
+
+- _Npc<Jiahto>:
+    coord: [3340.25, 256.66, -564.31]
+    comment: Zora Stone Monuments
+
+- _Npc<Laflat>:
+    coord: [3328.97, 268.46, -532.02]
+    comment: Lynel Safari
+
+- _Npc<Kapson>:
+    coord: [3327.76, 256.41, -522.71]
+    comment: From the Ground Up
+
+- .dir(S) +  .dir(W>) midairs:
+    coord: [3324,-348]
+- _Korok::Z15:
+    comment: High up against cliff
+
+- .dir(<W)
+- _Korok::Z14
+
+- .dir(S>)
+- _Tower::Lanayru
+
+- .dir(N>>) down
+- _Discover<Inogo Bridge>:
+    coord: [2344.50, 119.50, -247.89]
+
+- .dir(W>)
+- _Shrine::SohKofi:
+    comment: Minor Test of Strength
+
+- .dir(W>)
+- _Korok::Z13:
+    comment: " "
+
+- .dir(<<E)
+- _Korok::E45:
+    comment: " "
+
+- .dir(N)
+- _Shrine::TahMuhl
+
+- .dir(E)
+- _Korok::E44:
+    comment: Among rocks by road
+
+- .dir(N>)
+- _Shrine::MoaKeet:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19986s)
+
+- .dir(W) short
+- _Npc<Mayro>:
+    coord: [2620.40, 253.87, -1144.95]
+    comment: Landscape of a Stable
+
+- .dir(<N)
+- _Korok::E40
+
+- .dir(N)
+- _Korok::E38
+
+- .dir(W) down
+- _Discover<Maw Of Death Mountain>:
+    coord: [2390.91, 226.13, -1316.35]
+
+- midair .dir(S>)
+- _Korok::E42:
+    comment: On ledge below bridge
+- _Korok::E41
+
+- .dir(S>)
+- _Korok::E43
+
+- .dir(NW) down
+- _Korok::E37
+
+- .dir(<W)
+- _Korok::E36:
+    comment: " "

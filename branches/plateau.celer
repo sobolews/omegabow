@@ -1,0 +1,81 @@
+Plateau:
+- .!!(SoR clip):
+    icon: location
+    line-color: white
+    comment: Activate time of day
+
+- _Material<Flint>:
+    coord: [-954.90, 194.30, 1833.20]
+    notes: To set a campfire without fire arrows
+
+- _Equipment::Weapon<Torch and Axe>:
+    movements:
+        - to: [-936.20, 224.90, 1880.20] #torch
+        - to: [-920.93, 220.65, 1871.83] #axe
+
+- Run to .loc(Boko Camp)
+
+- _Material<Seared Steak>:
+    coord: [-955.87, 237.42, 1948.86]
+
+- .!!(SAVE THE GAME):
+    notes: Do .!!(NOT) manually save until after dupe is complete. .link([Why not?]https://pastebin.com/MN1c2gAR)
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Material<6 Peppers>:
+    hide-icon-on-map: true
+- _Material<2+ Shrooms>:
+    hide-icon-on-map: true
+    notes: .v(Scrap)/8 scrap. .link([What is scrap?]https://pastebin.com/jbCdPxeR)
+    var-change:
+        Scrap: 2
+
+- Run to .loc(Temple of Time)
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- 5 Normal Arrows:
+    icon: bow
+    hide-icon-on-map: true
+
+- .dir(E):
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- _Shrine::JaBaij
+
+- _Npc::SheikaMale<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text option 2-1-1-2
+
+- .dir(<N)
+- _Tower::GreatPlateau
+
+- Down
+- _Npc::SheikaMale<Old Man>:
+    coord: [-572.50, 178.89, 1696.50]
+    comment: Glitched cutscene
+
+- .dir(<N):
+    notes: .link([BLSS spot]https://youtu.be/nnlz4Cu7d5Y?t=518)
+- _Shrine::OmanAu
+
+- .dir(S) to .loc(Tree), WB .dir(W):
+    movements:
+        - to: [-674.5,1953]
+        - to: [-839.5,2274.5]
+
+- _Shrine::OwaDaim
+# - In shrine
+# - _Equipment::Weapon<Iron Sledghammer>:
+#     notes: (Optional) Good for luminous stones, chest in Kaya Wan, sneakstriking green lizalfos
+
+- Boulder launch + .dir(W>)
+- _Shrine::KehNamut
+
+- .dir(E)
+- .!!(Paraglider):
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    split-type: UserDefined

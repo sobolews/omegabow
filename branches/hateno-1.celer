@@ -1,0 +1,97 @@
+Hateno:
+- _Equipment::Weapon<2 Iron Sledgehammers>:
+    hide-icon-on-map: true
+    comment: Leaning against house
+
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+    comment: Talk twice
+
+- _Npc<Hudson>:
+    coord: [3331.22, 235.28, 2284.61]
+    # comment: Start Tarrey Town
+
+- .!!(Upgrade House):
+    icon: house-plus
+    comment: 14 of them
+
+- .dir(N.)
+- _Npc<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+    notes: Spring of Wisdom
+
+- .dir(N.)
+- _Korok::N42:
+    comment: Past blue flame
+
+- .dir(<S) short
+- .!!(Smuggle Blue Flame):
+    icon: tots
+    coord: [3447.5,1982]
+    notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
+
+- .dir(E>) + .dir(E)
+- Activate .loc(Hateno Tech Lab):
+    icon: location
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+- _Snap::Quest<Purah>:
+    hide-icon-on-map: true
+    comment: Talk and SNAP
+- .!!(Bombs+ Stasis+):
+    icon: camera-plus
+    notes: If less than 3 screws, upgrade slate in Hateno 2
+    split-type: UserDefined
+
+- _Material<2 Apple>:
+    comment: In tree
+    hide-icon-on-map: true
+
+- .dir(E) down
+- _Korok::N48:
+    comment: " "
+
+- .!!(Save and close software):
+    icon: tots
+    notes: Clears inventory glitch and warps back up to tech lab
+    coord: [3805.5,2106.75]
+    hide-icon-on-map: true
+
+- .dir(<N)
+- _Korok::N43:
+    comment: " "
+
+- .dir(S>)
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Text option 2
+
+- .dir(<W)
+- _Korok::N59
+
+- .dir(W)
+- _Korok::N58
+
+- .dir(W)
+- _Korok::N50:
+    comment: " "
+
+- _Korok::N49:
+    notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw)
+
+- .dir(N) + midair
+- _Tower::Hateno
+
+- .dir(<W)
+- _Korok::D57:
+    comment: " "
+    notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541416737190674432?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
+
+- .dir(NE) short
+- _Korok::D58:
+    comment: " "
+
+- .dir(N>)
+- _Korok::D53:
+    comment: " "

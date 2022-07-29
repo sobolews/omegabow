@@ -1,0 +1,103 @@
+Rito Village:
+- .dir(N>)
+- _Korok::T15
+
+- .dir(N>>) short
+- _Npc::Rito<Kotts>:
+    coord: [-3488.88, 258.52, -1850.25]
+    comment: In pool
+    notes: Recital at Warbler's Nest
+
+- .dir(W)
+- _Material<1 Cold Darner>:
+    notes: For Little Sister's Big Request
+    comment: On landing pad
+
+- _Npc::Rito<Bedoli>:
+    coord: [-3632.60, 320.12, -1793.79]
+    comment: On landing pad
+    notes: Ancient Rito Song
+
+- Run up
+- _Npc::SheikaFemale<Juney>:
+    coord: [-3611.76, 289.03, -1849.23]
+    comment: Give baked apple
+    notes: Apple of My Eye
+
+- .gale():
+    gale: 1
+- _Npc::Rito<Notts>:
+    coord: [-3596.62, 317.93, -1794.98]
+    comment: Recital at Warbler's Nest
+
+- Down
+- _Shrine::AkhVaquot:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
+
+- _Korok::T14:
+    comment: Hanging way up
+
+- _Npc::Rito<Amali>:
+    coord: [-3668.51, 321.49, -1769.96]
+    comment: Where's Kheel?
+
+- Run down
+- _Npc::Rito<Molli>:
+    coord: [-3618.43, 320.15, -1797.41]
+    comment: Bird in the Mountains
+
+- Run down
+- _Cook<Cook Salmon Meuniere>:
+    comment: Wheat, butter, salmon
+    
+- _Npc::Rito<Genli>:
+    coord: [-3608.76, 296.75, -1797.82]
+    comment: Give salmon meuniere
+    notes: Recital at Warbler's Nest
+
+- Down
+- _Npc::Rito<Fyson>:
+    coord: [-3600.50, 287.60, -1814.47]
+    comment: From the Ground Up
+
+- Run up
+- _Npc::SheikaMale<Jogo>:
+    coord: [-3605.16, 289.12, -1852.43]
+    comment: Give flint
+    notes: Spark of Romance
+
+- Run up
+- _Npc::Rito<Cree>:
+    coord: [-3606.34, 296.75, -1799.16]
+    comment: Recital at Warbler's Nest
+
+- .dir(W)
+- _Korok::T17:
+    comment: " "
+
+- .dir(S>)
+- _Boss::Hinox::Black:
+    coord: [-3793.68, 246.02, -1557.10]
+    comment: Ancient arrows
+
+- .dir(W>>)
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: 4-5-3-1-2
+    notes: Talk to Kheel for Korok leaf if you don't have one
+- _Shrine::VooLota:
+    notes: Squeak; .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=9795s)
+
+- .dir(SE) run
+- _Material<Spicy Pepper>:
+    comment: Pause/unpause
+    notes: Sets up menuing for T09
+- _Korok::T16
+
+- .dir(W>) down
+- _Korok::T12
+
+- .gale() + .dir(N>):
+    gale: 1
+- _Korok::T09
