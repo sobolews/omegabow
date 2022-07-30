@@ -32,6 +32,7 @@ Vah Rudania:
 
 - Enter Rudania:
     icon: rudania-enter
+    split-type: UserDefined
     movements:
         - to: [2235,-2370]
         - to: [2502.61, 667.95, -2270.26]
