@@ -64,6 +64,7 @@ Blood Moon:
 
 - .dir(<W)
 - Shoot through 2 rings:
+    icon: tots
     coord: [-1855.25,76.25]
     notes: Must use single-shot bow
 

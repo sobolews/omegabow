@@ -1,0 +1,94 @@
+Hebra 1:
+### Hebra 1
+- .dir(N.) + .dir(.E):
+    notes: Climb out
+- _Boss::Talus::Frost:
+    comment: .fury()
+    fury: 3
+    coord: [-3709.50, 331.28, -2347.00]
+
+- .gale() + .dir(N) midair:
+    gale: 1
+- _Korok::H54
+
+- .dir(E>) + midair
+- _Korok::H55
+
+- .dir(N.) + midair
+- _Korok::H43
+
+- .dir(<N) + midair
+- _Korok::H27:
+    comment: Aim .dir(N), .dir(W), .dir(E>)
+
+- .dir(<E)
+- _Shrine::ShadaNaw:
+    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16042s)
+
+- .dir(W>>)
+- _Korok::H10:
+    comment: " "
+
+- midair .dir(E)
+- _Korok::H11
+
+- .dir(NW) down
+- _Korok::H09
+
+- .dir(NW):
+    notes: Climb out
+- _Korok::H04:
+    comment: " "
+
+- .dir(<W)
+- _Boss::Hinox::Stal:
+    coord: [-4260.15, 327.00, -3777.48]
+    comment: Ancient arrows
+
+- .dir(W)
+- _Korok::H01
+
+- Run
+- _Shrine::HiaMiu:
+    comment: Major Test of Strength
+
+- .dir(S.) + midairs
+- _Korok::H23:
+    comment: On peak far
+
+- .dir(N>)
+- _Discover<Sherfin's Hot Spring>:
+    coord: [-4309.50, 460.50, -3495.00]
+
+- .dir(N.) + climb
+- _Korok::H07:
+    comment: " "
+    notes: Pre-aim, walk onto start block, instant square-first windbomb
+    time-override: 360
+
+- .gale() + .dir(E):
+    gale: 1
+- _Korok::H08:
+    comment: Aim .dir(<<S) above lasers
+
+- .dir(N)
+- _Korok::H02:
+    comment: " "
+
+- Clip in to mountain:
+    icon: tots
+    hide-icon-on-map: true
+    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
+
+- Clip out:
+    icon: tots
+    hide-icon-on-map: true
+    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
+
+- _Korok::H03:
+    comment: On skeleton
+
+- _Shrine::ToQuomo
+
+- _Snap::Quest<Hebra Great Skeleton>:
+    hide-icon-on-map: true

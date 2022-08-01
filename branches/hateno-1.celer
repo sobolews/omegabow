@@ -14,6 +14,7 @@ Hateno:
 - .!!(Upgrade House):
     icon: house-plus
     comment: 14 of them
+    hide-icon-on-map: true
 
 - .dir(N.)
 - _Npc<Medda>:
@@ -41,19 +42,20 @@ Hateno:
     comment: Talk and SNAP
 - .!!(Bombs+ Stasis+):
     icon: camera-plus
+    hide-icon-on-map: true
     notes: If less than 3 screws, upgrade slate in Hateno 2
     split-type: UserDefined
 
 - _Material<2 Apple>:
     comment: In tree
-    hide-icon-on-map: true
+    # hide-icon-on-map: true
+    coord: [3794.90, 358.74, 2110.02]
 
 - .dir(E) down
 - _Korok::N48:
     comment: " "
 
-- .!!(Save and close software):
-    icon: tots
+- .!!(SAVE AND CLOSE GAME):
     notes: Clears inventory glitch and warps back up to tech lab
     coord: [3805.5,2106.75]
     hide-icon-on-map: true
@@ -78,7 +80,10 @@ Hateno:
     comment: " "
 
 - _Korok::N49:
-    notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw)
+    movements:
+        - to: [2714.13, 225.53, 2345.55]
+          away: true
+    notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw). Windbomb over if it's raining.
 
 - .dir(N) + midair
 - _Tower::Hateno

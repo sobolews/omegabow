@@ -93,6 +93,7 @@ Rito Village:
 - _Material<Spicy Pepper>:
     comment: Pause/unpause
     notes: Sets up menuing for T09
+    coord: [-3987.10, 272.52, -1707.67]
 - _Korok::T16
 
 - .dir(W>) down

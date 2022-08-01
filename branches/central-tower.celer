@@ -137,8 +137,8 @@ Central Tower:
 - Kill .enemy(Red Moblin):
     icon: calamity
     coord: [132.65, 116.42, 1397.90]
-- _Equipment::Weapon<Moblin Club>:
     hide-icon-on-map: true
+- _Equipment::Weapon<Moblin Club>:
     comment: Weapon Connoisseur
 
 - .dir(SW) run

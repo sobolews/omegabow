@@ -58,11 +58,13 @@ The Glitch:
     coord: [-2299.82, 439.59, 469.19]
 - _Material<2+ Raw Bird Drumstick>:
     notes: .v(Scrap)/8 scrap
+    hide-icon-on-map: true
     var-change:
       Scrap: 1
 
-- .!!(In shrine)
-- _Chest<Forest Dweller's Bow>
+- In shrine
+- _Chest<Forest Dweller's Bow>:
+    hide-icon-on-map: true
 - _Shrine::MoggLatan:
     notes: .link([Shrine Strat]https://youtu.be/ZCgad_IJxoA?t=1646)
 
@@ -86,6 +88,7 @@ The Glitch:
     notes: Skip gears. Continue even if less than 3 screws. Don't take more than 2 Spring, 1 Shaft. Take core if one drops.
 
 - .dir(SE) to .loc(Kaya Wan)
+- In shrine
 - _Chest<Ancient Core>:
     hide-icon-on-map: true
 - _Shrine::KayaWan
@@ -94,6 +97,7 @@ The Glitch:
 - Kill .enemy(Green Lizalfos):
     icon: calamity
     notes: (Optional) Safety for horn/talon rng.
+    coord: [1618.93, 116.12, 475.68]
 - _Shrine::DakaTuss:
     notes: Good place to eat steak. .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2053s)
 
@@ -101,6 +105,7 @@ The Glitch:
 - _Npc::SheikaFemale<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
 - _Equipment::Shield<Pot Lid>:
+    coord: [1798.63, 219.90, 1011.16]
     notes: Don't damage this one
 
 - _Material<1 Energetic Rhino Beetle>:
@@ -109,7 +114,9 @@ The Glitch:
     notes: Make morning if needed
 
 - .dir(N.) to .loc(Ta'loh Naeg)
-- _Chest<Opal>
+- In shrine
+- _Chest<Opal>:
+    hide-icon-on-map: true
 - _Shrine::TalohNaeg:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=2472s)
 
@@ -134,8 +141,9 @@ The Glitch:
 - Set repeating campfire:
     icon: tots
     comment: Flint + wood + torch
-- _Tod::Morning:
     coord: [1730.5,2969.5]
+- _Tod::Morning:
+    hide-icon-on-map: true
     notes: Make morning between each shot
 
 - Shoot Farosh (Scale):

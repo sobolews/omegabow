@@ -31,7 +31,8 @@ Dinraal:
     notes: Ok to use a gale here to get the scale. In that case, skip gale 3 in maze.
 
 - _Tod::Morning:
-    coord: [267.00, 173.39, -3668.50]
+    # coord: [267.00, 173.39, -3668.50]
+    hide-icon-on-map: true
     notes: Look WEST back toward Qaza Tokki when sitting at campfire. Facing east can stop Dinraal from spawning.
 
 - .dir(E)
@@ -45,7 +46,8 @@ Dinraal:
     hide-icon-on-map: true
 
 - _Tod::Morning:
-    coord: [1163.40, 209.96, -3742.78]
+    # coord: [1163.40, 209.96, -3742.78]
+    hide-icon-on-map: true
 
 - .dir(E)
 - _Korok::E01:
@@ -59,7 +61,9 @@ Dinraal:
 - .dir(E) + midair
 - _Korok::E02
 - _Snap::Quest<Eldin Great Skeleton>:
-    coord: [1635.10, 207.96, -3661.03]
+    movements:
+        - to: [1517.38, 209.04, -3703.94]
+          away: true
     notes: Look back and zoom in
 
 - .dir(NE)
@@ -112,7 +116,10 @@ Dinraal:
 
 - .dir(E)
 - _Korok::A11
-- _Snap::Quest<Blupee>
+- _Snap::Quest<Blupee>:
+    movements:
+        - to: [3350.29, 164.95, -3062.80]
+          away: true
 
 - .dir(E)
 - _Korok::A12:
@@ -133,6 +140,7 @@ Dinraal:
 
 - Look up .!!(East) in the sky:
     icon: tots
+    hide-icon-on-map: true
     notes: For Salvager chest. Watch it land.
 
 - .dir(N>)
@@ -195,8 +203,10 @@ Dinraal:
     coord: [4627,-3693.5]
 - .gale() to .loc(Tu Ka'loh):
     gale: 1
+- In shrine
 - _Chest<Barbarian Helm>:
-    comment: In shrine, equip
+    comment: Equip
+    hide-icon-on-map: true
 - _Shrine::TuKaloh
 
 - .dir(S>>)

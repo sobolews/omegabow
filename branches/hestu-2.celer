@@ -6,7 +6,7 @@ Hestu 2:
 - .dir(N) short
 - _Chest<Knight's Broadsword>:
     coord: [826.64, 112.80, 123.61]
-    comment: .rune(Mag) out of water
+    comment: .rune(Magnesis) out of water
 
 - .dir(SE) short
 - _Discover<Wetland Stable>:
@@ -15,9 +15,7 @@ Hestu 2:
 - .dir(<S) short
 - _Npc<Hestu>:
     coord: [870.83, 131.54, 203.47]
-- .!!(3 bow, 2 weapon slots):
-    icon: bow
-    hide-icon-on-map: true
+    comment: 3 bow, 2 weapon slots
 
 - .dir(S) short
 - _Korok::Z37:

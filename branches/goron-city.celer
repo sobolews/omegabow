@@ -41,6 +41,7 @@ Goron City:
 
 - _Tod::Night:
     notes: (Optional) To talk to Greyson
+    hide-icon-on-map: true
 
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
@@ -139,7 +140,7 @@ Goron City:
 
 - .dir(W>)
 - _Korok::K07:
-    comment: Pinwheel, bomb arrow
+    comment: Pinwheel
 
 - .dir(W>)
 - _Korok::K06:

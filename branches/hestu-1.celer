@@ -24,8 +24,9 @@ Hestu 1:
 - .dir(E>) + .dir(SE)
 - Kill .enemy(Blue Bokoblins):
     icon: calamity
+    coord: [2163,1380.125]
+- _Chest::Special<Hestu's Maracas>:
     coord: [2172.24, 218.76, 1369.20]
-- _Chest::Special<Hestu's Maracas>
 
 - .dir(E) short
 - _Korok::D21
@@ -33,9 +34,7 @@ Hestu 1:
 - .dir(W)
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
-- .!!(Add 2 bow slots):
-    icon: bow
-    hide-icon-on-map: true
+    comment: 2 bow slots
 
 - .dir(.W)
 - _Korok::D20:

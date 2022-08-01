@@ -112,6 +112,7 @@ Castle Town Ruins:
 
 - .gale() + .dir(S):
     gale: 1
+- In shrine
 - Fight Test of Strength:
     icon: calamity
     hide-icon-on-map: true
@@ -120,6 +121,7 @@ Castle Town Ruins:
     hide-icon-on-map: true
 - _Chest::Special<Frostspear>:
     comment: Weapon Connoisseur
+    hide-icon-on-map: true
 - _Shrine::NamikaOzz:
     comment: Modest Test of Strength
 

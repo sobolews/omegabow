@@ -1,4 +1,8 @@
 Endgame: 
+- Turn in orbs for .!!(27 hearts):
+    icon: tots
+    hide-icon-on-map: true
+
 - _Warp::Shrine::DahHesho:
     comment: WARP 99.66%
     notes: .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)

@@ -72,6 +72,7 @@ Hateno 2:
 
 - .dir(E)
 - _Shrine::MyahmAgana:
+    hide-icon-on-map: true
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=5334s)
 
 - .dir(SW) down

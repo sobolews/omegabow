@@ -21,8 +21,6 @@ Hyrule Castle:
     icon: equipment
     coord: [-253.5,-1115.5]
 - .!!(SAVE THE GAME):
-    icon: tots
-    hide-icon-on-map: true
     notes: For convenient location to reload
 
 - .boss(Ganon):
@@ -101,7 +99,7 @@ Hyrule Castle:
 - Steal 1 bow from .enemy(lizalfos):
     icon: calamity
     hide-icon-on-map: true
-    notes: To fill up bow. Can also pick up missing Lizalfos Horn here.
+    notes: Can also pick up missing Lizalfos Horn here
 
 - _Equipment::Weapon<Great Flameblade>:
     coord: [-268.24, 131.34, -1153.31]

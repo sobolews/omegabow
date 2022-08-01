@@ -90,4 +90,5 @@ Moldugas:
 - .!!(Sand Seal Race):
     icon: tots
     hide-icon-on-map: true
-- _Shrine::RaqaZunzo
+- _Shrine::RaqaZunzo:
+    notes: Backup Radiant Shield here

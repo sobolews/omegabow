@@ -47,6 +47,7 @@ Vah Rudania:
     gale: 1
 
 - _Chest<Knight's Bow>:
+    hide-icon-on-map: true
     notes: Need a single shot bow for the trickshot and a metal bow for later Eldin. Get this one if you didn't pick up one earlier.
 
 - .boss(Fireblight):

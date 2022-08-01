@@ -10,6 +10,7 @@ Vah Ruta:
 - .dir(N) ride
 - _Npc::Rito<Kass>:
     coord: [2589.68, 232.40, 444.25]
+    comment: The Crowned Beast
 
 - .dir(<W)
 - _Korok::N04:
@@ -101,6 +102,7 @@ Vah Ruta:
 
 - _Equipment::Shield<Zora Armor>:
     comment: .!!(Equip)
+    hide-icon-on-map: true
 
 - _Shrine::NeezYohma:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=14903s)

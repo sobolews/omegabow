@@ -31,7 +31,8 @@ East Desert:
     hide-icon-on-map: true
     notes: Weapon Connoisseur
 - _Tod::Noon:
-    coord: [-2141.96, 333.51, 2140.63]
+    hide-icon-on-map: true
+    # coord: [-2141.96, 333.51, 2140.63]
     notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. If you're missing the window, make noon later in this segment.
 
 - .dir(N) run
@@ -83,12 +84,14 @@ East Desert:
 - .dir(<<E):
     coord: [-1748.5,3470.25]
     notes: See map for where to drop in
+- In shrine
 - _Chest<Barbarian Armor>:
-    comment: In shrine; equip + snow boots
+    comment: Equip this + snow boots
     hide-icon-on-map: true
 - _Shrine::DilaMaag
 
-- .dir(N) + .dir(E>) midairs
+- .dir(N) + .dir(E>) midairs:
+    coord: [-1806.75,3340.5]
 - _Korok::W54
 
 - .dir(S>)
@@ -105,7 +108,7 @@ East Desert:
 - .dir(<N)
 - Read .!!(Mountain Peak Log):
     icon: tots
-    hide-icon-on-map: true
+    # hide-icon-on-map: true
     coord: [-1387.83, 540.50, 3494.08]
 
 - Activate .!!(Pedestal):
@@ -143,8 +146,8 @@ East Desert:
 - Kill .enemy(Blue Lizalfos):
     icon: calamity
     hide-icon-on-map: true
-    comment: Lizalfos Horn?
-    notes: Can drop fire arrows too
+    comment: 1 Lizalfos Horn?
+    notes: Inventory corruption leaves us missing 1 Lizalfos Horn. High chance to pick it up here.
 
 - .dir(S)
 - _Korok::W63

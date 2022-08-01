@@ -92,8 +92,12 @@ _route:
 
   - Rito Village:
     - __use__ Rito Village
-  - Hebra:
-    - __use__ Hebra
+  - Hebra 1:
+    - __use__ Hebra 1
+  - Hebra 2:
+    - __use__ Hebra 2
+  - Hebra 3:
+    - __use__ Hebra 3
   - Eldin Canyon:
     - __use__ Eldin Canyon
   - Akkala Complete:

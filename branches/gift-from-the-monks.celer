@@ -29,7 +29,7 @@ Gift from the Monks:
     comment: " "
 
 - .dir(SE)
-- _Chest<Salvager Trousers>:
+- _Chest::Special<Salvager Trousers>:
     coord: [-2605.00, 583.00, -2652.00]
 
 - .dir(<E)
@@ -166,4 +166,5 @@ Gift from the Monks:
 - Down
 - _Shrine::RonaKachta
 
-- _Chest::Special<Set of the Wild>
+- _Chest::Special<Set of the Wild>:
+    hide-icon-on-map: true

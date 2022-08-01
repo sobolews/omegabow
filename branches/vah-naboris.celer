@@ -96,8 +96,9 @@ Vah Naboris:
     comment: Deliver ice
 
 - .dir(N>) + midair to .loc(Dako Tah)
+- In shrine
 - _Chest<Radiant Shield>:
-    comment: In shrine
+    hide-icon-on-map: true
 - _Shrine::DakoTah:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=12428s)
 

@@ -7,7 +7,7 @@ Naydra:
 - _Korok::N44
 
 - .dir(<N) + midairs
-- Begin Naydra sequence:
+- Begin Free Naydra:
     icon: tots
     coord: [3965,1353]
     notes: Shoot an eye before each of the following three koroks (N24, N31, N39)

@@ -122,9 +122,9 @@ Dueling Peaks:
 - Kill .enemy(Stalkoblin):
     icon: calamity
     coord: [1282.48, 523.75, 1939.55]
+    hide-icon-on-map: true
     notes: Need to get here before 5am. Backup in Kakariko later.
 - _Equipment::Weapon<Traveler's Sword>:
-    hide-icon-on-map: true
     comment: Weapon Connoisseur
     
 - _Shrine::SheeVaneer:
