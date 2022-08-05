@@ -79,11 +79,11 @@ Dinraal:
 - .!!(Gut Check Challenge):
     icon: tots
     hide-icon-on-map: true
-    comment: .gale() + .dir(E) midair
+    comment: .gale() + .dir(W) midair
+    notes: Or windbomb E and then W
     gale: 1
 
-- _Shrine::GoraeTorr:
-    notes: WB .dir(E) and then midair .dir(W).
+- _Shrine::GoraeTorr
 
 - _Tod::Night:
     notes: For Kilton and Salvager chest
@@ -146,7 +146,6 @@ Dinraal:
 - .dir(N>)
 - _Korok::A02:
     comment: Check for rain
-    notes: If it's raining/going to rain, make noon here under enemy camp. Need clear skies for blue flame.
 
 - .dir(E)
 - _Korok::A03
@@ -169,6 +168,7 @@ Dinraal:
 - .!!(Smuggle Blue Flame):
     icon: tots
     coord: [4155.5,-3170.5]
+    notes: If it's raining/going to rain, make noon.
 
 - .dir(E)
 - Throw torch down:
@@ -179,6 +179,7 @@ Dinraal:
 - Activate .loc(Akkala Tech Lab):
     icon: location
     coord: [4522.01, 354.23, -3166.63]
+    notes: Once the tech lab is activated, if it's between 9pm and 5am, Jerrin will walk to bed. Make it inside the tech lab quickly and hold the flame to the furnace (don't throw it) to ensure Jerrin is loaded in "awake."
 
 - _Npc<Robbie>:
     comment: Text options 1-1-2

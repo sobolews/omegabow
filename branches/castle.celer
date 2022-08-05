@@ -8,7 +8,7 @@ Hyrule Castle:
 - _Korok::X06:
     comment: In belltower
 
-- .dir(N) down
+- .dir(S) down
 - _Korok::X10:
     comment: " "
 
@@ -89,21 +89,21 @@ Hyrule Castle:
 - _Shrine::SaasKosah:
     comment: Major Test of Strength
 
-- _Chest<Star Fragment>:
-    coord: [-224.01, 104.73, -1177.87]
-    comment: In the water
-    notes: .v(Star)/3 star fragments
-    var-change:
-        Star: 1
-
-- Steal 1 bow from .enemy(lizalfos):
-    icon: calamity
-    hide-icon-on-map: true
-    notes: Can also pick up missing Lizalfos Horn here
+# - _Chest<Star Fragment>:
+#     coord: [-224.01, 104.73, -1177.87]
+#     comment: In the water
+#     notes: .v(Star)/3 star fragments
+#     var-change:
+#         Star: 1
 
 - _Equipment::Weapon<Great Flameblade>:
     coord: [-268.24, 131.34, -1153.31]
-    notes: This and the Thunderblade are high durability weapons for tree chopping
+    notes: High durability weapon for tree chopping, campfires
+
+- Steal bow from .enemy(lizalfos):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: Lizalfos Horn if needed
 
 - Run
 - _Korok::X01
