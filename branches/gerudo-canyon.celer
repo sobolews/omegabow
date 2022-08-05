@@ -210,5 +210,6 @@ Gerudo Canyon:
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true
-- _Shrine::SasaKai:
     comment: 2:55pm to 3:50pm
+- _Shrine::SasaKai:
+    comment: Modest Test of Strength

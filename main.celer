@@ -4,8 +4,8 @@ _project:
     - ""
   description: ""
   name: Corrupted Granatus (Omegafairy v2)
-  url: ""
-  version: 0.1.0
+  url: https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/
+  version: 2.0
 
 _config:
   split-format:
