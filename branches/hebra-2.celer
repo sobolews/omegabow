@@ -1,6 +1,7 @@
 Hebra 2:
 - _Warp::Shrine::ShadaNaw:
     comment: WARP
+    notes: If you are low on fire arrows, you can warp to Dah Hesho and turn in 50 wood to Hudson now. Fyson will be there selling arrows. Then warp to Shada Naw and continue.
 
 - .dir(S.) way down
 - _Boss::Talus::Frost:

@@ -42,10 +42,20 @@ Kakariko 3:
     coord: [1828.22, 218.59, 990.14]
     comment: Find the Fairy Fountain
 
+- Light torches:
+    icon: tots
+    coord: [1847.75,1000]
+    comment: Arrows of Burning Heat
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
 - _Npc<Koko>:
     coord: [1801,1016.5]
     comment: All 4 Koko quests
     notes: Swift carrot, goat butter, raw meat, courser bee honey
+
 - _Tod::Night:
     hide-icon-on-map: true
 
@@ -72,13 +82,6 @@ Kakariko 3:
 - .dir(W.)
 - _Npc<Paya and Impa>:
     coord: [1772.71, 229.43, 984.31]
-- Light torches:
-    icon: tots
-    coord: [1847.75,1000]
-    comment: Arrows of Burning Heat
-- _Npc<Rola>:
-    coord: [1830.49, 222.41, 1044.89]
-    comment: Arrows of Burning Heat
 
 - _Tod::Night:
     hide-icon-on-map: true
