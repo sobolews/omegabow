@@ -115,7 +115,8 @@ Eventide:
     comment: " "
 
 - .dir(SW) + midairs
-- _Shrine::ChaasQeta
+- _Shrine::ChaasQeta:
+    comment: Major Test of Strength
 
 - _Korok::N66
 

@@ -21,7 +21,8 @@ Gift from the Monks:
     notes: For Salvager chest. Watch it land.
 
 - Down
-- _Shrine::GomaAsaagh
+- _Shrine::GomaAsaagh:
+    comment: Major Test of Strength
 
 - .dir(SW) run:
     notes: Can shield jump onto ice or shoot a fire arrow between the ice blocks and run through
