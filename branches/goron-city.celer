@@ -18,7 +18,20 @@ Goron City:
 - _Korok::E26:
     comment: " "
 
-- .dir(.N) to .loc(Southern Mine)
+- .dir(SW)
+- _Memory::EldinCanyon
+- _Korok::E31:
+    comment: Next to memory
+
+- .dir(N>)
+- _Korok::E24:
+    comment: " "
+
+- .dir(N>)
+- _Korok::E25:
+    comment: On skeleton in lava
+
+- .dir(N>) to .loc(Southern Mine)
 
 - _Material<10 Fireproof Lizard>:
     movements:

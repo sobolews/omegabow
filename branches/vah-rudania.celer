@@ -144,20 +144,7 @@ Vah Rudania:
 - _Shrine::QuaRaym:
     notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=19783s)
 
-- .dir(<N)
-- _Korok::E25:
-    comment: On skeleton in lava
-
 - .dir(<W)
-- _Korok::E24:
-    comment: " "
-
-- .dir(S.)
-- _Memory::EldinCanyon
-- _Korok::E31:
-    comment: Next to memory
-
-- .dir(S>)
 - _Korok::E35
 
 - .dir(E)

@@ -2,7 +2,7 @@ The Glitch:
 - BLSS .dir(W>) to .loc(Mushroom Woods):
     coord: [-2203.83, 267.93, 792.66] 
 
-- _Material<2+ Zapshroom>:
+- _Material<2 Zapshroom>:
     notes: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
@@ -10,7 +10,11 @@ The Glitch:
     notes: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
-- _Material<2+ Ironshroom>:
+- _Material<2 Chillshroom>:
+    notes: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
+- _Material<2+ Razorshroom>:
     notes: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
@@ -53,14 +57,14 @@ The Glitch:
 - _Material<2+ Wood>
 
 - .dir(W)
-- Kill 2+ .enemy(Mountain Crows):
-    icon: calamity
-    coord: [-2299.82, 439.59, 469.19]
-- _Material<2+ Raw Bird Drumstick>:
-    notes: .v(Scrap)/8 scrap
-    hide-icon-on-map: true
-    var-change:
-      Scrap: 1
+# - Kill 2+ .enemy(Mountain Crows):
+#     icon: calamity
+#     coord: [-2299.82, 439.59, 469.19]
+# - _Material<2+ Raw Bird Drumstick>:
+#     notes: .v(Scrap)/8 scrap
+#     hide-icon-on-map: true
+#     var-change:
+#       Scrap: 1
 
 - In shrine
 - _Chest<Forest Dweller's Bow>:

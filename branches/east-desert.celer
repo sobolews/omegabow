@@ -114,7 +114,7 @@ East Desert:
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true
-    notes: Between 4pm to 5:30pm
+    comment: 4:00pm to 5:30pm
 
 - _Shrine::SumaSahma
 
