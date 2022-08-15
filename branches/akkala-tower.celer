@@ -79,7 +79,7 @@ Akkala Tower:
 - _Korok::Z08
 
 - .dir(<W)
-- _Npc::ZoraMale<ZoraMonument>:
+- _Npc::ZoraMale<Zora Monument>:
     coord: [3720.59, 461.92, -532.05]
     comment: .v(Monument)/10
     var-change:

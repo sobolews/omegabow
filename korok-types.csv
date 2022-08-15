@@ -1,0 +1,900 @@
+H03,Flower Trail
+H01,Cube Puzzle
+H17,Rock Pattern
+H23,Rock Lift
+H02,Melt Ice Block
+H24,Flower Trail
+H08,Pinwheel Balloons
+H07,Goal Ring (Race)
+H40,Rock Lift
+H32,Moving Lights
+T07,Rock Pattern
+H60,Pinwheel Balloons
+H53,Rock Lift
+H39,Flower Trail
+T01,Flower Trail
+T09,Offering Plate
+T06,Goal Ring (Race)
+H42,Rock Lift (Rock Pile)
+H41,Rock Pattern
+T12,Rock Lift (Leaves)
+T08,Rock Lift
+T23,Rock Pattern
+T13,Rock Pattern
+T27,Offering Plate
+T36,Flower Order
+R32,Pinwheel Balloons
+R33,Rock Pattern
+G02,Goal Ring (Race)
+G05,Goal Ring (Race)
+G04,Cube Puzzle
+G08,Flower Trail
+G01,Roll a Boulder
+G03,Rock Pattern
+G07,Melt Ice Block
+W09,Stationary Lights
+G15,Rock Lift
+G20,Rock Pattern
+G11,Goal Ring (Race)
+G16,Moving Lights
+W04,Offering Plate
+W06,Flower Trail
+W05,Offering Plate
+G25,Offering Plate
+G21,Cube Puzzle
+W03,Offering Plate
+G33,Rock Pattern
+G30,Rock Pattern
+W25,Matching Trees
+W28,Goal Ring (Race)
+W18,Stationary Lights
+W36,Matching Trees
+W13,Stationary Lights
+W55,Rock Lift
+W61,Matching Trees
+W65,Stationary Lights
+W47,Flower Trail
+W66,Rock Lift
+W51,Matching Trees
+H18,Stationary Lights
+H04,Rock Pattern
+H19,Pinwheel Balloons
+H10,Acorn in a Hole
+H25,Rock Lift
+H09,Rock Lift (Leaves)
+H11,Stationary Lights
+H55,Pinwheel Balloons
+H33,Melt Ice Block
+T02,Stationary Lights
+T05,Rock Lift
+H46,Melt Ice Block
+H54,Rock Lift
+H43,Acorn in a Hole
+H26,Rock Lift
+H27,Pinwheel Balloons
+H34,Melt Ice Block
+T04,Ball and Chain
+T21,Rock Lift (Rock Pile)
+T24,Rock Lift
+T22,Rock Lift (Rock Pile)
+T17,Goal Ring (Race)
+T10,Offering Plate
+T11,Rock Lift
+T14,Stationary Balloon
+T25,Rock Lift
+T19,Dive
+T20,Cube Puzzle
+T15,Rock Lift
+T16,Flower Trail
+R12,Stationary Lights
+T37,Goal Ring (Race)
+T28,Roll a Boulder
+T29,Rock Lift
+R29,Rock Lift
+T35,Dive
+T26,Ball and Chain
+T30,Goal Ring (Race)
+T31,Offering Plate
+R36,Rock Lift
+R34,Hanging Acorn
+R35,Goal Ring (Race)
+T32,Rock Lift
+T34,Goal Ring (Race)
+R20,Cube Puzzle
+T33,Pinwheel Balloons
+R28,Rock Lift (Slab)
+R46,Flower Order
+G10,Rock Pattern
+G09,Rock Pattern
+R50,Stationary Balloon
+G06,Rock Lift
+G17,Melt Ice Block
+G22,Rock Pattern
+G12,Cube Puzzle
+W01,Rock Lift
+G26,Roll a Boulder
+W02,Offering Plate
+G31,Pinwheel Balloons
+W37,Flower Trail
+W17,Cube Puzzle
+W43,Flower Trail
+G34,Cube Puzzle
+W29,Goal Ring (Race)
+W42,Stationary Lights
+W67,Matching Trees
+W56,Rock Lift
+W57,Stationary Balloon
+W62,Rock Pattern
+H12,Rock Pattern
+H13,Melt Ice Block
+H20,Stationary Lights
+H29,Melt Ice Block
+H21,Stationary Lights
+H30,Pinwheel Acorns
+H44,Stationary Balloon
+H28,Rock Lift
+H52,Acorn in a Hole
+H50,Stationary Balloon
+H36,Rock Pattern
+H64,Rock Lift
+H47,Stationary Balloon
+T03,Dive
+H51,Rock Lift
+H45,Melt Ice Block
+H35,Rock Lift
+H61,Rock Lift
+H48,Rock Lift
+H31,Melt Ice Block
+H49,Goal Ring (Race)
+H56,Flower Trail
+H57,Roll a Boulder
+H69,Acorn in a Hole
+K22,Rock Lift (Rock Pile)
+H66,Dive
+R05,Acorn in a Hole
+R08,Rock Lift (Rock Pile)
+R04,Rock Pattern
+H68,Rock Lift
+R06,Stationary Lights
+R01,Cube Puzzle
+T18,Stationary Lights
+H70,Flower Trail
+H71,Rock Lift (Rock Pile)
+R02,Rock Lift
+R03,Rock Lift (Rock Pile)
+H65,Stationary Lights
+H67,Ball and Chain
+H73,Goal Ring (Race)
+H72,Stationary Lights
+R15,Rock Pattern
+R22,Stationary Balloon
+R30,Goal Ring (Race)
+R23,Flower Trail
+R21,Moving Lights
+R13,Rock Lift
+R31,Stationary Balloon
+R24,Dive
+R14,Moving Lights
+R17,Rock Lift
+R64,Rock Lift (Rock Pile)
+R72,Rock Lift (Leaves)
+R73,Roll a Boulder
+R59,Rock Lift
+R37,Rock Lift
+R47,Pinwheel Balloons
+R63,Rock Lift (Leaves)
+R51,Rock Pattern
+R69,Acorn in a Hole
+R62,Goal Ring (Race)
+R65,Flower Order
+R70,Rock Lift (Boulder)
+R61,Flower Trail
+R67,Circle of Rocks
+R54,Stationary Lights
+R71,Rock Lift
+R60,Rock Lift (Leaves)
+R52,Rock Lift
+R66,Ball and Chain
+R53,Rock Lift (Rock Pile)
+W08,Stationary Lights
+R77,Hanging Acorn
+G24,Rock Pattern
+G18,Melt Ice Block
+R76,Rock Lift
+G28,Cube Puzzle
+W07,Cube Puzzle
+G14,Pinwheel Balloons
+G32,Goal Ring (Race)
+G27,Rock Pattern
+G13,Stationary Lights
+R75,Hanging Acorn
+G23,Rock Lift
+G19,Rock Pattern
+W39,Cube Puzzle
+W32,Cube Puzzle
+G35,Goal Ring (Race)
+W11,Rock Lift
+W15,Rock Lift
+W12,Hanging Acorn
+W16,Roll a Boulder
+W31,Rock Lift
+W33,Stationary Balloon
+W30,Cube Puzzle
+W10,Stationary Balloon
+W24,Rock Lift
+W38,Rock Lift
+W23,Goal Ring (Race)
+W35,Stationary Balloon
+W40,Rock Lift
+W19,Rock Lift
+W14,Rock Lift
+W68,Rock Lift
+W48,Cube Puzzle
+W44,Cube Puzzle
+W58,Goal Ring (Race)
+W63,Goal Ring (Race)
+W52,Cube Puzzle
+H15,Cube Puzzle
+H06,Rock Pattern
+H14,Acorn in a Hole
+H05,Pinwheel Balloons
+H22,Roll a Boulder
+K09,Rock Lift
+K13,Rock Lift (Rock Pile)
+H62,Pinwheel Balloons
+K16,Acorn in a Hole
+K12,Rock Lift (Rock Pile)
+H58,Rock Lift (Leaves)
+K10,Cube Puzzle
+H37,Moving Lights
+K14,Rock Lift (Door)
+K15,Rock Lift
+H59,Roll a Boulder
+H63,Rock Lift
+H38,Rock Lift (Rock Pile)
+R10,Flower Trail
+K24,Moving Lights
+R09,Goal Ring (Race)
+K17,Jump the Fences
+K25,Rock Pattern
+K23,Acorn in a Hole
+R07,Rock Lift
+R11,Circle of Rocks
+K18,Stationary Lights
+K21,Rock Lift (Rock Pile)
+K20,Rock Lift
+R19,Roll a Boulder
+R45,Flower Trail
+R43,Stationary Balloon
+R42,Rock Lift
+R38,Matching Trees
+R16,Cube Puzzle
+R44,Circle of Rocks
+R41,Flower Order
+R25,Goal Ring (Race)
+R48,Acorn in a Hole
+R40,Rock Lift (Slab)
+R18,Goal Ring (Race)
+R27,Hanging Acorn
+C24,Rock Lift
+R39,Moving Lights
+C47,Dive
+C68,Hanging Acorn
+C58,Ball and Chain
+C57,Acorn in a Hole
+C60,Cube Puzzle
+C59,Circle of Rocks
+C67,Rock Lift
+C38,Flower Trail
+R74,Rock Lift
+C61,Rock Pattern
+R57,Acorn in a Hole
+R56,Acorn in a Hole
+C37,Cube Puzzle
+C36,Rock Lift
+C52,Rock Lift
+R79,Offering Plate
+R49,Cube Puzzle
+R58,Rock Lift
+R55,Rock Lift
+C53,Offering Plate
+R68,Pinwheel Balloons
+P03,Cube Puzzle
+C74,Rock Lift
+C78,Rock Lift
+R80,Rock Lift
+C87,Circle of Rocks
+C81,Moving Lights
+P09,Stationary Lights
+C66,Rock Pattern
+C89,Circle of Rocks
+C73,Goal Ring (Race)
+C85,Rock Lift
+C79,Rock Lift
+C80,Acorn in a Hole
+C88,Dive
+C86,Rock Lift
+G29,Cube Puzzle
+C72,Pinwheel Acorns
+R78,Offering Plate
+P08,Stationary Lights
+W27,Pinwheel Balloons
+W26,Cube Puzzle
+G36,Ball and Chain
+P07,Melt Ice Block
+L36,Stationary Balloon
+W41,Rock Lift
+L21,Cube Puzzle
+W22,Pinwheel Balloons
+W20,Stationary Lights
+P17,Rock Lift
+P15,Rock Pattern
+L22,Hanging Acorn
+P14,Cube Puzzle
+P16,Rock Lift (Slab)
+W21,Cube Puzzle
+W34,Rock Pattern
+L23,Stationary Lights
+L68,Moving Lights
+W50,Rock Lift
+L67,Pinwheel Balloons
+W46,Rock Lift (Rock Pile)
+L41,Rock Lift (Rock Pile)
+W64,Rock Pattern
+W45,Rock Pattern
+W54,Rock Lift
+W53,Rock Lift
+W60,Melt Ice Block
+W49,Cube Puzzle
+W59,Melt Ice Block
+H16,Stationary Balloon
+K05,Pinwheel Balloons
+K06,Acorn in a Hole
+K11,Rock Lift
+K27,Pinwheel Balloons
+X01,Rock Lift
+K30,Rock Lift
+K28,Rock Lift
+K19,Acorn in a Hole
+K26,Pinwheel Balloons
+X09,Rock Lift
+K29,Acorn in a Hole
+C01,Rock Lift
+X02,Dive
+X11,Melt Ice Block
+X13,Offering Plate
+R26,Goal Ring (Race)
+C35,Rock Lift
+X23,Pinwheel Balloons
+C30,Rock Lift (Rock Pile)
+X05,Stationary Balloon
+C31,Rock Lift
+C08,Offering Plate
+X12,Rock Lift
+X19,Hanging Acorn
+C03,Cube Puzzle
+X25,Flower Trail
+C20,Rock Lift (Rock Pile)
+X04,Pinwheel Balloons
+X03,Rock Lift (Rock Pile)
+X07,Stationary Lights
+X08,Rock Lift
+X10,Goal Ring (Race)
+X17,Stationary Lights
+X18,Rock Lift
+C15,Dive
+C26,Stationary Balloon
+C25,Rock Lift
+X14,Rock Lift (Rock Pile)
+C21,Rock Pattern
+X20,Rock Lift (Rock Pile)
+C22,Rock Pattern
+C16,Acorn in a Hole
+C14,Rock Lift
+X21,Shoot the Crest
+C32,Shoot the Crest
+X24,Rock Lift
+X22,Pinwheel Balloons
+X15,Hanging Acorn
+C07,Pinwheel Acorns
+C27,Goal Ring (Race)
+C33,Pinwheel Balloons
+X16,Stationary Lights
+X06,Stationary Lights
+C49,Hanging Acorn
+C62,Moving Lights
+C63,Flower Trail
+C54,Stationary Lights
+C42,Stationary Balloon
+C39,Stationary Lights
+C55,Moving Lights
+C64,Moving Lights
+C48,Rock Lift
+C43,Pinwheel Acorns
+C41,Acorn in a Hole
+C40,Moving Lights
+P01,Rock Lift
+P04,Flower Trail
+P13,Rock Lift (Door)
+P12,Rock Lift (Door)
+C76,Rock Lift (Leaves)
+C69,Hanging Acorn
+C82,Moving Lights
+P02,Ball and Chain
+C70,Rock Pattern
+P06,Rock Lift
+C83,Pinwheel Balloons
+P05,Rock Lift (Leaves)
+P10,Dive
+C75,Dive
+D43,Flower Order
+P11,Stationary Lights
+L38,Cube Puzzle
+L24,Rock Lift
+L32,Rock Pattern
+L09,Circle of Rocks
+L14,Rock Lift (Slab)
+D54,Light Torch
+L26,Take the Stick
+L30,Flower Trail
+L37,Acorn in a Hole
+L27,Stationary Lights
+L25,Stationary Lights
+L15,Stationary Balloon
+P18,Stationary Lights
+L08,Goal Ring (Race)
+L49,Rock Pattern
+L80,Goal Ring (Race)
+L69,Cube Puzzle
+L62,Rock Lift (Rock Pile)
+L82,Stationary Lights
+L81,Rock Lift
+L83,Rock Lift (Rock Pile)
+L50,Cube Puzzle
+L48,Rock Lift
+L63,Offering Plate
+L47,Goal Ring (Race)
+L84,Moving Lights
+L85,Rock Pattern
+L64,Flower Trail
+K01,Rock Lift
+K02,Cube Puzzle
+K04,Pinwheel Balloons
+K07,Pinwheel Balloons
+K08,Pinwheel Balloons
+C02,Cube Puzzle
+K31,Rock Lift
+K32,Acorn in a Hole
+C23,Hanging Acorn
+C18,Moving Lights
+C12,Rock Lift
+C17,Rock Lift (Leaves)
+C09,Stationary Lights
+C05,Acorn in a Hole
+C06,Dive
+C04,Rock Lift
+C29,Stationary Lights
+C11,Rock Lift
+C10,Circle of Rocks
+C19,Pinwheel Balloons
+C34,Matching Trees
+C28,Rock Lift (Door)
+C65,Acorn in a Hole
+C44,Rock Lift
+Z37,Rock Lift
+D01,Rock Lift
+C56,Offering Plate
+C46,Rock Lift
+C51,Roll a Boulder
+C50,Flower Order
+C45,Rock Lift
+L01,Ball and Chain
+D37,Roll a Boulder
+D29,Rock Lift
+D16,Rock Lift
+D38,Rock Lift
+C71,Rock Lift
+D46,Matching Trees
+D33,Cube Puzzle
+D23,Pinwheel Acorns
+D26,Stationary Lights
+D35,Pinwheel Balloons
+D13,Rock Lift
+D27,Rock Lift
+D14,Hanging Acorn
+D25,Jump the Fences
+D15,Ball and Chain
+C77,Pinwheel Balloons
+D31,Roll a Boulder
+D47,Pinwheel Balloons
+D45,Stationary Lights
+C84,Pinwheel Acorns
+L02,Rock Lift
+D34,Rock Lift
+D22,Rock Lift (Boulder)
+D24,Roll a Boulder
+D36,Flower Trail
+D44,Rock Lift
+D28,Stationary Lights
+D32,Circle of Rocks
+L04,Ball and Chain
+D50,Rock Lift (Slab)
+L03,Cube Puzzle
+L12,Cube Puzzle
+L17,Moving Lights
+L18,Moving Lights
+L20,Cube Puzzle
+L40,Acorn in a Hole
+L28,Flower Order
+L31,Rock Lift
+L11,Ball and Chain
+L39,Rock Lift
+L44,Roll a Boulder
+L45,Rock Lift
+L34,Roll a Boulder
+L54,Dive
+L16,Roll a Boulder
+L13,Rock Lift (Rock Pile)
+L06,Moving Lights
+L51,Roll a Boulder
+L19,Rock Lift
+L42,Roll a Boulder
+L05,Flower Trail
+L10,Dive
+L43,Moving Lights
+L07,Roll a Boulder
+L29,Rock Lift
+L35,Matching Trees
+L33,Pinwheel Balloons
+L53,Ball and Chain
+L77,Rock Pattern
+L91,Rock Pattern
+L66,Circle of Rocks
+L70,Pinwheel Acorns
+L65,Goal Ring (Race)
+L74,Roll a Boulder
+L78,Rock Lift
+L73,Pinwheel Balloons
+L92,Cube Puzzle
+L88,Moving Lights
+L86,Rock Lift (Boulder)
+L55,Flower Trail
+L87,Rock Lift
+L60,Rock Lift (Rock Pile)
+L89,Dive
+L56,Ball and Chain
+L59,Dive
+L52,Rock Lift
+L90,Cube Puzzle
+L76,Roll a Boulder
+L72,Goal Ring (Race)
+L61,Rock Lift (Slab)
+L71,Rock Pattern
+L57,Moving Lights
+L75,Dive
+E07,Rock Lift
+K03,Rock Pattern
+E01,Rock Lift (Leaves)
+E13,Rock Lift
+E14,Goal Ring (Race)
+E19,Stationary Balloon
+E18,Rock Pattern
+E10,Pinwheel Balloons
+E16,Stationary Lights
+E17,Goal Ring (Race)
+E08,Rock Lift
+E15,Stationary Lights
+E31,Rock Pattern
+K33,Cube Puzzle
+E27,Rock Lift (Rock Pile)
+K34,Dive
+E36,Dive
+E35,Rock Pattern
+E24,Roll a Boulder
+E25,Goal Ring (Race)
+E26,Roll a Boulder
+C13,Circle of Rocks
+K35,Cube Puzzle
+Z29,Rock Pattern
+Z30,Rock Pattern
+Z02,Goal Ring (Race)
+Z11,Stationary Balloon
+Z12,Dive
+Z03,Moving Lights
+Z21,Rock Pattern
+Z38,Ball and Chain
+Z47,Rock Lift (Boulder)
+N01,Rock Lift
+Z60,Offering Plate
+Z49,Matching Trees
+Z48,Moving Lights
+Z39,Moving Lights
+Z50,Moving Lights
+Z40,Hanging Acorn
+D08,Rock Lift
+D40,Rock Lift
+D41,Roll a Boulder
+D11,Rock Lift
+D30,Offering Plate
+D03,Offering Plate
+D09,Matching Trees
+D48,Rock Lift
+D10,Rock Lift
+D20,Circle of Rocks
+D19,Circle of Rocks
+D17,Rock Lift
+D42,Stationary Lights
+D18,Dive
+D49,Offering Plate
+D02,Dive
+D39,Flower Trail
+D06,Shoot the Crest
+D05,Shoot the Crest
+D04,Rock Lift
+F11,Rock Lift
+F05,Pinwheel Balloons
+D59,Rock Lift
+D51,Rock Lift
+F04,Rock Pattern
+F16,Goal Ring (Race)
+F03,Pinwheel Balloons
+D56,Rock Lift
+L46,Rock Lift
+F02,Goal Ring (Race)
+F01,Acorn in a Hole
+F10,Flower Trail
+F17,Ball and Chain
+D55,Rock Lift
+F08,Rock Lift
+F42,Pinwheel Balloons
+F34,Pinwheel Balloons
+F54,Rock Lift
+L58,Moving Lights
+F35,Remove Luminous Stone
+F53,Rock Pattern
+F46,Cube Puzzle
+F27,Rock Lift
+F28,Flower Trail
+L79,Rock Pattern
+F48,Offering Plate
+F25,Offering Plate
+F41,Burn the Leaves (Goatee)
+F24,Stationary Balloon
+F19,Goal Ring (Race)
+F56,Stationary Balloon
+F15,Moving Lights
+F26,Cube Puzzle
+F38,Rock Lift
+F40,Rock Lift
+F39,Offering Plate
+F23,Flower Trail
+F20,Matching Trees
+F55,Rock Lift
+E04,Rock Lift (Rock Pile)
+E09,Rock Lift
+A01,Rock Lift
+E05,Rock Pattern
+E03,Rock Lift (Rock Pile)
+E06,Rock Lift (Rock Pile)
+E02,Cube Puzzle
+E21,Cube Puzzle
+E20,Roll a Boulder
+E23,Rock Lift (Rock Pile)
+E22,Rock Lift
+E11,Rock Pattern
+E28,Pinwheel Balloons
+E29,Circle of Rocks
+E37,Rock Pattern
+E38,Cube Puzzle
+E39,Circle of Rocks
+E40,Rock Lift (Rock Pile)
+E34,Rock Pattern
+E41,Stationary Balloon
+E42,Rock Lift
+E43,Rock Lift (Rock Pile)
+E32,Rock Lift (Rock Pile)
+E33,Goal Ring (Race)
+E30,Cube Puzzle
+Z22,Rock Lift
+Z14,Stationary Lights
+Z31,Circle of Rocks
+E44,Rock Lift
+Z15,Cube Puzzle
+Z13,Goal Ring (Race)
+E45,Goal Ring (Race)
+Z23,Ball and Chain
+N07,Matching Trees
+Z43,Cube Puzzle
+N09,Offering Plate
+N13,Roll a Boulder
+N08,Cube Puzzle
+N06,Stationary Lights
+N05,Moving Lights
+N04,Pinwheel Acorns
+N10,Flower Trail
+N03,Rock Lift
+Z41,Rock Pattern
+Z42,Stationary Balloon
+N02,Rock Lift
+N11,Roll a Boulder
+D07,Rock Lift
+N28,Offering Plate
+N16,Rock Lift
+N35,Cube Puzzle
+N26,Roll a Boulder
+N36,Acorn in a Hole
+N34,Pinwheel Acorns
+D21,Stationary Lights
+N33,Rock Lift (Door)
+N15,Dive
+N21,Rock Lift
+D12,Cube Puzzle
+N20,Rock Pattern
+N27,Rock Lift (Rock Pile)
+F12,Flower Trail
+N45,Shoot the Targets
+D53,Dive
+F07,Moving Lights
+F13,Rock Lift
+D58,Pinwheel Acorns
+F14,Dive
+D52,Pinwheel Balloons
+F06,Rock Lift
+F22,Flower Trail
+D57,Dive
+N49,Acorn in a Hole
+F09,Circle of Rocks
+N50,Matching Trees
+N46,Rock Lift (Door)
+F31,Rock Lift (Leaves)
+F57,Rock Pattern
+F43,Rock Pattern
+F21,Offering Plate
+F30,Matching Trees
+F36,Rock Pattern
+F45,Flower Trail
+F29,Cube Puzzle
+F44,Take Apple from Palm Tree
+F47,Rock Lift
+F49,Rock Pattern
+A10,Rock Lift (Slab)
+A11,Rock Lift
+A12,Stationary Balloon
+A07,Roll a Boulder
+A04,Flower Order
+A02,Rock Pattern
+A05,Goal Ring (Race)
+A06,Rock Lift (Slab)
+A03,Rock Lift (Boulder)
+A13,Rock Lift (Leaves)
+A26,Cube Puzzle
+A21,Rock Lift
+A20,Cube Puzzle
+A31,Rock Lift (Leaves)
+A25,Stationary Lights
+A27,Moving Lights
+A32,Matching Trees
+E12,Cube Puzzle
+A18,Acorn in a Hole
+A40,Rock Lift (Leaves)
+A46,Rock Lift (Door)
+A45,Rock Pattern
+A42,Rock Lift
+A47,Offering Plate
+A41,Rock Lift (Leaves)
+A38,Flower Trail
+Z04,Rock Lift
+A39,Rock Lift (Door)
+A30,Moving Lights
+A43,Rock Lift (Leaves)
+A51,Circle of Rocks
+A37,Rock Lift
+A50,Rock Lift (Slab)
+Z18,Cube Puzzle
+Z17,Stationary Lights
+A52,Rock Lift
+Z08,Rock Lift (Rock Pile)
+Z26,Rock Lift
+Z24,Flower Trail
+Z32,Rock Pattern
+Z05,Moving Lights
+A54,Pinwheel Balloons
+Z25,Rock Lift
+Z16,Stationary Lights
+Z45,Moving Lights
+Z34,Rock Lift
+Z52,Rock Lift (Leaves)
+Z53,Flower Trail
+Z51,Rock Pattern
+Z55,Rock Lift
+Z54,Rock Lift (Rock Pile)
+Z33,Moving Lights
+Z44,Moving Lights
+N12,Rock Pattern
+N14,Rock Pattern
+N18,Melt Ice Block
+N43,Rock Lift
+N37,Dive
+N31,Melt Ice Block
+N30,Matching Trees
+N22,Cube Puzzle
+N42,Rock Lift
+N29,Dive
+N24,Melt Ice Block
+N17,Goal Ring (Race)
+N38,Pinwheel Balloons
+N39,Goal Ring (Race)
+N23,Moving Lights
+F18,Rock Lift (Rock Pile)
+N53,Rock Lift
+N58,Cube Puzzle
+N41,Dive
+N61,Rock Pattern
+N64,Matching Trees
+N52,Acorn in a Hole
+N48,Dive
+N59,Flower Trail
+N51,Rock Lift
+N47,Stationary Lights
+N60,Circle of Rocks
+F33,Rock Lift
+F58,Dive
+F51,Dive
+N65,Rock Pattern
+F52,Rock Lift
+F32,Moving Lights
+F37,Dive
+F50,Flower Trail
+A15,Rock Lift
+A08,Rock Lift (Rock Pile)
+A16,Stationary Lights
+A09,Rock Lift (Slab)
+A17,Flower Order
+A14,Goal Ring (Race)
+A29,Pinwheel Balloons
+A22,Rock Lift (Leaves)
+A23,Rock Pattern
+A33,Rock Lift (Leaves)
+A28,Goal Ring (Race)
+A24,Cube Puzzle
+A19,Flower Order
+A35,Flower Trail
+A44,Goal Ring (Race)
+Z06,Rock Lift
+A49,Matching Trees
+A34,Rock Pattern
+Z07,Rock Lift
+Z01,Flower Trail
+A36,Cube Puzzle
+A48,Flower Order
+Z20,Flower Trail
+Z28,Rock Lift (Rock Pile)
+A56,Moving Lights
+Z19,Roll a Boulder
+Z27,Cube Puzzle
+A53,Matching Trees
+Z10,Rock Lift (Rock Pile)
+Z09,Dive
+A57,Stationary Lights
+A55,Rock Lift (Boulder)
+Z36,Rock Lift (Rock Pile)
+Z62,Rock Pattern
+Z57,Rock Lift (Slab)
+Z35,Rock Lift (Rock Pile)
+Z56,Circle of Rocks
+Z59,Flower Trail
+Z58,Stationary Balloon
+Z46,Cube Puzzle
+Z61,Flower Trail
+N19,Rock Pattern
+N25,Roll a Boulder
+N44,Flower Trail
+N32,Goal Ring (Race)
+N40,Rock Lift (Slab)
+N63,Rock Pattern
+N55,Pinwheel Balloons
+N66,Goal Ring (Race)
+N56,Dive
+N57,Flower Trail
+N54,Offering Plate
+N62,Flower Trail
