@@ -1,5 +1,6 @@
 Tarrey Town Complete:
-- .dir(<E)
+- .dir(<E):
+    notes: .link([Tarrey Town vod]https://youtu.be/d2lvD_eFjVw?t=13138)
 - Activate .loc(Fairy Fountain):
     icon: location
     coord: [4105.00, 263.97, -1370.00]
@@ -8,7 +9,7 @@ Tarrey Town Complete:
     icon: tots
     hide-icon-on-map: true
     # notes: Set of the Wild, Zora Set, Champion's Tunic
-    notes: Last 2 set of the wild, Zora Helm + Zora Greaves, Champion's Tunic + Zora Armor, remaing Set of the Wild
+    notes: Suggested menuing >> Last 2 set of the wild, Zora Helm + Zora Greaves, Champion's Tunic + Zora Armor, last Set of the Wild
 
 - .dir(S) run
 - _Korok::A48
@@ -37,21 +38,25 @@ Tarrey Town Complete:
     coord: [3946.69, 233.67, -1603.18]
     comment: Wheat, sugar, butter, extract
 
-- Give cake to Ruli:
+- _Npc<Ruli>:
     icon: tots
-    comment: Talk again in morning
+    # comment: Talk again in morning
     hide-icon-on-map: true
-
-- _Npc<Hagie>:
-    coord: [3919,-1605]
-    comment: Hobbies of the Rich
-    notes: Western end of town past cook pot
+    comment: Give cake
 
 - _Npc<Hudson>:
     coord: [3970.74, 233.60, -1623.47]
     comment: From the Ground Up
     notes: Talk to him again after the wedding
 
+- _Npc<Ruli>:
+    hide-icon-on-map: true
+    comment: A Parents Love
+
+- _Npc<Hagie>:
+    coord: [3919,-1605]
+    comment: Hobbies of the Rich
+    notes: Western end of town past cook pot
 
 Hestus Gift:
 - _Npc<Hestu>:
@@ -75,7 +80,8 @@ Hestus Gift:
 
 
 Final Memory:
-- .dir(.S)
+- .dir(.S):
+    notes: .link([Final Memory vod]https://youtu.be/d2lvD_eFjVw?t=14159)
 
 - _Discover<Big Twin Bridge>:
     coord: [1673.11, 107.36, 2032.82]
@@ -87,12 +93,12 @@ Final Memory:
 - Tame a horse:
     icon: tots
     coord: [1784.94, 117.91, 2036.54]
-- _Npc<Domidak and Prissen>:
-    coord: [1767.48, 116.07, 1925.15]
-    comment: Misko, the Great Bandit
 - _Npc<Rensa>:
     coord: [1748.38, 116.11, 1923.67]
     comment: Wild Horses
+- _Npc<Domidak and Prissen>:
+    coord: [1767.48, 116.07, 1925.15]
+    comment: Misko, the Great Bandit
 
 - .dir(.E)
 - _Memory::AshSwamp:

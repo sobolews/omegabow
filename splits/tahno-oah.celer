@@ -1,5 +1,6 @@
 Tahno Oah:
-- .dir(E)
+- .dir(E):
+    notes: .link([Tahno Oah vod]https://youtu.be/d2lvD_eFjVw?t=9211)
 - _Korok::D42
 
 - .dir(SE)
@@ -9,16 +10,16 @@ Tahno Oah:
 - _Korok::D52:
     comment: Pinwheel
 
-- .dir(<<E)
-- _Npc<Calip>:
-    coord: [2398.96, 118.64, 1834.33]
-    comment: The Cursed Statue
-    notes: If it's not raining, Calip leaves at 6:00am. Sleep in bed if he's not here. Cancel dialogue.
-
-- .dir(<NE)
+- .dir(NE)
 - _Korok::N33
 
-- .dir(S)
+- .dir(<S)
+- _Npc<Calip>:
+    coord: [2398.96, 118.64, 1834.33]
+    comment: Text option 2
+    notes: If it's not raining, Calip leaves at 6:00am. Sleep in bed if he's not here. Cancel dialogue.
+
+- Run .dir(W)
 - _Korok::N34
 
 - .dir(<N)
@@ -34,38 +35,39 @@ Tahno Oah:
 - .dir(E)
 - _Korok::N36
 
-- .dir(<<E)
+- .dir(<E)
 - _Korok::N37:
     comment: " "
 
-- .dir(<<S)
+- .dir(S)
+- _Korok::N38:
+    comment: Pinwheel
+
+- .dir(S) short
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 2
     coord: [3199.41, 173.38, 1904.36]
-    notes: Intentionally "waste" a fury
+    notes: Waste a fury
 
-- .dir(W>)
-- _Korok::N38
-
-- .dir(SW)
+- .dir(<W)
 - _Korok::N41:
     comment: " "
 
-- .dir(<<W)
+- .dir(W)
 - _Korok::N45:
     comment: Shoot 10 signs
 
 - .dir(S)
 - _Korok::N46
 
-- .dir(E>>)
+- .dir(E>)
 - _Korok::N51
 
 - .dir(<E)
 - _Korok::N52
 
-- .dir(SW) down
+- .dir(W)
 - _Korok::N53
 
 - .gale():

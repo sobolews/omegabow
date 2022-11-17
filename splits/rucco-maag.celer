@@ -1,0 +1,55 @@
+Rucco Maag:
+- .dir(E>):
+    notes: .link([Rucco Maag vod]https://youtu.be/d2lvD_eFjVw?t=10255)
+- _Korok::N40
+
+- .dir(<N) + midair
+- _Korok::N25:
+    comment: " "
+
+- .dir(N>)
+- _Korok::Z61:
+    comment: On island
+    notes: Combo Z61 and Z62
+- _Korok::Z62:
+    comment: " "
+
+- .dir(N) + midair
+- _Korok::Z59
+
+- .dir(<N)
+- _Korok::Z58
+
+- _Boss::Hinox::Blue:
+    coord: [4442.00, 160.79, 350.94]
+    comment: Ancient arrows
+
+- .dir(<W)
+- _Npc::Rito<Kass>:
+    coord: [4151.39, 109.13, 346.02]
+
+- .dir(S)
+- Blow up 3 rock piles:
+    icon: calamity
+    movements:
+        - to: [4156.75,482.75]
+          away: true
+        - to: [4198.75,497.5]
+          away: true
+        - to: [4087.5,469.75]
+          away: true
+    hide-icon-on-map: true
+- _Korok::Z56
+
+- .dir(W>)
+- _Korok::Z45
+
+- .dir(<W)
+- _Korok::Z53
+- _Korok::Z52
+
+- BLSS with rock
+- _Korok::Z51
+
+- .dir(N.)
+- _Shrine::RuccoMaag

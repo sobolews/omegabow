@@ -323,11 +323,12 @@ _route:
     - __use__ Sha Gehma
     - __use__ Rin Oyaa
     - __use__ Rona Kachta
+    - __use__ After Rona Kachta
 
   - Endgame:
     - _Warp::Shrine::DahHesho:
         comment: WARP 99.66%
-        line-color: black
+        line-color: darkgray
         notes: .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
     - __use__ Tarrey Town Complete
 
@@ -339,10 +340,11 @@ _route:
         comment: WARP 99.83%
     - __use__ Final Memory
 
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
-  - (?=) Older Routes >> .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
+    - " ":
+        notes: For verification please show (1) map counter, (2) quest log, (3) master sword, upgrade armor, (4) key items tab.
+    - " "
+    - " "
+    - " "
+    - " "
+    - (?=) Older Routes >> .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
 
