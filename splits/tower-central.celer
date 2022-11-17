@@ -1,0 +1,78 @@
+Central Tower:
+- .dir(N):
+    notes: .link([Central Tower vod]https://youtu.be/crHPwD-Ouqw?t=3643)
+- _Boss::Talus::Luminous:
+    comment: Bomb arrows
+    coord: [-971.13, 355.71, 3236.14]
+
+- .dir(W>)
+- _Korok::L41
+
+- .dir(<E)
+- _Korok::L37
+
+- midair .dir(N)
+- _Korok::L23
+
+- .dir(<N)
+- _Korok::P17:
+    comment: On ledge under Plateau wall
+
+- .dir(W) down
+- _Korok::P16:
+    comment: " "
+
+- .gale() + .dir(NW) midair:
+    gale: 1
+- _Korok::P15
+
+- .dir(<<N) surf
+- _Korok::P14:
+    comment: On ledge under Plateau wall
+
+- .dir(N)
+- _Korok::P07
+
+- .dir(<<E)
+- _Korok::P08:
+    comment: Under bridge
+    notes: Use .rune(Cryo) to move the log into position
+
+- .dir(N>)
+- _Korok::P03:
+    comment: Other side of hill
+
+- .dir(N)
+- _Korok::C80:
+    comment: " "
+
+- .dir(N>)
+- _Korok::C79
+
+- .dir(N>)
+- _Korok::C74:
+    comment: High on coliseum wall
+
+- .dir(<<N) down
+- _Korok::C73:
+    comment: " "
+
+- .dir(<N)
+- _Korok::C67:
+    comment: On ledge against cliff
+- _Discover<Aquame Bridge>:
+    coord: [-1128.81, 142.45, 1017.05]
+- _Korok::C68:
+    comment: Under bridge
+
+- .dir(<W)
+- _Korok::C66
+
+- .dir(N>)
+- _Korok::C52
+
+- .dir(<E) + midair
+- _Korok::C53
+
+- .dir(<<E)
+- _Tower::Central

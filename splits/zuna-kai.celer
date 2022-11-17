@@ -1,0 +1,54 @@
+Zuna Kai:
+- _Tod::Night:
+    notes: For Kilton and Salvager chest
+    coord: [2682.92, 469.68, -3472.12]
+
+- .dir(<E):
+    notes: .link([Zuna Kai vod]https://youtu.be/mGUKIJv-Q_U?t=2627)
+- _Boss::Hinox::Black:
+    coord: [2917.42, 343.68, -3561.40]
+    comment: Savage Lynel Crusher
+
+- .dir(<<E)
+- _Korok::A01
+
+- .dir(<<S) down
+- _Snap::Quest<Kilton>:
+    coord: [3244.60, 82.63, -3448.81]
+    notes: It's common for the camera to not register Kilton. Take 3 snaps from different angles to be safe.
+
+- _Npc<Kilton>:
+    comment: Talk
+
+- .dir(S>)
+- _Korok::A05:
+    comment: .gale()
+    gale: 1
+
+- .dir(<S)
+- _Korok::A10:
+    comment: " "
+
+- .dir(E)
+- _Korok::A11
+- _Snap::Quest<Blupee>:
+    movements:
+        - to: [3350.29, 164.95, -3062.80]
+          away: true
+
+- .dir(E)
+- _Korok::A12:
+    comment: Hanging under cliff
+
+- midair .dir(N)
+- _Korok::A06:
+    comment: " "
+
+- _Boss::Hinox::Black:
+    movements:
+        - to: [3489.38, 179.10, -3335.79]
+          away: true
+    comment: Ancient arrows
+
+- .dir(W>)
+- _Shrine::ZunaKai

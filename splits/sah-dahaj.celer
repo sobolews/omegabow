@@ -1,0 +1,42 @@
+Sah Dahaj:
+- Run:
+    notes: .link([Sah Dahaj vod]https://youtu.be/mGUKIJv-Q_U?t=92)
+- _Korok::A47
+
+- .dir(S.)
+- _Discover<East Sokkala Bridge>:
+    coord: [3860.81, 346.24, -1095.11]
+
+- .dir(W)
+- _Korok::A51:
+    comment: Golden gauntlets
+
+- .dir(S>)
+- _Discover<Sokkala Bridge>:
+    coord: [3686.27, 341.42, -1004.02]
+
+- .dir(W.) run
+- _Discover<West Sokkala Bridge>:
+    coord: [3591.52, 346.29, -1020.13]
+
+- _Korok::A52:
+    comment: Under the bridge
+
+- .dir(W>)
+- _Discover<Parade Ground Ruins>:
+    coord: [3278.75, 323.08, -1256.24]
+
+- _Boss::Hinox::Blue:
+    coord: [3298.75, 323.08, -1256.24]
+    comment: Ancient arrows
+
+- .dir(<W)
+- _Korok::A50:
+    comment: In broken column
+
+- .dir(NW)
+- _Korok::E39:
+    comment: Golden gauntlets
+
+- .dir(<N)
+- _Shrine::SahDahaj

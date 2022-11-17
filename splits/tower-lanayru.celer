@@ -1,0 +1,46 @@
+Lanayru Tower:
+- "":
+    notes: .link([Lanayru Tower vod]https://youtu.be/d2lvD_eFjVw?t=4855)
+- _Npc<Tumbo>:
+    coord: [3320.59, 244.66, -474.01]
+    comment: Frog Catching 
+    notes: Wakes up at 7am. In front of Mipha's statue.
+
+- _Npc<Ledo>:
+    coord: [3290.09, 244.86, -451.28]
+    comment: Luminous Stone Gathering
+    notes: At the gate
+
+- _Npc<Finley>:
+    coord: [3264.00, 249.76, -480.00]
+    comment: Special Delivery
+    notes: Up the stairs
+
+- _Npc<Torfeau>:
+    coord: [3300.84, 255.66, -505.93]
+    comment: Giant of Ralis Pond
+    notes: For these NPCs, make a counterclockwise run around the pools under the throne room
+
+- _Npc<Jiahto>:
+    coord: [3340.25, 256.66, -564.31]
+    comment: Zora Stone Monuments
+
+- _Npc<Kapson>:
+    coord: [3327.76, 256.41, -522.71]
+    comment: From the Ground Up
+
+- _Npc<Laflat>:
+    coord: [3328.97, 268.46, -532.02]
+    comment: Lynel Safari
+
+- .gale() .dir(W) midairs:
+    gale: 2
+    coord: [3324,-348]
+- _Korok::Z15:
+    comment: High up against cliff
+
+- .dir(<W)
+- _Korok::Z14
+
+- .dir(S>)
+- _Tower::Lanayru

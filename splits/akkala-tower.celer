@@ -1,0 +1,63 @@
+Akkala Tower:
+- Equip Barbarian Armor:
+    icon: shield
+    hide-icon-on-map: true
+    notes: .link([Akkala Tower vod]https://youtu.be/s1NM1eCjpX8?t=14411)
+
+- .dir(SW):
+    time-override: 999
+- _Boss::Hinox::Blue:
+    coord: [2930.51, 312.54, -298.40]
+    comment: .fury() + Ancient arrows
+    fury: 1
+
+- .dir(S)
+- _Korok::Z24:
+    comment: " "
+
+- .dir(SE)
+- _Korok::Z34:
+    comment: On peak
+
+- .dir(<E)
+- _Boss::Talus::Luminous:
+    coord: [3992.27, 353.03, -158.82]
+    comment: .fury() Collect drops
+    fury: 2
+
+- .dir(<E)
+- _Korok::Z27
+
+- .dir(N) + midair
+- _Korok::Z19:
+    comment: .rune(Magnesis) the boulder
+
+- _Korok::Z20
+
+- .dir(<N)
+- _Korok::Z08
+
+- .dir(<W)
+- _Npc::ZoraMale<ZoraMonument>:
+    coord: [3720.59, 461.92, -532.05]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W)
+- _Korok::Z17:
+    comment: Top of Zora's Domain
+
+- .dir(N.) + midair
+- _Chest::Special<Zora Helm>:
+    coord: [3466.36, 499.22, -889.05]
+    comment: .rune(Magnesis) chest in water
+
+- .dir(<E)
+- _Korok::Z05
+
+- .dir(W>)
+- _Korok::Z04
+
+- .dir(N>)
+- _Tower::Akkala

@@ -1,0 +1,28 @@
+Woodland Tower:
+- .dir(<N):
+    notes: .link([Woodland Tower vod]https://youtu.be/mGUKIJv-Q_U?t=5702)
+- _Korok::E25:
+    comment: On skeleton in lava
+
+- .dir(S)
+- _Korok::E24:
+    comment: " "
+
+- .dir(S.)
+- _Memory::EldinCanyon
+- _Korok::E31:
+    comment: Next to memory
+
+- .dir(S>)
+- _Korok::E35
+
+- .dir(E)
+- _Korok::K32
+
+- midair .dir(N>)
+- _Korok::K31:
+    comment: On scaffolding
+
+- .gale() + .dir(W):
+    gale: 1
+- _Tower::Woodland

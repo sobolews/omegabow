@@ -1,0 +1,30 @@
+Kuh Takkar:
+- .dir(<S) + midair:
+    notes: .link([Kuh Takkar vod]https://youtu.be/s1NM1eCjpX8?t=8135)
+- _Korok::G19
+
+- .dir(<<N) + .dir(W)
+- _Korok::G13
+
+- .dir(.N) + .dir(W)
+- _Korok::G10
+
+- .dir(W) + .dir(S)
+- _Korok::G12:
+    comment: On bridge
+
+- .dir(<<S)
+- Melt ice with Fire Arrows:
+    icon: tots
+    hide-icon-on-map: true
+    comment: 7 or 8
+- Kill .enemy(Ice Wizzrobe):
+    icon: calamity
+    hide-icon-on-map: true
+- _Equipment::Weapon<Ice Rod>:
+    coord: [-3076.70, 591.10, 1226.90]
+    notes: For Freezing Rod
+- _Material<Luminous Stones>:
+    notes: For Luminous Stone Gathering
+    hide-icon-on-map: true
+- _Shrine::KuhTakkar

@@ -1,0 +1,29 @@
+Enter Naboris:
+- .dir(S>>):
+    notes: .link([Enter Naboris vod]https://youtu.be/s1NM1eCjpX8?t=9230)
+- _Npc::Gerudo<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Urbosa Memory
+
+- .dir(E>>)
+- _Npc::Gerudo<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- .gale() + .dir(<S):
+    gale: 1
+- _Npc::Gerudo<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    # notes: Start Perfect Drink
+
+- .dir(E) + midair:
+    notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
+
+- Shoot 4 feet:
+    icon: tots
+    hide-icon-on-map: true
+
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined

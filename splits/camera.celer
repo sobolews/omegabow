@@ -1,0 +1,31 @@
+Camera:
+- .dir(N.):
+    notes: .link([Slated for Upgrades vod]https://youtu.be/s1NM1eCjpX8?t=5746)
+- _Npc<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+    notes: Spring of Wisdom
+
+- .dir(N.)
+- _Korok::N42:
+    comment: Past blue flame
+
+- .dir(<S) short
+- .!!(Smuggle Blue Flame):
+    icon: tots
+    coord: [3447.5,1982]
+    notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
+
+- .dir(E>) + .dir(E)
+- Activate .loc(Hateno Tech Lab):
+    icon: location
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+- _Snap::Quest<Purah>:
+    hide-icon-on-map: true
+    comment: Talk and SNAP
+- .!!(Slated for Upgrades):
+    icon: camera-plus
+    hide-icon-on-map: true
+    notes: If less than 3 screws, upgrade slate in Hateno 2
+    split-type: UserDefined

@@ -1,0 +1,10 @@
+Great Plateau Tower:
+- _Material<5 Hyrule Herb>:
+    coord: [-709.74, 171.46, 1481.88]
+    comment: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
+    notes: .link([Plateau Tower vod]https://youtu.be/s1NM1eCjpX8?t=2155)
+
+- BLSS .dir(SE)
+- _Tower::GreatPlateau

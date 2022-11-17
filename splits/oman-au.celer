@@ -1,0 +1,9 @@
+Oman Au:
+- _Npc::SheikaMale<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text option 2-1-1-2
+    notes: .link([Oman Au vod]https://youtu.be/s1NM1eCjpX8?t=1950)
+
+- BLSS .dir(<N)
+- _Shrine::OmanAu:
+    notes: Clear ragdoll glitch in shrine

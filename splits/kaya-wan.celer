@@ -1,0 +1,27 @@
+Kaya Wan:
+- BLSS .dir(NE) to .loc(Hyrule Castle):
+    notes: .link([Kaya Wan vod]https://youtu.be/s1NM1eCjpX8?t=3001)
+- _Chest<5 Shock Arrow>:
+    coord: [11.00, 182.58, -879.37]
+
+- .dir(SW)
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+    notes: Leave the Royal Bow
+- 10 Normal Arrows:
+    icon: bow
+    hide-icon-on-map: true
+
+- .dir(.S)
+- Kill 1-3 .enemy(Stalkers):
+    icon: calamity
+    coord: [-254.50, 130.00, -334.40]
+    notes: 3 Screw, 2 Spring, 1 Shaft, 2 Gear; Gear is .v(Scrap)/8 scrap
+    var-change:
+        Scrap: 1
+
+- .dir(S) -> BLSS .dir(SE)
+- In shrine
+- _Chest<Ancient Core>:
+    hide-icon-on-map: true
+- _Shrine::KayaWan

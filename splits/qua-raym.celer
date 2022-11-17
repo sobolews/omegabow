@@ -1,0 +1,37 @@
+Qua Raym:
+- .dir(N):
+    notes: .link([Qua Raym vod]https://youtu.be/mGUKIJv-Q_U?t=5443)
+- _Korok::E20:
+    comment: " "
+
+- .dir(<E)
+- _Boss::Talus::Igneo:
+    coord: [2141.56, 559.13, -2178.47]
+    comment: Boulder Breaker
+    notes: If need to wait for flint, can get luminous stones here too
+
+- .dir(<<S) short
+- _Korok::E21
+
+- .dir(E>):
+    time-override: 720
+- _Korok::E22:
+    comment: " "
+
+- .dir(SE) short
+- _Boss::Talus::Igneo:
+    coord: [2372.52, 507.89, -1998.62]
+    comment: .fury()
+    fury: 3
+
+- .gale() + .dir(E) midair:
+    gale: 1
+- _Korok::E23:
+    comment: In tunnel
+
+- .dir(<W)
+- _Korok::E28:
+    comment: Down in skull
+
+- .dir(<W)
+- _Shrine::QuaRaym

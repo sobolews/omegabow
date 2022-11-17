@@ -1,0 +1,37 @@
+Shee Vaneer:
+- .dir(N>) + .dir(N>) + .dir(E):
+    notes: .link([Shee Vaneer vod]https://youtu.be/crHPwD-Ouqw?t=5486)
+- _Boss::Talus::Stone:
+    comment: Bomb arrow
+    coord: [1465.91, 203.77, 1328.91]
+
+- midair .dir(W)
+- _Korok::D17
+
+- .dir(S) + midair
+- _Korok::D30
+
+- .gale() + .dir(E) + .dir(S):
+    gale: 1
+- _Korok::D41
+    # movements:
+    #     - to: [1517.27, 400.25, 1850.08]
+    #       away: true
+    # comment: Across canyon
+    # notes: Precise bomb arrow shot to get the boulder rolling
+
+- .dir(W)
+- _Korok::D40
+
+- .dir(S)
+- _Korok::D49
+
+- Kill .enemy(Stalkoblin):
+    icon: calamity
+    coord: [1282.48, 523.75, 1939.55]
+    hide-icon-on-map: true
+    notes: Need to get here before 5am. Backup in Kakariko later.
+- _Equipment::Weapon<Traveler's Sword>:
+    comment: Weapon Connoisseur
+    
+- _Shrine::SheeVaneer

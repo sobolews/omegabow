@@ -1,0 +1,30 @@
+Pumaag Nitae:
+- .dir(SW):
+    notes: .link([Pumaag Nitae vod]https://youtu.be/crHPwD-Ouqw?t=1658)
+- _Korok::L48:
+    comment: On small ledge against cliff
+
+- .dir(SE) short
+- _Korok::L49
+
+- .dir(NE) down
+- _Korok::L50:
+    comment: Against cliff, hard to see
+
+- .dir(SE)
+- _Korok::L59:
+    comment: " "
+
+- .dir(S)
+- _Korok::L60:
+    comment: Up against cliff
+
+- .dir(<<E)
+- _Korok::L52
+
+- .dir(<E)
+- _Korok::L53:
+    comment: " "
+
+- _Shrine::PumaagNitae:
+    comment: Minor Test of Strength

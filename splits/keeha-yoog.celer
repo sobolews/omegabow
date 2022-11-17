@@ -1,0 +1,41 @@
+Keeha Yoog:
+- .dir(<<E):
+    notes: .link([Keeha Yoog vod]https://youtu.be/mGUKIJv-Q_U?t=12214)
+- _Korok::G08:
+    comment: Need 2 stamina food
+
+- .dir(NW) short
+- _Korok::G04
+
+- .dir(N.)
+- _Korok::G05:
+    comment: " "
+
+- .dir(<<N)
+- _Korok::G01:
+    comment: " "
+
+- .dir(<S) surf
+- _Discover<Statue of the 8th Heroine>:
+    coord: [-4371.52, 528.87, 516.98]
+- _Snap::Quest<Statue of the 8th Heroine>
+
+- .dir(NE)
+- _Korok::G02:
+    comment: " "
+
+- .gale() + .dir(E):
+    coord: [-3968.58, 552.57, 331.92]
+    gale: 1
+- _Korok::G03
+
+- .dir(E) + .dir(SE)
+- _Korok::G06:
+    comment: On platform against cliff
+
+- Climb ladder + .dir(W)
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Shoot shock arrow
+- _Shrine::KeehaYoog

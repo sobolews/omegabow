@@ -1,0 +1,29 @@
+After Moa Keet:
+- .dir(W) short:
+    notes: .link([After Moa Keet vod]https://youtu.be/d2lvD_eFjVw?t=5514)
+- _Npc<Mayro>:
+    coord: [2620.40, 253.87, -1144.95]
+    comment: Landscape of a Stable
+
+- .dir(<N)
+- _Korok::E40
+
+- .dir(N)
+- _Korok::E38
+
+- .dir(S>)
+- _Discover<Maw Of Death Mountain>:
+    hide-icon-on-map: true
+- _Korok::E41
+- _Korok::E42:
+    comment: On ledge below bridge
+
+- .dir(S>)
+- _Korok::E43
+
+- BLSS with rock
+- _Korok::E37
+
+- .dir(<W)
+- _Korok::E36:
+    comment: " "

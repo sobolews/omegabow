@@ -3,7 +3,7 @@ _project:
   authors:
     - ""
   description: ""
-  name: Corrupted Granatus (Omegafairy v2)
+  name: 100% (Ikurapan 2022-09-14)
   url: https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/
   version: 2.0
 
@@ -13,104 +13,336 @@ _config:
     Warp: "Warp {{_}} .{{Korok}}"
 
 _route:
-  - (==) This is the Omegafairy v2 (2022-08-08) version of the route.
-  - (^=) Older Routes >> .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
-  - (?=) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
+  - (==) This route follows .link([Ikurapan's 15h 51m run]https://www.speedrun.com/botw/run/zpdgnj8z) from 2022-09-14. For older routes, see the end of the document.
+  - (^=) Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
+  - (?=) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
 
   - Plateau:
-    - __use__ Plateau
-  - The Glitch:
-    - __use__ The Glitch
+    - .!!(SoR clip):
+        icon: location
+        line-color: white
+        notes: After cutscene, hold ZL and hop left to exit
+    - __use__ Ja Baij
+    - __use__ Oman Au
+    - __use__ Great Plateau Tower
+    - __use__ Owa Daim
+    - __use__ Keh Namut
+    - __use__ Paraglider
+
+  - Corruption:
+    - __use__ Mogg Latan
+    - __use__ Kaya Wan
+    - __use__ Daka Tuss
+    - __use__ Taloh Naeg
+    - __use__ Activate Myahm Agana
+
   - Hateno:
-    - __use__ Hateno
+    - __use__ Myahm Agana
+    - __use__ Camera
+    - __use__ Hateno Tower
+    - __use__ After Hateno Tower
+
   - Hestu 1:
+    - _Warp::Shrine::TalohNaeg:
+        comment: WARP
+        line-color: lime
     - __use__ Hestu 1
+
   - Vah Medoh:
+    - _Warp::Shrine::MoggLatan:
+        comment: WARP
+    - __use__ Enter Medoh
     - __use__ Vah Medoh
+    - __use__ Sha Warvo
+    - __use__ After Sha Warvo
+
   - Hestu 2:
-    - __use__ Hestu 2
-  - Kohga:
-    - __use__ Kohga
+    - _Warp::Shrine::KayaWan:
+        comment: WARP
+    - __use__ Sheh Rata
+  
+  - Thunder Helm:
+    - _Warp::Shrine::MoggLatan:
+        # line-color: red
+        comment: WARP
+    - __use__ Kuh Takkar
+    - __use__ Gerudo Tower
+    - __use__ Daqo Chisay
+    - __use__ Thunder Helm
+  
   - Vah Naboris:
+    - _Warp::Shrine::DaqoChisay:
+        comment: WARP
+        notes: Clear ragdoll before warping
+    - __use__ Enter Naboris
     - __use__ Vah Naboris
+
   - East Desert:
-    - __use__ East Desert
+    - __use__ Dako Tah
+    - __use__ Wasteland Tower
+    - __use__ Dila Maag
+    - __use__ Suma Sahma
+    - __use__ Misae Suma
+
   - Naydra:
-    - __use__ Naydra
+    - __use__ After Misae Suma
+    - _Warp::TechLab::Hateno:
+        comment: WARP
+        line-color: yellow
+    - __use__ Jitan Sami
+    - __use__ Dow Naeh
+
   - Vah Ruta:
+    - __use__ Mezza Lo
+    - __use__ Neez Yohma
+    - __use__ Enter Ruta
     - __use__ Vah Ruta
-  - Akkala Tower:
+
+  - Akkala:
+    - __use__ Dagah Keek
     - __use__ Akkala Tower
-  - Eldin Tower:
+    - __use__ Dah Hesho
+    - __use__ Sah Dahaj
     - __use__ Eldin Tower
   
-  - Goron City:
-    - __use__ Goron City
-  - Dinraal:
-    - __use__ Dinraal
-  - Vah Rudania:
-    - __use__ Vah Rudania
-  - Korok Forest:
-    - __use__ Korok Forest
-  - Hyrule Castle:
-    - __use__ Hyrule Castle
-  - Blood Moon:
-    - __use__ Blood Moon
-  - Plateau 2:
-    - __use__ Plateau 2
-  - Gerudo Canyon:
-    - __use__ Gerudo Canyon
-  - Gerudo Highlands:
-    - __use__ Gerudo Highlands
-  - Moldugas:
-    - __use__ Moldugas
-  - Desert Complete:
-    - __use__ Desert Complete
+  - Eldin:
+    - __use__ Shae Mosah
+    - __use__ Shora Hah
+    - __use__ Qaza Tokki
+    - __use__ Ketoh Wawai
 
-  - Lake Tower:
+  - Dinraal:
+    - __use__ Gorae Torr
+    - __use__ Zuna Kai
+    - __use__ Tu Kaloh
+    - __use__ Katosa Aug
+    - __use__ Tutsuwa Nima
+    - __use__ After Tutsuwa Nima
+
+  - Vah Rudania:
+    - _Warp::Shrine::ShaeMosah:
+        line-color: violet
+        comment: WARP
+    - __use__ Daqa Koh
+    - __use__ Enter Rudania
+    - __use__ Vah Rudania
+    - __use__ Kayra Mah
+    - __use__ Qua Raym
+    - __use__ Woodland Tower
+
+  - Korok Forest:
+    - __use__ Daag Chokah
+    - __use__ Keo Ruug
+    - __use__ Maag Halan
+    - __use__ Kuhn Sidajj
+
+  - Blood Moon:
+    - __use__ Ganon
+    - __use__ Saas Kosah
+    - __use__ Sheem Dagoze
+    - __use__ Mijah Rokee
+    - __use__ After Mijah Rokee
+
+  - Gerudo Canyon:
+    - _Warp::Shrine::OwaDaim:
+        # line-color: violet
+        comment: WARP
+    - __use__ Kaam Yatak
+    - __use__ Rota Ooh
+    - __use__ Dah Kaso
+    - __use__ Joloo Nah
+    - __use__ Sasa Kai
+
+  - Gerudo Highlands:
+    - __use__ Kema Kossassa
+    - __use__ Keeha Yoog
+    - __use__ Sho Dantu
+    - __use__ Kema Zoos
+
+  - Gerudo Desert:
+    - __use__ Tho Kayu
+    - __use__ Hawa Koth
+    - __use__ Raqa Zunzo
+    - __use__ Korsh Ohu
+    - __use__ Kay Noh
+    - __use__ After Kay Noh
+
+  - Lake:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: dodgerblue
+        comment: WARP
+    - __use__ Jee Noh
+    - __use__ Ya Naga
     - __use__ Lake Tower
+
   - Horse Minigames:
-    - __use__ Horse Minigames
-  - Central Tower:
+    - __use__ Pumaag Nitae
+    - __use__ Kao Makagh
+    - __use__ Shoqa Tatone
+    - __use__ Ishto Soh
+    
+  - Central:
     - __use__ Central Tower
+    - __use__ Wahgo Katta
+    - __use__ Bosh Kala
+
   - Dueling Peaks:
-    - __use__ Dueling Peaks
+    - __use__ Dueling Peaks Tower
+    - __use__ Shee Vaneer
+    - __use__ Shee Venath
+    - __use__ Ree Dahee
+
   - Faron:
-    - __use__ Faron
+    - __use__ Shae Katha
+    - __use__ Faron Tower
+    - __use__ Shai Utoh
+    - __use__ Shoda Sah
+    - __use__ Qukah Nata
+
   - Lurelin:
-    - __use__ Lurelin
-  - Wetlands:
-    - __use__ Wetlands
-  - Castle Town Ruins:
-    - __use__ Castle Town Ruins
+    - __use__ Kah Yah
+    - __use__ Yah Rin
+    - _Warp::Shrine::DahHesho:
+        comment: WARP
+        line-color: gray
+    - __use__ Tarrey Town 3
+
+  - Letter Quest:
+    - _Warp::Tower::DuelingPeaks:
+        line-color: red
+        comment: WARP
+    - __use__ Hila Rao
+    - __use__ Mirro Shaz
+
+  - Castle Town:
+    - __use__ Namika Ozz
+    - __use__ Katah Chuki
+    - __use__ Noya Neha
+
   - Ridgeland:
-    - __use__ Ridgeland
+    - __use__ Monya Toma
+    - __use__ Maag Norah
+    - __use__ Ridgeland Tower
+    - __use__ Toh Yahsa
+    - __use__ Zalta Wa
+
   - Satori Mountain:
-    - __use__ Satori Mountain
+    - __use__ Kah Okeo
+
   - Tabantha:
-    - __use__ Tabantha
+    - __use__ Tabantha Tower
+    - __use__ Tena Kosah
+    - __use__ Bareeda Naag
 
   - Rito Village:
-    - __use__ Rito Village
+    - __use__ Akh Vaquot
+    - __use__ Voo Lota
+
   - Hebra 1:
-    - __use__ Hebra 1
+    - __use__ Shada Naw
+    - __use__ Two Hebra Koroks
+
   - Hebra 2:
-    - __use__ Hebra 2
+    - _Warp::Shrine::ShadaNaw:
+        line-color: yellow
+        comment: WARP
+    - __use__ Hia Miu
+    - __use__ To Quomo
+
   - Hebra 3:
-    - __use__ Hebra 3
+    - _Warp::Shrine::ShadaNaw:
+        line-color: violet
+        comment: WARP
+    - __use__ Gee Harah
+    - __use__ Lanno Kooh
+    - __use__ Hebra Tower
+    - __use__ Shae Loya
+    - __use__ Dunba Taag
+    - __use__ After Dunba Taag
+
+  - Hebra 4:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: dodgerblue
+        comment: WARP
+    - __use__ Mozo Shenno
+    - __use__ Maka Rah
+    - _Warp::Shrine::DahHesho:
+        comment: WARP
+        line-color: gray
+    - __use__ Tarrey Town 5
+
   - Eldin Canyon:
-    - __use__ Eldin Canyon
+    - _Warp::Shrine::NeezYohma:
+        line-color: lime
+        comment: WARP
+    - __use__ Lanayru Tower
+    - __use__ Soh Kofi
+    - __use__ Tah Muhl
+    - __use__ Moa Keet
+    - __use__ After Moa Keet
+
   - Akkala Complete:
-    - __use__ Akkala Complete
+    - _Warp::Tower::Akkala:
+        comment: WARP
+    - __use__ Ze Kasho
+    - __use__ Ritaag Zumo
+    - __use__ After Ritaag Zumo
+
   - Eventide:
-    - __use__ Eventide
-  - Kakariko 3:
-    - __use__ Kakariko 3
-  - Hateno 2:
-    - __use__ Hateno 2
+    - _Warp::Tower::Hateno:
+        comment: WARP
+    - __use__ Tawa Jinn
+    - __use__ Muwo Jeem
+    - __use__ Chaas Qeta
+    - __use__ Korgu Chideh
+
+  - Stolen Heirloom:
+    - _Warp::Shrine::TalohNaeg:
+        line-color: violet
+        comment: WARP
+    - __use__ Lakna Rokee
+
+  - Hateno Complete:
+    - __use__ Kam Urog
+    - __use__ Toto Sah
+    - __use__ Ha Dahamar
+    - __use__ Tahno Oah
+
   - Lanayru Complete:
-    - __use__ Lanayru Complete
-  - Forgotten Temple:
-    - __use__ Gift from the Monks
+    - __use__ Rucco Maag
+    - __use__ Shai Yota
+    - __use__ Kenai Shakah
+    - __use__ Kah Mael
+
+  - All Shrines:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: orange
+        comment: WARP
+    - __use__ Goma Asaagh
+    - __use__ Rok Uwog
+    - __use__ Sha Gehma
+    - __use__ Rin Oyaa
+    - __use__ Rona Kachta
+
   - Endgame:
-    - __use__ Endgame
+    - _Warp::Shrine::DahHesho:
+        comment: WARP 99.66%
+        line-color: black
+        notes: .link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
+    - __use__ Tarrey Town Complete
+
+    - _Warp::Shrine::KeoRuug:
+        comment: WARP
+    - __use__ Hestus Gift
+
+    - _Warp::Shrine::HaDahamar:
+        comment: WARP 99.83%
+    - __use__ Final Memory
+
+  - " "
+  - " "
+  - " "
+  - " "
+  - " "
+  - (?=) Older Routes >> .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
+

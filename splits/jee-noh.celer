@@ -1,0 +1,53 @@
+Jee Noh:    
+- .dir(.S):
+    notes: .link([Jee Noh vod]https://youtu.be/crHPwD-Ouqw?t=173)
+- _Korok::G22:
+    comment: On snowy ledge
+
+- Equip .!!(Barbarian Set):
+    icon: shield
+    hide-icon-on-map: true
+
+- .dir(N>>)
+- _Korok::G17
+
+- .dir(E):
+    time-override: 999
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+
+- .dir(<E)
+- _Korok::G18:
+    comment: " "
+
+- .dir(<<S)
+- _Korok::G23:
+    comment: On hill far away
+
+- .dir(<<W)
+- _Korok::G27:
+    comment: Platform against cliff
+
+- .dir(E>)
+- _Korok::G28:
+    comment: Way down against cliff
+
+- .dir(<<E)
+- _Korok::G24
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+    comment: Bomb arrows midair
+
+- .dir(SW)
+- _Korok::W14:
+    comment: Other end of bridge
+
+- .dir(SE)
+- _Korok::W26
+
+- Down
+- _Shrine::JeeNoh

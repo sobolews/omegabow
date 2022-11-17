@@ -1,0 +1,20 @@
+Vah Ruta:
+- Inside divine beast:
+    icon: tots
+    hide-icon-on-map: true
+    comment: .gale()
+    gale: 1
+    notes: .link([Vah Ruta vod]https://youtu.be/s1NM1eCjpX8?t=13845) Use gale after terminal 5 to get to boss room.
+
+- .boss(Waterblight):
+    icon: calamity
+    comment: .rune(Stasis) → 6 headshots
+    hide-icon-on-map: true
+
+- Mipha's Grace:
+    icon: ruta-done
+    split-type: UserDefined
+    line-color: dodgerblue
+    movements:
+        - to: [3283.5,-431]
+          warp: true

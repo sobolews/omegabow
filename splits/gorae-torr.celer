@@ -1,0 +1,85 @@
+Gorae Torr:
+- _Tod::Morning:
+    notes: To spawn Dinraal. If it's between 12:00am and 5:00am, make morning twice to properly advance a day.
+    hide-icon-on-map: true
+
+- .dir(<E) + midair:
+    notes: .link([Gorae Torr vod]https://youtu.be/mGUKIJv-Q_U?t=1934)
+- _Korok::K04
+
+- .dir(W>)
+- _Korok::K01:
+    comment: On far peak
+
+- .dir(N>):
+    time-override: 720
+- Kill .enemy(White-Maned Lynel):
+    icon: calamity
+    coord: [247.00, 173.39, -3668.50]
+    comment: Shock arrows + .fury()
+    fury: 3
+    
+- _Material<Lynel Hoof>:
+    hide-icon-on-map: true
+    notes: Save for quest. High chance of getting one, but if you don't, kill lynel near E01.
+
+- _Equipment::Weapon<Savage Lynel Crusher>:
+    hide-icon-on-map: true
+
+- Shoot Dinraal (Scale):
+    icon: calamity
+    hide-icon-on-map: true
+
+- _Tod::Morning:
+    # coord: [267.00, 173.39, -3668.50]
+    hide-icon-on-map: true
+    notes: Look WEST back toward Qaza Tokki when sitting at campfire. Facing east can stop Dinraal from spawning.
+
+- .dir(E)
+- _Korok::K02
+
+- .dir(E)
+- _Korok::K03
+
+- Shoot Dinraal (Claw):
+    icon: calamity
+    hide-icon-on-map: true
+
+- _Tod::Morning:
+    # coord: [1163.40, 209.96, -3742.78]
+    hide-icon-on-map: true
+
+- .dir(E)
+- _Korok::E01:
+    notes: (Optional) Kill .enemy(Lynel) here if previous Lynel didn't drop hoof
+
+- Shoot Dinraal (Horn):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: If you miss any parts, windbomb WEST or warp to Qaza Tokki, make morning, and return to the area to respawn Dinraal
+
+- .dir(E) + midair
+- _Korok::E02
+- _Snap::Quest<Eldin Great Skeleton>:
+    movements:
+        - to: [1517.38, 209.04, -3703.94]
+          away: true
+    notes: Look back and zoom in
+
+- .dir(NE)
+- _Korok::E03
+
+- .gale() + .dir(E.) midair:
+    gale: 1
+- _Korok::E04
+
+- .dir(<S)
+- _Korok::E05:
+    comment: On pillar around shrine
+
+- .!!(Gut Check Challenge):
+    icon: tots
+    hide-icon-on-map: true
+    comment: .dir(E) + .dir(W) midair
+
+- _Shrine::GoraeTorr

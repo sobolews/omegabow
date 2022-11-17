@@ -1,0 +1,92 @@
+Kao Makagh:
+- .dir(E>) run:
+    notes: .link([Kao Makagh vod]https://youtu.be/crHPwD-Ouqw?t=1930)
+- _Korok::L55
+
+- .dir(<S)
+- _Korok::L61:
+    comment: " "
+
+- Kill the .enemy(octoroks):
+    icon: calamity
+    hide-icon-on-map: true
+- _Material<Octorok Balloon>:
+    coord: [720.28, 134.40, 3276.11]
+    comment: Balloon Flight
+
+- .dir(<<W) run
+- _Korok::L66:
+    comment: .rune(Cryo) block
+
+- .gale() + .dir(SE):
+    gale: 1
+- _Korok::L72:
+    comment: " "
+
+- .dir(E>)
+- _Korok::F38
+
+- .dir(.W)
+- _Boss::Hinox::Blue:
+    comment: Ancient arrows
+    coord: [1031.43, 127.22, 3496.26]
+
+- midair .dir(S)
+- _Korok::L79
+
+- .dir(S>>)
+- _Korok::L92
+
+- .dir(N) + midair
+- _Korok::L78:
+    comment: On peak
+
+- .dir(W) down
+- Activate .loc(Malanya):
+    icon: tots
+    coord: [802.00, 186.73, 3719.93]
+
+- .dir(W>)
+- _Korok::L77:
+    comment: Up the cliff
+
+- .dir(W) down
+- _Discover<Horse God Bridge>:
+    coord: [596.95, 172.65, 3722.39]
+
+- .dir(N>>)
+- _Korok::L75:
+    comment: " "
+
+- .dir(<<N)
+- Kill 5 .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [485,3342]
+    comment: Ancient Arrows
+    notes: Horseback Hoodlums
+
+- .dir(S)
+- _Material<Swift Carrot>:
+    coord: [523.34, 152.89, 3463.33]
+    comment: Koko's Kitchen
+    notes: Behind horses
+
+- _Npc<Perosa>:
+    coord: [516.76, 152.98, 3453.71]
+    comment: Horseback Hoodlums
+
+- Take out horse:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Npc<Blynne>:
+    coord: [514.26, 152.72, 3449.75]
+
+- Complete .!!(obstacle course):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Finish below 1:30 and 1:15
+    notes: In any order
+
+- .dir(S)
+- _Shrine::KaoMakagh

@@ -1,0 +1,7 @@
+Paraglider:
+- BLSS .dir(E):
+    notes: .link([Paraglider vod]https://youtu.be/s1NM1eCjpX8?t=2613)
+- .!!(Paraglider):
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    split-type: UserDefined

@@ -1,0 +1,63 @@
+Katah Chuki:
+- .dir(W):
+    notes: .link([Katah Chuki vod]https://youtu.be/crHPwD-Ouqw?t=11007)
+- _Korok::C09
+
+- .dir(SW)
+- _Korok::C11:
+    comment: Inside hollow log
+
+- .dir(E)
+- _Korok::C12
+
+- .dir(<W)
+- _Korok::C19
+
+- .dir(<W)
+- _Discover<Orsedd Bridge>:
+    coord: [517.11, 135.39, -497.24]
+
+- _Korok::C23
+
+- .dir(<N)
+- _Korok::C18
+
+- .dir(W>)
+- _Korok::C10:
+    comment: On bridge
+
+- .dir(<E)
+- _Korok::C06:
+    comment: " "
+
+- .dir(W>)
+- _Boss::Hinox::Stal:
+    comment: Ancient arrows
+    coord: [256.50, 142.49, -913.50]
+
+- _Korok::C05:
+    comment: " "
+
+- .dir(NW) surf
+- _Korok::C04
+
+- .dir(S>)
+- _Korok::C17
+
+- .dir(S)
+- _Korok::C29
+
+- Down
+- _Korok::C28
+
+- .dir(<W)
+- _Korok::C32
+- _Korok::C27:
+    comment: " "
+
+- .dir(<W)
+- _Korok::C31
+
+- .dir(NW)
+- _Shrine::KatahChuki:
+    comment: Minor Test of Strength

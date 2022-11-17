@@ -1,0 +1,32 @@
+Tutsuwa Nima:
+- .dir(W>) run:
+    notes: .link([Tutsuwa Nima vod]https://youtu.be/mGUKIJv-Q_U?t=3665)
+- _Npc<Hoz>:
+    coord: [4243.71, 231.44, -2746.65]
+    comment: Talk twice
+- _Npc<Nobo>:
+    coord: [4245.96, 231.45, -2747.83]
+    comment: Select "This area?"
+- _Tod::Night:
+    notes: For stalhorse, stalnox, and quests after Rudania
+    hide-icon-on-map: true
+
+- .dir(W>>)
+- _Korok::A19
+
+- .dir(SW) surf
+- _Korok::A22
+
+- .dir(W>>)
+- _Korok::A18:
+    comment: " "
+
+- midair .dir(S)
+- _Korok::A21:
+    comment: Above spring
+- _Memory::SpringofPower
+- Offer .item(Dinraal Scale):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::TutsuwaNima:
+    comment: Major Test of Strength

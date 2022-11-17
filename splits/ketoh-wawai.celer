@@ -1,0 +1,24 @@
+Ketoh Wawai:
+- .dir(W) + .dir(SW):
+    notes: .link([Ketoh Wawai vod]https://youtu.be/mGUKIJv-Q_U?t=1669)
+- _Korok::H15
+
+- .dir(W) + .dir(S>)
+- _Korok::H22:
+    comment: " "
+
+- .dir(SE) + midairs
+- _Korok::K11:
+    comment: Peak far away
+
+- .dir(<<E) + .dir(NE)
+- _Boss::Hinox::Blue:
+    coord: [341.82, 278.73, -3116.14]
+    comment: Ancient arrows
+
+- Activate .!!(Pedestal):
+    hide-icon-on-map: true
+    icon: tots
+    comment: Deposit orb
+
+- _Shrine::KetohWawai

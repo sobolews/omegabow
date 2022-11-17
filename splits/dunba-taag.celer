@@ -1,0 +1,35 @@
+Dunba Taag:
+- .dir(.N) run:
+    notes: .link([Dunba Taag vod]https://youtu.be/d2lvD_eFjVw?t=3652)
+- _Npc<Geggle>:
+    coord: [-2912.28, 274.78, -551.75]
+    notes: Cliffside Etchings
+    comment: Between 8am and midnight
+
+- Run
+- _Npc<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Gift for the Great Fairy
+
+- .dir(W>) run
+- _Korok::T34:
+    comment: " "
+
+- .dir(S>) down
+- _Korok::R28
+
+- .dir(E)
+- _Korok::R29
+
+- .dir(N)
+- _Korok::R20
+
+- .dir(N>)
+- _Discover<Tanagar Canyon Course>:
+    coord: [-3119.20, -0.58, -627.77]
+
+- .dir(N)
+- _Korok::R12
+
+- .dir(N.) + midairs
+- _Shrine::DunbaTaag

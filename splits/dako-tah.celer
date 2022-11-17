@@ -1,0 +1,68 @@
+Dako Tah:
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    comment: Text option 1-1-2-1
+    notes: .link([Dako Tah vod]https://youtu.be/s1NM1eCjpX8?t=9823)
+    
+- Run
+
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: Buy FIRE arrows
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+    notes: Ikurapan gets a Daybreaker shield here as a backup to the pot lid that was broken during Thunderblight
+
+- Examine .!!(Thunder Helm):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Select "I want it!"
+    notes: Ikurapan forgets to do this and backtracks
+
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    # notes: Search for Barta
+    comment: In training yard
+
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    # notes: Silent Swordswomen
+    comment: At the gate
+
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    # notes: Seven Heroines
+    comment: In the library
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    # notes: Perfect Drink
+    comment: At the bar
+
+- _Tod::Noon:
+    coord: [-3832.79, 148.98, 2948.17]
+    notes: For ice house and Beedle timing
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    # notes: Mystery Polluter
+    comment: End of street
+
+- .dir(N)
+- _Npc::Gerudo<Anche>:
+    coord: [-3743.75, 146.81, 2304.44]
+    comment: Get ice
+
+- BLSS with .item(Ice Cube)
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: Deliver ice
+
+- .dir(<W) + .dir(N>) to .loc(Dako Tah)
+- In shrine
+- _Chest<Radiant Shield>:
+    hide-icon-on-map: true
+- _Shrine::DakoTah

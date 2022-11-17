@@ -1,0 +1,20 @@
+Vah Medoh:
+- Inside divine beast:
+    notes: .link([Revali's Gale vod]https://youtu.be/s1NM1eCjpX8?t=7276).
+
+- _Chest<Ancient Core>:
+    notes: Why does Ikurapan get this?
+    hide-icon-on-map: true
+
+- .boss(Windblight Ganon):
+    icon: ganon
+    hide-icon-on-map: true
+    comment: .rune(Stasis) → 2 body + 4 head
+
+- .!!(Revali's Gale):
+    icon: medoh-done
+    split-type: UserDefined
+    line-color: yellow
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true

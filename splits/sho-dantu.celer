@@ -1,0 +1,40 @@
+Sho Dantu:
+- .dir(E) + .dir(S):
+    notes: .link([Sho Dantu vod]https://youtu.be/mGUKIJv-Q_U?t=12608)
+- _Korok::G09
+
+- Updraft + .dir(<W)
+- _Snap::Quest<Forgotten Sword>:
+    movements:
+        - to: [-3899,888]
+        - to: [-3966.65, 766.14, 969.19]
+          away: true
+
+- .dir(<S)
+- _Boss::Talus::Rare:
+    coord: [-3804.76, 602.57, 1204.77]
+    comment: Boulder Breaker
+
+- .dir(<<S)
+- _Boss::Talus::Frost:
+    coord: [-3558.72, 558.36, 1560.07]
+    comment: Bomb arrow
+
+- .dir(W)
+- _Material<10 Wildberry>:
+    coord: [-3663.94, 569.99, 1536.07]
+    comment: Mystery Polluter
+
+- _Korok::G26:
+    comment: " "
+
+- .dir(NW)
+- _Korok::W01:
+    comment: Ledge in opening
+
+- .dir(S>>)
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Drop luminous stone
+- _Shrine::ShoDantu

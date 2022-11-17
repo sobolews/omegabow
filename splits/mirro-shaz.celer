@@ -1,0 +1,188 @@
+Mirro Shaz:
+- Run (avoid flowers):
+    notes: .link([Mirro Shaz vod]https://youtu.be/crHPwD-Ouqw?t=9523)
+- _Npc<Magda>:
+    coord: [816.80, 115.22, 836.77]
+    comment: Watch Out for the Flowers
+
+- .dir(E>>)
+- _Discover<Eagus Bridge>:
+    coord: [969.69, 129.13, 942.83]
+
+- _Korok::D01:
+    comment: Below bridge
+
+- .dir(N>)
+- _Korok::Z47
+
+- .dir(<E)
+- _Korok::Z48
+
+- .dir(E>>) short
+- _Korok::Z49:
+    comment: " "
+
+- .dir(E>)
+- _Korok::Z50
+
+- .dir(S>)
+- _Korok::Z60
+
+- .dir(<E) + .dir(N>)
+- _Korok::N01
+
+- .dir(N>)
+- _Boss::Hinox::Red:
+    coord: [1969.04, 115.44, 97.40]
+    comment: Ancient arrows
+- _Korok::Z41
+
+- .gale() + .dir(NE>):
+    gale: 1
+- _Boss::Hinox::Black:
+    coord: [2485.10, 152.09, -133.56]
+    comment: Ancient arrows
+- _Korok::Z22
+
+- .dir(E>)
+- _Npc::ZoraFemale<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    comment: Special Delivery
+
+- Shoot/bomb letter:
+    icon: tots
+    hide-icon-on-map: true
+    notes: When you return to Finley, the letter will respawn on land
+
+- .dir(N)
+- _Korok::Z23
+
+- .dir(SE)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2868.11, 249.51, -68.34]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(S) run
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2877.09, 229.49, -32.75]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- Down
+- _Discover<Oren Bridge>:
+    coord: [2875.32, 187.50, 32.60]
+
+- .dir(S.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2838.09, 228.01, 188.33]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(NW)
+- _Korok::Z31
+
+- .dir(<E)
+- Deliver letter BLSS:
+    icon: tots
+    hide-icon-on-map: true
+    movements:
+        - to: [2789,-250]
+        - to: [2737,-341]
+        - to: [2658,-370]
+        - to: [2384,-248]
+    notes: Fall and let Mipha's Grace/fairy protect you, don't pull glider, and the letter will survive
+
+- _Npc<Sasan>:
+    coord: [1760.46, 115.80, -56.04]
+    comment: Special Delivery
+
+- _Tod::Noon:
+    coord: [1760.46, 115.80, -36.04]
+    notes: (Optional) You need to make it to Shamae at Mirro Shaz before 8pm and need it be after 9pm for a Stalnox
+
+- .dir(S.)
+- _Korok::Z40
+
+- midair .dir(W)
+- _Korok::Z30:
+    comment: In building ruins
+
+- .dir(<W)
+- _Korok::Z29:
+    comment: Among trees
+
+- .dir(<W)
+- _Korok::C46
+
+- .dir(S>>)
+- _Korok::C51:
+    comment: On pillar
+
+- .dir(<S)
+- _Memory::HyruleField
+
+- .gale() + .dir(W>):
+    gale: 1
+- _Boss::Hinox::Blue:
+    coord: [421.00, 161.27, 329.50]
+    comment: Ancient arrows
+
+- .dir(S>)
+- _Korok::C56
+
+- .dir(NW)
+- _Korok::C50:
+    comment: " "
+    notes: Chaos Ranch - ancient arrow everything
+
+- .dir(NW)
+- _Discover<Mabe Village Ruins>:
+    coord: [-48.50, 133.00, 175.00]
+
+- _Korok::C44:
+    comment: On hill
+
+- .dir(E)
+- _Korok::C45
+
+- .dir(NE)
+- _Korok::C34:
+    comment: " "
+
+- .dir(N>) short
+- _Boss::Hinox::Blue:
+    coord: [626.49, 123.09, -305.54]
+    comment: Ancient arrows
+
+- .dir(E>)
+- _Korok::Z21:
+    comment: " "
+
+- .dir(N)
+- _Korok::Z11
+
+- .dir(NE)
+- _Korok::C13:
+    comment: On bridge
+
+- .dir(<E)
+- _Korok::K35
+
+- .dir(S>)
+- _Korok::Z02:
+    comment: Starts in big tree
+- _Korok::Z03
+
+- .dir(<N)
+- _Korok::K34:
+    comment: " "
+
+- .dir(W>) short
+- _Korok::K33
+
+- .dir(N>) short
+- _Shrine::MirroShaz

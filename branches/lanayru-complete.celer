@@ -1,4 +1,4 @@
-Lanayru Complete:
+Rucco Maag:
 - .dir(E>)
 - _Korok::N40
 
@@ -55,9 +55,10 @@ Lanayru Complete:
 - _Korok::Z51
 
 - .dir(N.)
-- _Shrine::RuccoMaag:
-    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=15359s)
+- _Shrine::RuccoMaag
 
+
+Shai Yota:
 - .dir(E>>)
 - _Korok::Z53
 
@@ -81,6 +82,8 @@ Lanayru Complete:
 
 - _Shrine::ShaiYota
 
+
+Kenai Shakah:
 - .dir(N>)
 - _Korok::Z36
 
@@ -113,6 +116,8 @@ Lanayru Complete:
 - _Shrine::KenaiShakah:
     comment: Modest Test of Strength
 
+
+Kah Mael:
 - midair .dir(S>):
     notes: Jump out to avoid low ceiling
 - _Korok::A55

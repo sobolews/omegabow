@@ -1,0 +1,22 @@
+Daqa Koh:
+- .dir(S.):
+    notes: .link([Daqa Koh vod]https://youtu.be/mGUKIJv-Q_U?t=4137)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk Memory
+
+- .dir(E)
+- _Korok::E16
+
+- .dir(<<S)
+- _Korok::E17:
+    comment: " "
+
+- .dir(E) + .dir(S>)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+    notes: Save for quest
+    comment: Behind rubble
+
+- .dir(NE)
+- _Shrine::DaqaKoh

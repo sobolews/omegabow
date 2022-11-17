@@ -1,9 +1,4 @@
-Gift from the Monks:
-- _Warp::Shrine::ShadaNaw:
-    #comment: 96.36%
-    line-color: orange
-    comment: WARP
-
+Goma Asaagh:
 - _Tod::Night:
     hide-icon-on-map: true
     notes: (Optional) For Salvager chest. Make night if here after 2:30am.
@@ -24,6 +19,8 @@ Gift from the Monks:
 - _Shrine::GomaAsaagh:
     comment: Major Test of Strength
 
+
+Rok Uwog:
 - .dir(SW) run:
     notes: Can shield jump onto ice or shoot a fire arrow between the ice blocks and run through
 - _Korok::H35:
@@ -55,9 +52,10 @@ Gift from the Monks:
 - _Korok::H30
 
 - .dir(NW)
-- _Shrine::RokUwog:
-    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16559s)
+- _Shrine::RokUwog
 
+
+Sha Gehma:
 - .dir(N.) + .dir(NE)
 - _Korok::H13:
     comment: " "
@@ -67,9 +65,10 @@ Gift from the Monks:
     comment: Pinwheel on peak
 
 - .dir(E)
-- _Shrine::ShaGehma:
-    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=16678s)
+- _Shrine::ShaGehma
 
+
+Rin Oyaa:
 - .dir(E>)
 - _Korok::H06
 
@@ -86,9 +85,10 @@ Gift from the Monks:
     comment: Stalhorse Pictured!
 
 - Run
-- _Shrine::RinOyaa:
-    notes: .link([Shrine Strat]https://www.youtube.com/watch?v=MZqANcvFr4c&t=17563s)
+- _Shrine::RinOyaa
 
+
+Rona Kachta:
 - .dir(.W)
 - _Korok::H52
 
@@ -167,5 +167,11 @@ Gift from the Monks:
 - Down
 - _Shrine::RonaKachta
 
+
+After Rona Kachta:
 - _Chest::Special<Set of the Wild>:
+    hide-icon-on-map: true
+
+- Turn in orbs for .!!(27 hearts):
+    icon: tots
     hide-icon-on-map: true

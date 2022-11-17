@@ -1,0 +1,26 @@
+Myahm Agana:
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+    comment: Talk twice
+    notes: .link([Myahm Agana vod]https://youtu.be/s1NM1eCjpX8?t=5612)
+
+- _Npc<Hudson>:
+    coord: [3331.22, 235.28, 2284.61]
+
+- .!!(Upgrade House):
+    icon: house-plus
+    comment: 14 of them
+    hide-icon-on-map: true
+
+- _Equipment::Weapon<Iron Sledgehammer>:
+    hide-icon-on-map: true
+    notes: Grab it while Bolson is walking back to his seat
+
+- .dir(<N)
+- _Npc<Horned Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+    comment: Ask for stamina
+
+- .dir(E)
+- _Shrine::MyahmAgana:
+    hide-icon-on-map: true

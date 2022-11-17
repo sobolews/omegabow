@@ -1,0 +1,85 @@
+Neez Yohma:
+- .dir(E):
+    notes: .link([Neez Yohma vod]https://youtu.be/s1NM1eCjpX8?t=12918)
+- _Korok::Z42:
+    comment: Way below
+
+- .dir(N) + .dir(E)
+- _Korok::Z43
+
+- .dir(S)
+- _Korok::N06
+
+- .dir(<<E)
+- _Korok::Z44
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [3526.26, 251.18, 364.97]
+    comment: Ancient arrows
+
+- .dir(<N)
+- _Material<2 Hylian Shroom>:
+    coord: [3391.02, 307.70, 81.86]
+    notes: Save for transmute
+
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3393.74, 314.18, 49.77]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3265.50, 341.84, 38.70]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(W>) down
+- _Korok::Z33
+
+- .dir(<W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3099.83, 236.67, 70.72]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(N>)
+- _Discover<Luto's Crossing>:
+    coord: [3085.11, 263.68, 8.17]
+    notes: Discover location as you fly past
+
+- _Korok::Z32
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3062.39, 184.92, -216.65]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- .dir(E>)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3260.31, 241.83, -145.22]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+
+- _Material<1 Hearty Truffle>:
+    notes: Save for transmute
+    hide-icon-on-map: true
+
+- .dir(N>)
+- _Korok::Z25
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+
+- _Equipment::Shield<Zora Armor>:
+    comment: .!!(Equip)
+    hide-icon-on-map: true
+
+- _Shrine::NeezYohma

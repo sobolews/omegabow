@@ -1,0 +1,39 @@
+Enter Medoh:
+- _Korok::R60:
+    notes: .link([Enter Medoh vod]https://youtu.be/s1NM1eCjpX8?t=6861)
+
+- BLSS .dir(<<N)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- Jump down
+- _Shop<General Shop>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Buy everything you can
+- _Snap::Quest<Sunshroom>:
+    hide-icon-on-map: true
+
+- .dir(.N)
+- _Korok::T02
+
+- _Npc::Rito<Teba>:
+    coord: [-3790.43, 267.42, -2320.79]
+- _Equipment::Bow<Swallow Bow>:
+    hide-icon-on-map: true
+- Shoot 5 Targets:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+    # coord: [-3792.61, 283.47, -2300.19]
+
+- Enter Medoh:
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    notes: 1 ancient arrow per cannon
+    split-type: UserDefined

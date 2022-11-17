@@ -1,0 +1,54 @@
+Gee Harah:
+- .dir(S.) way down:
+    notes: .link([Gee Harah vod]https://youtu.be/d2lvD_eFjVw?t=2446)
+- _Boss::Talus::Frost:
+    comment: Bomb arrows
+    coord: [-3073.50, 478.42, -2918.50]
+
+- .dir(S>)
+- _Korok::H33
+
+- .gale():
+    gale: 1
+- _Korok::H34
+
+- .gale() + .dir(S>):
+    gale: 1
+- _Korok::H46
+
+- .dir(SE)
+- _Korok::H48
+
+- .dir(N)
+- _Korok::H49
+
+- .dir(N) run
+- _Korok::H50:
+    comment: Look .dir(E)
+    movements:
+        - to: [-2836.29, 501.88, -2423.84]
+          away: true
+
+- _Korok::H47:
+    comment: Look .dir(NW)
+    movements:
+        - to: [-2900.08, 498.65, -2508.79]
+          away: true
+
+- .dir(<N)
+- _Korok::H44:
+    comment: In cave, right of flag
+
+- .dir(E>) surf
+- _Korok::H45
+
+- .dir(S)
+- _Korok::H56
+
+- .dir(NE)
+- _Korok::H51:
+    comment: On ledge against cliff
+
+- .dir(E>)
+- _Shrine::GeeHarah:
+    notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk)

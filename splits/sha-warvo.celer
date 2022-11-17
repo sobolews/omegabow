@@ -1,0 +1,28 @@
+Sha Warvo:
+- Run:
+    notes: .link([Sha Warvo vod]https://youtu.be/s1NM1eCjpX8?t=7515)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
+    notes: DON'T use until duping
+
+- .dir(W.)
+- _Korok::T10
+
+- .dir(.W)
+- _Korok::T13
+- _Material<1 Hearty Truffle>:
+    notes: Save for transmute
+    hide-icon-on-map: true
+
+- Run
+- _Npc::Rito<Kheel>:
+    coord: [-3979.33, 271.21, -1751.18]
+
+- .dir(N>)
+- _Korok::T04
+
+- .dir(N)
+- _Shrine::ShaWarvo

@@ -1,0 +1,9 @@
+Maag Halan:
+- .dir(E):
+    notes: .link([Maag Halan vod]https://youtu.be/mGUKIJv-Q_U?t=6948)
+- _Npc<Damia>:
+    coord: [564.99, 264.83, -2160.65]
+    comment: Start Trial of Wood
+
+- .dir(NE)
+- _Shrine::MaagHalan

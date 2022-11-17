@@ -1,0 +1,54 @@
+Hila Rao:    
+- .dir(E):
+    notes: .link([Hila Rao vod]https://youtu.be/crHPwD-Ouqw?t=9206)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [1186.62, 254.28, 1642.77]
+
+- .dir(<N)
+- _Korok::D16:
+    comment: On small island
+
+- .dir(NW)
+- Steal horse:
+    icon: calamity
+    coord: [927.95, 117.06, 1211.55]
+
+- .dir(S>>) ride
+- _Korok::D25:
+    comment: " "
+
+- .dir(<S)
+- _Korok::D29:
+    comment: On small island
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(NW)
+- _Korok::D23
+
+- .dir(E)
+- _Korok::D24:
+    comment: " "
+
+- .dir(E)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(N>)
+- _Korok::D15
+
+- .dir(NW)
+- _Korok::D13:
+    comment: " "
+
+- .dir(NE)
+- _Discover<Horwell Bridge>:
+    coord: [680.19, 111.37, 977.87]
+
+- .dir(NE)
+- _Shrine::HilaRao

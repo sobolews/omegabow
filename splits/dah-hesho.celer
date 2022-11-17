@@ -1,0 +1,59 @@
+Dah Hesho:
+- .dir(W) down:
+    notes: .link([Dah Hesho vod]https://youtu.be/s1NM1eCjpX8?t=14853)
+- _Korok::A41
+
+- .gale() .dir(N>):
+    gale: 1
+- _Korok::A40
+
+- .dir(NE) down
+- _Korok::A39
+
+- .dir(<N)
+- _Discover<Shadow Hamlet Ruins>:
+    coord: [3053.78, 438.86, -2299.47]
+
+- .dir(<E) + .dir(N>)
+- _Korok::E12
+
+- .dir(S) + midair
+- _Korok::A25
+
+- .dir(S>)
+- _Korok::A30
+
+- .dir(<E)
+- _Korok::A31
+
+- .dir(E)
+- _Korok::A32:
+    comment: " "
+
+- .dir(S)
+- _Korok::A37
+
+- .dir(S>)
+- Kill .enemy(Stalker 1):
+    icon: calamity
+    coord: [3624.82, 195.25, -1602.62]
+    comment: Hobbies of the Rich
+
+- Kill .enemy(Stalker 2):
+    icon: calamity
+    coord: [3671.23, 195.66, -1511.54]
+    comment: Hobbies of the Rich
+
+- .dir(<E)
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: Talk twice
+
+- .dir(S) + midair
+- _Korok::A49:
+    comment: " "
+
+- .dir(W>)
+- _Shrine::DahHesho:
+    comment: Minor Test of Strength
+    notes: Ikurapan does the skip. You can fight minor tests with .rune(Stasis) and 2 ancient arrows, .link([example fight]https://youtu.be/7KzGFjpu1t4?t=13671).

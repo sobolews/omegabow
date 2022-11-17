@@ -1,0 +1,49 @@
+Thunder Helm:
+- .dir(<E):
+    notes: .link([Thunder Helm vod]https://youtu.be/s1NM1eCjpX8?t=8645)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(<W)
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(.W)
+- _Korok::W47:
+    comment: On skeleton
+
+- .dir(N)
+- _Korok::W36
+
+- midair .dir(NW)
+- _Korok::W28
+
+- _Warp::Shrine::KuhTakkar:
+    comment: WARP
+
+- .dir(<W)
+- .loc(Yiga Hideout):
+    icon: house-plus
+    hide-icon-on-map: true
+    coord: [-3510.46, 442.51, 1297.31]
+    comment: Clip in
+
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+
+- .!!(Great Eagle Bow dupe):
+    icon: tots
+    comment: 9 GEB, 1 Duplex
+    hide-icon-on-map: true
+    notes: .link([Tutorial]https://youtu.be/ZmwUDr36i1E)
+
+- .boss(Kohga):
+    icon: calamity
+    coord: [-3451.00, 440.69, 1321.50]
+
+- _Chest::Special<Thunder Helm>:
+    coord: [-3451.00, 440.69, 1341.50]
+    split-type: UserDefined

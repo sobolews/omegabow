@@ -1,0 +1,70 @@
+Monya Toma:
+- Jump out → .dir(W):
+    notes: .link([Monya Toma vod]https://youtu.be/crHPwD-Ouqw?t=11945)
+- _Korok::R19:
+    comment: " "
+
+- .dir(N>)
+- _Korok::R16:
+    comment: Against cliff
+
+- .dir(<N)
+- _Korok::R10:
+    comment: In tech lab ruins
+
+- .dir(N>)
+- _Korok::R07
+- _Memory::IrchPlain
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [-752.49, 187.41, -1268.12]
+    comment: Ancient arrows
+
+- .dir(N>)
+- _Korok::K29
+
+- .dir(N>) + .dir(<E)
+- _Korok::K27:
+    comment: Pinwheel
+
+- .dir(E)
+- _Korok::K28
+
+- .dir(<N)
+- _Boss::Hinox::Blue:
+    coord: [-480.55, 278.99, -2039.64]
+    comment: Ancient arrows
+
+- .dir(<W)
+- _Korok::K19
+
+- midair .dir(W>)
+- _Korok::K16
+
+- midair .dir(S>)
+- _Korok::K18
+
+- .dir(<S)
+- _Korok::K26
+
+- .dir(W)
+- _Korok::K24
+
+- .dir(NE)
+- _Korok::K25
+
+- Steal horse:
+    icon: calamity
+    coord: [-1019.50, 208.96, -1721.00]
+
+- .dir(NW) ride
+- _Korok::K17:
+    comment: " "
+
+- .dir(S>)
+- _Korok::K23:
+    comment: " "
+
+- midair .dir(S>)
+- _Shrine::MonyaToma
