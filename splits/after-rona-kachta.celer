@@ -1,0 +1,7 @@
+After Rona Kachta:
+- _Chest::Special<Set of the Wild>:
+    hide-icon-on-map: true
+
+- Turn in orbs for .!!(27 hearts):
+    icon: tots
+    hide-icon-on-map: true

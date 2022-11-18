@@ -1,0 +1,24 @@
+Final Memory:
+- .dir(.S):
+    notes: .link([Final Memory vod]https://youtu.be/d2lvD_eFjVw?t=14159)
+
+- _Discover<Big Twin Bridge>:
+    coord: [1673.11, 107.36, 2032.82]
+
+- _Discover<Little Twin Bridge>:
+    coord: [1714.18, 106.66, 2149.55]
+
+- .dir(NE)
+- Tame a horse:
+    icon: tots
+    coord: [1784.94, 117.91, 2036.54]
+- _Npc<Rensa>:
+    coord: [1748.38, 116.11, 1923.67]
+    comment: Wild Horses
+- _Npc<Domidak and Prissen>:
+    coord: [1767.48, 116.07, 1925.15]
+    comment: Misko, the Great Bandit
+
+- .dir(.E)
+- _Memory::AshSwamp:
+    notes: GG

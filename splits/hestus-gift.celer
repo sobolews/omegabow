@@ -1,0 +1,19 @@
+Hestus Gift:
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: All inventory upgrades
+
+- _Material<Hestu's Gift>:
+    hide-icon-on-map: true
+    comment: Don't forget!
+
+- _Npc<Chio>:
+    comment: Korok Trials
+    coord: [431.66, 250.56, -2139.55]
+
+- Check quests:
+    icon: tots
+    hide-icon-on-map: true
+    comment: 13/15, 42/42, 75/77
+    notes: .link([Quests in Order]https://docs.google.com/document/d/1sT8kNvatZR7gfKQrNI2YOg7ARvZIpoRd88a_bTnGOB0/edit?usp=sharing)

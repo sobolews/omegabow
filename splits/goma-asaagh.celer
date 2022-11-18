@@ -1,0 +1,21 @@
+Goma Asaagh:
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: (Optional) For Salvager chest. Make night if here after 2:30am.
+
+- .dir(SE) short:
+    notes: .link([Goma Asaagh vod]https://youtu.be/d2lvD_eFjVw?t=11548)
+- _Korok::H20
+
+- .dir(E) + .dir(S) midairs
+- _Korok::H28:
+    comment: On peak
+
+- Look .!!(Southeast) in the sky:
+    icon: tots
+    hide-icon-on-map: true
+    notes: For Salvager chest. Watch it land.
+
+- Down
+- _Shrine::GomaAsaagh:
+    comment: Major Test of Strength

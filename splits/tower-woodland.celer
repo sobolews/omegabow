@@ -16,7 +16,7 @@ Woodland Tower:
 - .dir(S>)
 - _Korok::E35
 
-- .dir(E)
+- .dir(W)
 - _Korok::K32
 
 - midair .dir(N>)

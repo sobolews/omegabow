@@ -1,0 +1,19 @@
+Rin Oyaa:
+- .dir(E>):
+    notes: .link([Rin Oyaa vod]https://youtu.be/d2lvD_eFjVw?t=12090)
+- _Korok::H06
+
+- .dir(S>)
+- _Korok::H14
+
+- .dir(S.) + midair
+- _Korok::H37
+
+- .dir(<S):
+    notes: Pick up/put down rock and stand on it to windbomb
+- _Npc<Juannelle>:
+    coord: [-1641.43, 339.19, -2561.69]
+    comment: Stalhorse Pictured!
+
+- Run
+- _Shrine::RinOyaa
