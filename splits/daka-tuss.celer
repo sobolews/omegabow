@@ -2,10 +2,10 @@ Daka Tuss:
 - BLSS .dir(E.):
     notes: .link([Daka Tuss vod]https://youtu.be/s1NM1eCjpX8?t=3360)
 
-- Kill 2 .enemy(Green Lizalfos):
+- Kill .enemy(Green Lizalfos):
     icon: calamity
     coord: [1618.93, 116.12, 475.68]
-    notes: Hope for 2 horns, 2 talons
+    notes: Need 2 horns, 1 talon
 
 - _Shrine::DakaTuss:
     notes: Eat the steak

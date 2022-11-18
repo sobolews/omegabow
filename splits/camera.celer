@@ -1,9 +1,38 @@
 Camera:
-- .dir(N.):
-    notes: .link([Slated for Upgrades vod]https://youtu.be/s1NM1eCjpX8?t=5746)
-- _Npc<Medda>:
-    coord: [3381.11, 226.15, 2105.53]
-    notes: Spring of Wisdom
+- _Npc<Bolson>:
+    coord: [3327.28, 235.03, 2297.52]
+    comment: Talk twice
+
+- _Npc<Hudson>:
+    coord: [3331.22, 235.28, 2284.61]
+
+- .!!(Start House Upgrades):
+    icon: house-plus
+    hide-icon-on-map: true
+
+- Until autosave
+
+- .!!(WMC):
+    icon: calamity
+    hide-icon-on-map: true
+
+- .!!(Finish House Upgrades):
+    icon: house-plus
+    comment: 14 of them
+    hide-icon-on-map: true
+
+- Dupe omegabow
+
+- .dir(<N)
+- _Npc<Horned Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+    comment: Ask for stamina
+
+- .dir(<E)
+- _Npc<Clavia>:
+    coord: [3434.98, 226.90, 2149.15]
+    comment: Secret of the Cedars
+    notes: (Optional) If you didn't talk to her during inventory corruption
 
 - .dir(N.)
 - _Korok::N42:

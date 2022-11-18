@@ -1,19 +1,24 @@
 Mogg Latan:
 - BLSS .dir(W>):
     coord: [-2203.83, 267.93, 792.66]
-    notes: .link([Mogg Latan vod]https://youtu.be/s1NM1eCjpX8?t=2702)
+    # notes: .link([Mogg Latan vod]https://youtu.be/s1NM1eCjpX8?t=2702)
 
-- _Material<2 Endura Shroom>:
-    notes: Save for cooking
-- _Material<2+ Sunshroom>:
-    comment: .v(Scrap)/8 scrap
-    var-change:
-      Scrap: 1
-- _Material<2+ Chillshroom>:
+
+- _Material<2 Zapshroom>:
     comment: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
     notes: Extra Hylian Shrooms for healing
+- _Material<2 Sunshroom>:
+    comment: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
+- _Material<2 Endura Shroom>:
+    notes: Save for cooking
+- _Material<2 Ironshroom>:
+    comment: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
 
 - .dir(W)
 - _Material<2 Courser Bee Honey>:
@@ -22,7 +27,6 @@ Mogg Latan:
       - to: [-2469.86, 320.38, 736.31]
     comment: .rune(Bomb) them down
     notes: Save for upgrades/quest
-
 - _Material<2 Bird Egg>:
     coord: [-2479.27, 316.89, 721.97]
     comment: .v(Scrap)/8 scrap
@@ -32,8 +36,7 @@ Mogg Latan:
 - .dir(W>)
 - _Material<2 Silent Princess>:
     coord: [-2572.44, 307.32, 660.62]
-    notes: Save for upgrades
-
+    notes: To sell
 - _Material<4 Fleet-Lotus Seed>:
     coord: [-2558.07, 306.99, 655.56]
     notes: Save for cooking
@@ -46,19 +49,18 @@ Mogg Latan:
     coord: [-2342.64, 348.37, 680.81]
 - _Material<1 Acorn>:
     coord: [-2338.68, 348.73, 678.83]
-    notes: Save for upgrades
+    notes: Save for upgrades. Do not pick up extra acorns.
 
 - .dir(N>)
-- _Material<Hearty Truffle>:
-    hide-icon-on-map: true
 - _Material<10 Hearty Durians>:
     coord: [-2196.75, 410.21, 443.15]
     notes: Save 1 for quest
-- _Material<2+ Wood>:
-    notes: Extra acorns are a bonus
+- _Material<2+ Wood>
 
 - .dir(W)
-- In shrine
-- _Chest<Forest Dweller's Bow>:
-    hide-icon-on-map: true
+- _Material<2+ Raw Bird Drumstick>:
+    notes: Murder some crows
+    comment: .v(Scrap)/8 scrap
+    var-change:
+      Scrap: 1
 - _Shrine::MoggLatan

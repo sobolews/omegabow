@@ -1,26 +1,27 @@
 Myahm Agana:
-- _Npc<Bolson>:
-    coord: [3327.28, 235.03, 2297.52]
-    comment: Talk twice
-    notes: .link([Myahm Agana vod]https://youtu.be/s1NM1eCjpX8?t=5612)
+- _Material<2 Apple>:
+    comment: In tree
+    # hide-icon-on-map: true
+    coord: [3794.90, 358.74, 2110.02]
 
-- _Npc<Hudson>:
-    coord: [3331.22, 235.28, 2284.61]
+- .dir(E) down
+- _Korok::N48:
+    comment: " "
 
-- .!!(Upgrade House):
-    icon: house-plus
-    comment: 14 of them
+- .!!(Save, close game, reload):
+    icon: tots
+    notes: Clears inventory glitch and warps back up to tech lab
+    coord: [3805.5,2106.75]
     hide-icon-on-map: true
-
-- _Equipment::Weapon<Iron Sledgehammer>:
-    hide-icon-on-map: true
-    notes: Grab it while Bolson is walking back to his seat
 
 - .dir(<N)
-- _Npc<Horned Statue>:
-    coord: [3285.60, 217.60, 2197.58]
-    comment: Ask for stamina
+- _Korok::N43:
+    comment: " "
 
-- .dir(E)
-- _Shrine::MyahmAgana:
-    hide-icon-on-map: true
+- .dir(S>)
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Text option 2
+
+- .dir(<W)
+- _Shrine::MyahmAgana
