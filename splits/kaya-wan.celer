@@ -1,9 +1,16 @@
 Kaya Wan:
 - BLSS .dir(NE) to .loc(Hyrule Castle)
+- _Chest<5 Fire Arrow>:
+    coord: [-45.00, 209.58, -823.87]
+- Drop 4 Branch:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: Do it while waiting for castle cutscene to trigger.
 
+- .dir(<W) to balcony
 - _Chest<3 Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
-- _Equipement::Bow<Royal Bow>:
+- _Equipment::Bow<Royal Bow>:
     hide-icon-on-map: true
 - 10 Normal Arrows:
     icon: bow
@@ -13,10 +20,11 @@ Kaya Wan:
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
-    notes: 0-3 Screw, 1 Spring, 1 Shaft
+    notes: Looking for 0-3 Screw, 1 Spring, 1 Shaft. Do not pick up extra.
 
 - .dir(<S) → BLSS .dir(SE)
 - In shrine
 - _Chest<Ancient Core>:
     hide-icon-on-map: true
+    notes: Skip if you picked one up from any Stalkers.
 - _Shrine::KayaWan

@@ -8,7 +8,7 @@ Mogg Latan:
     comment: .v(Scrap)/8 scrap
     var-change:
       Scrap: 1
-    notes: Extra Hylian Shrooms for healing
+    notes: Get Hylian Shrooms for healing
 - _Material<2 Sunshroom>:
     comment: .v(Scrap)/8 scrap
     var-change:
@@ -34,9 +34,9 @@ Mogg Latan:
       Scrap: 1
 
 - .dir(W>)
-- _Material<2 Silent Princess>:
-    coord: [-2572.44, 307.32, 660.62]
-    notes: To sell
+# - _Material<2 Silent Princess>:
+#     coord: [-2572.44, 307.32, 660.62]
+#     notes: To sell
 - _Material<4 Fleet-Lotus Seed>:
     coord: [-2558.07, 306.99, 655.56]
     notes: Save for cooking
@@ -54,7 +54,7 @@ Mogg Latan:
 - .dir(N>)
 - _Material<10 Hearty Durians>:
     coord: [-2196.75, 410.21, 443.15]
-    notes: Save 1 for quest
+    notes: Eat! But save 1 for quest.
 - _Material<2+ Wood>
 
 - .dir(W)

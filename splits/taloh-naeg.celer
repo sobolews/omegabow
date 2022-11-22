@@ -8,8 +8,8 @@ Taloh Naeg:
     coord: [1798.63, 219.90, 1011.16]
     notes: Don't damage this one
 
-- _Cook<Endura Food>:
-    comment: With all Endura Shrooms
+- _Cook<Cook 1 Endura Food>:
+    comment: with all Endura Shrooms
     hide-icon-on-map: true
 
 - _Material<1 Energetic Rhino Beetle>:
@@ -17,14 +17,10 @@ Taloh Naeg:
     comment: 9pm to 7am
     notes: Make morning if needed
 
-- .dir(<W)
-- _Npc::SheikaFemale<Rola>:
-    coord: [1830.49, 222.41, 1044.89]
-    comment: Talk twice
-- Sell 2 Silent Princess
-- Buy 1 .item(fire) arrow:
-    icon: bow
-    hide-icon-on-map: true
+# - .dir(<W)
+# - _Npc::SheikaFemale<Rola>:
+#     coord: [1830.49, 222.41, 1044.89]
+#     comment: Talk twice
 
 - .dir(N.)
 - In shrine

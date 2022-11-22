@@ -2,7 +2,7 @@ Enter Hateno:
 - .dir(.E)
 - _Material<1+ Fairy>:
     coord: [1963.57, 269.72, 860.48]
-- _Material<1 Endura Carrot>:
+- _Material<2 Endura Carrot>:
     hide-icon-on-map: true
 
 - .dir(W.) up to .loc(hill)
@@ -45,8 +45,7 @@ Enter Hateno:
 - Kill .enemy(Black Lizalfos):
     icon: calamity
     coord: [1691.87, 280.72, 3661.50]
-    comment: FDB normal arrows
-    notes: Do not pick up bow
+    comment: FDB with Fire Arrows
 
 - _Material<1 Lizalfos Tail>:
     hide-icon-on-map: true
@@ -54,21 +53,20 @@ Enter Hateno:
     hide-icon-on-map: true
 - _Material<1 Lizalfos Talon>:
     hide-icon-on-map: true
-    notes: Kill the green and/or blue lizalfos if missing a horn or talon
+    notes: Kill the green and/or blue lizalfos in this are if missing a horn or talon
 
+- _Material<5 Mighty Banana>:
+    hide-icon-on-map: true
+    notes: Save for koroks
 - .rune(Bomb) pond:
     icon: calamity
     hide-icon-on-map: true
 - _Material<8 Hyrule + 1 Hearty Bass>:
     coord: [1643.02, 277.73, 3674.37]
 
-- _Material<5 Mighty Banana>:
-    hide-icon-on-map: true
-    notes: Save for koroks
-
 - BLSS .dir(NE)
 
-- .!!(Duping and Corruption):
+- Enter Hateno:
     icon: shop
     coord: [3356.35, 225.66, 2175.10]
     split-type: UserDefined
