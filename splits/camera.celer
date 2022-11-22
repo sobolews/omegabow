@@ -2,7 +2,7 @@ Camera:
 - Break 12 slots:
     icon: tots
     hide-icon-on-map: true
-    notes: .link([Detailed Instructions])
+    notes: .link([Detailed Instructions]https://docs.google.com/presentation/d/1UXBuCftkQ9QvW1UUjSutxamuf3EwcggADVqiUG6yWTw/edit?usp=sharing)
 - .!!(System Clock to present):
     icon: calamity
     hide-icon-on-map: true
