@@ -1,5 +1,5 @@
 Camera:
-- Break 12 slots:
+- Break 8 slots:
     icon: tots
     hide-icon-on-map: true
     notes: .link([Detailed Instructions]https://docs.google.com/presentation/d/1UXBuCftkQ9QvW1UUjSutxamuf3EwcggADVqiUG6yWTw/edit?usp=sharing)
@@ -7,6 +7,9 @@ Camera:
     icon: calamity
     hide-icon-on-map: true
 - SAVE:
+    icon: tots
+    hide-icon-on-map: true
+- Break 4 slots:
     icon: tots
     hide-icon-on-map: true
 - Dupe materials:

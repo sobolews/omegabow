@@ -17,10 +17,10 @@ Taloh Naeg:
     comment: 9pm to 7am
     notes: Make morning if needed
 
-# - .dir(<W)
-# - _Npc::SheikaFemale<Rola>:
-#     coord: [1830.49, 222.41, 1044.89]
-#     comment: Talk twice
+- _Npc::SheikaFemale<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Talk twice
+    notes: Start quest
 
 - .dir(N.)
 - In shrine
