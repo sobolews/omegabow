@@ -4,7 +4,7 @@ Woodland Tower:
 - _Korok::E25:
     comment: On skeleton in lava
 
-- .dir(S)
+- .dir(.W)
 - _Korok::E24:
     comment: " "
 
