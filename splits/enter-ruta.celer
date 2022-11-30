@@ -1,21 +1,8 @@
 Enter Ruta:
-- Run
-- _Npc::ZoraMale<Muzu>:
-    coord: [3299.5,-474.5]
-    comment: Mipha Memory
-
-- .gale() + .dir(E>):
-    gale: 1
-    notes: .link([Enter Ruta vod]https://youtu.be/s1NM1eCjpX8?t=13549)
 - _Korok::Z18
 
-- .dir(S)
 - _Korok::Z26:
     comment: Up on peak
-
-- .dir(NE)
-- _Npc::ZoraMale<Sidon>:
-    coord: [3598.55, 316.00, -330.31]
 
 - Enter Ruta:
     icon: ruta-enter

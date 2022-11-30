@@ -1,13 +1,5 @@
 Daqo Chisay:
-- _Npc::Rito<Kass>:
-    coord: [-3655.84, 471.90, 1837.15]
-    comment: Text option 2-1-1
-
-- .dir(S)
 - _Korok::W29:
     comment: " "
 
-- .dir(.S)
-- _Npc<Benja>:
-    coord: [-3804.64, 149.50, 2818.36]
 - _Shrine::DaqoChisay

@@ -3,8 +3,8 @@ _project:
   authors:
     - ""
   description: ""
-  name: 100% (WMC 2022-11-18)
-  url: https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/
+  name: 100% (Tao 2022-11-29)
+  url: https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/tao/
   version: 2.0
 
 _config:
@@ -13,14 +13,10 @@ _config:
     Warp: "Warp {{_}} .{{Korok}}"
 
 _route:
-  - (^=) Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
-  - (?=) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
-
   - Plateau:
     - .!!(SoR clip):
         icon: location
         line-color: white
-        notes: After cutscene, hold ZL and hop left to exit
     - __use__ Ja Baij
     - __use__ Oman Au
     - __use__ Great Plateau Tower
@@ -62,7 +58,6 @@ _route:
   
   - Thunder Helm:
     - _Warp::Shrine::MoggLatan:
-        # line-color: red
         comment: WARP
     - __use__ Kuh Takkar
     - __use__ Gerudo Tower
@@ -72,7 +67,6 @@ _route:
   - Vah Naboris:
     - _Warp::Shrine::DaqoChisay:
         comment: WARP
-        notes: Clear ragdoll before warping
     - __use__ Enter Naboris
     - __use__ Vah Naboris
 

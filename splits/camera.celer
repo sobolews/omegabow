@@ -1,60 +1,13 @@
 Camera:
-- _Npc<Bolson>:
-    coord: [3327.28, 235.03, 2297.52]
-    comment: Talk twice
-
-- _Npc<Hudson>:
-    coord: [3331.22, 235.28, 2284.61]
-
-- .!!(Start House Upgrades):
+- .!!(House Upgraded):
     icon: house-plus
+    split-type: UserDefined
     hide-icon-on-map: true
 
-- Until autosave
-
-- .!!(WMC):
-    icon: calamity
-    hide-icon-on-map: true
-
-- .!!(Finish House Upgrades):
-    icon: house-plus
-    comment: 14 of them
-    hide-icon-on-map: true
-
-- Dupe omegabow
-
-- .dir(<N)
-- _Npc<Horned Statue>:
-    coord: [3285.60, 217.60, 2197.58]
-    comment: Ask for stamina
-
-- .dir(<E)
-- _Npc<Clavia>:
-    coord: [3434.98, 226.90, 2149.15]
-    comment: Secret of the Cedars
-    notes: (Optional) If you didn't talk to her during inventory corruption
-
-- .dir(N.)
 - _Korok::N42:
     comment: Past blue flame
 
-- .dir(<S) short
-- .!!(Smuggle Blue Flame):
-    icon: tots
-    coord: [3447.5,1982]
-    notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
-
-- .dir(E>) + .dir(E)
-- Activate .loc(Hateno Tech Lab):
-    icon: location
-    movements:
-        - to: [3637.5,2098]
-        - to: [3783,2106.5]
-- _Snap::Quest<Purah>:
-    hide-icon-on-map: true
-    comment: Talk and SNAP
-- .!!(Slated for Upgrades):
+- .!!(Slate Upgraded):
     icon: camera-plus
     hide-icon-on-map: true
-    notes: If less than 3 screws, upgrade slate in Hateno 2
     split-type: UserDefined

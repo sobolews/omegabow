@@ -1,20 +1,5 @@
 After Sha Warvo:
-- .dir(.E):
-    notes: .link([After Sha Warvo vod]https://youtu.be/s1NM1eCjpX8?t=7696)
-- _Discover<Hebra Trailhead Lodge>:
-    coord: [-3572.02, 247.83, -2258.14]
-
-- .dir(<S)
 - _Korok::T05
 
-- .dir(<E)
-- Shock arrow fish:
-    icon: calamity
-    hide-icon-on-map: true
 - _Korok::T03:
     comment: " "
-
-- Swim
-- _Material<2 Voltfin Trout>:
-    coord: [ -3012.75, 217.66, -2157.02]
-    notes: Save 1 for quest, 1 for transmute

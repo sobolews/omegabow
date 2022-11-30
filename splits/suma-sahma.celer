@@ -1,30 +1,12 @@
 Suma Sahma:
-- .dir(N) + .dir(E) midairs:
-    coord: [-1806.75,3340.5]
-    notes: .link([Suma Sahma vod]https://youtu.be/s1NM1eCjpX8?t=10931)
 - _Korok::W54
 
-- .dir(S>)
 - _Korok::W59:
     comment: " "
 
-- .dir(E>)
 - _Korok::W64
 
-- .dir(N)
 - _Korok::W60:
     comment: " "
-
-- .dir(<N)
-- Read .!!(Mountain Peak Log):
-    icon: tots
-    # hide-icon-on-map: true
-    coord: [-1387.83, 540.50, 3494.08]
-
-- Activate .!!(Pedestal):
-    icon: tots
-    hide-icon-on-map: true
-    notes: Between 4pm to 5:30pm
-    comment: Carry snowball
 
 - _Shrine::SumaSahma

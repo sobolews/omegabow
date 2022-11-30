@@ -1,62 +1,16 @@
 Dow Naeh:
-- .dir(N) + .dir(S):
-    notes: .link([Dow Naeh vod]https://youtu.be/s1NM1eCjpX8?t=12108), windbomb away from the mountain and back. Otherwise, Naydra will not spawn correctly.
-
-- _Tod::Morning:
-    coord: [3975,1221.25]
-    notes: If between 12:00pm and 5:00am, need to make morning twice to properly advance a day so Naydra spawns.
-
-- Shoot Naydra (Horn):
-    icon: calamity
-    hide-icon-on-map: true
-    notes: Shoot horn first because it's less prone to being blown away
-
-- _Tod::Morning:
-    hide-icon-on-map: true
-
-- Shoot Naydra (Claw):
-    icon: calamity
-    hide-icon-on-map: true
-
-- Pick up parts:
-    icon: tots
-    hide-icon-on-map: true
-
-- .dir(NE)
 - _Korok::N19
 
-- .dir(N) + .dir(W)
 - _Korok::N17:
     comment: " "
 
-- .dir(S>)
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
-    comment: Ancient arrows
 
-- _Snap::Quest<Lynel>:
-    movements:
-        - to: [3261.15, 263.12, 1211.79]
-          away: true
-
-- .dir(<N)
 - _Memory::LanayruRoad
 
-- .dir(S) + .dir(N) + midair
-- _Boss::Hinox::Blue:
-    coord: [2990.90, 251.39, 787.92]
-    comment: .fury()
-    fury: 3
-
-- .dir(<W) + midair
-- _Korok::N13:
-    comment: .rune(Stasis) & hit, .rune(Stasis) & hit
-
-- .dir(S>)
 - _Korok::N15
 
-- .dir(E>>)
 - _Korok::N16
 
-- .dir(S)
 - _Shrine::DowNaeh

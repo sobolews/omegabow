@@ -1,10 +1,9 @@
 After Hateno Tower:
-- .dir(<W)
 - _Korok::D57:
     comment: " "
-- .dir(NE) short
+
 - _Korok::D58:
     comment: " "
-- .dir(N>)
+
 - _Korok::D53:
     comment: " "

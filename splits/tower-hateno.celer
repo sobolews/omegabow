@@ -1,11 +1,8 @@
 Hateno Tower:
-- .dir(S>)
 - _Korok::N59
 
-- .dir(W)
 - _Korok::N58
 
-- .dir(W)
 - _Korok::N50:
     comment: " "
 
@@ -13,7 +10,5 @@ Hateno Tower:
     movements:
         - to: [2714.13, 225.53, 2345.55]
           away: true
-    notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw). Windbomb over if it's raining.
 
-- .dir(N) + midair
 - _Tower::Hateno

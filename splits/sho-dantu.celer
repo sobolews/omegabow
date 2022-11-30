@@ -15,11 +15,6 @@ Sho Dantu:
     coord: [-3804.76, 602.57, 1204.77]
     comment: Boulder Breaker
 
-- .dir(<<S)
-- _Boss::Talus::Frost:
-    coord: [-3558.72, 558.36, 1560.07]
-    comment: Bomb arrow
-
 - .dir(W)
 - _Material<10 Wildberry>:
     coord: [-3663.94, 569.99, 1536.07]

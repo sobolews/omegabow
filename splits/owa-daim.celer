@@ -1,15 +1,2 @@
 Owa Daim:
-- Jump down:
-    notes: .link([Owa Daim vod]https://youtu.be/s1NM1eCjpX8?t=2263)
-    
-- _Npc::SheikaMale<Old Man>:
-    coord: [-572.50, 178.89, 1696.50]
-    comment: Glitched cutscene
-
-- BLSS .dir(S) to .loc(Tree):
-    movements:
-        - to: [-674.5,1953]
-        - to: [-839.5,2274.5]
-
-- WB .dir(W)
 - _Shrine::OwaDaim
