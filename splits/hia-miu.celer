@@ -1,27 +1,18 @@
 Hia Miu:
-- .dir(W>):
-    notes: .link([Hia Miu vod]https://youtu.be/d2lvD_eFjVw?t=1887). Make night for Stalnox if needed.
 - _Korok::H10:
     comment: " "
 
-- midair .dir(E)
 - _Korok::H11
 
-- .dir(NW) down
 - _Korok::H09
 
-- Climb out -> .dir(NW)
 - _Korok::H04:
     comment: " "
 
-- .dir(<W)
 - _Boss::Hinox::Stal:
     coord: [-4260.15, 327.00, -3777.48]
-    comment: Ancient arrows
 
-- .dir(W)
 - _Korok::H01
 
-- Run
 - _Shrine::HiaMiu:
     comment: Major Test of Strength

@@ -1,117 +1,49 @@
 Tahno Oah:
-- .dir(E):
-    notes: .link([Tahno Oah vod]https://youtu.be/d2lvD_eFjVw?t=9211)
 - _Korok::D42
 
-- .dir(SE)
 - _Korok::D51
 
-- .dir(E.)
 - _Korok::D52:
     comment: Pinwheel
 
-- .dir(NE)
 - _Korok::N33
 
-- .dir(<S)
-- _Npc<Calip>:
-    coord: [2398.96, 118.64, 1834.33]
-    comment: Text option 2
-    notes: If it's not raining, Calip leaves at 6:00am. Sleep in bed if he's not here. Cancel dialogue.
-
-- Run .dir(W)
 - _Korok::N34
 
-- .dir(<N)
 - _Korok::N27
 
-- .dir(NE)
 - _Korok::N26:
     comment: " "
 
-- .dir(<S)
 - _Korok::N35
 
-- .dir(E)
 - _Korok::N36
 
-- .dir(<E)
 - _Korok::N37:
     comment: " "
 
-- .dir(S)
 - _Korok::N38:
     comment: Pinwheel
 
-- .dir(S) short
 - _Boss::Talus::Stone:
-    comment: .fury()
-    fury: 2
     coord: [3199.41, 173.38, 1904.36]
-    notes: Waste a fury
 
-- .dir(<W)
 - _Korok::N41:
     comment: " "
 
-- .dir(W)
 - _Korok::N45:
     comment: Shoot 10 signs
 
-- .dir(S)
 - _Korok::N46
 
-- .dir(E>)
 - _Korok::N51
 
-- .dir(<E)
 - _Korok::N52
 
-- .dir(W)
 - _Korok::N53
 
-- .gale():
-    gale: 1
-- _Npc<Bolson>:
-    coord: [3331.22, 235.28, 2284.61]
-    comment: From the Ground Up
-
-- .dir(N>)
-- _Npc<Medda>:
-    coord: [3381.11, 226.15, 2105.53]
-    notes: Spring of Wisdom
-
-- _Npc<Nebb>:
-    coord: [3352.40, 225.55, 2138.81]
-    comment: Weapon Connoisseur
-
-- _Npc<Manny>:
-    coord: [3418.24, 226.84, 2121.22]
-    comment: Gift for My Beloved
-    notes: Manny, Prima, Manny, Manny
-
-- .dir(E)
-- _Npc<Koyin>:
-    coord: [3621.69, 283.36, 2098.13]
-    comment: Sheep Rustlers
-
-- .gale() + .dir(E):
-    gale: 1
-    notes: Enter back door
-- _Npc<Symin>:
-    coord: [3778.96, 356.86, 2132.45]
-    comment: Sunshroom Sensing
-    notes: Talk 3 times until you get the Hearty Truffle reward. Then talk again and make sure to select "I'm good".
-
-- .!!(Buy compendium pics):
-    icon: camera-plus
-    hide-icon-on-map: true
-
-- .gale():
-    gale: 1
 - _Korok::N47
 
-- .dir(<E) + .dir(N)
 - _Korok::N32:
     comment: " "
 

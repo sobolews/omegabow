@@ -1,154 +1,62 @@
 Sheem Dagoze:
-- Glide:
-    notes: .link([Sheem Dagoze vod]https://youtu.be/mGUKIJv-Q_U?t=7923)
-- _Equipment::Weapon<Great Flameblade>:
-    coord: [-268.24, 131.34, -1153.31]
-    notes: High durability weapon for tree chopping, campfires
-
-- Kill .enemy(lizalfos):
-    icon: calamity
-    hide-icon-on-map: true
-    notes: (Optional) Take bow and pickup Lizalfos Horn if needed
-
-- Run
 - _Korok::X01
 
-- .dir(<W)
 - _Korok::X04:
     comment: Pinwheel on castle wall
 
-- Down, enter .loc(Lockup)
-- Shoot .enemy(eye) in hallway:
-    icon: calamity
-    hide-icon-on-map: true
-
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    comment: Ancient arrows
-    notes: Bullet time off steps
-
-- _Equipment::Weapon<Great Thunderblade>:
-    hide-icon-on-map: true
-
-- _Chest::Special<Hylian Shield>:
-    coord: [-501.57, 126.08, -1011.58]
-
-- Run out, .rune(bomb) 2 walls
 - _Korok::X13
 
-- Climb, backtrack, .gale():
-    gale: 1
 - _Korok::X08
 
-- Climb ladder
-- .rune(Bomb) switch and wall:
-    icon: tots
-    hide-icon-on-map: true
-- _Chest<Shard of Dinraal's Fang>:
-    coord: [-326.46, 151.16, -1002.40]
-
-- Updraft, run, .gale():
-    gale: 2
-- _Discover<Zelda's Study>:
-    coord: [-383.72, 273.58, -995.87]
-- _Material<1 Silent Princess>:
-    hide-icon-on-map: true
-    notes: Should have 19. If not, backup at fairy fountains later.
 - _Memory::HyruleCastle
 
-- Run
 - _Korok::X09:
     comment: On balcony
 
-- _Discover<Zelda's Room>:
-    notes: Run into the room
-
-- .dir(.S)
 - _Korok::X14
 
-- .dir(<W)
 - _Korok::X17:
     comment: Spire of First Gatehouse
 
-- .dir(<E)
 - _Korok::X16:
     comment: Spire of Second Gatehouse
 
-- Down
-- _Discover<Second Gatehouse>:
-    notes: For the gatehouses, there are specific places to climb down and get the location without triggering the Lynel. Watch vod in those places for how to do it.
-
-- .dir(.E)
 - _Korok::X12:
     comment: On wall
 
-- .dir(S)
-- _Discover<Dining Hall>
-
-- _Material<Raw Meat>:
-    coord: [-108.37, 210.59, -848.95]
-    comment: Koko Cuisine
-
-- _Material<Raw Gourmet Meat>:
-    coord: [-152.50, 210.39, -821.58]
-    comment: Rare Find
-
-- Run
 - _Korok::X15
 
-- Clip out to .loc(Guard's Chamber):
-    notes: .link([Clip and oob movement]https://youtu.be/mGUKIJv-Q_U?t=8360). Clear ragdoll.
-- _Chest<Shard of Naydra's Fang>:
-    coord: [-356.28, 172.41, -810.58]
-    time-override: 274
 - _Korok::X19:
     comment: Up stairs behind wall
 
-- Run outside .gale():
-    gale: 1
-- _Discover<First Gatehouse>:
-    coord: [-351.61, 217.85, -830.25]
-
-- Run
 - _Korok::X18
 
-- .dir(E>)
 - _Korok::X23:
     comment: Pinwheel
 
-- Down
-- _Discover<Observation Room>:
-    coord: [-255.47, 211.39, -764.95]
-    notes: Walk into the malice
-- _Equipment::Bow<Royal Bow>:
-    hide-icon-on-map: true
-- _Korok::X21:
-    notes: Shoot the top with normal arrows
+- _Korok::X21
+
 - _Korok::X22:
     comment: Far
-    notes: Aim at top of the wall in background
 
-- .dir(S)
+- _Korok::X20
+
 - _Korok::X24
 
-- .dir(SW) down
 - _Korok::C16
 
 - _Korok::X25:
     comment: " "
 
-- .dir(N.)
-- _Korok::X20
-
-- .dir(<S)
 - _Korok::C33:
     comment: Pinwheel on outer wall
 
-- .dir(S>>)
 - _Korok::C35
+
 - _Memory::SacredGrounds
 
-- .dir(S>>)
 - _Korok::C42:
     comment: Hanging in tree
     notes: Shoot midair before reaching C43
@@ -156,68 +64,32 @@ Sheem Dagoze:
 - _Korok::C43:
     comment: Pinwheel
 
-- .dir(W)
 - _Korok::C40:
     comment: " "
 - _Korok::C41
 
-- .dir(<W)
 - _Korok::C39
 
-- .dir(W>)
 - _Korok::C38:
     comment: Starts at tree stump
 
-- .dir(W)
-- Kill .enemy(Lizalfos):
-    hide-icon-on-map: true
-    icon: calamity
-    comment: Take Royal Bow
 - _Korok::C36:
     comment: In Sage Temple Ruins
 
-- _Material<18 Acorn>:
-    movements:
-        - to: [-1311.30, 114.29, 227.12]
-        - to: [-1371.47, 114.42, 208.08]
-        - to: [-1388.04, 114.54, 249.51]
-    notes: Each big tree has 6 acorns. Use stasis to see them.
-
-- .dir(W>>)
 - _Korok::R49:
     comment: On beach
 
-- .dir(N) up
 - _Korok::R48
 
-- .dir(W)
-- _Discover<Jeddo Bridge>:
-    coord: [-1689.86, 205.00, 130.84]
-
-- .dir(N)
 - _Korok::R39
 
-- .dir(<E)
 - _Boss::Hinox::Blue:
     movements:
         - to: [-1534.88, 214.82, -171.59]
           away: true
-    comment: Ancient arrows
-    notes: Shoot midair on the way to R40
 
 - _Korok::R40
 
-- .dir(S>)
 - _Korok::R41
-
-- .dir(S>>) surf
-- _Npc::Rito<Kass>:
-    coord: [-1681.68, 214.50, 51.38]
-
-- .dir(<W)
-- Shoot through 2 rings:
-    icon: tots
-    coord: [-1855.25,76.25]
-    notes: Must use single-shot bow
 
 - _Shrine::SheemDagoze

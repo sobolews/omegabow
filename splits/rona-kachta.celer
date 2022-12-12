@@ -1,79 +1,42 @@
 Rona Kachta:
-- .dir(.W):
-    notes: .link([Rona Kachta vod]https://youtu.be/d2lvD_eFjVw?t=12284)
 - _Korok::H52
 
-- .dir(E>)
 - _Korok::H58
 
-- .dir(<S)
 - _Korok::H62:
     comment: Pinwheel on cliff edge
 
-- .dir(NE) down
 - _Korok::H59
 
-- .dir(NE)
 - _Korok::H38:
     comment: In corner against cliff
 
-- .dir(E>) down
 - _Korok::K10:
     comment: " "
 
-- .dir(<W)
 - _Korok::K12
 
-- _Tod::Night:
-    hide-icon-on-map: true
-    notes: For Stalnox and Kilton
-
-- .gale() + .dir(S>):
-    gale: 1
-
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
     coord: [-1273.50, 213.08, -2113.50]
 
-- .dir(SW)
-- _Npc<Akrah, Garshan, Onya>:
-    coord: [-1541.84, 212.23, -1804.59]
-    comment: Leviathan Bones
-
-- .dir(<W)
-- _Discover<Maritta Exchange Ruins>:
-    coord: [-1781.57, 220.00, -1685.07]
-
-- .dir(<W)
 - _Korok::R01
 
-- .dir(NE)
 - _Korok::H68
 
-- .dir(S.) way down
 - _Korok::K22
 
-- .dir(N>) + .dir(E)
 - _Korok::K20
 
-- .dir(<E)
 - _Korok::K21
 
-- .dir(NE) + .dir(N)
 - _Korok::K15
 
-- .dir(W)
 - _Korok::H63
 
-- .dir(<E)
 - _Korok::K13
 
-- .dir(S) down
 - _Korok::K14
 
-- .gale() + BLSS:
-    gale: 1
 - _Korok::K09
 
-- Down
 - _Shrine::RonaKachta

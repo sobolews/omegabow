@@ -1,20 +1,4 @@
 Vah Rudania:
-- Complete divine beast:
-    icon: tots
-    hide-icon-on-map: true
-    comment: .gale()
-    gale: 1
-    notes: .link([Vah Rudania vod]https://youtu.be/mGUKIJv-Q_U?t=4796)
-
-- _Chest<Knight's Bow>:
-    hide-icon-on-map: true
-    notes: Need a single shot bow for the trickshot and a metal bow for later Eldin. Get this one if you didn't pick up one earlier.
-
-- .boss(Fireblight):
-    icon: calamity
-    hide-icon-on-map: true
-    comment: .rune(Stasis) → 1 body + 5 head
-
 - Daruk's Protection:
     icon: rudania-done
     split-type: UserDefined

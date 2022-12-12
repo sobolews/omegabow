@@ -1,22 +1,10 @@
 Hawa Koth:
-- .dir(<<S):
-    notes: .link([Hawa Koth vod]https://youtu.be/mGUKIJv-Q_U?t=13376)
 - _Boss::Molduga:
     coord: [-4555.62, 137.14, 3256.35]
-    comment: Savage Lynel Crusher
 
-- .dir(<W)
 - _Korok::W51
 
-- midair .dir(S)
 - _Korok::W65
-
-- _Snap::Quest<Gerudo Great Skeleton>:
-    coord: [-4863.96, 146.09, 3804.65]
-
-- Activate .loc(Fairy Fountain):
-    coord: [-4870.20, 125.00, 3824.80]
-    icon: tots
 
 - _Shrine::HawaKoth:
     comment: Set skew outside

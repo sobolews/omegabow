@@ -1,55 +1,36 @@
 Noya Neha:
-- .dir(.W):
-    notes: .link([Noya Neha vod]https://youtu.be/crHPwD-Ouqw?t=11487)
 - _Korok::C30:
     comment: " "
 
-- .dir(N>)
 - _Korok::C25
 
-- .dir(.E)
 - _Korok::C26
-- _Discover<Water Reservoir>:
-    coord: [-596.67, 130.98, -525.32]
 
-- .dir(W>) run
 - _Korok::C22
 
-- .dir(W)
 - _Korok::C21
 
-- .dir(N>>) down
 - _Korok::C20
 
-- .dir(N)
 - _Boss::Talus::Rare:
-    comment: Boulder Breaker
     coord: [-768.74, 152.76, -804.49]
 
-- .dir(SE)
 - _Korok::C15:
     comment: " "
 
-- .dir(<N)
 - _Korok::C08:
     comment: Drop Rusty Shield, leave it
 
-- .dir(N) run
 - _Korok::C03
 
-- .dir(<N)
 - _Korok::C01:
     comment: Against malice pillar
 
-- .dir(W)
 - _Korok::R11
 
-- .dir(<S)
 - _Korok::C07
 
-- .dir(S)
 - _Korok::C14
 
-- Down
 - _Shrine::NoyaNeha:
     comment: Minor Test of Strength

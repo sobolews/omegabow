@@ -1,10 +1,6 @@
 Jitan Sami:
 - _Korok::N44
 
-- Shoot an eye:
-    icon: tots
-    coord: [3965,1353]
-
 - _Korok::N18:
     comment: " "
 
@@ -33,11 +29,5 @@ Jitan Sami:
 - _Korok::N22
 
 - _Korok::N23
-
-- Free Naydra:
-    icon: calamity
-    movements:
-        - to: [3965,1353]
-          warp: true
 
 - _Shrine::JitanSami

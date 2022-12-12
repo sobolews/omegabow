@@ -1,24 +1,10 @@
 Shai Yota:
-- .dir(<S):
-    notes: .link([Shai Yota vod]https://youtu.be/d2lvD_eFjVw?t=10733)
-- _Korok::N14
+- _Korok::Z53
 
-- .dir(N>)
-- _Korok::Z54
+- _Korok::Z52
 
-- .dir(E)
-- _Korok::Z55
+- _Korok::Z45
 
-- .dir(E.)
-- _Korok::N12
-
-- .dir(<E)
-- _Korok::Z57
-
-- .dir(<N)
-- Activate .!!(Pedestial):
-    icon: tots
-    coord: [4226.75,312.75]
-    comment: Land with paraglider open
+- _Korok::Z46
 
 - _Shrine::ShaiYota

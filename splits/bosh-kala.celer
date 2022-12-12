@@ -1,37 +1,20 @@
 Bosh Kala:
-- .dir(S) surf:
-    notes: .link([Bosh Kala vod]https://youtu.be/crHPwD-Ouqw?t=4466)
-- _Npc<Parcy>:
-    coord: [345.00, 121.73, 1091.50]
-    comment: Royal Guard's Gear
+- _Korok::D14:
+    comment: Under bridge
 
-- _Npc<Gotter>:
-    coord: [325.82, 115.40, 1092.50]
-    comment: Royal Recipe
-
-- .dir(S.)
 - _Korok::C77
 
-- _Discover<Owlan Bridge>:
-    coord: [325.48, 102.49, 1273.41]
-
-- .dir(<S)
 - _Korok::D22
 
-- .dir(W)
-- Kill .enemy(Red Moblin):
-    icon: calamity
-    coord: [132.65, 116.42, 1397.90]
-    hide-icon-on-map: true
-- _Equipment::Weapon<Moblin Club>:
-    comment: Weapon Connoisseur
-
-- .dir(SW) run
 - _Korok::C84:
     comment: " "
 
-- .dir(S)
 - _Korok::D26
 
-- .dir(S) down
+- _Korok::D27
+
+- _Korok::D34
+
+- _Korok::D33
+
 - _Shrine::BoshKala

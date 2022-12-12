@@ -1,31 +1,8 @@
 Toh Yahsa:
-- .dir(W):
-    notes: .link([Toh Yahsa vod]https://youtu.be/crHPwD-Ouqw?t=12791)
 - _Korok::R15:
     comment: " "
 
-- .dir(<N)
-- Send red orb:
-    icon: tots
-    coord: [-2135.60, 219.98, -909.20]
-    notes: Use Ancient Battleaxe. Just don't break it.
-
-- .dir(NW)
-- Send orange orb:
-    icon: tots
-    coord: [-2271.02, 228.58, -1040.27]
-
-- .dir(NW)
 - _Korok::R08:
     comment: Against cliff
-
-- .dir(<S)
-- Take green orb:
-    icon: tots
-    coord: [-2288.70, 235.47, -882.80]
-
-- Place all orbs:
-    icon: tots
-    hide-icon-on-map: true
 
 - _Shrine::TohYahsa

@@ -1,33 +1,20 @@
 Katosa Aug:
-- _Snap::Quest<Guardian Skywatcher>:
-    notes: .link([Katosa Aug vod]https://youtu.be/mGUKIJv-Q_U?t=3381)
-
-- .dir(S>>)
 - _Korok::A08
 
-- .dir(E)
 - _Korok::A09:
     comment: " "
 
-- .dir(S>)
 - _Korok::A17:
     comment: " "
 
-- _Snap::Quest<Guardian Stalker>
-
-- .dir(S>>)
 - _Korok::A24
 
-- .dir(S>) + .dir(<W) midair
 - _Korok::A29:
     comment: Pinwheel
 
-- .dir(W)
 - _Korok::A28:
     comment: " "
 
-- .dir(NE)
 - _Korok::A23
 
-- .dir(W)
 - _Shrine::KatosaAug

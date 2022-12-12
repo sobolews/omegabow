@@ -1,75 +1,41 @@
 Lake Tower:
-- .dir(E):
-    notes: .link([Lake Tower vod]https://youtu.be/crHPwD-Ouqw?t=1184)
-- _Npc::ZoraFemale<Mei>:
-    coord: [-226.89, 90.03, 2577.47]
-    comment: Wife Washed Away
-
-- .dir(<E)
 - _Korok::L26
 
-- .dir(<N) down
 - _Korok::L15:
     comment: In broken pillar
 
 - _Korok::L14:
     comment: " "
 
-- .gale() + .dir(<N):
-    gale: 1
 - _Korok::D54
 
-- .dir(<S) down
 - _Korok::L09:
     notes: Shooting Farosh will make her fly away and avoid having her updraft interfere with L30
 
-- .dir(<S)
 - _Korok::L27:
     comment: In fountain
 
-- Look .!!(Southeast) in the sky:
-    icon: tots
-    hide-icon-on-map: true
-    notes: For Salvager chest. Watch it land.
-
-- .dir(<S) run
 - _Korok::L30
 
-- .dir(<S) down
 - _Korok::L31
 
-- .dir(E)
 - _Korok::L32
 
-- .dir(E>)
 - _Korok::L33:
     comment: Pinwheel
 
-- .dir(<W)
-- _Chest::Special<Salvager Headwear>:
-    coord: [126.03, 92.65, 2710.94]
-
-- .dir(<<S) short
 - _Korok::L39
 
-- .dir(E)
 - _Korok::L40
 
-- midair .dir(<S)
 - _Korok::L44
 
-- .dir(W)
 - _Korok::L42:
     comment: " "
 
-- .dir(W) surf
 - _Korok::L43
 
-- .dir(<<W)
 - _Korok::L51:
     comment: 2 .rune(Stasis) hits
-    notes: We need a windcleaver for Weapon Connoisseur. Pick up one from any Yiga that spawns or get one during Lakna Rokee later.
 
-- .gale() + .dir(W):
-    gale: 1
 - _Tower::Lake

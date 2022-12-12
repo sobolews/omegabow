@@ -1,67 +1,30 @@
 Shoqa Tatone:
-- .dir(S):
-    notes: .link([Shoqa Tatone vod]https://youtu.be/crHPwD-Ouqw?t=2606)
-- Start L65 race:
-    icon: tots
-    coord: [546.27, 231.59, 3580.35]
+- _Korok::L65
 
-- .dir(E) ride:
-    movements:
-        - to: [502,3447.5]
-        # - to: [513,3516.5]
-        - to: [274,3465.5]
-        - to: [237.5,3515]
-        - to: [190,3518]
-- Leave horse:
-    icon: tots
-    coord: [161.5,3487]
-    notes: Sets up the horse for easy pickup later
-
-- .dir(N>)
-- _Korok::L65:
-    coord: [271.72, 222.37, 3289.59]
-    comment: " "
-    notes: Do not whistle sprint until after Shoqa Tatone
-
-- .dir(S>)
 - _Korok::L70:
     comment: " "
 
-- .dir(E>) short
 - _Korok::L71:
     time-override: 100
 
-- .gale() + .dir(S):
-    gale: 1
 - _Korok::L73:
     comment: Pinwheel on peak
 
-- .dir(E)
 - _Korok::L74:
     comment: " "
 
-- .dir(E)
 - _Korok::L76:
     comment: " "
 
-- .dir(S>) up
 - _Korok::L91
 
-- .dir(<<W) surf
 - _Korok::L90:
     comment: By the pond
 
-- .dir(<W)
 - _Korok::L89:
     comment: " "
 
-- .dir(<<N) swim
 - _Korok::L88
-
-- .dir(W>)
-- _Npc<Loone>:
-    coord: [104.50, 109.30, 3825.50]
-    comment: Guardian Slideshow
 
 - _Shrine::ShoqaTatone:
     comment: Modest Test of Strength

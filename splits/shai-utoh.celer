@@ -1,35 +1,12 @@
 Shai Utoh:
-- .dir(<S):
-    notes: .link([Shai Utoh vod]https://youtu.be/crHPwD-Ouqw?t=6888)
 - _Korok::F39
 
-- .dir(E>) run
 - _Korok::F40:
     comment: On small island in bog
 
-- .dir(N.)
 - _Korok::F34:
     comment: Pinwheel on large stump
 
-- .dir(E>)
-- _Korok::F42
-
-- .dir(.W)
-- _Equipment::Weapon<Woodcutter's Axe>:
-    coord: [1552.29, 196.63, 3533.36]
-    notes: Thunder Magnet
-    comment: Top of stable
-
-- Down
 - _Korok::F41
-
-- _Npc<Cima>:
-    coord: [1540.08, 165.97, 3531.94]
-    notes: Thunder Magnet
-    comment: Wakes up at 7am
-
-- _Tod::Night:
-    coord: [1573.26, 165.96, 3530.55]
-    notes: For upcoming Stalnox
 
 - _Shrine::ShaiUtoh

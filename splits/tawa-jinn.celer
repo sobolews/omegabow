@@ -1,31 +1,11 @@
 Tawa Jinn:
-- .dir(<S):
-    notes: .link([Tawa Jinn vod]https://youtu.be/d2lvD_eFjVw?t=6308)
 - _Korok::F14:
     comment: " "
 
-- .dir(<W) swim
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
-    comment: Ancient arrows
 
-- .dir(W)
-- Return orb:
-    icon: tots
-    coord: [2648.43, 324.55, 2822.85]
-
-- .!!(Read shrine stone):
-    icon: tots
-    hide-icon-on-map: true
-
-- .dir(.S)
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
-    comment: Ancient arrows
-
-- .dir(<N)
-- Return orb:
-    icon: tots
-    coord: [2632.47, 321.84, 2848.53]
 
 - _Shrine::TawaJinn

@@ -1,121 +1,15 @@
 Dueling Peaks Tower:
-- .dir(N>):
-    notes: .link([Dueling Peaks Tower vod]https://youtu.be/crHPwD-Ouqw?t=4674)
-- _Korok::D14:
-    comment: Under bridge
-    notes: Ikurapan most likely forgot to do this korok after C77
+- _Korok::D49
 
-- .dir(<S)
-- _Korok::D27
+- _Korok::D41
 
-- .dir(S)
-- _Korok::D34
+- _Korok::D40
 
-- .dir(W)
-- _Korok::D33
-
-- .dir(W>)
-- _Korok::D32:
-    comment: Golden gauntlets
-
-- .dir(S)
-- _Korok::D31
-
-- .dir(S>)
-- _Korok::D44:
-    comment: On ruins
-
-- .dir(<W)
-- _Korok::P12:
-    comment: Behind Ja Baij
-
-- Down
-- _Korok::P13
-
-- .dir(N>)
-- _Discover<Outpost Ruins>:
-    coord: [-233.33, 113.99, 1671.11]
-
-- .dir(<S)
-- _Boss::Talus::Luminous:
-    comment: .fury()
-    fury: 2
-    coord: [-176.93, 132.59, 1771.62]
-
-- .dir(S) run
-- _Korok::D43
-
-- .dir(SE) + .dir(SE)
-- _Korok::L03:
-    comment: On waterfall
-    notes: Equip Zora Armor
-
-- .dir(<S)
-- _Korok::L10:
-    comment: " "
-    notes: Re-equip Barbarian Armor
-
-- .dir(.E)
-- _Korok::L11
-
-- .dir(<S)
-- _Korok::L16:
-    comment: " "
-
-- .dir(.N)
-- _Korok::L05:
-    comment: In big hollow tree stump
-
-- .dir(E) surf
-- _Korok::L06
-
-- .dir(<N)
-- _Korok::L02:
-    comment: In hollow tree stump
-
-- .dir(N) short
-- _Korok::L01
+- _Korok::D30
 
 - _Boss::Talus::Stone:
-    comment: .fury()
-    fury: 1
-    coord: [359.34, 114.45, 1904.01]
+    coord: [1465.91, 203.77, 1328.91]
 
-- .dir(SW)
-- _Korok::L04
+- _Korok::D17
 
-- .dir(<N)
-- _Korok::D45:
-    comment: Behind fake offering
-- _Memory::WestNecluda
-
-- .dir(NE)
-- _Korok::D35:
-    comment: Pinwheel
-
-- .dir(<E)
-- _Korok::D36:
-    comment: In hollow log
-- _Material<Blue Nightshade>:
-    hide-icon-on-map: true
-    comment: Grab during D36 chase
-
-- .dir(<S)
-- _Korok::D46:
-    comment: " "
-
-- .dir(N>)
-- _Korok::D37
-
-- .dir(E) run
-- _Korok::D38
-
-- .dir(E>)
-- _Korok::D47
-
-- .dir(<<E)
-- _Korok::D39:
-    comment: " "
-
-- .dir(N)
 - _Tower::DuelingPeaks

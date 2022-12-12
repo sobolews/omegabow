@@ -1,76 +1,36 @@
 Qukah Nata:
-- .dir(S):
-    notes: .link([Qukah Nata vod]https://youtu.be/crHPwD-Ouqw?t=7598)
 - _Korok::F19:
     comment: Swim up with Zora Armor
 
-- .dir(N) short
 - _Korok::F17:
     comment: Middle of Riola Spring
 
-- .dir(E>)
 - _Korok::F20:
     comment: " "
 
-- .dir(N) + midair
 - _Korok::F11:
     comment: On peak
 
-- .dir(N.) short
 - _Korok::F08
 
-- .dir(E)
 - _Korok::F12
 
-- .dir(<N) short
 - _Korok::F09:
     comment: .rune(Stasis) 2 hits
 
-- .dir(<E)
 - _Korok::F06:
     comment: On peak
 
-- .dir(E.) down
 - _Korok::F07
 
-- .gale() + .dir(<W):
-    gale: 1
 - _Korok::F13
 
-- .dir(E>)
 - _Boss::Hinox::Black:
     coord: [2420.75, 327.47, 2782.60]
-    comment: Ancient arrows
 
-- BLSS .dir(E)
-- Return orb:
-    icon: tots
-    coord: [2616.91, 323.39, 2823.60]
-
-- .dir(<W)
 - _Korok::F21
 
-- .!!(Unequip) metal:
-    icon: shield
-    hide-icon-on-map: true
-    # comment: Equip Barbarian Armor
-
-- .dir(<<W)
 - _Korok::F29:
     comment: Cube in lake
 
-- .dir(SE) run
-- _Npc::Rito<Kass>:
-    coord: [2081.89, 287.42, 3226.31]
-    comment: Song of Storms
-
-- .!!(Re-equip) metal:
-    icon: shield
-    hide-icon-on-map: true
-
-- .dir(<W)
-- Reveal shrine:
-    icon: tots
-    hide-icon-on-map: true
-    notes: Get ragdoll glitch to prevent lightning from ragdolling Link
 - _Shrine::QukahNata

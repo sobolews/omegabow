@@ -1,59 +1,17 @@
 Saas Kosah:
-- Continue:
-    icon: tots
-    hide-icon-on-map: true
-    notes: .link([Saas Kosah vod]https://youtu.be/mGUKIJv-Q_U?t=7633)
-
-- .dir(N) down
 - _Korok::X03
 
-- .dir(<E) short
-- _Chest<Naydra's Scale>:
-    coord: [-182.29, 235.23, -1169.52]
-    comment: Under slab
-
-- .dir(E) down
 - _Korok::X02:
     comment: " "
 
-- .dir(<<N) short
-- _Chest<Dinraal's Scale>:
-    coord: [-196.46, 153.20, -1218.59]
-    comment: Behind rubble
-
-- .dir(N>)
 - _Korok::K30:
     comment: Ledge across water
 
-- .dir(S)
 - _Korok::X11:
     comment: Inside tunnel
 
-- Run:
-    time-override: 720
 - _Boss::Talus::Rare:
     coord: [-136.65, 127.21, -956.26]
-    comment: .fury()
-    fury: 3
-
-- Updraft
-- _Chest<Shard of Farosh's Fang>:
-    coord: [-133.07, 170.48, -950.46]
-
-- Enter .loc(Library)
-- _Discover<King's Study>:
-    coord: [-172.98, 170.46, -1119.39]
-
-- _Equipment::Shield<Royal Guard's Shield>:
-    comment: Royal Guard's Gear
-
-- Down stairs:
-    notes: .rune(Magnesis) book shelf
-- Light torch:
-    icon: tots
-    hide-icon-on-map: true
-- _Tod::Night:
-    notes: (Optional) If close to blood moon, making night will cancel it while you're in castle and give you enough time to get to Mijah Rokee.
 
 - _Shrine::SaasKosah:
     comment: Major Test of Strength

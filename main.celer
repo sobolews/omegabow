@@ -3,7 +3,7 @@ _project:
   authors:
     - ""
   description: ""
-  name: 100% (Tao 2022-11-29)
+  name: 100% (Tao 2022-12-12)
   url: https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/tao/
   version: 2.0
 
@@ -125,6 +125,8 @@ _route:
 
   - Korok Forest:
     - __use__ Daag Chokah
+    - _Warp::Shrine::KeoRuug:
+        comment: WARP
     - __use__ Keo Ruug
     - __use__ Maag Halan
     - __use__ Kuhn Sidajj
@@ -158,7 +160,7 @@ _route:
     - __use__ Raqa Zunzo
     - __use__ Korsh Ohu
     - __use__ Kay Noh
-    - __use__ After Kay Noh
+    # - __use__ After Kay Noh
 
   - Lake:
     - _Warp::Shrine::KuhTakkar:
@@ -180,10 +182,10 @@ _route:
     - __use__ Bosh Kala
 
   - Dueling Peaks:
-    - __use__ Dueling Peaks Tower
-    - __use__ Shee Vaneer
-    - __use__ Shee Venath
     - __use__ Ree Dahee
+    - __use__ Shee Venath
+    - __use__ Shee Vaneer
+    - __use__ Dueling Peaks Tower
 
   - Faron:
     - __use__ Shae Katha
@@ -335,9 +337,4 @@ _route:
 
     - " ":
         notes: For verification please show (1) map counter, (2) quest log, (3) master sword, upgrade armor, (4) key items tab.
-    - " "
-    - " "
-    - " "
-    - " "
-    - (?=) Older Routes >> .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
 

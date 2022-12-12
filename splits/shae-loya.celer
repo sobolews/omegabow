@@ -1,108 +1,66 @@
 Shae Loya:
-- .dir(<E) down:
-    notes: .link([Shae Loya vod]https://youtu.be/d2lvD_eFjVw?t=3040)
-- _Discover<Pondo's Lodge>:
-    coord: [-2076.70, 389.70, -2080.90]
-
-- .dir(SW)
 - _Korok::H67
 
-- .dir(<S) surf
 - _Korok::H70
 
-- .dir(W)
 - _Korok::H69:
     comment: " "
 
-- midair .dir(<W)
 - _Korok::H72
 
-- .dir(W>)
 - _Korok::T18
 
-- .dir(N>)
 - _Boss::Talus::Rare:
-    comment: .fury()
-    fury: 3
     coord: [-2864.50, 408.98, -1825.91]
 
-- .dir(NE)
 - _Korok::H65:
     comment: Top of bare tree
 
-- .dir(<W)
 - _Korok::H66:
     comment: " "
 
-- .dir(W)
 - _Korok::T11
 
-- .dir(SW) short
-- _Npc<Gesane>:
-    coord: [-3308.27, 227.83, -1803.34]
-    comment: On bridge
-    notes: Face the Frost Talus
-
-- Run
-- _Npc<Lester>:
-    coord: [-3267.07, 224.60, -1773.77]
-    comment: At cookpot
-    notes: Curry for What Ails You
-
-- .dir(S)
 - _Korok::T21
 
-- .dir(NE)
 - _Korok::T19:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
           away: true
     comment: In canyon below
 
-- Drownwarp -> .dir(E)
 - _Korok::T22:
     comment: On ledge against cliff
 
-- .dir(<S)
 - _Korok::T25
 
-- .dir(<E) + midairs
 - _Korok::R05
 
-- .dir(S) surf
-- _Discover<Footrace Check-In>:
-    coord: [-2638.00, 282.34, -1175.00]
-
-- .dir(S) + midair
 - _Korok::R13
 
-- .dir(S.)
 - _Korok::R17
 
-- .dir(SE)
 - _Korok::R22:
     comment: Look .dir(NW)
     movements:
         - to: [-2446,-398.5]
         - to: [-2434.11, 319.87, -491.04]
           away: true
+
 - _Korok::R31:
     comment: Look .dir(S)
     movements:
         - to: [-2370.11, 307.05, -345.31]
           away: true
+
 - _Boss::Hinox::Blue:
     movements:
         - to: [-2370.05, 261.70, -419.59]
           away: true
-    comment: Ancient arrows
 
-- .dir(S>)
 - _Korok::R30:
     comment: " "
 
-- .dir(W>)
 - _Korok::R21
 
-- .dir(W)
 - _Shrine::ShaeLoya

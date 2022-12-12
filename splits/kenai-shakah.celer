@@ -1,37 +1,19 @@
 Kenai Shakah:
-- .dir(W>):
-    notes: .link([Kenai Shakah vod]https://youtu.be/d2lvD_eFjVw?t=10959)
-- _Korok::Z46
-
-- .dir(NE)
 - _Korok::Z36
 
-- .gale() + .dir(W) midairs:
-    gale: 1
 - _Korok::Z35
 
-- .dir(<E) + .dir(.N)
-- _Chest::Special<Star Fragment>:
-    coord: [4218.92, 380.62, -147.56]
-    notes: For armor upgrades
-
-- .dir(N.) short
 - _Korok::Z28:
     comment: Against cliff
 
-- .dir(NE)
 - _Korok::Z10:
     comment: On island next to updraft
 
-- .dir(<NW)
 - _Korok::Z09
 
-- .dir(W>)
 - _Korok::A56
 
-- .dir(<W)
 - _Korok::A57
 
-- .dir(N>)
 - _Shrine::KenaiShakah:
     comment: Modest Test of Strength

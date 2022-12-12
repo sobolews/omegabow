@@ -1,15 +1,15 @@
 Enter Hateno:
-- .!!(Enter Shop):
+- .!!(Break 12 Slots):
     icon: shop
     coord: [3356.35, 225.66, 2175.10]
     split-type: UserDefined
 
-- .!!(Duping Done):
+- .!!(Max Stamina):
     icon: tots
     split-type: UserDefined
     hide-icon-on-map: true
 
-- .!!(Corruption Done):
+- .!!(Corruption):
     icon: tots
     split-type: UserDefined
     hide-icon-on-map: true

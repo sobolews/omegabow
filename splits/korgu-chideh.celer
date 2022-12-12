@@ -1,32 +1,7 @@
 Korgu Chideh:
-- _Korok::N66:
-    notes: .link([Korgu Chideh vod]https://youtu.be/d2lvD_eFjVw?t=7273)
+- _Korok::N66
 
-- .dir(E>>)
 - _Boss::Hinox::Blue:
-    comment: Ancient arrow midair
     coord: [4537.11, 110.76, 3701.95]
-    notes: Also clear the camp from midair to make the 1st orb easier
-- Shoot arrow at ground:
-    icon: calamity
-    hide-icon-on-map: true
-    comment: Use single shot bow
 
-- Begin .!!(Stranded on Eventide)
-
-- Pick up club, bow, arrow:
-    icon: tots
-    hide-icon-on-map: true
-- Return 3 orbs:
-    icon: tots
-    hide-icon-on-map: true
-    movements:
-        - to: [4483.25, 142.10, 3746.42]
-        - to: [4640,3626]
-        - to: [4500.46, 109.56, 3392.43]
-        - to: [4500.46, 109.56, 3392.43]
-        - to: [4674.92, 168.30, 3742.44]
-
-- .gale():
-    gale: 1
 - _Shrine::KorguChideh

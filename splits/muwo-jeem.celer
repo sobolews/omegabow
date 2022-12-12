@@ -1,24 +1,15 @@
 Muwo Jeem:
-- .dir(E>):
-    notes: .link([Muwo Jeem vod]https://youtu.be/d2lvD_eFjVw?t=6539)
 - _Korok::F22:
     comment: " "
 
-- .dir(NE)
 - _Korok::F18
 
-- .dir(N>>) run
 - _Korok::N64
 
-- .dir(E) run
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
-    comment: Ancient arrows
-    notes: Shoot from above
 
-- .dir(S) + midair
 - _Korok::F32
 
-- .dir(E>) + midair
 - _Shrine::MuwoJeem:
     comment: Modest Test of Strength
