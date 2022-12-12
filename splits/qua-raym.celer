@@ -1,22 +1,18 @@
 Qua Raym:
-- _Korok::E20:
-    comment: " "
+- _Korok::E20
 
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
 
 - _Korok::E21
 
-- _Korok::E22:
-    comment: " "
+- _Korok::E22
 
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
 
-- _Korok::E23:
-    comment: In tunnel
+- _Korok::E23
 
-- _Korok::E28:
-    comment: Down in skull
+- _Korok::E28
 
 - _Shrine::QuaRaym

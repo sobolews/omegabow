@@ -1,21 +1,16 @@
 Keeha Yoog:
-- _Korok::G08:
-    comment: Need 2 stamina food
+- _Korok::G08
 
 - _Korok::G04
 
-- _Korok::G05:
-    comment: " "
+- _Korok::G05
 
-- _Korok::G01:
-    comment: " "
+- _Korok::G01
 
-- _Korok::G02:
-    comment: " "
+- _Korok::G02
 
 - _Korok::G03
 
-- _Korok::G06:
-    comment: On platform against cliff
+- _Korok::G06
 
 - _Shrine::KeehaYoog

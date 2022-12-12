@@ -2,28 +2,23 @@ Hila Rao:
 - _Boss::Talus::Stone:
     coord: [1186.62, 254.28, 1642.77]
 
-- _Korok::D16:
-    comment: On small island
+- _Korok::D16
 
-- _Korok::D25:
-    comment: " "
+- _Korok::D25
 
-- _Korok::D29:
-    comment: On small island
+- _Korok::D29
 
 - _Korok::D28
 
 - _Korok::D23
 
-- _Korok::D24:
-    comment: " "
+- _Korok::D24
 
 - _Boss::Talus::Stone:
     coord: [705.34, 137.62, 1471.88]
 
 - _Korok::D15
 
-- _Korok::D13:
-    comment: " "
+- _Korok::D13
 
 - _Shrine::HilaRao

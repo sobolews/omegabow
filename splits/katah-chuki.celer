@@ -1,8 +1,7 @@
 Katah Chuki:
 - _Korok::C09
 
-- _Korok::C11:
-    comment: Inside hollow log
+- _Korok::C11
 
 - _Korok::C12
 
@@ -12,14 +11,11 @@ Katah Chuki:
 
 - _Korok::C18
 
-- _Korok::C10:
-    comment: On bridge
+- _Korok::C10
 
-- _Korok::C06:
-    comment: " "
+- _Korok::C06
 
-- _Korok::C05:
-    comment: " "
+- _Korok::C05
 
 - _Boss::Hinox::Stal:
     coord: [256.50, 142.49, -913.50]
@@ -34,8 +30,7 @@ Katah Chuki:
 
 - _Korok::C32
 
-- _Korok::C27:
-    comment: " "
+- _Korok::C27
 
 - _Korok::C31
 

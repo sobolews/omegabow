@@ -1,11 +1,9 @@
 Kaam Yatak:
 - _Korok::P18
 
-- _Korok::P11:
-    comment: Spire of temple
+- _Korok::P11
 
-- _Korok::P10:
-    comment: " "
+- _Korok::P10
 
 - _Boss::Talus::Stone:
     coord: [-1087.75, 179.14, 1663.18]
@@ -20,18 +18,15 @@ Kaam Yatak:
 
 - _Korok::P01
 
-- _Korok::C81:
-    comment: Small ruins next to coliseum
+- _Korok::C81
 
 - _Korok::C82
 
-- _Korok::C83:
-    comment: Pinwheel
+- _Korok::C83
 
 - _Korok::C76
 
-- _Korok::C75:
-    comment: " "
+- _Korok::C75
 
 - _Boss::Talus::Luminous:
     coord: [-514.75, 127.49, 1181.74]

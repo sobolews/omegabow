@@ -1,25 +1,19 @@
 Qukah Nata:
-- _Korok::F19:
-    comment: Swim up with Zora Armor
+- _Korok::F19
 
-- _Korok::F17:
-    comment: Middle of Riola Spring
+- _Korok::F17
 
-- _Korok::F20:
-    comment: " "
+- _Korok::F20
 
-- _Korok::F11:
-    comment: On peak
+- _Korok::F11
 
 - _Korok::F08
 
 - _Korok::F12
 
-- _Korok::F09:
-    comment: .rune(Stasis) 2 hits
+- _Korok::F09
 
-- _Korok::F06:
-    comment: On peak
+- _Korok::F06
 
 - _Korok::F07
 
@@ -30,7 +24,6 @@ Qukah Nata:
 
 - _Korok::F21
 
-- _Korok::F29:
-    comment: Cube in lake
+- _Korok::F29
 
 - _Shrine::QukahNata

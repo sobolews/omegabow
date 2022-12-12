@@ -1,12 +1,9 @@
 Monya Toma:
-- _Korok::R19:
-    comment: " "
+- _Korok::R19
 
-- _Korok::R16:
-    comment: Against cliff
+- _Korok::R16
 
-- _Korok::R10:
-    comment: In tech lab ruins
+- _Korok::R10
 
 - _Memory::IrchPlain
 
@@ -17,8 +14,7 @@ Monya Toma:
 
 - _Korok::K29
 
-- _Korok::K27:
-    comment: Pinwheel
+- _Korok::K27
 
 - _Korok::K28
 
@@ -37,10 +33,8 @@ Monya Toma:
 
 - _Korok::K25
 
-- _Korok::K17:
-    comment: " "
+- _Korok::K17
 
-- _Korok::K23:
-    comment: " "
+- _Korok::K23
 
 - _Shrine::MonyaToma

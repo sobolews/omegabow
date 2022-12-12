@@ -1,14 +1,11 @@
 Ree Dahee:
-- _Korok::D32:
-    comment: Golden gauntlets
+- _Korok::D32
 
 - _Korok::D31
 
-- _Korok::D44:
-    comment: On ruins
+- _Korok::D44
 
-- _Korok::P12:
-    comment: Behind Ja Baij
+- _Korok::P12
 
 - _Korok::P13
 
@@ -17,26 +14,19 @@ Ree Dahee:
 
 - _Korok::D43
 
-- _Korok::L03:
-    comment: On waterfall
-    notes: Equip Zora Armor
+- _Korok::L03
 
-- _Korok::L10:
-    comment: " "
-    notes: Re-equip Barbarian Armor
+- _Korok::L10
 
 - _Korok::L11
 
-- _Korok::L16:
-    comment: " "
+- _Korok::L16
 
-- _Korok::L05:
-    comment: In big hollow tree stump
+- _Korok::L05
 
 - _Korok::L06
 
-- _Korok::L02:
-    comment: In hollow tree stump
+- _Korok::L02
 
 - _Boss::Talus::Stone:
     coord: [359.34, 114.45, 1904.01]
@@ -45,19 +35,15 @@ Ree Dahee:
 
 - _Korok::L04
 
-- _Korok::D45:
-    comment: Behind fake offering
+- _Korok::D45
 
 - _Memory::WestNecluda
 
-- _Korok::D35:
-    comment: Pinwheel
+- _Korok::D35
 
-- _Korok::D36:
-    comment: In hollow log
+- _Korok::D36
 
-- _Korok::D46:
-    comment: " "
+- _Korok::D46
 
 - _Korok::D37
 
@@ -65,7 +51,6 @@ Ree Dahee:
 
 - _Korok::D47
 
-- _Korok::D39:
-    comment: " "
+- _Korok::D39
     
 - _Shrine::ReeDahee

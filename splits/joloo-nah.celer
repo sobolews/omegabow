@@ -4,8 +4,7 @@ Joloo Nah:
 - _Boss::Hinox::Blue:
     coord: [-1704.30, 111.60, 1776.78]
 
-- _Korok::C88:
-    comment: .rune(Cryo) block
+- _Korok::C88
 
 - _Korok::W07
 

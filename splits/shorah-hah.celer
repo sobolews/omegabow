@@ -1,25 +1,17 @@
 Shora Hah:
 - _Korok::E08
 
-- _Korok::E09:
-    comment: On rock arch
+- _Korok::E09
 
-- _Korok::E06:
-    comment: Down in corner
-    notes: Rare ore deposit here for amber if still needed
+- _Korok::E06
 
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
-    comment: Ancient arrows
-    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
+    
+- _Korok::E11
 
-- _Korok::E11:
-    comment: Rock above, circle below
+- _Korok::E10
 
-- _Korok::E10:
-    comment: Pinwheel
-
-- _Korok::E07:
-    comment: Top of crab island
+- _Korok::E07
 
 - _Shrine::ShoraHah

@@ -3,8 +3,7 @@ Hateno Tower:
 
 - _Korok::N58
 
-- _Korok::N50:
-    comment: " "
+- _Korok::N50
 
 - _Korok::N49:
     movements:

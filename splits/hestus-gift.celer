@@ -1,7 +1,6 @@
 Hestus Gift:
 - _Material<Hestu's Gift>:
     hide-icon-on-map: true
-    comment: Don't forget!
 
 - Check quests:
     icon: tots

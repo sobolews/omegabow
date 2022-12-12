@@ -11,10 +11,8 @@ Raqa Zunzo:
 - _Boss::Molduga:
     coord: [-3799.06, 118.76, 3653.43]
 
-- _Korok::W57:
-    comment: In tree above oasis
+- _Korok::W57
 
 - _Korok::W56
 
-- _Shrine::RaqaZunzo:
-    notes: Backup Radiant Shield here
+- _Shrine::RaqaZunzo

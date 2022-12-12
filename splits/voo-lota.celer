@@ -1,9 +1,7 @@
 Voo Lota:
-- _Korok::T14:
-    comment: Hanging way up
+- _Korok::T14
 
-- _Korok::T17:
-    comment: " "
+- _Korok::T17
 
 - _Boss::Hinox::Black:
     coord: [-3793.68, 246.02, -1557.10]

@@ -1,30 +1,16 @@
 Kah Yah:
-- _Korok::F47:
-    comment: On peak
+- _Korok::F47
+
 - _Korok::F57
 
 - _Korok::F49
 
-- _Korok::F50:
-    comment: " "
+- _Korok::F50
 
 - _Korok::F58
 
 - _Korok::F51
 
-- _Snap::Quest<Monument Shard>:
-    coord: [3390.50, 105.66, 3481.83]
-    comment: Fragmented Monument
-
-- _Korok::F52:
-    comment: End of peninsula
-
-- _Snap::Quest<Monument Shard>:
-    coord: [3800.81, 105.59, 3614.03]
-    comment: Fragmented Monument
-
-- _Snap::Quest<Monument Shard>:
-    coord: [3532.50, 112.28, 3365.50]
-    comment: Fragmented Monument
+- _Korok::F52
 
 - _Shrine::KahYah

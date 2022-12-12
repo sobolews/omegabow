@@ -1,19 +1,13 @@
 Ganon:
-- _Korok::X05:
-    comment: Castle spire
+- _Korok::X05
 
-- _Korok::X06:
-    comment: In belltower
+- _Korok::X06
 
-- _Korok::X10:
-    comment: " "
+- _Korok::X10
 
-- _Korok::X07:
-    comment: Spire of Zelda's Study
+- _Korok::X07
 
 - .boss(Ganon):
     icon: ganon
-    movements:
-        - to: [-254.00, 191.01, -1061.37]
-          away: true
+    coord: [-254.00, 191.01, -1061.37]
     split-type: UserDefined

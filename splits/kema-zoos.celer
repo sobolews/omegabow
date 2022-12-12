@@ -1,21 +1,15 @@
 Kema Zoos:
-- _Korok::W02:
-    comment: Offer 5
+- _Korok::W02
 
-- _Korok::G25:
-    comment: Offer 4
+- _Korok::G25
 
-- _Korok::W04:
-    comment: Offer 3
+- _Korok::W04
 
-- _Korok::W05:
-    comment: Offer 2
+- _Korok::W05
 
-- _Korok::W03:
-    comment: Offer 1
+- _Korok::W03
 
-- _Korok::W06:
-    comment: Start bottom of pillar
+- _Korok::W06
 
 - _Korok::G33
     

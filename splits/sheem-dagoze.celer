@@ -1,45 +1,38 @@
 Sheem Dagoze:
 - _Korok::X01
 
-- _Korok::X04:
-    comment: Pinwheel on castle wall
+- _Korok::X04
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
+
 - _Korok::X13
 
 - _Korok::X08
 
 - _Memory::HyruleCastle
 
-- _Korok::X09:
-    comment: On balcony
+- _Korok::X09
 
 - _Korok::X14
 
-- _Korok::X17:
-    comment: Spire of First Gatehouse
+- _Korok::X17
 
-- _Korok::X16:
-    comment: Spire of Second Gatehouse
+- _Korok::X16
 
-- _Korok::X12:
-    comment: On wall
+- _Korok::X12
 
 - _Korok::X15
 
-- _Korok::X19:
-    comment: Up stairs behind wall
+- _Korok::X19
 
 - _Korok::X18
 
-- _Korok::X23:
-    comment: Pinwheel
+- _Korok::X23
 
 - _Korok::X21
 
-- _Korok::X22:
-    comment: Far
+- _Korok::X22
 
 - _Korok::X20
 
@@ -47,46 +40,36 @@ Sheem Dagoze:
 
 - _Korok::C16
 
-- _Korok::X25:
-    comment: " "
+- _Korok::X25
 
-- _Korok::C33:
-    comment: Pinwheel on outer wall
+- _Korok::C33
 
 - _Korok::C35
 
 - _Memory::SacredGrounds
 
-- _Korok::C42:
-    comment: Hanging in tree
-    notes: Shoot midair before reaching C43
+- _Korok::C42
 
-- _Korok::C43:
-    comment: Pinwheel
+- _Korok::C43
 
-- _Korok::C40:
-    comment: " "
+- _Korok::C40
+
 - _Korok::C41
 
 - _Korok::C39
 
-- _Korok::C38:
-    comment: Starts at tree stump
+- _Korok::C38
 
-- _Korok::C36:
-    comment: In Sage Temple Ruins
+- _Korok::C36
 
-- _Korok::R49:
-    comment: On beach
+- _Korok::R49
 
 - _Korok::R48
 
 - _Korok::R39
 
 - _Boss::Hinox::Blue:
-    movements:
-        - to: [-1534.88, 214.82, -171.59]
-          away: true
+    coord: [-1534.88, 214.82, -171.59]
 
 - _Korok::R40
 

@@ -1,8 +1,2 @@
 Dagah Keek:
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3207.40, 344.67, -736.45]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
 - _Shrine::DagahKeek

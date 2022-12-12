@@ -1,15 +1,11 @@
 Rucco Maag:
 - _Korok::N40
 
-- _Korok::N25:
-    comment: " "
+- _Korok::N25
 
-- _Korok::Z61:
-    comment: On island
-    notes: Combo Z61 and Z62
+- _Korok::Z61
 
-- _Korok::Z62:
-    comment: " "
+- _Korok::Z62
 
 - _Korok::Z59
 

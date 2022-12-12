@@ -1,6 +1,5 @@
 Wasteland Tower:
-- _Korok::G34:
-    comment: Cube in middle of bridge
+- _Korok::G34
 
 - _Korok::W15
 
@@ -9,8 +8,7 @@ Wasteland Tower:
 
 - _Korok::W33
 
-- _Korok::W31:
-    comment: On ledge
+- _Korok::W31
 
 - _Korok::W32
 

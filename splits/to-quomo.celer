@@ -1,20 +1,12 @@
 To Quomo:
-- _Korok::H23:
-    comment: On peak far
+- _Korok::H23
 
-- _Korok::H07:
-    comment: " "
+- _Korok::H07
 
-- _Korok::H08:
-    comment: Pinwheel
+- _Korok::H08
 
-- _Korok::H02:
-    comment: " "
+- _Korok::H02
 
-- _Korok::H03:
-    comment: On skeleton
+- _Korok::H03
 
 - _Shrine::ToQuomo
-
-- _Snap::Quest<Hebra Great Skeleton>:
-    hide-icon-on-map: true

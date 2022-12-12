@@ -3,8 +3,7 @@ Shae Loya:
 
 - _Korok::H70
 
-- _Korok::H69:
-    comment: " "
+- _Korok::H69
 
 - _Korok::H72
 
@@ -13,11 +12,9 @@ Shae Loya:
 - _Boss::Talus::Rare:
     coord: [-2864.50, 408.98, -1825.91]
 
-- _Korok::H65:
-    comment: Top of bare tree
+- _Korok::H65
 
-- _Korok::H66:
-    comment: " "
+- _Korok::H66
 
 - _Korok::T11
 
@@ -27,10 +24,8 @@ Shae Loya:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
           away: true
-    comment: In canyon below
 
-- _Korok::T22:
-    comment: On ledge against cliff
+- _Korok::T22
 
 - _Korok::T25
 
@@ -41,14 +36,12 @@ Shae Loya:
 - _Korok::R17
 
 - _Korok::R22:
-    comment: Look .dir(NW)
     movements:
         - to: [-2446,-398.5]
         - to: [-2434.11, 319.87, -491.04]
           away: true
 
 - _Korok::R31:
-    comment: Look .dir(S)
     movements:
         - to: [-2370.11, 307.05, -345.31]
           away: true
@@ -58,8 +51,7 @@ Shae Loya:
         - to: [-2370.05, 261.70, -419.59]
           away: true
 
-- _Korok::R30:
-    comment: " "
+- _Korok::R30
 
 - _Korok::R21
 

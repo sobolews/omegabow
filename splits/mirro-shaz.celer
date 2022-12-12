@@ -1,13 +1,11 @@
 Mirro Shaz:
-- _Korok::D01:
-    comment: Below bridge
+- _Korok::D01
 
 - _Korok::Z47
 
 - _Korok::Z48
 
-- _Korok::Z49:
-    comment: " "
+- _Korok::Z49
 
 - _Korok::Z50
 
@@ -27,42 +25,17 @@ Mirro Shaz:
 
 - _Korok::Z23
 
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [2868.11, 249.51, -68.34]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [2877.09, 229.49, -32.75]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [2838.09, 228.01, 188.33]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
 - _Korok::Z31
-
-- _Npc<Sasan>:
-    coord: [1760.46, 115.80, -56.04]
-    comment: Special Delivery
 
 - _Korok::Z40
 
-- _Korok::Z30:
-    comment: In building ruins
+- _Korok::Z30
 
-- _Korok::Z29:
-    comment: Among trees
+- _Korok::Z29
 
 - _Korok::C46
 
-- _Korok::C51:
-    comment: On pillar
+- _Korok::C51
 
 - _Memory::HyruleField
 
@@ -71,37 +44,30 @@ Mirro Shaz:
 - _Boss::Hinox::Blue:
     coord: [421.00, 161.27, 329.50]
     
-- _Korok::C50:
-    comment: " "
+- _Korok::C50
 
-- _Korok::C44:
-    comment: On hill
+- _Korok::C44
 
 - _Korok::C45
 
-- _Korok::C34:
-    comment: " "
+- _Korok::C34
 
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
 
-- _Korok::Z21:
-    comment: " "
+- _Korok::Z21
 
 - _Korok::Z11
 
-- _Korok::C13:
-    comment: On bridge
+- _Korok::C13
 
 - _Korok::K35
 
-- _Korok::Z02:
-    comment: Starts in big tree
+- _Korok::Z02
 
 - _Korok::Z03
 
-- _Korok::K34:
-    comment: " "
+- _Korok::K34
 
 - _Korok::K33
 

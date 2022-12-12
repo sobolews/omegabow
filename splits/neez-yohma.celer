@@ -1,6 +1,5 @@
 Neez Yohma:
-- _Korok::Z42:
-    comment: Way below
+- _Korok::Z42
 
 - _Korok::Z43
 
@@ -9,39 +8,9 @@ Neez Yohma:
 - _Boss::Hinox::Blue:
     coord: [3526.26, 251.18, 364.97]
 
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3393.74, 314.18, 49.77]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3265.50, 341.84, 38.70]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
 - _Korok::Z33
 
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3099.83, 236.67, 70.72]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
 - _Korok::Z32
-
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3062.39, 184.92, -216.65]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
-- _Npc::ZoraMale<Zora Monument>:
-    coord: [3260.31, 241.83, -145.22]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
 
 - _Korok::Z25
 

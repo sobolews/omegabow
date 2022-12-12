@@ -1,19 +1,15 @@
 Lake Tower:
 - _Korok::L26
 
-- _Korok::L15:
-    comment: In broken pillar
+- _Korok::L15
 
-- _Korok::L14:
-    comment: " "
+- _Korok::L14
 
 - _Korok::D54
 
-- _Korok::L09:
-    notes: Shooting Farosh will make her fly away and avoid having her updraft interfere with L30
+- _Korok::L09
 
-- _Korok::L27:
-    comment: In fountain
+- _Korok::L27
 
 - _Korok::L30
 
@@ -21,8 +17,7 @@ Lake Tower:
 
 - _Korok::L32
 
-- _Korok::L33:
-    comment: Pinwheel
+- _Korok::L33
 
 - _Korok::L39
 
@@ -30,12 +25,10 @@ Lake Tower:
 
 - _Korok::L44
 
-- _Korok::L42:
-    comment: " "
+- _Korok::L42
 
 - _Korok::L43
 
-- _Korok::L51:
-    comment: 2 .rune(Stasis) hits
+- _Korok::L51
 
 - _Tower::Lake

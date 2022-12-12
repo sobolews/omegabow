@@ -1,31 +1,25 @@
 Jee Noh:    
-- _Korok::G22:
-    comment: On snowy ledge
+- _Korok::G22
 
 - _Korok::G17
 
 - _Boss::Talus::Frost:
     coord: [-2919.99, 656.12, 1294.27]
 
-- _Korok::G18:
-    comment: " "
+- _Korok::G18
 
-- _Korok::G23:
-    comment: On hill far away
+- _Korok::G23
 
-- _Korok::G27:
-    comment: Platform against cliff
+- _Korok::G27
 
-- _Korok::G28:
-    comment: Way down against cliff
+- _Korok::G28
 
 - _Korok::G24
 
 - _Boss::Talus::Luminous:
     coord: [-1896.00, 200.68, 2044.68]
 
-- _Korok::W14:
-    comment: Other end of bridge
+- _Korok::W14
 
 - _Korok::W26
 

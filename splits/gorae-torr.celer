@@ -1,8 +1,7 @@
 Gorae Torr:
 - _Korok::K04
 
-- _Korok::K01:
-    comment: On far peak
+- _Korok::K01
     
 - _Korok::K02
 
@@ -16,7 +15,6 @@ Gorae Torr:
 
 - _Korok::E04
 
-- _Korok::E05:
-    comment: On pillar around shrine
+- _Korok::E05
 
 - _Shrine::GoraeTorr

@@ -1,14 +1,11 @@
 Kao Makagh:
 - _Korok::L55
 
-- _Korok::L61:
-    comment: " "
+- _Korok::L61
 
-- _Korok::L66:
-    comment: .rune(Cryo) block
+- _Korok::L66
 
-- _Korok::L72:
-    comment: " "
+- _Korok::L72
 
 - _Korok::F38
 
@@ -19,13 +16,10 @@ Kao Makagh:
 
 - _Korok::L92
 
-- _Korok::L78:
-    comment: On peak
+- _Korok::L78
 
-- _Korok::L77:
-    comment: Up the cliff
+- _Korok::L77
 
-- _Korok::L75:
-    comment: " "
+- _Korok::L75
 
 - _Shrine::KaoMakagh

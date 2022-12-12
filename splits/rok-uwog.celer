@@ -1,15 +1,11 @@
 Rok Uwog:
-- _Korok::H35:
-    comment: " "
+- _Korok::H35
 
-- _Korok::H36:
-    comment: " "
+- _Korok::H36
 
-- _Korok::H29:
-    comment: " "
+- _Korok::H29
 
-- _Korok::H31:
-    comment: " "
+- _Korok::H31
 
 - _Boss::Talus::Frost:
     coord: [-2144.88, 491.27, -3082.59]

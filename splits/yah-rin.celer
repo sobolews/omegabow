@@ -1,19 +1,14 @@
 Yah Rin:
-- _Korok::F37:
-    comment: " "
+- _Korok::F37
 
 - _Boss::Talus::Stone:
     coord: [3272.52, 133.05, 3409.85]
 
-- _Korok::F45:
-    comment: On house with 3 trees
+- _Korok::F45
 
-- _Korok::F44:
-    comment: Shoot apple off palm tree
-    notes: The korok didn't trigger here even though Ikurapan shoots the apple. Backup below.
-- _Korok::F36:
-    comment: On boat
-    # notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
+- _Korok::F44
+
+- _Korok::F36
 
 - _Shrine::YahRin
 

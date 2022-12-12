@@ -1,17 +1,13 @@
 Bareeda Naag:
 - _Memory::AncientColumns
 
-- _Korok::T35:
-    comment: " "
+- _Korok::T35
 
-- _Korok::T37:
-    comment: " "
+- _Korok::T37
 
-- _Korok::T33:
-    comment: Pinwheel on little platform
+- _Korok::T33
 
-- _Korok::T31:
-    comment: In small cave
+- _Korok::T31
 
 - _Boss::Talus::Rare:
     coord: [-3248.40, 291.68, -1078.12]

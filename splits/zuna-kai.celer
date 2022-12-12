@@ -6,16 +6,13 @@ Zuna Kai:
 
 - _Korok::A05
 
-- _Korok::A10:
-    comment: " "
+- _Korok::A10
 
 - _Korok::A11
 
-- _Korok::A12:
-    comment: Hanging under cliff
+- _Korok::A12
 
-- _Korok::A06:
-    comment: " "
+- _Korok::A06
 
 - _Boss::Hinox::Black:
     movements:

@@ -4,21 +4,14 @@ Chaas Qeta:
 - _Korok::N65
 
 - _Korok::N61
-- _Korok::N60:
-    comment: " "
+
+- _Korok::N60
 
 - _Korok::N62
 
-- .!!(Enemy Camp):
-    icon: calamity
-    notes: Sheep Rustlers
-    coord: [4121.98, 113.17, 2369.62]
+- _Korok::N54
 
-- _Korok::N54:
-    notes: Palm fruit on nearby tree if needed
-
-- _Korok::N56:
-    comment: " "
+- _Korok::N56
 
 - _Boss::Talus::Luminous:
     coord: [4558.50, 105.41, 2465.00]
@@ -27,8 +20,7 @@ Chaas Qeta:
 
 - _Korok::N57
 
-- _Korok::N55:
-    comment: " "
+- _Korok::N55
 
 - _Shrine::ChaasQeta:
     comment: Major Test of Strength

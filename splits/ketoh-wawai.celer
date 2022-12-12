@@ -1,11 +1,9 @@
 Ketoh Wawai:
 - _Korok::H15
 
-- _Korok::H22:
-    comment: " "
+- _Korok::H22
 
-- _Korok::K11:
-    comment: Peak far away
+- _Korok::K11
 
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]

@@ -1,17 +1,13 @@
 Hestu 1:
 - _Korok::D21
 
-- _Korok::D20:
-    comment: On bridge
+- _Korok::D20
 
-- _Korok::D19:
-    comment: On island
+- _Korok::D19
 
-- _Korok::D18:
-    comment: " "
+- _Korok::D18
 
 - _Warp::SOR:
     comment: WARP
 
-- _Korok::P09:
-    comment: Inside SoR
+- _Korok::P09

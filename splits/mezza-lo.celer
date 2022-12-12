@@ -4,11 +4,9 @@ Mezza Lo:
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
 
-- _Korok::N11:
-    comment: " "
+- _Korok::N11
 
-- _Korok::N13:
-    comment: .rune(Stasis) & hit, .rune(Stasis) & hit
+- _Korok::N13
 
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
@@ -17,12 +15,10 @@ Mezza Lo:
 
 - _Korok::N05
 
-- _Korok::N04:
-    comment: " "
+- _Korok::N04
 
 - _Korok::N02
 
-- _Korok::N03:
-    comment: Behind shrine
+- _Korok::N03
 
 - _Shrine::MezzaLo

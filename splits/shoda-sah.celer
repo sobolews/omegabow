@@ -1,12 +1,9 @@
 Shoda Sah:
-- _Korok::F48:
-    comment: " "
+- _Korok::F48
 
-- _Korok::F55:
-    comment: Up near enemy camp
+- _Korok::F55
 
-- _Korok::F54:
-    comment: Ledge against cliff
+- _Korok::F54
 
 - _Korok::F53
 
@@ -17,16 +14,14 @@ Shoda Sah:
 
 - _Korok::F43
 
-- _Korok::F30:
-    comment: " "
+- _Korok::F30
 
 - _Boss::Hinox::Stal:
     coord: [2078.62, 110.22, 3450.66]
 
 - _Korok::F35
 
-- _Korok::F46:
-    comment: Behind waterfall
+- _Korok::F46
 
 - _Korok::F42
 
@@ -35,10 +30,8 @@ Shoda Sah:
 
 - _Korok::F28
 
-- _Korok::F26:
-    comment: Up against waterfall
+- _Korok::F26
 
-- _Korok::F27:
-    comment: On ledge against waterfall
+- _Korok::F27
 
 - _Shrine::ShodaSah

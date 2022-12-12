@@ -1,28 +1,22 @@
 Kah Okeo:
 - _Korok::C24
 
-- _Korok::R26:
-    comment: " "
+- _Korok::R26
 
-- _Korok::R27:
-    comment: Under bridge
+- _Korok::R27
 
-- _Korok::R44:
-    comment: " "
+- _Korok::R44
 
-- _Korok::R43:
-    comment: Up hanging below bridge
+- _Korok::R43
 
 - _Korok::R45
 
-- _Korok::R42:
-    comment: " "
+- _Korok::R42
 
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]
 
-- _Korok::C47:
-    comment: " "
+- _Korok::C47
 
 - _Korok::C37
 
@@ -38,26 +32,22 @@ Kah Okeo:
 
 - _Korok::R53
 
-- _Korok::R52:
-    comment: In pink tree
+- _Korok::R52
 
 - _Korok::R61
 
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
 
-- _Korok::R62:
-    comment: " "
+- _Korok::R62
 
-- _Korok::R68:
-    comment: Pinwheel
+- _Korok::R68
 
 - _Korok::R69
 
 - _Korok::R78
 
-- _Korok::R77:
-    comment: In tree
+- _Korok::R77
 
 - _Korok::R76
 
@@ -66,18 +56,15 @@ Kah Okeo:
         - to: [-2393.37, 233.05, 1047.34]
           away: true
 
-- _Korok::G14:
-    comment: Pinwheel
+- _Korok::G14
 
 - _Korok::R70
 
-- _Korok::R73:
-    comment: " "
+- _Korok::R73
 
 - _Korok::R67
 
-- _Korok::R66:
-    comment: " "
+- _Korok::R66
 
 - _Korok::R65
 
@@ -87,8 +74,7 @@ Kah Okeo:
 
 - _Korok::R63
 
-- _Korok::R50:
-    comment: In tree
+- _Korok::R50
 
 - _Boss::Talus::Rare:
     coord: [-3137.50, 317.31, 72.90]
@@ -97,18 +83,15 @@ Kah Okeo:
 
 - _Korok::R36
 
-- _Korok::R35:
-    comment: " "
+- _Korok::R35
 
 - _Korok::R34:
-    comment: On windmill tower
     movements:
         - to: [-3861.73, 101.01, -147.16]
           away: true
 
 - _Korok::R33
 
-- _Korok::R32:
-    comment: Pinwheel
+- _Korok::R32
 
 - _Shrine::KahOkeo

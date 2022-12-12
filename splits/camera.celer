@@ -4,8 +4,7 @@ Camera:
     split-type: UserDefined
     hide-icon-on-map: true
 
-- _Korok::N42:
-    comment: Past blue flame
+- _Korok::N42
 
 - .!!(Slate Upgraded):
     icon: camera-plus

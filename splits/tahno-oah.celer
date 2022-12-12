@@ -3,8 +3,7 @@ Tahno Oah:
 
 - _Korok::D51
 
-- _Korok::D52:
-    comment: Pinwheel
+- _Korok::D52
 
 - _Korok::N33
 
@@ -12,27 +11,22 @@ Tahno Oah:
 
 - _Korok::N27
 
-- _Korok::N26:
-    comment: " "
+- _Korok::N26
 
 - _Korok::N35
 
 - _Korok::N36
 
-- _Korok::N37:
-    comment: " "
+- _Korok::N37
 
-- _Korok::N38:
-    comment: Pinwheel
+- _Korok::N38
 
 - _Boss::Talus::Stone:
     coord: [3199.41, 173.38, 1904.36]
 
-- _Korok::N41:
-    comment: " "
+- _Korok::N41
 
-- _Korok::N45:
-    comment: Shoot 10 signs
+- _Korok::N45
 
 - _Korok::N46
 
@@ -44,7 +38,6 @@ Tahno Oah:
 
 - _Korok::N47
 
-- _Korok::N32:
-    comment: " "
+- _Korok::N32
 
 - _Shrine::TahnoOah

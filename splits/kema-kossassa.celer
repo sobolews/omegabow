@@ -1,6 +1,5 @@
 Kema Kossassa:
-- _Korok::G31:
-    comment: Pinwheel on rock
+- _Korok::G31
 
 - _Korok::G30
 
@@ -13,14 +12,11 @@ Kema Kossassa:
 
 - _Korok::G20
 
-- _Korok::G15:
-    comment: Up the cliff
+- _Korok::G15
 
-- _Korok::G11:
-    comment: " "
+- _Korok::G11
 
-- _Korok::G07:
-    comment: On cliff above shrine
+- _Korok::G07
 
 - _Shrine::KemaKosassa:
     comment: Major Test of Strength

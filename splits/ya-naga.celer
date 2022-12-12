@@ -5,43 +5,34 @@ Ya Naga:
 
 - _Korok::W21
 
-- _Korok::W27:
-    comment: Pinwheel
+- _Korok::W27
 
-- _Korok::W22:
-    comment: Pinwheel
+- _Korok::W22
 
 - _Korok::L21
 
 - _Korok::L22
 
-- _Korok::L36:
-    comment: In tall tree
+- _Korok::L36
 
-- _Korok::L62:
-    comment: " "
+- _Korok::L62
 
 - _Korok::L64
 
 - Start L47 race:
     icon: tots
     coord: [-276.76, 153.65, 3316.47]
-    # hide-icon-on-map: true
-    notes: Combo L47 and L63
 
 - _Korok::L63
 
 - _Korok::L47:
     coord: [-387.59, 152.98, 3151.55]
 
-- _Korok::L38:
-    comment: 2nd beach
+- _Korok::L38
 
-- _Korok::L24:
-    comment: 3rd beach
+- _Korok::L24
 
-- _Korok::L08:
-    comment: " "
+- _Korok::L08
 
 - _Korok::L25
 

@@ -1,8 +1,7 @@
 Ishto Soh:
 - _Korok::L86
 
-- _Korok::L87:
-    comment: Above Loone's camp
+- _Korok::L87
 
 - _Boss::Hinox::Stal:
     coord: [100.50, 111.28, 3371.00]
@@ -15,11 +14,9 @@ Ishto Soh:
 
 - _Korok::L84
 
-- _Korok::L81:
-    comment: On ledge
+- _Korok::L81
 
-- _Korok::L80:
-    comment: " "
+- _Korok::L80
 
 - _Korok::L69
 
@@ -28,7 +25,6 @@ Ishto Soh:
 
 - _Korok::L68
 
-- _Korok::L67:
-    comment: Pinwheel
+- _Korok::L67
 
 - _Shrine::IshtoSoh

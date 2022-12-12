@@ -14,7 +14,7 @@ _config:
 
 _route:
   - Plateau:
-    - .!!(SoR clip):
+    - .!!(Shrine of Resurrection):
         icon: location
         line-color: white
     - __use__ Ja Baij
@@ -140,7 +140,6 @@ _route:
 
   - Gerudo Canyon:
     - _Warp::Shrine::OwaDaim:
-        # line-color: violet
         comment: WARP
     - __use__ Kaam Yatak
     - __use__ Rota Ooh
@@ -160,7 +159,7 @@ _route:
     - __use__ Raqa Zunzo
     - __use__ Korsh Ohu
     - __use__ Kay Noh
-    # - __use__ After Kay Noh
+    - __use__ After Kay Noh
 
   - Lake:
     - _Warp::Shrine::KuhTakkar:

@@ -1,9 +1,7 @@
 Ridgeland Tower:
-- _Korok::R03:
-    comment: Up on ledge against cliff
+- _Korok::R03
 
-- _Korok::H71:
-    comment: Across the canyon
+- _Korok::H71
 
 - _Boss::Talus::Luminous:
     coord: [-2177.46, 322.30, -1585.39]
@@ -12,7 +10,6 @@ Ridgeland Tower:
 
 - _Korok::R06
 
-- _Korok::R09:
-    comment: " "
+- _Korok::R09
 
 - _Tower::Ridgeland

@@ -1,21 +1,15 @@
 Qaza Tokki:
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
-    comment: Ancient arrows
 
-- _Korok::K08:
-    comment: Pinwheel
+- _Korok::K08
 
-- _Korok::K07:
-    comment: Pinwheel
+- _Korok::K07
 
-- _Korok::K06:
-    comment: " "
+- _Korok::K06
 
-- _Korok::K05:
-    comment: Pinwheel
+- _Korok::K05
 
-- _Korok::H16:
-    comment: In tree
+- _Korok::H16
 
 - _Shrine::QazaTokki

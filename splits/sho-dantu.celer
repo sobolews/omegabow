@@ -4,10 +4,8 @@ Sho Dantu:
 - _Boss::Talus::Rare:
     coord: [-3804.76, 602.57, 1204.77]
 
-- _Korok::G26:
-    comment: " "
+- _Korok::G26
 
-- _Korok::W01:
-    comment: Ledge in opening
+- _Korok::W01
 
 - _Shrine::ShoDantu

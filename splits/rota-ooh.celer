@@ -7,8 +7,7 @@ Rota Ooh:
 
 - _Korok::C58
 
-- _Korok::C59:
-    comment: .rune(Cryo) block
+- _Korok::C59
 
 - _Korok::R74
 
@@ -18,7 +17,6 @@ Rota Ooh:
 
 - _Korok::C78
 
-- _Korok::C72:
-    comment: " "
+- _Korok::C72
 
 - _Shrine::RotaOoh

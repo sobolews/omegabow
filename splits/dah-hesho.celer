@@ -13,17 +13,11 @@ Dah Hesho:
 
 - _Korok::A31
 
-- _Korok::A32:
-    comment: " "
+- _Korok::A32
 
 - _Korok::A37
 
-- _Npc<Hudson>:
-    coord: [3981.65, 233.41, -1599.11]
-    comment: Talk twice
-
-- _Korok::A49:
-    comment: " "
+- _Korok::A49
 
 - _Shrine::DahHesho:
     comment: Minor Test of Strength

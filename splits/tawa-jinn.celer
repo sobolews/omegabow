@@ -1,6 +1,5 @@
 Tawa Jinn:
-- _Korok::F14:
-    comment: " "
+- _Korok::F14
 
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]

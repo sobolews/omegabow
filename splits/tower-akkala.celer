@@ -2,36 +2,22 @@ Akkala Tower:
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
 
-- _Korok::Z24:
-    comment: " "
+- _Korok::Z24
 
-- _Korok::Z34:
-    comment: On peak
+- _Korok::Z34
 
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
 
 - _Korok::Z27
 
-- _Korok::Z19:
-    comment: .rune(Magnesis) the boulder
+- _Korok::Z19
 
 - _Korok::Z20
 
 - _Korok::Z08
 
-- _Npc::ZoraMale<ZoraMonument>:
-    coord: [3720.59, 461.92, -532.05]
-    comment: .v(Monument)/10
-    var-change:
-        Monument: 1
-
-- _Korok::Z17:
-    comment: Top of Zora's Domain
-
-- _Chest::Special<Zora Helm>:
-    coord: [3466.36, 499.22, -889.05]
-    comment: .rune(Magnesis) chest in water
+- _Korok::Z17
 
 - _Korok::Z05
 

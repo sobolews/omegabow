@@ -1,25 +1,19 @@
 Maka Rah:
 - _Korok::H26
 
-- _Korok::H19:
-    comment: Pinwheel
+- _Korok::H19
 
-- _Korok::H18:
-    comment: Top of bare tree
+- _Korok::H18
 
-- _Korok::H17:
-    comment: Snowy ledge
+- _Korok::H17
 
-- _Korok::H24:
-    comment: Starts on canyon floor
+- _Korok::H24
 
 - _Korok::H25
 
-- _Korok::H32:
-    comment: " "
+- _Korok::H32
 
-- _Korok::H40:
-    comment: On peak
+- _Korok::H40
 
 - _Boss::Hinox::Black:
     coord: [-4531.00, 333.45, -2679.27]
@@ -27,33 +21,25 @@ Maka Rah:
 - Start T06 race:
     icon: tots
     coord: [-4495.71, 342.71, -2510.34]
-    notes: Combo T06 with H53, H60, and T08. If you make a mistake, you can finish T06 right after H60. Then do T08 to T07.
+    
+- _Korok::H53
 
-- _Korok::H53:
-    comment: On peak
-
-- _Korok::H60:
-    comment: Pinwheel
+- _Korok::H60
 
 - _Korok::T08
 
 - _Korok::T06:
-    comment: Finish race
     movements:
         - to: [-4396.84, 183.40, -2049.88]
 
-- _Korok::T07:
-    comment: " "
+- _Korok::T07
 
-- _Korok::T01:
-    comment: " "
+- _Korok::T01
 
-- _Korok::H39:
-    comment: On little peak after updraft
+- _Korok::H39
 
 - _Korok::H41
 
-- _Korok::H42:
-    comment: In corner against cliff
+- _Korok::H42
 
 - _Shrine::MakaRah

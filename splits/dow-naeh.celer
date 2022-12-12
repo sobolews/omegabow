@@ -1,8 +1,7 @@
 Dow Naeh:
 - _Korok::N19
 
-- _Korok::N17:
-    comment: " "
+- _Korok::N17
 
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]

@@ -1,13 +1,11 @@
 Misae Suma:
-- _Korok::W53:
-    comment: On thin pillar
+- _Korok::W53
 
 - _Korok::W41
 
 - _Korok::W45
 
-- _Korok::W46:
-    comment: Down in corner
+- _Korok::W46
 
 - _Korok::W49
 
@@ -17,7 +15,6 @@ Misae Suma:
 
 - _Korok::W63
 
-- _Korok::W68:
-    comment: On windy pillar
+- _Korok::W68
 
 - _Shrine::MisaeSuma

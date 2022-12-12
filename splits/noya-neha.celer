@@ -1,6 +1,5 @@
 Noya Neha:
-- _Korok::C30:
-    comment: " "
+- _Korok::C30
 
 - _Korok::C25
 
@@ -15,16 +14,13 @@ Noya Neha:
 - _Boss::Talus::Rare:
     coord: [-768.74, 152.76, -804.49]
 
-- _Korok::C15:
-    comment: " "
+- _Korok::C15
 
-- _Korok::C08:
-    comment: Drop Rusty Shield, leave it
+- _Korok::C08
 
 - _Korok::C03
 
-- _Korok::C01:
-    comment: Against malice pillar
+- _Korok::C01
 
 - _Korok::R11
 

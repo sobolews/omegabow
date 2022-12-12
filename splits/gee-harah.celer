@@ -13,26 +13,21 @@ Gee Harah:
 - _Korok::H49
 
 - _Korok::H50:
-    comment: Look .dir(E)
     movements:
         - to: [-2836.29, 501.88, -2423.84]
           away: true
 
 - _Korok::H47:
-    comment: Look .dir(NW)
     movements:
         - to: [-2900.08, 498.65, -2508.79]
           away: true
 
-- _Korok::H44:
-    comment: In cave, right of flag
+- _Korok::H44
 
 - _Korok::H45
 
 - _Korok::H56
 
-- _Korok::H51:
-    comment: On ledge against cliff
+- _Korok::H51
 
-- _Shrine::GeeHarah:
-    notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk)
+- _Shrine::GeeHarah

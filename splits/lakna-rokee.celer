@@ -1,14 +1,9 @@
 Lakna Rokee:
-- _Snap::Quest<Great Fairy Fountain>:
-    coord: [1976.00, 267.50, 846.00]
-
 - _Korok::D03
 
-- _Korok::D02:
-    comment: Behind Impa's house
+- _Korok::D02
 
-- _Korok::D04:
-    comment: On ledge
+- _Korok::D04
 
 - _Korok::D05
 
@@ -18,8 +13,7 @@ Lakna Rokee:
 
 - _Korok::D06
 
-- _Korok::N07:
-    comment: " "
+- _Korok::N07
 
 - _Korok::N08
 
@@ -27,16 +21,12 @@ Lakna Rokee:
 
 - _Korok::N09
 
-- _Korok::D07:
-    comment: On 2nd peak
+- _Korok::D07
 
-- _Korok::D11:
-    comment: On peak
+- _Korok::D11
 
-- _Korok::D10:
-    comment: On 2nd peak
+- _Korok::D10
 
-- _Korok::D09:
-    comment: " "
+- _Korok::D09
 
 - _Shrine::LaknaRokee

@@ -4,32 +4,24 @@ Shae Mosah:
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
 
-- _Korok::E26:
-    comment: " "
+- _Korok::E26
 
 - _Memory::EldinCanyon
 
-- _Korok::E31:
-    comment: Next to memory
+- _Korok::E31
 
-- _Korok::E24:
-    comment: " "
+- _Korok::E24
 
-- _Korok::E25:
-    comment: On skeleton in lava
+- _Korok::E25
 
 - _Korok::E19
 
-- _Korok::E18:
-    comment: " "
+- _Korok::E18
 
-- _Korok::E14:
-    comment: Start on Daruk's head
+- _Korok::E14
 
-- _Korok::E13:
-    comment: Underneath arm
+- _Korok::E13
 
-- _Korok::E15:
-    comment: In smiling Goron's mouth
+- _Korok::E15
 
 - _Shrine::ShaeMosah

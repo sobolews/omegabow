@@ -1,15 +1,12 @@
 Korsh Ohu:
-- _Korok::W42:
-    comment: In water tower
+- _Korok::W42
 
-- _Korok::W43:
-    comment: Behind, left, behind, right
+- _Korok::W43
 
 - _Korok::W37
 
 - _Korok::W44
 
-- _Korok::W35:
-    comment: In arms of statue
+- _Korok::W35
 
 - _Shrine::KorshOhu

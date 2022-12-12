@@ -1,12 +1,9 @@
 Mijah Rokee:
-- _Korok::R38:
-    comment: " "
+- _Korok::R38
 
-- _Korok::R47:
-    comment: Pinwheel
+- _Korok::R47
 
-- _Korok::R37:
-    comment: Ledge on cliff
+- _Korok::R37
 
 - _Shrine::MijahRokee:
     comment: Major Test of Strength
