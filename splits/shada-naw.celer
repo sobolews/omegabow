@@ -1,37 +1,37 @@
 Shada Naw:
-- .dir(SE) run:
-    notes: .link([Shada Naw vod]https://youtu.be/d2lvD_eFjVw?t=1471)
+- .dir(<S) run:
+    notes: .link([Shada Naw vod]https://youtu.be/FgwSVGe8-o8?t=2506)
 - _Material<Spicy Pepper>:
-    comment: Pause/unpause
-    notes: Sets up menuing for T09
+    notes: Pause+unpause to set menu on pepper for T09
     coord: [-3987.10, 272.52, -1707.67]
 - _Korok::T16
 
 - .dir(W>) down
-- _Korok::T12
+- _Korok::T12:
+    comment: Hidden under skeleton
 
 - .gale() + .dir(N>):
     gale: 1
 - _Korok::T09
 
-- .dir(E) + .dir(N>)
+- .gale() + .dir(NE) midair:
+    gale: 1
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
     coord: [-3709.50, 331.28, -2347.00]
 
-- .gale() + .dir(N) midair:
-    gale: 1
+- .dir(N.) midair
 - _Korok::H54
 
 - .dir(E>) + midair
 - _Korok::H55:
     comment: Pinwheel
 
-- .dir(N.) + midair
+- .dir(N) + midair
 - _Korok::H43
 
-- .dir(<N) + midair
+- .dir(.N) + midair
 - _Korok::H27:
     comment: Pinwheel
 

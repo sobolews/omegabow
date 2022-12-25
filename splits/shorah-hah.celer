@@ -1,40 +1,39 @@
 Shora Hah:
 - .dir(<N):
-    notes: .link([Shora Hah vod]https://youtu.be/mGUKIJv-Q_U?t=1063)
+    notes: .link([Shora Hah vod]https://youtu.be/KYhfrqeINmE?t=15944)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
+    notes: You can get into the cave before the rocks load in. If you don't, ESC through the back. .link([Example of clip in.]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=5167)
 
 - .gale():
     gale: 1
-- _Korok::E08
+- _Korok::E08:
+    comment: Top of northern mine
 
-- .dir(<E) + midair
+- .dir(.E) super
 - _Korok::E09:
     comment: On rock arch
 
 - .dir(<<E)
 - _Korok::E06:
     comment: Down in corner
-    notes: Rare ore deposit here for amber if still needed
+    notes: Ore deposits here for amber if still needed
 
-- .gale() + .dir(<<W):
+- .gale() + .dir(<W):
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
-    comment: Ancient arrows
-    notes: Igneo taluses have the best chance to drop flint for Jewel Trade. Collect drops here and with remaining three igneo taluses until you have 11 flint.
+    notes: Igneo taluses have the best chance to drop flint. Collect drops here and from the remaining three igneo taluses until you have 11 flint.
 
 - .dir(S>) + midair
 - _Korok::E11:
     comment: Rock above, circle below
 
 - .dir(W)
-- _Korok::E10:
-    comment: Pinwheel
+- _Korok::E10
 
-- .dir(NW)
+- .dir(<<N)
 - _Korok::E07:
     comment: Top of crab island
 
-- Down
 - _Shrine::ShoraHah

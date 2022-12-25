@@ -1,17 +1,17 @@
 Keeha Yoog:
-- .dir(<<E):
-    notes: .link([Keeha Yoog vod]https://youtu.be/mGUKIJv-Q_U?t=12214)
+- .dir(<E):
+    notes: .link([Keeha Yoog vod]https://youtu.be/T5MXXtNCbX0?t=2709)
 - _Korok::G08:
-    comment: Need 2 stamina food
+    comment: Eat stamina food
 
-- .dir(NW) short
+- .dir(NW) surf
 - _Korok::G04
 
-- .dir(N.)
-- _Korok::G05:
-    comment: " "
+- .gale() + .dir(N>):
+    gale: 1
+- _Korok::G05
 
-- .dir(<<N)
+- .dir(<N)
 - _Korok::G01:
     comment: " "
 
@@ -24,18 +24,17 @@ Keeha Yoog:
 - _Korok::G02:
     comment: " "
 
-- .gale() + .dir(E):
+- .dir(N) + .dir(E>):
     coord: [-3968.58, 552.57, 331.92]
-    gale: 1
 - _Korok::G03
 
-- .dir(E) + .dir(SE)
+- .dir(E) + .dir(<S)
 - _Korok::G06:
     comment: On platform against cliff
 
-- Climb ladder + .dir(W)
-- Activate .!!(Pedestal):
+- Jump + midair .dir(W)
+- Shoot Pedestal:
     icon: tots
     hide-icon-on-map: true
-    comment: Shoot shock arrow
+    comment: with shock arrow
 - _Shrine::KeehaYoog

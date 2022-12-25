@@ -1,13 +1,13 @@
 Shae Loya:
 - .dir(<E) down:
-    notes: .link([Shae Loya vod]https://youtu.be/d2lvD_eFjVw?t=3040)
+    notes: .link([Shae Loya vod]https://youtu.be/FgwSVGe8-o8?t=4078)
 - _Discover<Pondo's Lodge>:
     coord: [-2076.70, 389.70, -2080.90]
 
-- .dir(SW)
+- .dir(<<W)
 - _Korok::H67
 
-- .dir(<S) surf
+- .dir(S) surf
 - _Korok::H70
 
 - .dir(W)
@@ -20,7 +20,7 @@ Shae Loya:
 - .dir(W>)
 - _Korok::T18
 
-- .dir(N>)
+- .dir(N)
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3
@@ -28,7 +28,7 @@ Shae Loya:
 
 - .dir(NE)
 - _Korok::H65:
-    comment: Top of bare tree
+    comment: Top of tree in island
 
 - .dir(<W)
 - _Korok::H66:
@@ -37,36 +37,37 @@ Shae Loya:
 - .dir(W)
 - _Korok::T11
 
-- .dir(SW) short
-- _Npc<Gesane>:
+- .dir(SW) glide
+- _Npc::Rito<Rito guy on bridge>:
     coord: [-3308.27, 227.83, -1803.34]
-    comment: On bridge
-    notes: Face the Frost Talus
+    comment: Gisane
+    notes: Talk twice
 
-- Run
-- _Npc<Lester>:
+- Run to stable
+- _Npc::SheikaMale<Old Guy at cookpot>:
     coord: [-3267.07, 224.60, -1773.77]
-    comment: At cookpot
-    notes: Curry for What Ails You
+    comment: Lester
+    notes: Talk twice
 
-- .dir(S)
+- .dir(S) super
 - _Korok::T21
 
-- .dir(NE)
+- .dir(N>>)
 - _Korok::T19:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
           away: true
-    comment: In canyon below
+    comment: Drownwarp
+    notes: To drownwarp, use bullet time to fully drain stamina before falling into lilypads.
 
-- Drownwarp -> .dir(E)
+- .dir(E)
 - _Korok::T22:
-    comment: On ledge against cliff
+    comment: Hidden in corner
 
-- .dir(<S)
+- .dir(.S)
 - _Korok::T25
 
-- .dir(<E) + midairs
+- .dir(<E) + midair
 - _Korok::R05
 
 - .dir(S) surf
@@ -74,16 +75,18 @@ Shae Loya:
     coord: [-2638.00, 282.34, -1175.00]
 
 - .dir(S) + midair
-- _Korok::R13
+- _Korok::R13:
+    comment: Above waterfall
 
-- .dir(S.)
-- _Korok::R17
+- .dir(S>)
+- _Korok::R17:
+    comment: On peak
 
 - .dir(SE)
 - _Korok::R22:
     comment: Look .dir(NW)
     movements:
-        - to: [-2446,-398.5]
+        - to: [-2390,-398.5]
         - to: [-2434.11, 319.87, -491.04]
           away: true
 - _Korok::R31:
@@ -95,14 +98,13 @@ Shae Loya:
     movements:
         - to: [-2370.05, 261.70, -419.59]
           away: true
-    comment: Ancient arrows
 
 - .dir(S>)
 - _Korok::R30:
     comment: " "
 
-- .dir(W>)
+- .dir(W>>)
 - _Korok::R21
 
-- .dir(W)
+- .dir(W.)
 - _Shrine::ShaeLoya

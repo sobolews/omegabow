@@ -1,19 +1,20 @@
 Bareeda Naag:
 - .dir(SW) run:
-    notes: .link([Bareeda Naag vod]https://youtu.be/d2lvD_eFjVw?t=570)
-- _Memory::AncientColumns
+    notes: .link([Bareeda Naag vod]https://youtu.be/FgwSVGe8-o8?t=1606)
+- _Memory::AncientColumns:
+    comment: Memory
 
-- .dir(NW>) run
+- .dir(NW) run
 - _Korok::T35:
     comment: " "
 
-- .dir(<W)
+- .dir(W)
 - _Korok::T37:
     comment: " "
 
 - .dir(NE)
 - _Korok::T33:
-    comment: Pinwheel on little platform
+    comment: Pinwheel
 
 - .dir(NW) short
 - Activate .loc(Fairy Fountain):
@@ -30,15 +31,14 @@ Bareeda Naag:
 
 - .dir(N>)
 - _Boss::Talus::Rare:
-    comment: Boulder Breaker
     coord: [-3248.40, 291.68, -1078.12]
 
 - .dir(<N)
 - _Korok::T20
 
-- .dir(NW)
+- .dir(<<N)
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true
-    comment: Fire arrow before 12:45pm
+    comment: Fire arrow before 1:15pm
 - _Shrine::BareedaNaag

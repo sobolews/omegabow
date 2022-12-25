@@ -1,22 +1,28 @@
 Taloh Naeg:
-- .dir(S) + .dir(E.) + .dir(.S):
-    notes: .link([Taloh Naeg vod]https://youtu.be/s1NM1eCjpX8?t=3476)
+- .dir(S) + .dir(E>) + .dir(S):
+    notes: .link([Taloh Naeg vod]https://youtu.be/KYhfrqeINmE?t=3018)
 
-- _Npc::SheikaFemale<Paya and Impa>:
+- _Npc::SheikaFemale<Impa>:
+    comment: Talk twice
     coord: [1772.71, 229.43, 984.31]
 
 - _Equipment::Shield<Pot Lid>:
     coord: [1798.63, 219.90, 1011.16]
-    notes: Don't damage this one
+    notes: Don't damage this one too much. A few hits is okay.
+
+- _Cook<Cook 1 Endura Food>:
+    comment: use all endura shrooms
+    hide-icon-on-map: true
 
 - _Material<1 Energetic Rhino Beetle>:
     coord: [1811.23, 221.34, 1050.06]
     comment: 9pm to 7am
-    notes: Make morning if needed
+    notes: On tree near shop. Make morning if needed.
 
-- .dir(N.)
-- In shrine
-- _Chest<Opal>:
-    hide-icon-on-map: true
-    notes: Save for upgrades
-- _Shrine::TalohNaeg
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Talk twice
+
+- .dir(N)
+- _Shrine::TalohNaeg:
+   comment: Opal in chest

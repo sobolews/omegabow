@@ -1,7 +1,5 @@
 Toto Sah:
-- .dir(.S) + midair:
-    notes: .link([Toto Sah vod]https://youtu.be/d2lvD_eFjVw?t=8917)
-    time-override: 720
+- .dir(S) + midair
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
@@ -9,18 +7,19 @@ Toto Sah:
 
 - .dir(SW)
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
     coord: [1940.50, 144.41, 2396.50]
-    notes: If you don't make it here in time, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
+    notes: If you don't make it here before 4am, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
 
 - .dir(S)
-- _Chest<Sapphire>:
+- _Chest<Chest in cave>:
     coord: [1955.82, 178.14, 2609.72]
-    notes: Misko, the Great Bandit
-    comment: Up in cave behind rock pile
+    notes: Open any 1 chest for "Misko the Great Bandit" quest. 
+    comment: Up in cave behind rubble
 
-- Down
-- _Korok::D59
+- Drop down
+- _Korok::D59:
+    comment: On little island
 
 - .dir(<N)
-- _Shrine::TotoSah
+- _Shrine::TotoSah:
+    comment: Behind rubble

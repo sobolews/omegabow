@@ -1,15 +1,14 @@
 Daag Chokah:
-- BLSS .dir(NW):
-    notes: .link([Daag Chokah vod])
+- BLSS .dir(NW) from tower step:
+    notes: .link([Daag Chokah vod]https://youtu.be/WaebWctGS_k?t=21638)
 
 - _Discover<Lost Woods>:
-    coord: [723.00, 293.50, -1918.50]
+    coord: [603.00, 293.50, -1908.50]
     notes: BLSS should pass through this location
 
 - _Npc<Tasho>:
     coord: [256.19, 281.61, -2229.61]
-    comment: Start Lost Pilgramage
-    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't need to follow Oaki; he'll move along his path while we do the next steps.
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
 
 - .dir(E) to .loc(top of Deku tree)
 - _Npc<Walton>:
@@ -19,51 +18,50 @@ Daag Chokah:
     icon: tots
     hide-icon-on-map: true
     comment: .item(Sunshroom, Voltfin, Hoof)
-    notes: Break containers for acorns
 
-# - _Snap::Quest<Sunshroom>:
-#     coord: [427.59, 334.17, -2180.27]
+- _Snap::Quest<Sunshroom>:
+    coord: [427.59, 334.17, -2180.27]
+    comment: SNAP
 
-- .dir(E.) down
+- Drop .dir(E)
 - Activate .loc(Keo Ruug):
     icon: shrine
     coord: [474.69, 248.84, -2167.82]
-    notes: .!!(DON'T) enter shrine or Oaki will reset
+    notes: Don't enter shrine or Oaki will reset
+
+- _Material<2 frogs>:
+    comment: In bush near shrine
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
-    comment: If you don't have one
-    notes: Save for Voo Lota
+    notes: For Voo Lota
 
-- _Material<3 Bird Egg>:
-    notes: In trees around Hestu. Save for korok and transmute.
+- _Material<4 Bird Egg>:
+    notes: In tree near Hestu and near Deku tree entrance. For X13 and transmutation.
 
 - _Npc<Hestu>:
     icon: hestu
     coord: [466.03, 249.56, -2112.38]
     comment: 3 bow, 7 weapon, 4 shield
 
-# - Buy
-# - _Material<4 Ironshroom>:
-#     hide-icon-on-map: true
-#     notes: Used for transmute
-# - _Material<4 Stamella Shroom>:
-#     hide-icon-on-map: true
-# - _Material<4 Razorshroom>:
-#     hide-icon-on-map: true
-
-- Get .!!(7 hearts):
+- Goddess Statue:
+    comment: Upgrade all hearts
     icon: tots
+    coord: [415.74, 258.73, -2179.85]
     hide-icon-on-map: true
 
-- Equip Lynel Crusher:
-    icon: equipment
-    hide-icon-on-map: true
-    notes: Pulling the Master Sword sets durability of equipped weapon to 40. Crusher used for Moldugas later.
-- _Material<3 Silent Princess>:
-    hide-icon-on-map: true
+- _Material<3 Frogs>:
+    comment: South of Master Sword
+    coord: [417.15, 248.60, -2085.43]
+
+- _Equipment::Weapon<Double Axe>:
+    comment: By tree near .dir(SE) path
+    coord: [432.67, 261.88, -2029.57]
+
+
 - _Equipment::Weapon<Master Sword>:
     coord: [431.66, 250.53, -2111.00]
+    notes: Pulling the Master Sword sets durability of equipped weapon to 40. Suggest to equip the first double axe.
 
 - _Npc<Peeks>:
     coord: [441.00, 248.56, -2133.05]
@@ -73,7 +71,7 @@ Daag Chokah:
     coord: [419.28, 248.65, -2134.93]
 
 - Follow Oaki:
-    notes: Follow Blue Nightshades and clearings on map
+    notes: Follow blue nightshades → honey → hollow log → nightshades. Don't get too close to Oaki.
     movements:
         - to: [257,-2249]
         - to: [248,-2274]
@@ -85,14 +83,16 @@ Daag Chokah:
         - to: [90,-2370.5]
         - to: [76,-2414]
 
-- _Material<3+ Blue Nightshade>:
-    notes: Save for transmute
+- _Material<4+ Blue Nightshade>:
+    comment: Save for transmutation
     hide-icon-on-map: true
-- _Material<10 Restless Cricket>:
-    notes: Spin attack grass to collect during escort. Save for quest.
+- _Material<10 Restless Crickets>:
+    notes: Spin attack grass to collect while walking to Oaki. 
     hide-icon-on-map: true
-- _Material<5 Hot-Footed Frog>:
+- _Material<5 Frogs>:
+    comment: If missed any before
     hide-icon-on-map: true
 
 - _Shrine::DaagChokah:
-    notes: Oaki finishes his walk 5h 20m in-game time from when the quest starts. Don't approach until you see the dialogue "Woo! I finally made it!"
+    notes: |
+      Don't approach until you see the Oaki say: "Woo! I finally made it!"

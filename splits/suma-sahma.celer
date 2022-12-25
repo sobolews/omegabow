@@ -1,30 +1,32 @@
 Suma Sahma:
-- .dir(N) + .dir(E) midairs:
+- .dir(N) + .dir(E>) + midair + .dir(N>):
     coord: [-1806.75,3340.5]
-    notes: .link([Suma Sahma vod]https://youtu.be/s1NM1eCjpX8?t=10931)
+    notes: .link([Suma Sahma vod]https://youtu.be/KYhfrqeINmE?t=10653)
 - _Korok::W54
 
 - .dir(S>)
 - _Korok::W59:
     comment: " "
 
-- .dir(E>)
+- .dir(E>>)
 - _Korok::W64
 
-- .dir(N)
+- .dir(N):
+    notes: Reposition pebble and use to windbomb
 - _Korok::W60:
     comment: " "
+    notes: There is an RNG lizalfos that may have a Moblin Club. Take it to skip getting it later.
 
-- .dir(<N)
+- .dir(N)
 - Read .!!(Mountain Peak Log):
     icon: tots
-    # hide-icon-on-map: true
     coord: [-1387.83, 540.50, 3494.08]
+    comment: Cancel after "Day 7"
 
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true
-    notes: Between 4pm to 5:30pm
+    notes: 4:00-5:30pm. After 4:40pm, you can use a cryo block in the puddle.
     comment: Carry snowball
 
 - _Shrine::SumaSahma

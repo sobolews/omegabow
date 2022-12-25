@@ -7,7 +7,8 @@ Daqo Chisay:
 - _Korok::W29:
     comment: " "
 
-- .dir(.S)
-- _Npc<Benja>:
+- .dir(S.)
+- _Npc::SheikaMale<Guy near shrine>:
+    comment: Benja
     coord: [-3804.64, 149.50, 2818.36]
 - _Shrine::DaqoChisay

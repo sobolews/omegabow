@@ -1,15 +1,19 @@
 Joloo Nah:
-- .dir(S):
-    notes: .link([Joloo Nah vod]https://youtu.be/mGUKIJv-Q_U?t=10860)
+
+- .dir(W>>):
+    notes: .link([Joloo Nah vod]https://youtu.be/T5MXXtNCbX0?t=1351)
+
+- _Korok::G29
+
+- .dir(<S)
 - _Boss::Hinox::Blue:
     coord: [-1704.30, 111.60, 1776.78]
-    comment: Ancient arrows
 
-- .dir(SW)
+- Drop .dir(SW)
 - _Korok::C88:
     comment: .rune(Cryo) block
 
-- .dir(<<S)
+- .dir(<S)
 - _Discover<Gerudo Canyon Pass>:
     coord: [-1665.00, 95.00, 2028.00]
 
@@ -24,23 +28,25 @@ Joloo Nah:
         - to: [-1990,2167]
         - to: [-2029,1995]
 
-- _Npc<Zyle>:
+- _Npc<Horse Guy>:
     coord: [-2033.50, 157.54, 1873.19]
-    comment: Good-Sized Horse
+    comment: Zyle
+    notes: Good Sized Horse quest
 
-- .dir(S.)
+- .dir(S)
 - _Npc<Palme>:
     comment: Missing in Action
     coord: [-2063.50, 208.00, 1994.50]
 
-- .dir(N)
+- Jump/midair .dir(N)
 - _Korok::W07
 
-- Shoot Bokos:
-    hide-icon-on-map: true
-    icon: calamity
+- .dir(N)
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
 
-- .dir(N>)
+- Climb .dir(E)
 - Test of Will:
     icon: tots
     coord: [-2005.45, 225.98, 1740.65]

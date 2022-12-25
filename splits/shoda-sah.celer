@@ -1,10 +1,10 @@
 Shoda Sah:
-- .dir(E>) + midair:
-    notes: .link([Shoda Sah vod]https://youtu.be/crHPwD-Ouqw?t=7112)
+- .dir(E) + midair .dir(E>):
+    notes: .link([Shoda Sah vod]https://youtu.be/T5MXXtNCbX0?t=12265)
 - _Korok::F48:
-    comment: " "
+    comment: Pick up banana nearby
 
-- .dir(E>)
+- .dir(SE)
 - _Korok::F55:
     comment: Up near enemy camp
 
@@ -17,14 +17,13 @@ Shoda Sah:
     comment: .fury()
     fury: 1
     coord: [1392.02, 107.03, 3727.59]
-
-- .dir(<W)
 - _Korok::F53
 
 - .dir(E>)
-- _Korok::F56
+- _Korok::F56:
+    comment: Under cliff
 
-- .dir(E) + midairs
+- .dir(E)
 - .fury() .!!(Enemy Camp):
     icon: calamity
     comment: Take Back the Sea
@@ -35,38 +34,38 @@ Shoda Sah:
 - .dir(N) + midair
 - _Korok::F43
 
-- .dir(N.)
+- .dir(N)
 - _Korok::F30:
     comment: " "
+- .dir(S>) down
 - _Boss::Hinox::Stal:
     coord: [2078.62, 110.22, 3450.66]
-    comment: Swift kill
-    notes: To do a swift kill, shoot a stalnox in the eye, then windbomb away
 
 - .dir(W>)
 - _Korok::F35
 
-- .dir(S>)
+- .dir(S)
 - _Korok::F46:
     comment: Behind waterfall
 
+- .dir(<W)
+- _Korok::F42
+
 - .dir(<N)
 - _Boss::Talus::Stone:
-    comment: Bomb arrows
     coord: [1690.73, 165.27, 3335.62]
 
-- .dir(N.)
+- .dir(N)
 - _Korok::F28:
-    notes: Use gale if raining; and then don't use a gale at F27
+    notes: Use gale if raining; and then skip the gale at F13
 
-- .dir(W.)
+- .dir(W>)
 - _Korok::F26:
-    comment: Up against waterfall
+    comment: Ledge beside waterfall
 
-- .gale() + .dir(E):
-    gale: 1
+- .dir(E)
 - _Korok::F27:
-    comment: On ledge against waterfall
+    comment: Ledge beside waterfall
 
 - .dir(N)
 - _Shrine::ShodaSah

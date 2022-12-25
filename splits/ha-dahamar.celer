@@ -1,12 +1,12 @@
 Ha Dahamar:
 - .dir(NE) run:
-    notes: .link([Ha Dahamar vod]https://youtu.be/d2lvD_eFjVw?t=9086)
+    notes: .link([Ha Dahamar vod]https://youtu.be/8Y2bjBn7LKM?t=24992)
 - _Korok::D56:
     comment: In tree stump
 
-- .dir(W>) + .dir(W)
+- .dir(W>)
 - _Korok::D55:
-    comment: On high ledge against cliff
+    comment: High ledge on cliff wall
 
 - .dir(N)
 - _Shrine::HaDahamar

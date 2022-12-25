@@ -1,6 +1,9 @@
 Daqa Koh:
-- .dir(S.):
-    notes: .link([Daqa Koh vod]https://youtu.be/mGUKIJv-Q_U?t=4137)
+- _Warp::Shrine::ShaeMosah:
+    line-color: violet
+    comment: WARP
+
+- .dir(S.)
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
@@ -8,7 +11,7 @@ Daqa Koh:
 - .dir(E)
 - _Korok::E16
 
-- .dir(<<S)
+- .dir(<S)
 - _Korok::E17:
     comment: " "
 

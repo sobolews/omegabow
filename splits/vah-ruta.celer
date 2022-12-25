@@ -1,14 +1,27 @@
 Vah Ruta:
-- Inside divine beast:
-    icon: tots
-    hide-icon-on-map: true
+
+- .gale() + .dir(E):
+    gale: 1
+    notes: .link([Vah Ruta vod]https://youtu.be/KYhfrqeINmE?t=13254)
+- _Korok::Z18
+
+- .dir(S)
+- _Korok::Z26:
+    comment: Up on peak
+
+- .dir(NE)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Vah Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
     comment: .gale()
     gale: 1
-    notes: .link([Vah Ruta vod]https://youtu.be/s1NM1eCjpX8?t=13845) Use gale after terminal 5 to get to boss room.
 
 - .boss(Waterblight):
     icon: calamity
-    comment: .rune(Stasis) → 6 headshots
+    comment: .rune(Stasis) → 2 GEB body + 1 OB
     hide-icon-on-map: true
 
 - Mipha's Grace:

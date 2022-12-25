@@ -1,10 +1,10 @@
 Raqa Zunzo:
 - _Npc::Gerudo<Barta>:
-    comment: Search for Barta
+    comment: Behind shrine
     coord: [-4818.86, 130.23, 3713.28]
-    notes: .link([Raqa Zunzo vod]https://youtu.be/mGUKIJv-Q_U?t=13620)
+    notes: .link([Raqa Zunzo vod]https://youtu.be/T5MXXtNCbX0?t=4102)
 
-- .dir(<<E)
+- .dir(<E) far
 - _Korok::W55
 
 - .dir(S>)
@@ -15,29 +15,21 @@ Raqa Zunzo:
 
 - _Boss::Molduga:
     coord: [-4191.12, 126.91, 3797.45]
-    comment: Savage Lynel Crusher
 
 - .dir(<<E)
 - _Boss::Molduga:
     coord: [-3799.06, 118.76, 3653.43]
-    comment: Savage Lynel Crusher
+
+- _Korok::W57:
+    comment: Snipe in tree above oasis
 
 - .dir(N)
-- _Korok::W57:
-    comment: In tree above oasis
-
-- .dir(<N)
 - _Korok::W56
 
-- .dir(N>)
-- .!!(Sand Seal Race):
+- .dir(N)
+- .loc(Sand Seal Race):
     icon: tots
     hide-icon-on-map: true
-
-- Equip .!!(Gerudo Veil + Top):
-    icon: shield
-    hide-icon-on-map: true
-    comment: .!!(+ Snow Boots)
 
 - _Shrine::RaqaZunzo:
     notes: Backup Radiant Shield here

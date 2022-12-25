@@ -1,6 +1,6 @@
 Wasteland Tower:
-- .dir(E) + .dir(N):
-    notes: .link([Wasteland Tower vod]https://youtu.be/s1NM1eCjpX8?t=10247)
+- .dir(<<E):
+    notes: .link([Wasteland Tower vod]https://youtu.be/WaebWctGS_k?t=9032)
 - _Korok::G34:
     comment: Cube in middle of bridge
 
@@ -8,14 +8,15 @@ Wasteland Tower:
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2924.12, 153.42, 2329.39]
 
-- .dir(E)
+- .dir(.E)
+- _Korok::W15
 - _Npc<Beedle>:
+    comment: "buy:"
     notes: Beedle leaves at 4pm. Make noon if needed.
     hide-icon-on-map: true
-- Buy
+
 - _Shop<1 Warm Darner>:
     hide-icon-on-map: true
-    # notes: If Maypin (donkey) shows up, buy 1 warm darner and 2 cold darners from Maypin. Then cook the cold elixir with 1 cold darner instead of a butterfly.
 - _Shop<1 Winterwing Butterfly>:
     hide-icon-on-map: true
 
@@ -24,9 +25,8 @@ Wasteland Tower:
 
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
-    # notes: Missing in Action
 
-- _Npc<Pirou>:
+- _Npc<Rushroom Guy>:
     coord: [-2796.56, 134.90, 2240.07]
     comment: Talk Twice
     hide-icon-on-map: true
@@ -34,14 +34,15 @@ Wasteland Tower:
 - _Warp::VahNaboris:
     comment: WARP
 
-- .dir(W) run
-- _Korok::W33
+- .dir(W>) run
+- _Korok::W33:
+    comment: Under bridge
 
 - midair .dir(W)
 - _Korok::W31:
-    comment: On ledge
+    comment: On ledge corner
 
-- .dir(E) run
+- .dir(E) climb
 - _Korok::W32
 
 - .dir(N)

@@ -1,0 +1,71 @@
+Enter Hateno:
+- .dir(E):
+    notes: .link([Enter Hateno vod]https://youtu.be/WaebWctGS_k?t=2500)
+- _Material<2 Fairies>:
+    coord: [1963.57, 269.72, 860.48]
+    notes: Only 1 is needed, but extra for safety is good. Don't lose the last fairy.
+- _Material<2 Endura Carrot>:
+    hide-icon-on-map: true
+
+- .dir(W) up to .loc(hill)
+- _Material<1 Silent Princess>:
+    movements:
+        - to: [1846.14, 327.67, 820.96]
+        - to: [1882.32, 340.27, 803.23]
+- _Material<3 Blue Nightshade>:
+    coord: [1879.35, 342.34, 810.05]
+    comment: Scrap
+
+- BLSS .dir(S) + WB .dir(S) to .loc(Riola Spring)
+
+- Shoot Farosh (Scale):
+    icon: bow
+    hide-icon-on-map: true
+    notes: If you get here early enough, Farosh will spawn as you glide in. Otherwise, you'll need to sleep an extra time.
+
+- Set repeating campfire:
+    icon: tots
+    comment: Wood + fire arrow + torch
+    coord: [1730.5,2969.5]
+- _Tod::Morning:
+    hide-icon-on-map: true
+    notes: Make morning between each shot
+- Shoot Farosh (Horn):
+    icon: bow
+    hide-icon-on-map: true
+- Shoot Farosh (Claw):
+    icon: bow
+    hide-icon-on-map: true
+- _Equipment::Weapon<Pick up Torch>:
+    hide-icon-on-map: true
+
+- BLSS .dir(S)
+- Kill .enemy(Black Lizalfos):
+    icon: calamity
+    coord: [1691.87, 280.72, 3661.50]
+    comment: FDB with Fire Arrows
+    notes: 3 headshots will kill it. Try to aim it away from the heavy grass, to avoid the parts catching fire and burning.
+
+- _Material<1 Lizalfos Tail>:
+    hide-icon-on-map: true
+- _Material<1 Lizalfos Horn>:
+    hide-icon-on-map: true
+- _Material<1 Lizalfos Talon>:
+    hide-icon-on-map: true
+    comment: if needed
+    notes: You want a total of exactly 1 tail, 2 horns, and 1 talon. Kill the green and/or blue lizalfos in this area if missing any parts.
+
+- _Material<5 Mighty Banana>:
+    hide-icon-on-map: true
+    comment: Used for koroks later
+- _Material<8 Hyrule + 1 Hearty Bass>:
+    coord: [1643.02, 277.73, 3674.37]
+    comment: Bomb the pond to stun them
+
+- BLSS .dir(NE)
+
+- Enter Hateno:
+    icon: shop
+    coord: [3356.35, 225.66, 2175.10]
+    split-type: UserDefined
+    comment: Land at the general shop

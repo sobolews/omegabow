@@ -2,15 +2,14 @@ Qaza Tokki:
 - Ride minecart:
     icon: tots
     coord: [1593.5,-3090.5]
-    notes: .rune(Stasis) the minecart once you have a good angle
+    notes: .link([Qaza Tokki vod]https://youtu.be/KYhfrqeINmE?t=16246)
 
-- .dir(<W):
-    notes: .link([Qaza Tokki vod]https://youtu.be/mGUKIJv-Q_U?t=1385)
+- .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
-    comment: Ancient arrows
+    notes: Collect flint if needed
 
-- .dir(<W) + midair
+- .dir(<W)
 - _Korok::K08:
     comment: Pinwheel
 
@@ -22,11 +21,11 @@ Qaza Tokki:
 - _Korok::K06:
     comment: " "
 
-- midair .dir(W>)
+- .dir(W>)
 - _Korok::K05:
-    comment: Pinwheel
+    comment: Use bullet time
 
-- .dir(W>) + midairs
+- .dir(W) + midairs
 - _Korok::H16:
     comment: In tree
 
@@ -34,8 +33,4 @@ Qaza Tokki:
     coord: [-777.25,-3525]
     notes: See map for where to drop in
 
-- In shrine
-- _Chest<Barbarian Legs>:
-    comment: Equip
-    hide-icon-on-map: true
 - _Shrine::QazaTokki

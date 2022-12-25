@@ -1,8 +1,7 @@
 Rok Uwog:
-- .dir(SW) run:
-    notes: .link([Rok Uwog vod]https://youtu.be/d2lvD_eFjVw?t=11704)
-- _Korok::H35:
-    comment: " "
+- .dir(S) run:
+    notes: .link([Rok Uwog vod]https://youtu.be/FgwSVGe8-o8?t=12756)
+- _Korok::H35
 
 - .dir(SE)
 - _Chest::Special<Salvager Trousers>:
@@ -20,14 +19,14 @@ Rok Uwog:
 - _Korok::H31:
     comment: " "
 
-- .dir(N>)
+- .dir(N.)
 - _Boss::Talus::Frost:
     comment: .fury()
     fury: 3
     coord: [-2144.88, 491.27, -3082.59]
 
-- .dir(W) down
+- Drop down .dir(W)
 - _Korok::H30
 
-- .dir(NW)
+- .dir(<<N)
 - _Shrine::RokUwog

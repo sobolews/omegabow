@@ -1,6 +1,6 @@
 Ya Naga:
-- .dir(N>>):
-    notes: .link([Ya Naga vod]https://youtu.be/crHPwD-Ouqw?t=531)
+- .dir(N>):
+    notes: .link([Ya Naga vod]https://youtu.be/T5MXXtNCbX0?t=5882)
 - _Korok::G36
 
 - .dir(SE)
@@ -19,7 +19,7 @@ Ya Naga:
 - .dir(S)
 - _Korok::L21
 
-- .dir(E)
+- .dir(<E)
 - _Korok::L22
 
 - Tame Giant Horse:
@@ -27,17 +27,19 @@ Ya Naga:
     coord: [-1196.01, 170.87, 2633.46]
     comment: Hunt for the Giant Horse
 
-- .dir(<<S) ride
+- Riding through canyon:
+    notes: The lynels won't bother you if you keep the camera turned away from them.
+
 - _Korok::L36:
     comment: In tall tree
 
-- .dir(<<S) ride:
+- _Korok::L62:
     movements:
         - to: [-920,3114]
         - to: [-836,3240]
         - to: [-866,3350]
-- _Korok::L62:
-    comment: " "
+        - to: [-923.50, 214.58, 3436.38]
+    comment: On right side of canyon
 
 - Ride to .loc(Mounted Archery Camp):
     movements:
@@ -45,28 +47,24 @@ Ya Naga:
         - to: [-474,3738]
         - to: [-266,3658]
 
-- _Npc<Straia>:
+- _Npc<Guy near cookpot>:
     coord: [-212.39, 128.70, 3487.13]
-    comment: Hunt for the Giant Horse
+    comment: Straia
+    notes: Show him the big horse
 
 - _Cook<Cook Fruitcake>:
     comment: Apple, melon, wheat, sugar
-    notes: Royal Recipe
+    notes: Royal Recipe quest
 
-- _Tod::Night:
-    notes: For Salvager chest when you get to Bridge of Hylia
-
-- .dir(N) run
+- .dir(NE) run
 - _Korok::L64
 
 - .dir(NW) surf
 - Start L47 race:
     icon: tots
     coord: [-276.76, 153.65, 3316.47]
-    # hide-icon-on-map: true
-    notes: Combo L47 and L63
 
-- .dir(W)
+- .dir(.W)
 - _Korok::L63
 
 - .dir(N)
@@ -75,19 +73,18 @@ Ya Naga:
 
 - .dir(<N)
 - _Korok::L38:
-    comment: 2nd beach
+    comment: Along shoreline
 
 - .dir(<N)
 - _Korok::L24:
-    comment: 3rd beach
+    comment: Further along shoreline
 
 - .dir(<N)
 - _Korok::L08:
     comment: " "
 
-- .dir(SE)
+- .dir(E>>)
 - _Korok::L25
 
 - .dir(SE)
-- _Shrine::YaNaga:
-    notes: If raining, make night until it's not for D54
+- _Shrine::YaNaga

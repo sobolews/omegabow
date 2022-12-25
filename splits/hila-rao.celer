@@ -1,6 +1,9 @@
 Hila Rao:    
-- .dir(E):
-    notes: .link([Hila Rao vod]https://youtu.be/crHPwD-Ouqw?t=9206)
+- _Warp::Tower::DuelingPeaks:
+    line-color: red
+    comment: WARP
+
+- .dir(<E)
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
@@ -10,12 +13,12 @@ Hila Rao:
 - _Korok::D16:
     comment: On small island
 
-- .dir(NW)
+- .dir(W>)
 - Steal horse:
     icon: calamity
     coord: [927.95, 117.06, 1211.55]
 
-- .dir(S>>) ride
+- .dir(S>) ride
 - _Korok::D25:
     comment: " "
 
@@ -33,7 +36,7 @@ Hila Rao:
 - _Korok::D24:
     comment: " "
 
-- .dir(E)
+- .dir(E) surf
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1

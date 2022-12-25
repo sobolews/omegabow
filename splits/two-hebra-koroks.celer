@@ -1,6 +1,9 @@
 Two Hebra Koroks:
-- .dir(E):
-    notes: .link([Two Hebra Koroks vod]https://youtu.be/d2lvD_eFjVw?t=1776). Generally the Hebra branches can be re-ordered how you want depending on time of day.
+- Mipha's Grace:
+    icon: ruta-enter
+    hide-icon-on-map: true
+    notes: (optional) Turn off Mipha's Grace now if you want to ensure it's charged for Eventide.
+- .dir(E)
 
 - _Korok::H21
 

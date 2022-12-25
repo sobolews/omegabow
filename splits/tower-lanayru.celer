@@ -1,46 +1,58 @@
 Lanayru Tower:
-- "":
-    notes: .link([Lanayru Tower vod]https://youtu.be/d2lvD_eFjVw?t=4855)
-- _Npc<Tumbo>:
+- _Warp::Shrine::NeezYohma:
+    line-color: lime
+    comment: WARP
+    notes: .link([Lanayru Tower vod]https://youtu.be/FgwSVGe8-o8?t=5790)
+
+- _Npc::ZoraMale<Blue frog kid>:
     coord: [3320.59, 244.66, -474.01]
-    comment: Frog Catching 
-    notes: Wakes up at 7am. In front of Mipha's statue.
+    comment: Tumbo
+    notes: 7am-8pm near Mipha's statue. Talk twice.
 
-- _Npc<Ledo>:
+- _Npc::ZoraMale<Luminous Stones guy>:
     coord: [3290.09, 244.86, -451.28]
-    comment: Luminous Stone Gathering
-    notes: At the gate
+    comment: Ledo
+    notes: At the gate. Talk twice.
 
-- _Npc<Finley>:
+- _Npc::ZoraFemale<Letter Quest girl>:
     coord: [3264.00, 249.76, -480.00]
-    comment: Special Delivery
-    notes: Up the stairs
+    comment: Finley
+    notes: Up the stairs, left railing
 
-- _Npc<Torfeau>:
+- _Npc::ZoraFemale<Black hinox lady>:
     coord: [3300.84, 255.66, -505.93]
-    comment: Giant of Ralis Pond
-    notes: For these NPCs, make a counterclockwise run around the pools under the throne room
+    comment: Torfeau
+    notes: Talk twice
 
-- _Npc<Jiahto>:
+- _Npc::ZoraMale<Blue monuments guy>:
     coord: [3340.25, 256.66, -564.31]
-    comment: Zora Stone Monuments
+    comment: Jiahto
+    notes: Talk twice
 
-- _Npc<Kapson>:
+- _Npc::ZoraMale<Pink priest guy>:
     coord: [3327.76, 256.41, -522.71]
-    comment: From the Ground Up
+    comment: Kapson
+    notes: Send to Tarrey Town
 
-- _Npc<Laflat>:
+- _Npc::ZoraFemale<Pink lynel lady>:
     coord: [3328.97, 268.46, -532.02]
-    comment: Lynel Safari
+    comment: Laflat
+    notes: Talk twice
 
-- .gale() .dir(W) midairs:
-    gale: 2
+- .gale() from stairs:
+    gale: 1
+- _Korok::Z16:
+    comment: In carved flower
+
+- .gale() + .dir(W) midairs:
+    gale: 1
     coord: [3324,-348]
 - _Korok::Z15:
     comment: High up against cliff
 
-- .dir(<W)
+- .dir(.W) down
 - _Korok::Z14
 
 - .dir(S>)
-- _Tower::Lanayru
+- _Tower::Lanayru:
+    comment: Map 85.69%

@@ -1,22 +1,17 @@
 Shai Yota:
-- .dir(<S):
-    notes: .link([Shai Yota vod]https://youtu.be/d2lvD_eFjVw?t=10733)
-- _Korok::N14
-
-- .dir(N>)
-- _Korok::Z54
-
-- .dir(E)
-- _Korok::Z55
-
-- .dir(E.)
-- _Korok::N12
+- .dir(E>):
+    notes: .link([Shai Yota vod]https://youtu.be/FgwSVGe8-o8?t=11864)
+- _Korok::Z53
+- _Korok::Z52
+    
+- .dir(.E) super
+- _Korok::Z45
 
 - .dir(<E)
-- _Korok::Z57
+- _Korok::Z46
 
-- .dir(<N)
-- Activate .!!(Pedestial):
+- .dir(<S)
+- Activate Pedestal:
     icon: tots
     coord: [4226.75,312.75]
     comment: Land with paraglider open

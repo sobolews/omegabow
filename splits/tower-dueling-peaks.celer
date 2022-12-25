@@ -1,33 +1,20 @@
 Dueling Peaks Tower:
-- .dir(N>):
-    notes: .link([Dueling Peaks Tower vod]https://youtu.be/crHPwD-Ouqw?t=4674)
-- _Korok::D14:
-    comment: Under bridge
-    notes: Ikurapan most likely forgot to do this korok after C77
 
-- .dir(<S)
-- _Korok::D27
-
-- .dir(S)
-- _Korok::D34
-
-- .dir(W)
-- _Korok::D33
-
-- .dir(W>)
+- .dir(S) run:
+    notes: .link([Dueling Peaks Tower vod]https://youtu.be/T5MXXtNCbX0?t=9991)
 - _Korok::D32:
-    comment: Golden gauntlets
+    comment: " "
 
-- .dir(S)
+- .dir(S.)
 - _Korok::D31
 
 - .dir(S>)
 - _Korok::D44:
     comment: On ruins
 
-- .dir(<W)
+- .dir(.W)
 - _Korok::P12:
-    comment: Behind Ja Baij
+    comment: Behind shrine
 
 - Down
 - _Korok::P13
@@ -45,31 +32,30 @@ Dueling Peaks Tower:
 - .dir(S) run
 - _Korok::D43
 
-- .dir(SE) + .dir(SE)
+- .dir(<S) + .dir(E>)
 - _Korok::L03:
-    comment: On waterfall
-    notes: Equip Zora Armor
+    comment: .gale() to cryo block
+    gale: 1
 
 - .dir(<S)
 - _Korok::L10:
     comment: " "
-    notes: Re-equip Barbarian Armor
 
-- .dir(.E)
+- .dir(E)
 - _Korok::L11
 
 - .dir(<S)
 - _Korok::L16:
     comment: " "
 
-- .dir(.N)
+- .dir(N)
 - _Korok::L05:
     comment: In big hollow tree stump
 
-- .dir(E) surf
+- Surf to bottom of log
 - _Korok::L06
 
-- .dir(<N)
+- .dir(NW)
 - _Korok::L02:
     comment: In hollow tree stump
 
@@ -81,13 +67,14 @@ Dueling Peaks Tower:
     fury: 1
     coord: [359.34, 114.45, 1904.01]
 
-- .dir(SW)
+- .dir(S>>)
 - _Korok::L04
 
 - .dir(<N)
+- _Memory::WestNecluda:
+    comment: Memory
 - _Korok::D45:
-    comment: Behind fake offering
-- _Memory::WestNecluda
+    comment: Behind statues
 
 - .dir(NE)
 - _Korok::D35:
@@ -104,18 +91,20 @@ Dueling Peaks Tower:
 - _Korok::D46:
     comment: " "
 
-- .dir(N>)
+- .dir(NE)
 - _Korok::D37
 
-- .dir(E) run
-- _Korok::D38
+- .dir(SE) run
+- _Korok::D38:
+    comment: In cave
 
 - .dir(E>)
 - _Korok::D47
 
-- .dir(<<E)
+- .dir(<E)
 - _Korok::D39:
     comment: " "
 
 - .dir(N)
-- _Tower::DuelingPeaks
+- _Tower::DuelingPeaks:
+    comment: Map 53.43%

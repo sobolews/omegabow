@@ -1,26 +1,28 @@
 Tahno Oah:
 - .dir(E):
-    notes: .link([Tahno Oah vod]https://youtu.be/d2lvD_eFjVw?t=9211)
+    notes: .link([Invite Bolson vod]https://youtu.be/FgwSVGe8-o8?t=10245)
 - _Korok::D42
 
 - .dir(SE)
-- _Korok::D51
+- _Korok::D51:
+    comment: " "
 
-- .dir(E.)
+- .dir(E)
 - _Korok::D52:
     comment: Pinwheel
 
-- .dir(NE)
+- .dir(N>>)
 - _Korok::N33
 
 - .dir(<S)
-- _Npc<Calip>:
+- _Npc::SheikaMale<Man in cabin>:
     coord: [2398.96, 118.64, 1834.33]
-    comment: Text option 2
-    notes: If it's not raining, Calip leaves at 6:00am. Sleep in bed if he's not here. Cancel dialogue.
+    comment: Calip
+    notes: If it's not raining, Calip leaves at 6:00am. Sleep morning in bed if he's not here. Text option 2. 
 
-- Run .dir(W)
-- _Korok::N34
+- .dir(W)
+- _Korok::N34:
+    comment: Jump for bullet time
 
 - .dir(<N)
 - _Korok::N27
@@ -41,14 +43,13 @@ Tahno Oah:
 
 - .dir(S)
 - _Korok::N38:
-    comment: Pinwheel
+    comment: Pinwheel, can use bullet time
 
-- .dir(S) short
+- .dir(SE) surf
 - _Boss::Talus::Stone:
     comment: .fury()
-    fury: 2
+    fury: 1
     coord: [3199.41, 173.38, 1904.36]
-    notes: Waste a fury
 
 - .dir(<W)
 - _Korok::N41:
@@ -56,15 +57,16 @@ Tahno Oah:
 
 - .dir(W)
 - _Korok::N45:
-    comment: Shoot 10 signs
+    comment: Shoot 10 targets + balloon
 
 - .dir(S)
 - _Korok::N46
 
 - .dir(E>)
-- _Korok::N51
+- _Korok::N51:
+    comment: Lake shore
 
-- .dir(<E)
+- .dir(.E)
 - _Korok::N52
 
 - .dir(E)
@@ -72,47 +74,50 @@ Tahno Oah:
 
 - .gale():
     gale: 1
-- _Npc<Bolson>:
+- _Npc::SheikaMale<Invite Bolson>:
     coord: [3331.22, 235.28, 2284.61]
-    comment: From the Ground Up
+    split-type: UserDefined
+    notes: .link([Tahno Oah vod]https://youtu.be/8Y2bjBn7LKM?t=25652)
 
 - .dir(N>)
+- _Npc::SheikaMale<Farmer>:
+    coord: [3381.11, 226.15, 2105.53]
+    notes: Spring of Wisdom
+    comment: Medda
+
 - _Npc<Nebb>:
     coord: [3352.40, 225.55, 2138.81]
     comment: Weapon Connoisseur
+    notes: Turn in all weapons
 
-- _Npc<Clavia>:
-    coord: [3434.98, 226.90, 2149.15]
-    comment: Secret of the Cedars
-    notes: (Optional) If you didn't talk to her during inventory corruption
-
-- _Npc<Manny>:
+- _Npc::SheikaMale<Cricket guy + hotel lady>:
     coord: [3418.24, 226.84, 2121.22]
-    comment: Gift for My Beloved
-    notes: Manny, Prima, Manny, Manny
+    comment: Manny + Prima
+    notes: Manny, Prima, Manny, Manny. Talk to Prima from behind counter.
 
 - .dir(E)
-- _Npc<Koyin>:
+- _Npc<Sheep Rustlers lady>:
     coord: [3621.69, 283.36, 2098.13]
-    comment: Sheep Rustlers
+    comment: Koyin
 
 - .gale() + .dir(E):
     gale: 1
     notes: Enter back door
-- _Npc<Symin>:
+- _Npc::SheikaMale<Lab Assistant>:
     coord: [3778.96, 356.86, 2132.45]
-    comment: Sunshroom Sensing
-    notes: Talk 3 times until you get the Hearty Truffle reward. Then talk again and make sure to select "I'm good".
+    comment: Symin
+    notes: Talk 3 times until you get the Hearty Truffle reward. Then talk again and select "I'm good".
 
-- .!!(Buy compendium pics):
+- Buy compendium pics:
     icon: camera-plus
     hide-icon-on-map: true
+    notes: If you sold springs last during transmutation and haven't reloaded a save since then, you'll get all the Material pics for free.
 
 - .gale():
     gale: 1
 - _Korok::N47
 
-- .dir(<E) + .dir(N)
+- .dir(<E) + .dir(N>)
 - _Korok::N32:
     comment: " "
 

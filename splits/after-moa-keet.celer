@@ -1,27 +1,27 @@
 After Moa Keet:
-- .dir(W) short:
-    notes: .link([After Moa Keet vod]https://youtu.be/d2lvD_eFjVw?t=5514)
-- _Npc<Mayro>:
+- .dir(<W) short:
+    notes: .link([Ze Kasho vod]https://youtu.be/FgwSVGe8-o8?t=6536)
+- _Npc<Painting guy in stable>:
     coord: [2620.40, 253.87, -1144.95]
-    comment: Landscape of a Stable
+    comment: Mayro
 
 - .dir(<N)
 - _Korok::E40
 
-- .dir(N)
+- .dir(N) short
 - _Korok::E38
 
 - .dir(S>)
 - _Discover<Maw Of Death Mountain>:
     hide-icon-on-map: true
+    notes: Glide low to trigger location
 - _Korok::E41
-- _Korok::E42:
-    comment: On ledge below bridge
+- _Korok::E42
 
-- .dir(S>)
+- .dir(S>>)
 - _Korok::E43
 
-- BLSS with rock
+- Run/drop .dir(NW)
 - _Korok::E37
 
 - .dir(<W)

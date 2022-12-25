@@ -1,8 +1,13 @@
-Kema Kossassa:
-- .dir(W):
-    notes: .link([Kema Kossassa vod]https://youtu.be/mGUKIJv-Q_U?t=11885)
+Kema Kosassa:
+- Equip Armor:
+    comment: Gerudo Set + Snow Boots
+    icon: shield
+    notes: .link([Kema Kosassa vod]https://youtu.be/T5MXXtNCbX0?t=2369)
+
+- .dir(>W)
 - _Korok::G31:
     comment: Pinwheel on rock
+    notes: Can backflip for bullet time
 
 - .dir(W>)
 - _Korok::G30
@@ -12,15 +17,10 @@ Kema Kossassa:
     coord: [-4312.07, 418.11, 1446.89]
     comment: .fury()
     fury: 2
-    notes: Stand on pillar with cube for G21
-
-- Equip Snow Boots:
-    icon: shield
-    hide-icon-on-map: true
 
 - _Korok::G21
 
-- .dir(S) + .dir(N)
+- .dir(S) + midair .dir(N)
 - _Korok::G16
 
 - .dir(W)
@@ -38,6 +38,5 @@ Kema Kossassa:
 - _Korok::G07:
     comment: On cliff above shrine
 
-- Down
 - _Shrine::KemaKosassa:
     comment: Major Test of Strength

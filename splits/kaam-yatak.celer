@@ -1,8 +1,11 @@
 Kaam Yatak:
-- .dir(<<E):
-    notes: .link([Kaam Yatak vod]https://youtu.be/mGUKIJv-Q_U?t=9586)
-- _Korok::P18:
-    notes: (Optional) Baked Apple in the hut for Apple of My Eye quest
+- _Warp::Shrine::OwaDaim:
+    # line-color: violet
+    comment: (Stasis shrine) WARP
+    notes: "Check map: 30.68%"
+
+- .dir(.E)
+- _Korok::P18
 
 - .dir(N) + midair
 - _Korok::P11:
@@ -12,43 +15,37 @@ Kaam Yatak:
 - _Korok::P10:
     comment: " "
 
+- .dir(<<N)
+- _Boss::Talus::Stone:
+    coord: [-1087.75, 179.14, 1663.18]
+    comment: .fury()
+    fury: 1
+    notes: Check that it's loaded in before unleashing fury
+
+- .dir(E) run
+- _Korok::P04
+    
+- .dir(S)
+- _Korok::P06
+
+- .dir(<E)
+- _Korok::P05
+
+
 - .dir(N>)
 - _Korok::P02
 
 - .dir(NW) run
 - _Korok::P01
 
-- .dir(S>)
-- _Korok::P06
-
-- .dir(NE) run
-- _Material<3 Acorn>:
-    coord: [-930.78, 184.82, 1702.72]
-    notes: Need to pick up 8 more rng acorns during the run
-
-- .dir(NE) run
-- _Korok::P05
-
-- .dir(<N)
+- .dir(NW)
 - _Korok::C81:
     comment: Small ruins next to coliseum
 
-- .dir(S)
-- _Boss::Talus::Stone:
-    coord: [-1087.75, 179.14, 1663.18]
-    comment: .fury()
-    fury: 1
-
-- .dir(E) run
-- _Korok::P04
-
-- .dir(N>)
+- .dir(E)
 - _Korok::C82
 
-- .dir(N>)
-- _Memory::LakeKolomo
-
-- .dir(S)
+- .dir(E)
 - _Korok::C83:
     comment: Pinwheel
 
@@ -63,20 +60,29 @@ Kaam Yatak:
 - _Korok::C75:
     comment: " "
 
-- .dir(W)
+- .dir(W>)
 - _Boss::Talus::Luminous:
     coord: [-514.75, 127.49, 1181.74]
     comment: .fury()
     fury: 2
 
-- .dir(<NW)
+- .dir(.W)
+- _Memory::LakeKolomo:
+    comment: Memory
+
+- .dir(N)
 - _Korok::C69
 
 - midair .dir(N)
 - _Korok::C63
 
-- .dir(W)
+- .dir(.W)
 - _Korok::C62
 
-- .dir(W>>)
+- _Equipment::Weapon<Royal Claymore in chest>:
+    comment: In ruins
+    coord: [-782.50, 138.24, 906.00]
+    notes: (optional) durable weapon for chopping trees
+
+- .dir(NW)
 - _Shrine::KaamYatak

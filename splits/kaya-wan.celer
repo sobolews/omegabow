@@ -1,27 +1,30 @@
 Kaya Wan:
 - BLSS .dir(NE) to .loc(Hyrule Castle):
-    notes: .link([Kaya Wan vod]https://youtu.be/s1NM1eCjpX8?t=3001)
-- _Chest<5 Shock Arrow>:
-    coord: [11.00, 182.58, -879.37]
+    notes: .link([Kaya Wan vod]https://youtu.be/KYhfrqeINmE?t=2588)
+- Drop 4 Tree Branch:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: While waiting for castle cutscene to trigger
+- _Chest<5 Fire Arrow>:
+    coord: [-45.00, 209.58, -823.87]
 
-- .dir(SW)
+- .dir(<W) to balcony
 - _Chest<3 Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
-    notes: Leave the Royal Bow
-- 10 Normal Arrows:
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+- 5 Arrows:
     icon: bow
     hide-icon-on-map: true
 
-- .dir(.S)
+- .dir(S)
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
-    notes: 3 Screw, 2 Spring, 1 Shaft, 2 Gear; Gear is .v(Scrap)/8 scrap
-    var-change:
-        Scrap: 1
+    notes: Looking for 0-3 Screws, 1 Spring and 1 Shaft. Pick up a Core if you get one. Do not pick up extra.
 
-- .dir(S) -> BLSS .dir(SE)
-- In shrine
-- _Chest<Ancient Core>:
-    hide-icon-on-map: true
-- _Shrine::KayaWan
+- .dir(<S) → BLSS .dir(SE)
+- _Shrine::KayaWan:
+    comment: Ancient Core in chest
+    notes: Skip Ancient Core if you already have one
+  

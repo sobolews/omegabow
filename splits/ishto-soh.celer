@@ -1,24 +1,26 @@
 Ishto Soh:
 - _Tod::Night:
     hide-icon-on-map: true
-    notes: For the Stalnoxes coming up (if needed)
+    comment: for Stalnoxes
+    notes: .link([Ishto Soh vod]https://youtu.be/T5MXXtNCbX0?t=8396)
 
-- .dir(W>>) short:
-    notes: .link([Ishto Soh vod]https://youtu.be/crHPwD-Ouqw?t=3064)
+- .dir(NW) surf
 - _Korok::L86
 
 - .dir(E>)
 - _Korok::L87:
-    comment: Above Loone's camp
+    comment: Above shrine
 
 - .dir(<N)
+- Whistle for horse:
+    comment: from cliff near Stalnox
+    icon: tots
+    hide-icon-on-map: true
 - _Boss::Hinox::Stal:
     comment: 1 bomb arrow + .fury()
     fury: 3
     coord: [100.50, 111.28, 3371.00]
-- Whistle for horse:
-    icon: tots
-    hide-icon-on-map: true
+    notes: Kill stalnox while the horse is approaching you.
 
 - Ride to .loc(Mounted Archery Camp):
     movements:
@@ -26,13 +28,10 @@ Ishto Soh:
         - to: [-26.5,3362]
         - to: [-153,3452.5]
 
-- _Npc<Jini>:
-    coord: [-212.39, 128.70, 3487.13]
-
-- .!!(Archery Minigame):
-    icon: calamity
+- Archery Minigame:
+    icon: bow
     hide-icon-on-map: true
-    comment: Score 20 and 23
+    notes: Talk to guy while mounted on horse. Need to finish twice, with scores of at least 20 and 23, to get the saddle and bridle.
 
 - .dir(<S)
 - _Korok::L85
@@ -40,36 +39,34 @@ Ishto Soh:
 - .dir(W)
 - _Korok::L83
 
-- .dir(S>>) run
-- _Korok::L82
+- .dir(S) run
+- _Korok::L82:
+    comment: Top of palm tree
 
-- .dir(E) down
+- Drop .dir(E)
 - _Korok::L84
 
 - .dir(W)
 - _Korok::L81:
     comment: On ledge
 
-- .dir(W)
+- Jump off and midair .dir(W)
 - _Korok::L80:
     comment: " "
 
-- .dir(<N) + .dir(W>) midair
+- .dir(NW) + .dir(<N) midair
 - _Korok::L69
 
-- .dir(S>)
+- .dir(S>) + .dir(<W) midair
 - _Boss::Hinox::Stal:
-    comment: Ancient arrows
     coord: [-1062.00, 275.24, 3771.50]
 
-- .gale() + .dir(<N):
-    gale: 1
+- .dir(N) midair
 - _Korok::L68
 
-- .dir(W)
+- .dir(W>)
 - _Korok::L67:
     comment: Pinwheel
-    # notes: .link([Daruk shield block strat]https://twitter.com/TaoPlusPlus/status/1543032802559643648?s=20&t=Epe1-KX_9FguTFxJCAmwfA)
 
 - .dir(E)
 - _Shrine::IshtoSoh

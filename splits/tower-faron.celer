@@ -1,23 +1,27 @@
 Faron Tower:
-- .dir(W>):
-    notes: .link([Faron Tower vod]https://youtu.be/crHPwD-Ouqw?t=6130)
+- _Discover<Spring of Courage>:
+    coord: [879.50, 123.00, 2388.00]
+    notes: Need to walk out past statue to trigger it
+
+- .dir(W):
+    notes: .link([Faron Tower vod]https://youtu.be/T5MXXtNCbX0?t=11350)
 - _Korok::L13
 
-- .dir(W)
+- .dir(.W)
 - _Korok::L18
 - _Korok::L17
 
-- .dir(N>) short
+- .dir(N>) run
 - _Korok::L12:
     comment: " "
 
-- .gale() + .dir(S>>):
+- .gale() + .dir(S>):
     gale: 1
 - _Korok::L28
 
 - .dir(E)
 - _Korok::L29:
-    comment: On peak
+    comment: On hill
 
 - .dir(E>>) down
 - _Korok::L34:
@@ -33,11 +37,11 @@ Faron Tower:
 - _Korok::L54:
     comment: " "
 
-- .dir(<E)
+- .dir(E)
 - _Discover<Zonai Ruins>:
     coord: [889.86, 124.08, 2937.35]
 
-- .dir(<<W) short
+- .dir(SW) run
 - _Korok::L56:
     comment: " "
 
@@ -46,12 +50,12 @@ Faron Tower:
     coord: [815.25, 117.95, 3063.44]
     comment: The Serpent's Jaws
 
-- .dir(S>) run
+- .dir(S) run
 - _Korok::L57
 
-- .dir(E>)
+- .dir(E>>)
 - _Korok::F24:
-    comment: In tree
+    comment: Hidden in tree
 
 - _Discover<Sarjon Bridge>:
     coord: [1025.15, 130.03, 3235.46]
@@ -59,17 +63,16 @@ Faron Tower:
 - _Korok::F23
 
 - .dir(NE)
-- _Korok::L58:
-    comment: In shallow pool against cliff
+- _Korok::L58
 
-- .dir(N)
+- .dir(.N)
 - _Korok::L46
 
 - .dir(N) + midairs
 - _Korok::F02:
     comment: Starts on far peak
 
-- .dir(N>)
+- .dir(N.)
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
@@ -82,23 +85,24 @@ Faron Tower:
     movements:
         - to: [1381.90, 288.30, 2277.45]
           away: true
+    notes: .link([Visual cue]https://youtu.be/T5MXXtNCbX0?t=11835) if not raining
 
 - .dir(SW)
 - _Korok::F04:
-    comment: Walk slowly over mud
+    comment: " "
 
-- .dir(<<N) short
+- .dir(NW) glide
 - _Korok::F03:
     comment: Pinwheel
 
 - .dir(S)
 - _Boss::Hinox::Red:
-    comment: Ancient arrows
     coord: [1330.55, 180.38, 2623.94]
 
-- midair .dir(<S)
+- .dir(S) to cave
 - _Korok::F10:
-    comment: Starts in cave
+    comment: .gale()
+    gale: 1
 
 - .dir(E>)
 - _Korok::F16:
@@ -108,13 +112,13 @@ Faron Tower:
 - .dir(<W)
 - _Korok::F15
 
-- .dir(E>)
+- .dir(E>) run
 - _Boss::Hinox::Red:
-    comment: Ancient arrows
     coord: [1493.39, 306.77, 3092.14]
 
-- .dir(S>) down
+- .dir(S>) surf down
 - _Korok::F25
 
 - .dir(SW)
-- _Tower::Faron
+- _Tower::Faron:
+    comment: Map 56.98%

@@ -1,19 +1,25 @@
 Ze Kasho:
-- .dir(S) down:
-    notes: .link([Ze Kasho vod]https://youtu.be/d2lvD_eFjVw?t=5748)
-- _Korok::A42
+- _Warp::Tower::Akkala:
+    comment: WARP
 
-- Down
+- .dir(S.) down
+- _Korok::A42:
+    comment: 
+
+- Drop down
 - _Korok::A43
 
 - .dir(SE)
 - _Korok::A46
 
-- BLSS with rock:
-    notes: Can also windbomb .dir(<W) to rock and complete the circle normally
-- _Korok::A45
-
-- .dir(<N)
+- .dir(W.)
 - _Discover<Akkala Bridge Ruins>:
-    coord: [3161.60, 442.88, -1416.64]
+    coord: [3170,-1357]
+    notes: Glide through trigger to pebble
+- _Korok::A45:
+    movements:
+      - to: [3089.92, 407.44, -1337.38]
+      - to: [3112.55, 426.00, -1295.33]
+
+- .dir(.N)
 - _Shrine::ZeKasho

@@ -1,31 +1,8 @@
 Hateno Tower:
-- _Material<2 Apple>:
-    comment: In tree
-    # hide-icon-on-map: true
-    coord: [3794.90, 358.74, 2110.02]
-    notes: .link([Hateno Tower vod]https://youtu.be/s1NM1eCjpX8?t=6107)
-
-- .dir(E) down
-- _Korok::N48:
+- .dir(S):
+    notes: .link([Hateno Tower vod]https://youtu.be/KYhfrqeINmE?t=5923)
+- _Korok::N59:
     comment: " "
-
-- .!!(Save, close game, reload):
-    icon: tots
-    notes: Clears inventory glitch and warps back up to tech lab
-    coord: [3805.5,2106.75]
-    hide-icon-on-map: true
-
-- .dir(<N)
-- _Korok::N43:
-    comment: " "
-
-- .dir(S>)
-- _Npc<Koyin>:
-    coord: [3621.69, 283.36, 2098.13]
-    comment: Text option 2
-
-- .dir(<W)
-- _Korok::N59
 
 - .dir(W)
 - _Korok::N58

@@ -1,25 +1,21 @@
 Sha Warvo:
-- Run:
-    notes: .link([Sha Warvo vod]https://youtu.be/s1NM1eCjpX8?t=7515)
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
     hide-icon-on-map: true
+    notes: .link([Sha Warvo vod]https://youtu.be/KYhfrqeINmE?t=7147)
 - _Chest::Special<Great Eagle Bow>:
     hide-icon-on-map: true
-    notes: DON'T use until duping
+    notes: DON'T use until you dupe it
 
 - .dir(W.)
 - _Korok::T10
 
 - .dir(.W)
 - _Korok::T13
-- _Material<1 Hearty Truffle>:
-    notes: Save for transmute
-    hide-icon-on-map: true
 
-- Run
 - _Npc::Rito<Kheel>:
     coord: [-3979.33, 271.21, -1751.18]
+    comment: Warbler's Nest
 
 - .dir(N>)
 - _Korok::T04

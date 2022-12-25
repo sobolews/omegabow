@@ -1,29 +1,22 @@
 Akkala Tower:
-- Equip Barbarian Armor:
-    icon: shield
-    hide-icon-on-map: true
-    notes: .link([Akkala Tower vod]https://youtu.be/s1NM1eCjpX8?t=14411)
 
 - .dir(SW):
-    time-override: 999
+    notes: .link([Akkala Tower]https://youtu.be/WaebWctGS_k?t=13207)
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
-    comment: .fury() + Ancient arrows
-    fury: 1
 
 - .dir(S)
 - _Korok::Z24:
     comment: " "
 
-- .dir(SE)
+- .dir(E>>)
 - _Korok::Z34:
     comment: On peak
 
 - .dir(<E)
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
-    comment: .fury() Collect drops
-    fury: 2
+    notes: Wake with bomb arrow, then use AA. Collect all amber, flint, and luminous stones. If you don't have 10 amber by now, break ores in Eldin and Rudania entry until you have 10.
 
 - .dir(<E)
 - _Korok::Z27
@@ -48,7 +41,7 @@ Akkala Tower:
 - _Korok::Z17:
     comment: Top of Zora's Domain
 
-- .dir(N.) + midair
+- .dir(N>) + midair
 - _Chest::Special<Zora Helm>:
     coord: [3466.36, 499.22, -889.05]
     comment: .rune(Magnesis) chest in water

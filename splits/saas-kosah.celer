@@ -2,17 +2,18 @@ Saas Kosah:
 - Continue:
     icon: tots
     hide-icon-on-map: true
-    notes: .link([Saas Kosah vod]https://youtu.be/mGUKIJv-Q_U?t=7633)
+    notes: Close game first if IST glitch is still active.
 
-- .dir(N) down
+- .dir(N) down:
+    notes: .link([Saas Kosah vod]https://youtu.be/WaebWctGS_k?t=23346)
 - _Korok::X03
 
-- .dir(<E) short
+- Glide .dir(<E) to slab
 - _Chest<Naydra's Scale>:
     coord: [-182.29, 235.23, -1169.52]
     comment: Under slab
 
-- .dir(E) down
+- Drop .dir(E)
 - _Korok::X02:
     comment: " "
 
@@ -25,7 +26,7 @@ Saas Kosah:
 - _Korok::K30:
     comment: Ledge across water
 
-- .dir(S)
+- .dir(S) thru tunnel
 - _Korok::X11:
     comment: Inside tunnel
 
@@ -45,7 +46,7 @@ Saas Kosah:
     coord: [-172.98, 170.46, -1119.39]
 
 - _Equipment::Shield<Royal Guard's Shield>:
-    comment: Royal Guard's Gear
+    notes: Royal Guard's Gear quest
 
 - Down stairs:
     notes: .rune(Magnesis) book shelf

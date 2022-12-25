@@ -1,20 +1,16 @@
 Ritaag Zumo:
 - .dir(E):
-    notes: .link([Ritaag Zumo vod]https://youtu.be/d2lvD_eFjVw?t=5922)
-- _Npc<Jana>:
+    notes: .link([Ritaag Zumo vod]https://youtu.be/FgwSVGe8-o8?t=7258)
+- _Npc::SheikaFemale<Big Sister>:
     coord: [3133.57, 306.78, -1693.04]
-    notes: Little Sister's Big Request
-    comment: Select "I'm a traveler"
-- _Tod::Noon:
-    hide-icon-on-map: true
-    notes: (Optional) Little sister is not awake at night
-- Talk to sisters:
-    icon: npc
+    comment: Jana
+    notes: Awake 8am-8pm. Select "I'm a traveler". 
+- _Npc::SheikaFemale<Talk to sisters>:
     hide-icon-on-map: true
     comment: Give armoranth, darners
     notes: Jana, Gleema, Jana, Gleema, Jana
 
-- .dir(E)
+- .dir(E) far to Tarrey Town
 - _Npc<Hudson>:
     coord: [3970.74, 233.60, -1623.47]
 

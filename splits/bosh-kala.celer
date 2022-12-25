@@ -1,17 +1,22 @@
 Bosh Kala:
 - .dir(S) surf:
-    notes: .link([Bosh Kala vod]https://youtu.be/crHPwD-Ouqw?t=4466)
-- _Npc<Parcy>:
+    notes: .link([Bosh Kala vod]https://youtu.be/T5MXXtNCbX0?t=9713)
+- _Npc<Lady in Stable>:
     coord: [345.00, 121.73, 1091.50]
-    comment: Royal Guard's Gear
+    comment: Parcy
+    notes: Talk twice for Royal Guard's Gear quest
 
-- _Npc<Gotter>:
+- _Npc<Fruitcake Guy>:
     coord: [325.82, 115.40, 1092.50]
-    comment: Royal Recipe
+    comment: Gotter
+    notes: Talk twice. In stable if raining.
 
 - .dir(S.)
 - _Korok::C77
+- _Korok::D14:
+    comment: Under bridge
 
+- Surf S    
 - _Discover<Owlan Bridge>:
     coord: [325.48, 102.49, 1273.41]
 
@@ -31,7 +36,18 @@ Bosh Kala:
     comment: " "
 
 - .dir(S)
+- _Discover<East Post Ruins>:
+    notes: Glide below the height of the pole to trigger the location.
 - _Korok::D26
 
-- .dir(S) down
+- .dir(E)
+- _Korok::D27
+
+- .dir(S)
+- _Korok::D34
+
+- .dir(W) run
+- _Korok::D33
+
+- .dir(W>)
 - _Shrine::BoshKala

@@ -1,0 +1,121 @@
+Great Plateau:
+- SoR clip:
+    icon: location
+    line-color: white
+    notes: After cutscene, hold ZL and hop left to exit
+    comment: Front entrance
+
+- _Equipment::Weapon<4 Tree Branch>:
+    hide-icon-on-map: true
+    movements:
+        - to: [-1059.15, 249.33, 1805.13]
+        - to: [-1053.44, 249.44, 1802.61]
+        - to: [-1024.63, 251.40, 1812.55]
+        - to: [-1034.19, 249.09, 1847.06]
+    notes: .link([Great Plateau vod]https://youtu.be/WaebWctGS_k?t=437)
+
+- _Equipment::Weapon<Torch and Axe>:
+    notes: Sidehop down the hill while grabbing torch to avoid dialogue
+    movements:
+        - to: [-936.20, 224.90, 1880.20] #torch
+        - to: [-920.93, 220.65, 1871.83] #axe
+
+- Run to .loc(Boko Camp)
+
+- _Material<Seared Steak>:
+    coord: [-955.87, 237.42, 1948.86]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Material<6 Peppers>:
+    hide-icon-on-map: true
+    comment: Scrap
+    notes: .link([What is scrap?]https://pastebin.com/raw/Hm4j2W3V)
+- _Material<2 Shrooms>:
+    hide-icon-on-map: true
+    var-change:
+        Scrap: 1
+    comment: Scrap
+    notes: Can grab more peppers and shrooms. You may eat them if needed, but keep at least 3 of each.
+
+- Clip in to .loc(Temple of Time)
+
+- .!!(Unequip) weapon:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: Opening Traveler's Bow chest triggers an autosave, which we'll use in inventory corruption. We don't want the shield and materials in this autosave.
+- .!!(Drop) Pot Lid:
+    icon: shield
+    hide-icon-on-map: true
+- .!!(Drop) all material:
+    icon: material
+    hide-icon-on-map: true
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+
+- Wait for autosave:
+    icon: tots
+    hide-icon-on-map: true
+    notes: After autosave is complete, pick everything up and immediately save. Then change system clock to 1 day in the past. This will protect the Traveler's Bow autosave and the SoR autosave from the beginning of the game from getting deleted.
+- Take shield and materials:
+    icon: shield
+    hide-icon-on-map: true
+- Equip Axe:
+    icon: equipment
+    hide-icon-on-map: true
+- SAVE:
+    icon: tots
+    hide-icon-on-map: true
+- .!!(System Clock -1 day):
+    notes: If using DST, no need to change clock.
+    icon: calamity
+    hide-icon-on-map: true
+
+- 5 Normal Arrows:
+    icon: bow
+    hide-icon-on-map: true
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+
+- BLSS to shrine
+
+- _Shrine::JaBaij:
+    comment: Bombs shrine
+
+- _Npc::SheikaMale<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text option 2-1-1-2
+
+- BLSS to shrine, clip in
+- _Shrine::OmanAu:
+    notes: Clear ragdoll glitch in shrine
+    comment: Magnesis shrine
+
+- .dir(<S) low angle
+- _Tower::GreatPlateau
+
+- Jump down
+- _Npc::SheikaMale<Old Man>:
+    coord: [-572.50, 178.89, 1696.50]
+    comment: Glitched cutscene
+
+- BLSS .dir(S) to .loc(Tree):
+    movements:
+        - to: [-674.5,1953]
+        - to: [-839.5,2274.5]
+
+- WB .dir(.W) up to shrine
+- _Shrine::OwaDaim:
+    comment: Stasis shrine
+
+- Boulder ride
+- BLSS to shrine
+- _Shrine::KehNamut:
+    comment: Cryonis shrine
+
+- BLSS .dir(E) to Temple of Time
+
+- .!!(Paraglider):
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    split-type: UserDefined

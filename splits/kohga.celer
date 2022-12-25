@@ -1,0 +1,62 @@
+Kohga:
+- .dir(<E):
+    notes: .link([Kohga vod]https://youtu.be/KYhfrqeINmE?t=8312)
+- _Equipment::Weapon<Double Axe>:
+    coord: [-3283.10, 130.69, 2594.83]
+    notes: (optional) Durable 2-handed weapon, one-hits trees.
+- .gale() top of building:
+    gale: 1
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- .dir(<W)
+- _Tod::Morning:
+    notes: Timing for ice house quest and Beedle at stable
+    coord: [-3858.52, 149.24, 2914.98]
+- Buy Ice + Shock arrows:
+    icon: shop
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(.W)
+- _Korok::W47:
+    comment: On skeleton
+
+- .dir(N)
+- _Korok::W36
+
+- midair .dir(NW)
+- _Korok::W28:
+    comment: On pillars
+
+- _Warp::Shrine::KuhTakkar:
+    comment: WARP
+
+- .dir(<W)
+    
+- .loc(Yiga Hideout):
+    icon: house-plus
+    hide-icon-on-map: true
+    coord: [-3510.46, 442.51, 1297.31]
+    comment: Clip in
+    notes: .link([Yiga Hideout vod]https://youtu.be/tRamapox-7Y?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=7665)
+
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+
+- Great Eagle Bow dupe:
+    icon: tots
+    hide-icon-on-map: true
+    notes: .link([Duping Tutorial]https://youtu.be/ZmwUDr36i1E). Overload using FDB, duplex bow, and 2 omegabows. Dupe until 5 GEBs, keeping the Royal Bow. .link([Note regarding bows]https://pastebin.com/raw/z4Rv6Ebi)
+
+- .boss(Kohga):
+    icon: calamity
+    coord: [-3451.00, 440.69, 1321.50]
+    comment: See VOD for strats
+    notes: Clear ragdoll and skew during Kohga
+
+- _Chest::Special<Thunder Helm>:
+    coord: [-3451.00, 440.69, 1341.50]
+    split-type: UserDefined

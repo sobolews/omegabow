@@ -1,35 +1,39 @@
 Shai Utoh:
-- .dir(<S):
-    notes: .link([Shai Utoh vod]https://youtu.be/crHPwD-Ouqw?t=6888)
+- .dir(.S):
+    notes: .link([Shai Utoh vod]https://youtu.be/T5MXXtNCbX0?t=12080)
 - _Korok::F39
 
 - .dir(E>) run
 - _Korok::F40:
-    comment: On small island in bog
+    comment: In mudpit
 
 - .dir(N.)
 - _Korok::F34:
     comment: Pinwheel on large stump
 
-- .dir(E>)
-- _Korok::F42
-
-- .dir(.W)
+- .dir(<S)
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
-    notes: Thunder Magnet
+    notes: Thunder Magnet quest
     comment: Top of stable
 
-- Down
 - _Korok::F41
 
-- _Npc<Cima>:
+- _Npc::SheikaFemale<Lady by horses>:
     coord: [1540.08, 165.97, 3531.94]
     notes: Thunder Magnet
-    comment: Wakes up at 7am
+    comment: Cima
+    notes: Awake from 7am - 9pm
 
 - _Tod::Night:
     coord: [1573.26, 165.96, 3530.55]
     notes: For upcoming Stalnox
+    comment: at cookpot
 
-- _Shrine::ShaiUtoh
+- _Equipment::Bow<Traveler's Bow>:
+    coord: [1562.43, 165.94, 3545.62]
+    comment: next to stable
+    notes: For arrow smuggle at Eventide
+
+- _Shrine::ShaiUtoh:
+    comment: Cave behind rubble

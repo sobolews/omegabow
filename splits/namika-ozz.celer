@@ -1,17 +1,16 @@
 Namika Ozz:
 - .dir(<W):
-    notes: .link([Namika Ozz vod]https://youtu.be/crHPwD-Ouqw?t=10766)
-- _Npc<Shamae>:
+    notes: .link([Namika Ozz vod]https://youtu.be/T5MXXtNCbX0?t=15806)
+- _Npc<Balloon Girl>:
     coord: [1080.50, 127.38, -1125.00]
-    notes: Make noon if needed. For Balloon Flight.
-    comment: Before 8pm
+    notes: 7am-8pm. Make noon if needed. 
+    comment: Shamae
 
-- .dir(W>)
+- .dir(W>) super
 - _Discover<Rauru Settlement Ruins>:
     coord: [704.00, 144.00, -1251.50]
     notes: With superlaunch, can get this location while gilding through on the way to Helmhead Bridge
 
-- .dir(<W)
 - _Discover<Helmhead Bridge>:
     coord: [398.29, 126.25, -1167.31]
 
@@ -22,20 +21,17 @@ Namika Ozz:
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 3
-    notes: Waste a fury
+    notes: Waste a fury if it's not raining. If raining, save a fury to kill the Keese around C09.
     coord: [771.50, 152.53, -1014.00]
 
-- .gale() + .dir(S):
-    gale: 1
-- In shrine
-- Fight Test of Strength:
-    icon: calamity
-    hide-icon-on-map: true
+- .dir(S)
 - _Equipment::Weapon<Ancient Battle Axe+>:
     comment: Weapon Connoisseur
     hide-icon-on-map: true
+    notes: From guardian in shrine
 - _Chest::Special<Frostspear>:
     comment: Weapon Connoisseur
     hide-icon-on-map: true
+    notes: From chest in shrine
 - _Shrine::NamikaOzz:
     comment: Modest Test of Strength

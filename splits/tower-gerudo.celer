@@ -1,4 +1,7 @@
 Gerudo Tower:
-- .dir(<W) + .dir(SW):
-    notes: .link([Gerudo Tower + Daqo Chisay vod]https://youtu.be/s1NM1eCjpX8?t=8401)
+- .dir(<W):
+    notes: .link([Gerudo Tower vod]https://youtu.be/KYhfrqeINmE?t=8061)
+- _Boss::Talus::Frost:
+    coord: [-3558.72, 558.36, 1560.07]
+- .dir(S>)
 - _Tower::Gerudo

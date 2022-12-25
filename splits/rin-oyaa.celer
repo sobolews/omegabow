@@ -1,6 +1,6 @@
 Rin Oyaa:
 - .dir(E>):
-    notes: .link([Rin Oyaa vod]https://youtu.be/d2lvD_eFjVw?t=12090)
+    notes: .link([Rin Oyaa vod]https://youtu.be/FgwSVGe8-o8?t=13133)
 - _Korok::H06
 
 - .dir(S>)
@@ -9,11 +9,10 @@ Rin Oyaa:
 - .dir(S.) + midair
 - _Korok::H37
 
-- .dir(<S):
+- .dir(<<S):
     notes: Pick up/put down rock and stand on it to windbomb
-- _Npc<Juannelle>:
+- _Npc<Stalhorse lady in stable>:
     coord: [-1641.43, 339.19, -2561.69]
-    comment: Stalhorse Pictured!
+    comment: Talk twice
 
-- Run
 - _Shrine::RinOyaa

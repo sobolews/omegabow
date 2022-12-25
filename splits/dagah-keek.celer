@@ -1,9 +1,7 @@
 Dagah Keek:
-- .dir(N>):
-    notes: .link([Dagah Keek vod]https://youtu.be/s1NM1eCjpX8?t=14091)
-- _Korok::Z16
 
-- Down
+- Run up stairs:
+    notes: .link([Dagah Keek vod]https://youtu.be/KYhfrqeINmE?t=13753)
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
 
@@ -11,21 +9,22 @@ Dagah Keek:
     coord: [3328.99, 269.46, -547.36]
     comment: Equip
 
-- _Npc::ZoraFemale<Laruta>:
+- _Npc::ZoraFemale<Pink Girl>:
     coord: [3299.29, 255.66, -522.49]
-    comment: Ceremonial Song
+    comment: Laruta
+    notes: Will be running toward west stairs
 
-- _Npc::ZoraMale<Gruve>:
+- _Npc::ZoraMale<Diving Guy>:
     coord: [3292.20, 255.43, -520.38]
-    comment: Diving is Beauty!
-    notes: Quest reward is 5 Fleet-Lotus Seed, will use for transmute.
+    comment: Gruve
+    notes: Diving is Beauty! quest reward is 5 Fleet-Lotus Seed, will use for transmutation.
 
 - _Npc::ZoraMale<Fronk>:
     coord: [3342,-501.5]
     comment: Wife Washed Away
     notes: 7:00am to 8:00pm, Fronk is at the pillar. Otherwise he is .link([at the pools]https://youtu.be/3EltLt0dpks?t=2686).
 
-- .dir(W) + .dir(N)
+- .dir(W>) + .dir(N)
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3207.40, 344.67, -736.45]
     comment: .v(Monument)/10

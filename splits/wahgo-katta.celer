@@ -1,6 +1,6 @@
 Wahgo Katta:
 - .dir(N>) down:
-    notes: .link([Wahgo Katta vod]https://youtu.be/crHPwD-Ouqw?t=4197)
+    notes: .link([Wahgo Katta vod]https://youtu.be/T5MXXtNCbX0?t=9465)
 - _Korok::C48
 
 - .dir(SE)
@@ -11,7 +11,7 @@ Wahgo Katta:
 - .dir(NE)
 - _Korok::C49
 
-- midair .dir(E>)
+- midair .dir(SE)
 - _Korok::C55:
     comment: Two trees left of guardian
 
@@ -25,8 +25,8 @@ Wahgo Katta:
 - .dir(E)
 - _Korok::C71
 
-- .dir(<E)
+- .dir(<<E)
 - _Korok::C65
 
-- .dir(E>)
+- .dir(SE)
 - _Shrine::WahgoKatta

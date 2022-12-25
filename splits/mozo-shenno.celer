@@ -1,9 +1,8 @@
 Mozo Shenno:
-- .dir(W):
-    notes: .link([Mozo Shenno vod]https://youtu.be/d2lvD_eFjVw?t=3993)
+- _Warp::Shrine::ShadaNaw:
+    line-color: dodgerblue
+    comment: WARP
 
-- _Korok::H19:
-    comment: Pinwheel
-
+- .dir(.W)
 - _Shrine::MozoShenno:
     comment: Major Test of Strength

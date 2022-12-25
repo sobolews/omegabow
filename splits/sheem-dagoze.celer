@@ -1,16 +1,6 @@
 Sheem Dagoze:
-- Glide:
-    notes: .link([Sheem Dagoze vod]https://youtu.be/mGUKIJv-Q_U?t=7923)
-- _Equipment::Weapon<Great Flameblade>:
-    coord: [-268.24, 131.34, -1153.31]
-    notes: High durability weapon for tree chopping, campfires
-
-- Kill .enemy(lizalfos):
-    icon: calamity
-    hide-icon-on-map: true
-    notes: (Optional) Take bow and pickup Lizalfos Horn if needed
-
-- Run
+- BLSS out of docks:
+    notes: .link([Sheem Dagoze vod]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=11821)
 - _Korok::X01
 
 - .dir(<W)
@@ -24,44 +14,39 @@ Sheem Dagoze:
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    comment: Ancient arrows
-    notes: Bullet time off steps
-
-- _Equipment::Weapon<Great Thunderblade>:
-    hide-icon-on-map: true
 
 - _Chest::Special<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
 
-- Run out, .rune(bomb) 2 walls
+- Run out, .rune(bomb) 2 walls:
+    notes: See VOD for castle interior pathing
+
 - _Korok::X13
 
-- Climb, backtrack, .gale():
+- Backtrack, .gale() in Moblin room:
     gale: 1
+- Bomb arrow the updraft lever thru window
+
 - _Korok::X08
 
-- Climb ladder
-- .rune(Bomb) switch and wall:
-    icon: tots
-    hide-icon-on-map: true
+- Glide to top of ladder, bomb wall
 - _Chest<Shard of Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
 
-- Updraft, run, .gale():
+- Updraft, run outside, .gale():
     gale: 2
 - _Discover<Zelda's Study>:
     coord: [-383.72, 273.58, -995.87]
-- _Material<1 Silent Princess>:
-    hide-icon-on-map: true
-    notes: Should have 19. If not, backup at fairy fountains later.
-- _Memory::HyruleCastle
+- _Memory::HyruleCastle:
+    comment: Memory
+- _Snap::Quest<Guardian Skywatcher>:
+    comment: SNAP
 
-- Run
 - _Korok::X09:
-    comment: On balcony
+    comment: On balcony, below/left
 
 - _Discover<Zelda's Room>:
-    notes: Run into the room
+    notes: Run into the room to get location
 
 - .dir(.S)
 - _Korok::X14
@@ -85,6 +70,9 @@ Sheem Dagoze:
 - .dir(S)
 - _Discover<Dining Hall>
 
+- Drop extra weapons:
+    notes: It takes a while for the meat to properly load in, so take advantage of that to clear out a few unneeded weapons, like woodcutter axe, soldier sword, hammer, drillshaft, etc.
+
 - _Material<Raw Meat>:
     coord: [-108.37, 210.59, -848.95]
     comment: Koko Cuisine
@@ -93,11 +81,11 @@ Sheem Dagoze:
     coord: [-152.50, 210.39, -821.58]
     comment: Rare Find
 
-- Run
+- Run further inside
 - _Korok::X15
 
 - Clip out to .loc(Guard's Chamber):
-    notes: .link([Clip and oob movement]https://youtu.be/mGUKIJv-Q_U?t=8360). Clear ragdoll.
+    notes: .link([Clip and OOB movement]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=12240). Clear ragdoll.
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]
     time-override: 274
@@ -109,7 +97,6 @@ Sheem Dagoze:
 - _Discover<First Gatehouse>:
     coord: [-351.61, 217.85, -830.25]
 
-- Run
 - _Korok::X18
 
 - .dir(E>)
@@ -120,15 +107,16 @@ Sheem Dagoze:
 - _Discover<Observation Room>:
     coord: [-255.47, 211.39, -764.95]
     notes: Walk into the malice
-- _Equipment::Bow<Royal Bow>:
-    hide-icon-on-map: true
 - _Korok::X21:
-    notes: Shoot the top with normal arrows
+    notes: Shoot the top with ancient arrows
 - _Korok::X22:
     comment: Far
     notes: Aim at top of the wall in background
 
-- .dir(S)
+- Glide .dir(<E)
+- _Korok::X20
+
+- .dir(S>)
 - _Korok::X24
 
 - .dir(SW) down
@@ -136,17 +124,16 @@ Sheem Dagoze:
 
 - _Korok::X25:
     comment: " "
-
-- .dir(N.)
-- _Korok::X20
+    notes: .link([Strat for rain]https://twitter.com/bings_f/status/1576785789534765056) (skip next gale if you do this)
 
 - .dir(<S)
 - _Korok::C33:
     comment: Pinwheel on outer wall
 
-- .dir(S>>)
+- .dir(S>)
 - _Korok::C35
-- _Memory::SacredGrounds
+- _Memory::SacredGrounds:
+    comment: Memory
 
 - .dir(S>>)
 - _Korok::C42:
@@ -164,33 +151,22 @@ Sheem Dagoze:
 - .dir(<W)
 - _Korok::C39
 
-- .dir(W>)
+- .dir(W)
 - _Korok::C38:
     comment: Starts at tree stump
 
 - .dir(W)
-- Kill .enemy(Lizalfos):
-    hide-icon-on-map: true
-    icon: calamity
-    comment: Take Royal Bow
 - _Korok::C36:
-    comment: In Sage Temple Ruins
+    comment: On wall in ruins
 
-- _Material<18 Acorn>:
-    movements:
-        - to: [-1311.30, 114.29, 227.12]
-        - to: [-1371.47, 114.42, 208.08]
-        - to: [-1388.04, 114.54, 249.51]
-    notes: Each big tree has 6 acorns. Use stasis to see them.
-
-- .dir(W>>)
+- .dir(W>)
 - _Korok::R49:
     comment: On beach
 
 - .dir(N) up
 - _Korok::R48
 
-- .dir(W)
+- .dir(<W)
 - _Discover<Jeddo Bridge>:
     coord: [-1689.86, 205.00, 130.84]
 
@@ -200,9 +176,9 @@ Sheem Dagoze:
 - .dir(<E)
 - _Boss::Hinox::Blue:
     movements:
+        - to: [-1590.04, 210.73, -229.13]
         - to: [-1534.88, 214.82, -171.59]
           away: true
-    comment: Ancient arrows
     notes: Shoot midair on the way to R40
 
 - _Korok::R40
@@ -210,11 +186,11 @@ Sheem Dagoze:
 - .dir(S>)
 - _Korok::R41
 
-- .dir(S>>) surf
+- .dir(S>) surf
 - _Npc::Rito<Kass>:
     coord: [-1681.68, 214.50, 51.38]
 
-- .dir(<W)
+- .dir(W)
 - Shoot through 2 rings:
     icon: tots
     coord: [-1855.25,76.25]
