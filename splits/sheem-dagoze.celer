@@ -3,7 +3,7 @@ Sheem Dagoze:
     notes: .link([Sheem Dagoze vod]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=11821)
 - _Korok::X01
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::X04:
     comment: Pinwheel on castle wall
 
@@ -48,14 +48,14 @@ Sheem Dagoze:
 - _Discover<Zelda's Room>:
     notes: Run into the room to get location
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::X14
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::X17:
     comment: Spire of First Gatehouse
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::X16:
     comment: Spire of Second Gatehouse
 
@@ -63,11 +63,11 @@ Sheem Dagoze:
 - _Discover<Second Gatehouse>:
     notes: For the gatehouses, there are specific places to climb down and get the location without triggering the Lynel. Watch vod in those places for how to do it.
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::X12:
     comment: On wall
 
-- .dir(S)
+- .dir([6:00])
 - _Discover<Dining Hall>
 
 - Drop extra weapons:
@@ -99,7 +99,7 @@ Sheem Dagoze:
 
 - _Korok::X18
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::X23:
     comment: Pinwheel
 
@@ -113,29 +113,29 @@ Sheem Dagoze:
     comment: Far
     notes: Aim at top of the wall in background
 
-- Glide .dir(<E)
+- Glide .dir([2:00])
 - _Korok::X20
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::X24
 
-- .dir(SW) down
+- .dir([7:30]) down
 - _Korok::C16
 
 - _Korok::X25:
     comment: " "
     notes: .link([Strat for rain]https://twitter.com/bings_f/status/1576785789534765056) (skip next gale if you do this)
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::C33:
     comment: Pinwheel on outer wall
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::C35
 - _Memory::SacredGrounds:
     comment: Memory
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::C42:
     comment: Hanging in tree
     notes: Shoot midair before reaching C43
@@ -143,37 +143,37 @@ Sheem Dagoze:
 - _Korok::C43:
     comment: Pinwheel
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C40:
     comment: " "
 - _Korok::C41
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C39
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C38:
     comment: Starts at tree stump
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::C36:
     comment: On wall in ruins
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R49:
     comment: On beach
 
-- .dir(N) up
+- .dir([12:00]) up
 - _Korok::R48
 
-- .dir(<W)
+- .dir([8:00])
 - _Discover<Jeddo Bridge>:
     coord: [-1689.86, 205.00, 130.84]
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R39
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Hinox::Blue:
     movements:
         - to: [-1590.04, 210.73, -229.13]
@@ -183,14 +183,14 @@ Sheem Dagoze:
 
 - _Korok::R40
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R41
 
-- .dir(S>) surf
+- .dir([7:00]) surf
 - _Npc::Rito<Kass>:
     coord: [-1681.68, 214.50, 51.38]
 
-- .dir(W)
+- .dir([9:00])
 - Shoot through 2 rings:
     icon: tots
     coord: [-1855.25,76.25]

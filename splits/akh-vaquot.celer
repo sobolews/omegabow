@@ -1,14 +1,14 @@
 Akh Vaquot:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Akh Vaquot vod]https://youtu.be/FgwSVGe8-o8?t=1999)
 - _Korok::T15
 
-- .dir(NE) short
+- .dir([1:30]) short
 - _Npc::Rito<Yellow Girl in pool>:
     coord: [-3488.88, 258.52, -1850.25]
     comment: Kotts
 
-- .dir(W)
+- .dir([9:00])
 - _Material<1 Cold Darner>:
     notes: There's another on the bridge to the shrine if you miss it.
     comment: On landing pad

@@ -4,18 +4,18 @@ Tho Kayu:
     notes: .link([Tho Kayu vod]https://youtu.be/T5MXXtNCbX0?t=3670)
 - _Korok::W09:
     comment: Top of skeleton
-- .dir(S)    
+- .dir([6:00])    
 - _Korok::W13:
     comment: Top of skeleton
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::W18:
     comment: Pinwheel on skeleton
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W25
 
-- midair .dir(<S)
+- midair .dir([5:00])
 - _Boss::Molduga:
     coord: [-4832.61, 133.21, 2800.42]
     comment: .fury() + OB

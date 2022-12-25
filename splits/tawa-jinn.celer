@@ -3,11 +3,11 @@ Tawa Jinn:
     comment: WARP
     notes: .link([Tawa Jinn vod]https://youtu.be/FgwSVGe8-o8?t=7511)
 
-- .dir(<S) far
+- .dir([5:00]) far
 - _Korok::F14:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
 
@@ -19,7 +19,7 @@ Tawa Jinn:
     icon: tots
     hide-icon-on-map: true
 
-- .dir(.S)
+- .dir([5:30])
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
 

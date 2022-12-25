@@ -1,69 +1,69 @@
 Monya Toma:
-- Jump out → .dir(W):
+- Jump out → .dir([9:00]):
     notes: .link([Monya Toma vod]https://youtu.be/T5MXXtNCbX0?t=16905)
 - _Korok::R19:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::R16:
     comment: Against cliff
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R10:
     comment: In ruins
 
-- .dir(N>)
+- .dir([1:00])
 - _Memory::IrchPlain:
     comment: Memory
 - _Korok::R07
 
-- .dir(E)
+- .dir([3:00])
 - _Boss::Hinox::Blue:
     coord: [-752.49, 187.41, -1268.12]
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::K29
 
-- .dir(<E) + .dir(N>) midairs
+- .dir([2:00]) + .dir([1:00]) midairs
 - _Korok::K27:
     comment: Pinwheel
 
-- .dir(E) surf
+- .dir([3:00]) surf
 - _Korok::K28
 
-- .dir(<N)
+- .dir([11:00])
 - _Boss::Hinox::Blue:
     coord: [-480.55, 278.99, -2039.64]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::K19
 
-- midair .dir(NW)
+- midair .dir([10:30])
 - _Korok::K16
 
-- midair .dir(S.)
+- midair .dir([6:30])
 - _Korok::K18
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::K26
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::K24
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::K25
 
 - Steal horse:
     icon: calamity
     coord: [-1019.50, 208.96, -1721.00]
 
-- .dir(NW) ride
+- .dir([10:30]) ride
 - _Korok::K17:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::K23:
     comment: " "
 
-- midair .dir(S>)
+- midair .dir([7:00])
 - _Shrine::MonyaToma

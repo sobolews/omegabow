@@ -1,16 +1,16 @@
 Toto Sah:
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [2527.50, 242.00, 1904.50]
 
-- .dir(SW)
+- .dir([7:30])
 - _Boss::Hinox::Stal:
     coord: [1940.50, 144.41, 2396.50]
     notes: If you don't make it here before 4am, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
 
-- .dir(S)
+- .dir([6:00])
 - _Chest<Chest in cave>:
     coord: [1955.82, 178.14, 2609.72]
     notes: Open any 1 chest for "Misko the Great Bandit" quest. 
@@ -20,6 +20,6 @@ Toto Sah:
 - _Korok::D59:
     comment: On little island
 
-- .dir(<N)
+- .dir([11:00])
 - _Shrine::TotoSah:
     comment: Behind rubble

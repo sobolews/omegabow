@@ -1,34 +1,34 @@
 Qua Raym:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Qua Raym vod]https://youtu.be/KYhfrqeINmE?t=20228)
 - _Korok::E20:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
     comment: .fury()
     fury: 3
 
-- .dir(<S) glide
+- .dir([5:00]) glide
 - _Korok::E21
 
-- .dir(E.)
+- .dir([3:30])
 - _Korok::E22:
     comment: " "
 
-- .dir(SE) short
+- .dir([4:30]) short
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
 
-- .gale() + .dir(E) midair:
+- .gale() + .dir([3:00]) midair:
     gale: 1
 - _Korok::E23:
     comment: In tunnel
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::E28:
     comment: Down in skull
 
-- .dir(<W)
+- .dir([8:00])
 - _Shrine::QuaRaym

@@ -1,12 +1,12 @@
 Kay Noh:
-- .dir(S) + climb:
+- .dir([6:00]) + climb:
     notes: .link([Kay Noh vod]https://youtu.be/T5MXXtNCbX0?t=5319)
 - _Korok::W40
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Korok::W30
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::W19:
     comment: On ledge
 

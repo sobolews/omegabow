@@ -1,41 +1,41 @@
 Sah Dahaj:
-- Run .dir(<N):
+- Run .dir([11:00]):
     notes: .link([Sah Dahaj vod]https://youtu.be/KYhfrqeINmE?t=14933)
 - _Korok::A47
 
-- .dir(S>)
+- .dir([7:00])
 - _Discover<East Sokkala Bridge>:
     coord: [3860.81, 346.24, -1095.11]
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::A51:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Discover<Sokkala Bridge>:
     coord: [3686.27, 341.42, -1004.02]
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Discover<West Sokkala Bridge>:
     coord: [3591.52, 346.29, -1020.13]
 
 - _Korok::A52:
     comment: Under the bridge
 
-- .dir(W>>)
+- .dir([10:15])
 - _Discover<Parade Ground Ruins>:
     coord: [3278.75, 323.08, -1256.24]
 
 - _Boss::Hinox::Blue:
     coord: [3298.75, 323.08, -1256.24]
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::A50:
     comment: In broken column
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::E39:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Shrine::SahDahaj

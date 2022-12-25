@@ -1,7 +1,7 @@
 Gerudo Tower:
-- .dir(<W):
+- .dir([8:00]):
     notes: .link([Gerudo Tower vod]https://youtu.be/KYhfrqeINmE?t=8061)
 - _Boss::Talus::Frost:
     coord: [-3558.72, 558.36, 1560.07]
-- .dir(S>)
+- .dir([7:00])
 - _Tower::Gerudo

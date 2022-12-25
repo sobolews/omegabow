@@ -7,7 +7,7 @@ Korgu Chideh:
     comment: if turned off earlier
 - _Korok::N66
 
-- .dir(<S) + midair
+- .dir([5:00]) + midair
 - _Boss::Hinox::Blue:
     comment: Kill without landing
     coord: [4537.11, 110.76, 3701.95]

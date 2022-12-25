@@ -1,16 +1,16 @@
 Chaas Qeta:
-- .dir(<N):
+- .dir([11:00]):
     notes: .link([Chaas Qeta vod]https://youtu.be/FgwSVGe8-o8?t=7738)
 - _Korok::F33:
     comment: On cliff ledge
 
-- .dir(W>) down
+- .dir([10:00]) down
 - _Korok::N65
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::N61
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Kass>:
     coord: [3746.19, 125.42, 2629.38]
     comment: The Hero's Cache
@@ -18,14 +18,14 @@ Chaas Qeta:
     coord: [3773.34, 100.52, 2647.44]
     comment: .rune(Magnesis) chest in water
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::N60:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N62
 
-- .dir(N)
+- .dir([12:00])
 - .fury() .!!(Enemy Camp):
     icon: calamity
     fury: 1
@@ -33,28 +33,28 @@ Chaas Qeta:
     coord: [4121.98, 113.17, 2369.62]
     comment: Ancient arrow 2 survivors
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::N54:
     notes: Palm fruit on nearby tree if needed
 
-- .dir(E>) 
+- .dir([4:00]) 
 - _Korok::N56:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 2
     coord: [4558.50, 105.41, 2465.00]
 - _Korok::N63
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::N57
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::N55:
     comment: " "
 
-- .dir(SW) + midair
+- .dir([7:30]) + midair
 - _Shrine::ChaasQeta:
     comment: Major Test of Strength

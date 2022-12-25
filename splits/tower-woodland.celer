@@ -1,18 +1,18 @@
 Woodland Tower:
 
-- .dir(<<W):
+- .dir([7:45]):
     notes: .link([Woodland Tower vod]https://youtu.be/KYhfrqeINmE?t=20480)
 - _Korok::E35
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::K32
 
 - _Discover<Military Training Camp>
 
-- midair .dir(N>)
+- midair .dir([1:00])
 - _Korok::K31:
     comment: On scaffolding
 
-- .gale() + .dir(W):
+- .gale() + .dir([9:00]):
     gale: 1
 - _Tower::Woodland

@@ -4,29 +4,29 @@ Saas Kosah:
     hide-icon-on-map: true
     notes: Close game first if IST glitch is still active.
 
-- .dir(N) down:
+- .dir([12:00]) down:
     notes: .link([Saas Kosah vod]https://youtu.be/WaebWctGS_k?t=23346)
 - _Korok::X03
 
-- Glide .dir(<E) to slab
+- Glide .dir([2:00]) to slab
 - _Chest<Naydra's Scale>:
     coord: [-182.29, 235.23, -1169.52]
     comment: Under slab
 
-- Drop .dir(E)
+- Drop .dir([3:00])
 - _Korok::X02:
     comment: " "
 
-- .dir(<<N) short
+- .dir([9:45]) short
 - _Chest<Dinraal's Scale>:
     coord: [-196.46, 153.20, -1218.59]
     comment: Behind rubble
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::K30:
     comment: Ledge across water
 
-- .dir(S) thru tunnel
+- .dir([6:00]) thru tunnel
 - _Korok::X11:
     comment: Inside tunnel
 

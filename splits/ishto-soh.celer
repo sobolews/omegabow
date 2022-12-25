@@ -4,14 +4,14 @@ Ishto Soh:
     comment: for Stalnoxes
     notes: .link([Ishto Soh vod]https://youtu.be/T5MXXtNCbX0?t=8396)
 
-- .dir(NW) surf
+- .dir([10:30]) surf
 - _Korok::L86
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::L87:
     comment: Above shrine
 
-- .dir(<N)
+- .dir([11:00])
 - Whistle for horse:
     comment: from cliff near Stalnox
     icon: tots
@@ -33,40 +33,40 @@ Ishto Soh:
     hide-icon-on-map: true
     notes: Talk to guy while mounted on horse. Need to finish twice, with scores of at least 20 and 23, to get the saddle and bridle.
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::L85
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::L83
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::L82:
     comment: Top of palm tree
 
-- Drop .dir(E)
+- Drop .dir([3:00])
 - _Korok::L84
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::L81:
     comment: On ledge
 
-- Jump off and midair .dir(W)
+- Jump off and midair .dir([9:00])
 - _Korok::L80:
     comment: " "
 
-- .dir(NW) + .dir(<N) midair
+- .dir([10:30]) + .dir([11:00]) midair
 - _Korok::L69
 
-- .dir(S>) + .dir(<W) midair
+- .dir([7:00]) + .dir([8:00]) midair
 - _Boss::Hinox::Stal:
     coord: [-1062.00, 275.24, 3771.50]
 
-- .dir(N) midair
+- .dir([12:00]) midair
 - _Korok::L68
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::L67:
     comment: Pinwheel
 
-- .dir(E)
+- .dir([3:00])
 - _Shrine::IshtoSoh

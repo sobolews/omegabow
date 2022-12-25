@@ -1,15 +1,15 @@
 Vah Ruta:
 
-- .gale() + .dir(E):
+- .gale() + .dir([3:00]):
     gale: 1
     notes: .link([Vah Ruta vod]https://youtu.be/KYhfrqeINmE?t=13254)
 - _Korok::Z18
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::Z26:
     comment: Up on peak
 
-- .dir(NE)
+- .dir([1:30])
 - _Npc::ZoraMale<Sidon>:
     coord: [3598.55, 316.00, -330.31]
 

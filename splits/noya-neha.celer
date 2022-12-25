@@ -1,53 +1,53 @@
 Noya Neha:
-- .dir(.W):
+- .dir([8:30]):
     notes: .link([Noya Neha vod]https://youtu.be/T5MXXtNCbX0?t=16487)
 - _Korok::C30:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C25
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::C26
 - _Discover<Water Reservoir>:
     coord: [-596.67, 130.98, -525.32]
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Korok::C22
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C21
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::C20
 
-- .dir(N)
+- .dir([12:00])
 - _Boss::Talus::Rare:
     coord: [-768.74, 152.76, -804.49]
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::C15:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::C08:
     comment: Drop Rusty Shield
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::C03
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::C01:
     comment: Near malice pillar
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R11
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::C07:
     comment: Bullet time from stump
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C14
 
 - In cave on west side

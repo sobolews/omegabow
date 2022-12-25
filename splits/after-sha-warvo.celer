@@ -1,13 +1,13 @@
 After Sha Warvo:
-- .dir(.E):
+- .dir([2:30]):
     notes: .link([Sheh Rata vod]https://youtu.be/KYhfrqeINmE?t=7356)
 - _Discover<Hebra Trailhead Lodge>:
     coord: [-3572.02, 247.83, -2258.14]
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::T05
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::T03:
     comment: " "
 

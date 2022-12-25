@@ -1,5 +1,5 @@
 Kohga:
-- .dir(<E):
+- .dir([2:00]):
     notes: .link([Kohga vod]https://youtu.be/KYhfrqeINmE?t=8312)
 - _Equipment::Weapon<Double Axe>:
     coord: [-3283.10, 130.69, 2594.83]
@@ -10,7 +10,7 @@ Kohga:
     coord: [-3259.27, 163.93, 2611.54]
     comment: Buy clothes
 
-- .dir(<W)
+- .dir([8:00])
 - _Tod::Morning:
     notes: Timing for ice house quest and Beedle at stable
     coord: [-3858.52, 149.24, 2914.98]
@@ -20,21 +20,21 @@ Kohga:
     coord: [-3892.04, 157.48, 2968.14]
     comment: In throne room
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::W47:
     comment: On skeleton
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::W36
 
-- midair .dir(NW)
+- midair .dir([10:30])
 - _Korok::W28:
     comment: On pillars
 
 - _Warp::Shrine::KuhTakkar:
     comment: WARP
 
-- .dir(<W)
+- .dir([8:00])
     
 - .loc(Yiga Hideout):
     icon: house-plus

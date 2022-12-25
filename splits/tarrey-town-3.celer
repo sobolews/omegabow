@@ -3,17 +3,17 @@ Tarrey Town 3:
     comment: WARP Tarrey Town
     line-color: gray
 
-- .dir(N>):
+- .dir([1:00]):
     notes: .link([Hila Rao vod]https://youtu.be/T5MXXtNCbX0?t=14110)
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: 30 wood
     notes: Talk twice
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::A34:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::A38:
     comment: On bridge

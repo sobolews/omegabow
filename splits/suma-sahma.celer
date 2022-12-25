@@ -1,23 +1,23 @@
 Suma Sahma:
-- .dir(N) + .dir(E>) + midair + .dir(N>):
+- .dir([12:00]) + .dir([4:00]) + midair + .dir([1:00]):
     coord: [-1806.75,3340.5]
     notes: .link([Suma Sahma vod]https://youtu.be/KYhfrqeINmE?t=10653)
 - _Korok::W54
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W59:
     comment: " "
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::W64
 
-- .dir(N):
+- .dir([12:00]):
     notes: Reposition pebble and use to windbomb
 - _Korok::W60:
     comment: " "
     notes: There is an RNG lizalfos that may have a Moblin Club. Take it to skip getting it later.
 
-- .dir(N)
+- .dir([12:00])
 - Read .!!(Mountain Peak Log):
     icon: tots
     coord: [-1387.83, 540.50, 3494.08]

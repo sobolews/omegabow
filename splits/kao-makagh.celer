@@ -1,13 +1,13 @@
 Kao Makagh:
-- .dir(E>):
+- .dir([4:00]):
     notes: .link([Kao Makagh vod]https://youtu.be/T5MXXtNCbX0?t=7201)
 - _Korok::L55
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::L61:
     comment: " "
 
-- Run .dir(SW)
+- Run .dir([7:30])
 - Kill the .enemy(Octorok):
     icon: calamity
     hide-icon-on-map: true
@@ -19,52 +19,52 @@ Kao Makagh:
 - _Korok::L66:
     comment: .rune(Cryo) block
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::L72:
     comment: "Top of pillar"
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::F38
 
-- .dir(.W)
+- .dir([8:30])
 - _Boss::Hinox::Blue:
     coord: [1031.43, 127.22, 3496.26]
 
-- midair .dir(S)
+- midair .dir([6:00])
 - _Korok::L79
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::L92
 
-- .dir(N) + run
+- .dir([12:00]) + run
 - _Korok::L78:
     comment: On peak
 
-- .dir(W) surf down
+- .dir([9:00]) surf down
 - Open Horse God Fountain:
     icon: tots
     coord: [802.00, 186.73, 3719.93]
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::L77:
     comment: Up the cliff
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Discover<Horse God Bridge>:
     coord: [596.95, 172.65, 3722.39]
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::L75:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - Kill 5 .enemy(Blue Bokoblins):
     icon: calamity
     coord: [485,3342]
     comment: Ancient Arrows
     notes: Horseback Hoodlums quest
 
-- .dir(S) to stable
+- .dir([6:00]) to stable
 - _Material<Swift Carrot>:
     coord: [523.34, 152.89, 3463.33]
     comment: behind horses
@@ -83,5 +83,5 @@ Kao Makagh:
     comment: Blynne
     notes: Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle.
 
-- .dir(S)
+- .dir([6:00])
 - _Shrine::KaoMakagh

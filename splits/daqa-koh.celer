@@ -3,23 +3,23 @@ Daqa Koh:
     line-color: violet
     comment: WARP
 
-- .dir(S.)
+- .dir([6:30])
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::E16
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::E17:
     comment: " "
 
-- .dir(E) + .dir(S>)
+- .dir([3:00]) + .dir([7:00])
 - _Equipment::Weapon<Drillshaft>:
     coord: [1946.80, 632.72, -2203.24]
     notes: Save for quest
     comment: Behind rubble
 
-- .dir(NE)
+- .dir([1:30])
 - _Shrine::DaqaKoh

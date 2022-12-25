@@ -1,32 +1,32 @@
 Katosa Aug:
-- .dir(S>):
+- .dir([7:00]):
     notes: .link([Katosa Aug vod]https://youtu.be/KYhfrqeINmE?t=18145)
 - _Korok::A08
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::A09:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::A17:
     comment: " "
 
 - _Snap::Quest<Guardian Stalker>:
     comment: SNAP
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::A24
 
-- .dir(S>) + .dir(<W) midair
+- .dir([7:00]) + .dir([8:00]) midair
 - _Korok::A29:
     comment: Pinwheel
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::A28:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::A23
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Shrine::KatosaAug

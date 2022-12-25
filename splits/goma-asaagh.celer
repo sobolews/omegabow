@@ -9,15 +9,15 @@ Goma Asaagh:
     comment: if needed
     notes: For Salvager chest. Make night if here after 2:30am.
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::H20:
     comment: Chimney of hut
 
-- .dir(E) + .dir(S) midairs
+- .dir([3:00]) + .dir([6:00]) midairs
 - _Korok::H28:
     comment: On peak
 
-- Look .dir(SE) in the sky:
+- Look .dir([4:30]) in the sky:
     icon: tots
     hide-icon-on-map: true
     comment: Watch chest land

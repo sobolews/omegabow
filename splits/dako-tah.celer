@@ -41,7 +41,7 @@ Dako Tah:
     notes: Mystery Polluter quest
     comment: Dalia, end of street
 
-- .dir(N)
+- .dir([12:00])
 - _Npc::Gerudo<Ice House>:
     coord: [-3743.75, 146.81, 2304.44]
     notes: Bring ice up stairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size.
@@ -52,7 +52,7 @@ Dako Tah:
     coord: [-3764.49, 141.00, 2699.75]
     comment: Deliver ice
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Shrine::DakoTah:
     comment: Radiant Shield in chest
 

@@ -4,26 +4,26 @@ Hia Miu:
     comment: WARP
     notes: Make night for Stalnox if needed.
 
-- .dir(W>) super:
+- .dir([10:00]) super:
     notes: .link([Hia Miu vod]https://youtu.be/FgwSVGe8-o8?t=2823)
 - _Korok::H10:
     comment: " "
 
-- midair .dir(E)
+- midair .dir([3:00])
 - _Korok::H11
 
-- .dir(NW) down
+- .dir([10:30]) down
 - _Korok::H09
 
-- Climb out -> .dir(NW)
+- Climb out -> .dir([10:30])
 - _Korok::H04:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Boss::Hinox::Stal:
     coord: [-4260.15, 327.00, -3777.48]
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::H01
 
 - _Shrine::HiaMiu:

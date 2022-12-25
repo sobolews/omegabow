@@ -1,31 +1,31 @@
 Mezza Lo:
-- .dir(N) + .dir(W):
+- .dir([12:00]) + .dir([9:00]):
     notes: .link([Mezza Lo vod]https://youtu.be/KYhfrqeINmE?t=12247)
 - _Korok::N20
 
-- .dir(W) surf
+- .dir([9:00]) surf
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::N11:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::N13:
     comment: .rune(Stasis) & hit, .rune(Stasis) & hit
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
 
-- .dir(<N) midair
+- .dir([11:00]) midair
 - _Korok::N06
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N05
 
-- .dir(W)
+- .dir([9:00])
 - Tame mountain buck:
     icon: tots
     coord: [2601.50, 222.01, 552.50]
@@ -34,14 +34,14 @@ Mezza Lo:
     coord: [2589.68, 232.40, 444.25]
     comment: The Crowned Beast
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::N04:
     comment: " "
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::N02
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::N03:
     comment: Behind shrine
 

@@ -1,25 +1,25 @@
 Ya Naga:
-- .dir(N>):
+- .dir([1:00]):
     notes: .link([Ya Naga vod]https://youtu.be/T5MXXtNCbX0?t=5882)
 - _Korok::G36
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::W20
 
 - _Korok::W21
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::W27:
     comment: Pinwheel
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::W22:
     comment: Pinwheel
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::L21
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::L22
 
 - Tame Giant Horse:
@@ -56,35 +56,35 @@ Ya Naga:
     comment: Apple, melon, wheat, sugar
     notes: Royal Recipe quest
 
-- .dir(NE) run
+- .dir([1:30]) run
 - _Korok::L64
 
-- .dir(NW) surf
+- .dir([10:30]) surf
 - Start L47 race:
     icon: tots
     coord: [-276.76, 153.65, 3316.47]
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::L63
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::L47:
     coord: [-387.59, 152.98, 3151.55]
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::L38:
     comment: Along shoreline
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::L24:
     comment: Further along shoreline
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::L08:
     comment: " "
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::L25
 
-- .dir(SE)
+- .dir([4:30])
 - _Shrine::YaNaga

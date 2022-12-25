@@ -4,35 +4,35 @@ Shae Mosah:
     icon: bow
     hide-icon-on-map: true
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::E27
 
-- .dir(<W):
+- .dir([8:00]):
     notes: Windbombs won't work during the first of burn damage. Make sure to windbomb either before Link catches fire, or after the second tick.
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury() from ledge above
     fury: 3
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::E26:
     comment: " "
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::E31
 - _Memory::EldinCanyon:
     comment: Memory
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::E24:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::E25:
     comment: On skeleton in lava
 
 
-- .dir(N) to .loc(Southern Mine)
+- .dir([12:00]) to .loc(Southern Mine)
 
 - _Material<10 Fireproof Lizard>:
     movements:
@@ -61,37 +61,37 @@ Shae Mosah:
     coord: [1656.63, 430.15, -1968.53]
     comment: From the Ground Up
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::E19:
     comment: " "
 
-- .dir(N>) midair    
+- .dir([1:00]) midair    
 - _Korok::E18:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Discover<Stolock Bridge>:
     coord: [1648.20, 565.86, -2437.53]
     notes: Can discover by gliding over.
 
-- .dir(N) midair
+- .dir([12:00]) midair
 - _Korok::E14:
     comment: Start on Daruk's head
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Korok::E13:
     comment: Underneath arm
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::E15:
     comment: In smiling Goron's mouth
 
-- .dir(NE) down
+- .dir([1:30]) down
 - _Shop<Buy Goron Spice>:
     coord: [1689.61, 491.59, -2468.49]
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::ShaeMosah

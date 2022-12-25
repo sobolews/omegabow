@@ -17,7 +17,7 @@ Vah Medoh:
     coord: [-3643.01, 290.64, -1823.43]
     comment: Buy everything you can
 
-- .dir(.N)
+- .dir([11:30])
 - _Korok::T02:
     comment: Top of flight range
 

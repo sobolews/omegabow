@@ -2,21 +2,21 @@ Kuh Takkar:
 - _Warp::Shrine::MoggLatan:
     comment: WARP
 
-- .dir(S>) super + midair
+- .dir([7:00]) super + midair
 - _Korok::G19
 
-- .dir(NW) + .dir(W)
+- .dir([10:30]) + .dir([9:00])
 - _Korok::G13:
     comment: Top of tree
 
-- .dir(N) + .dir(W>)
+- .dir([12:00]) + .dir([10:00])
 - _Korok::G10
 
-- .dir(W) + .dir(S)
+- .dir([9:00]) + .dir([6:00])
 - _Korok::G12:
     comment: On bridge
 
-- .dir(<<S)
+- .dir([4:45])
 - Melt ice with Fire Arrows:
     icon: tots
     hide-icon-on-map: true

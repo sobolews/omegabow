@@ -1,75 +1,75 @@
 Tahno Oah:
-- .dir(E):
+- .dir([3:00]):
     notes: .link([Invite Bolson vod]https://youtu.be/FgwSVGe8-o8?t=10245)
 - _Korok::D42
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::D51:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::D52:
     comment: Pinwheel
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::N33
 
-- .dir(<S)
+- .dir([5:00])
 - _Npc::SheikaMale<Man in cabin>:
     coord: [2398.96, 118.64, 1834.33]
     comment: Calip
     notes: If it's not raining, Calip leaves at 6:00am. Sleep morning in bed if he's not here. Text option 2. 
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N34:
     comment: Jump for bullet time
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::N27
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::N26:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::N35
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::N36
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::N37:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::N38:
     comment: Pinwheel, can use bullet time
 
-- .dir(SE) surf
+- .dir([4:30]) surf
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [3199.41, 173.38, 1904.36]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::N41:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N45:
     comment: Shoot 10 targets + balloon
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::N46
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::N51:
     comment: Lake shore
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::N52
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::N53
 
 - .gale():
@@ -79,7 +79,7 @@ Tahno Oah:
     split-type: UserDefined
     notes: .link([Tahno Oah vod]https://youtu.be/8Y2bjBn7LKM?t=25652)
 
-- .dir(N>)
+- .dir([1:00])
 - _Npc::SheikaMale<Farmer>:
     coord: [3381.11, 226.15, 2105.53]
     notes: Spring of Wisdom
@@ -95,12 +95,12 @@ Tahno Oah:
     comment: Manny + Prima
     notes: Manny, Prima, Manny, Manny. Talk to Prima from behind counter.
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Sheep Rustlers lady>:
     coord: [3621.69, 283.36, 2098.13]
     comment: Koyin
 
-- .gale() + .dir(E):
+- .gale() + .dir([3:00]):
     gale: 1
     notes: Enter back door
 - _Npc::SheikaMale<Lab Assistant>:
@@ -117,7 +117,7 @@ Tahno Oah:
     gale: 1
 - _Korok::N47
 
-- .dir(<E) + .dir(N>)
+- .dir([2:00]) + .dir([1:00])
 - _Korok::N32:
     comment: " "
 

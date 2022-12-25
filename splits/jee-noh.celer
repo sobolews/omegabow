@@ -4,47 +4,47 @@ Jee Noh:
     comment: WARP
     notes: Map 39.86%
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::G22:
     comment: On snowy ledge
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::G17
 
-- .dir(E)
+- .dir([3:00])
 - _Boss::Talus::Frost:
     coord: [-2919.99, 656.12, 1294.27]
     comment: .fury()
     fury: 3
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::G18:
     comment: " "
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::G23:
     comment: On hill far away
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::G27:
     comment: Platform against cliff
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::G28:
     comment: Way down against cliff
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::G24
 
-- .dir(<S) far
+- .dir([5:00]) far
 - _Boss::Talus::Luminous:
     coord: [-1896.00, 200.68, 2044.68]
 
-- .dir(SW) midair
+- .dir([7:30]) midair
 - _Korok::W14:
     comment: Other end of bridge
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::W26
 
 - Down

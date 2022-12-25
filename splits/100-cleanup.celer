@@ -4,7 +4,7 @@
     line-color: darkgray
     notes: ".link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view). Also missable: Dining Hall, Gisa Crater."
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::A48
 
 - Activate .loc(Fairy Fountain):
@@ -17,7 +17,7 @@
     notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic"
 
 
-- .dir(N.)
+- .dir([12:30])
 - _Npc<Kilton>:
     coord: [4152.87, 194.63, -1597.24]
 - Sell Lizalfos Tails for .!!(mon):
@@ -31,7 +31,7 @@
     hide-icon-on-map: true
     notes: Map of .link([Hinox, Stalnox, and Talus]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
 
-- .dir(W)
+- .dir([9:00])
 - _Npc::SheikaFemale<Listen at back window>:
     coord: [3968.57, 233.44, -1590.29]
     comment: A Parent's Love quest
@@ -78,7 +78,7 @@
 - _Warp::Shrine::HaDahamar:
     comment: WARP
 
-- .dir(.S)
+- .dir([5:30])
 - _Discover<Big Twin Bridge>:
     coord: [1673.11, 107.36, 2032.82]
 
@@ -86,7 +86,7 @@
     coord: [1714.18, 106.66, 2149.55]
     notes: 100% map
 
-- .dir(NE)
+- .dir([1:30])
 - Tame a horse:
     icon: tots
     coord: [1784.94, 117.91, 2036.54]
@@ -99,7 +99,7 @@
     comment: Wild Horses
     notes: Park horse near wagon. Talk to guy, cancel dialogue, talk again.
 
-- .dir(E)
+- .dir([3:00])
 - Final Memory:
     icon: memory-final
     split-type: Memory

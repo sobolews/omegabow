@@ -1,5 +1,5 @@
 Dila Maag:
-- .dir(N>):
+- .dir([1:00]):
     notes: .link([Dila Maag vod]https://youtu.be/WaebWctGS_k?t=9300)
 - _Korok::W12:
     comment: Underneath rock slabs
@@ -31,32 +31,32 @@ Dila Maag:
     # coord: [-2141.96, 333.51, 2140.63]
     notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. Make noon later in this segment if you're getting there too late.
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::W23
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::W24:
     comment: Do during W23
 
-- .dir(E) + .dir(S) midairs
+- .dir([3:00]) + .dir([6:00]) midairs
 - _Korok::W34:
     comment: " "
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::W39
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::W38:
     comment: On pillar
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Talus::Luminous:
     coord: [-2096.46, 318.46, 3037.91]
     comment: .fury() Collect drops
     fury: 3
     notes: Intentionally "wasting" a fury. Look for amber, flint, and luminous stones.
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::W50:
     comment: " "
 
@@ -64,7 +64,7 @@ Dila Maag:
 - _Korok::W58:
     comment: " "
 
-- .dir(<E):
+- .dir([2:00]):
     coord: [-1748.5,3470.25]
     notes: See map or vod for where to drop in
 - _Shrine::DilaMaag

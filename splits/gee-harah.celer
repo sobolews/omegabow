@@ -4,56 +4,56 @@ Gee Harah:
     comment: WARP
     notes: .link([Gee Harah vod]https://youtu.be/8Y2bjBn7LKM?t=16629)
 
-- .dir(S.) down under ice shelf
+- .dir([6:30]) down under ice shelf
 - _Boss::Talus::Frost:
     coord: [-3073.50, 478.42, -2918.50]
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::H33
 
-- .gale() + run .dir(E):
+- .gale() + run .dir([3:00]):
     gale: 1
 - _Korok::H34
 
-- .gale() + .dir(S) down:
+- .gale() + .dir([6:00]) down:
     gale: 1
 - _Korok::H46
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::H48
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::H49
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::H50:
-    comment: Look .dir(E) over river
+    comment: Look .dir([3:00]) over river
     movements:
         - to: [-2836.29, 501.88, -2423.84]
           away: true
 
 - _Korok::H47:
-    comment: Look .dir(NW) at river head
+    comment: Look .dir([10:30]) at river head
     movements:
         - to: [-2900.08, 498.65, -2508.79]
           away: true
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::H44:
     comment: Look NW, balloon under ledge
 
-- .dir(E) midair
+- .dir([3:00]) midair
 - _Korok::H45
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::H56:
     comment: Along bridge
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::H51:
     comment: In cliff corner
 
-- .dir(E>)
+- .dir([4:00])
 - Open cave door:
     notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
 - _Shrine::GeeHarah

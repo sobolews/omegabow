@@ -1,13 +1,13 @@
 Hateno Tower:
-- .dir(S):
+- .dir([6:00]):
     notes: .link([Hateno Tower vod]https://youtu.be/KYhfrqeINmE?t=5923)
 - _Korok::N59:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N58
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N50:
     comment: " "
 
@@ -17,5 +17,5 @@ Hateno Tower:
           away: true
     notes: .link([Bomb arrow visual cue]https://twitter.com/TaoPlusPlus/status/1540503079191252999?s=20&t=-pM3S_ko1Yn6rZwKS3-wHw). Windbomb over if it's raining.
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Tower::Hateno

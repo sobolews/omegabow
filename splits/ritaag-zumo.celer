@@ -1,5 +1,5 @@
 Ritaag Zumo:
-- .dir(E):
+- .dir([3:00]):
     notes: .link([Ritaag Zumo vod]https://youtu.be/FgwSVGe8-o8?t=7258)
 - _Npc::SheikaFemale<Big Sister>:
     coord: [3133.57, 306.78, -1693.04]
@@ -10,21 +10,21 @@ Ritaag Zumo:
     comment: Give armoranth, darners
     notes: Jana, Gleema, Jana, Gleema, Jana
 
-- .dir(E) far to Tarrey Town
+- .dir([3:00]) far to Tarrey Town
 - _Npc<Hudson>:
     coord: [3970.74, 233.60, -1623.47]
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::A44
 
-- .dir(NE) surf
+- .dir([1:30]) surf
 - _Korok::A35
 
 - .!!(Read shrine stone):
     icon: tots
     coord: [4626.25, 131.11, -1829.19]
 
-- .dir(SE) run
+- .dir([4:30]) run
 - _Korok::A36:
     movements:
         - to: [4691.71, 136.71, -1777.33]

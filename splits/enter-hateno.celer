@@ -1,5 +1,5 @@
 Enter Hateno:
-- .dir(E):
+- .dir([3:00]):
     notes: .link([Enter Hateno vod]https://youtu.be/WaebWctGS_k?t=2500)
 - _Material<2 Fairies>:
     coord: [1963.57, 269.72, 860.48]
@@ -7,7 +7,7 @@ Enter Hateno:
 - _Material<2 Endura Carrot>:
     hide-icon-on-map: true
 
-- .dir(W) up to .loc(hill)
+- .dir([9:00]) up to .loc(hill)
 - _Material<1 Silent Princess>:
     movements:
         - to: [1846.14, 327.67, 820.96]
@@ -16,7 +16,7 @@ Enter Hateno:
     coord: [1879.35, 342.34, 810.05]
     comment: Scrap
 
-- BLSS .dir(S) + WB .dir(S) to .loc(Riola Spring)
+- BLSS .dir([6:00]) + WB .dir([6:00]) to .loc(Riola Spring)
 
 - Shoot Farosh (Scale):
     icon: bow
@@ -39,7 +39,7 @@ Enter Hateno:
 - _Equipment::Weapon<Pick up Torch>:
     hide-icon-on-map: true
 
-- BLSS .dir(S)
+- BLSS .dir([6:00])
 - Kill .enemy(Black Lizalfos):
     icon: calamity
     coord: [1691.87, 280.72, 3661.50]
@@ -62,7 +62,7 @@ Enter Hateno:
     coord: [1643.02, 277.73, 3674.37]
     comment: Bomb the pond to stun them
 
-- BLSS .dir(NE)
+- BLSS .dir([1:30])
 
 - Enter Hateno:
     icon: shop

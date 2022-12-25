@@ -1,14 +1,14 @@
 Wasteland Tower:
-- .dir(<<E):
+- .dir([1:45]):
     notes: .link([Wasteland Tower vod]https://youtu.be/WaebWctGS_k?t=9032)
 - _Korok::G34:
     comment: Cube in middle of bridge
 
-- .dir(<S)
+- .dir([5:00])
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2924.12, 153.42, 2329.39]
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::W15
 - _Npc<Beedle>:
     comment: "buy:"
@@ -34,16 +34,16 @@ Wasteland Tower:
 - _Warp::VahNaboris:
     comment: WARP
 
-- .dir(W>) run
+- .dir([10:00]) run
 - _Korok::W33:
     comment: Under bridge
 
-- midair .dir(W)
+- midair .dir([9:00])
 - _Korok::W31:
     comment: On ledge corner
 
-- .dir(E) climb
+- .dir([3:00]) climb
 - _Korok::W32
 
-- .dir(N)
+- .dir([12:00])
 - _Tower::Wasteland

@@ -1,5 +1,5 @@
 Ganon:
-- .dir(S>) + .dir(S) midairs:
+- .dir([7:00]) + .dir([6:00]) midairs:
     notes: .link([Ganon vod]https://youtu.be/WaebWctGS_k?t=22937). Need a high-speed windbomb to escape korok forest. .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Another option is to warp to Eldin Tower and BLSS to the top of castle.
 - _Korok::X05:
     comment: Castle spire
@@ -8,15 +8,15 @@ Ganon:
 - _Korok::X06:
     comment: In belltower
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::X10:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::X07:
     comment: Spire of Zelda's Study
 
-- .dir(NE):
+- .dir([1:30]):
     coord: [-253.5,-1115.5]
 
 - .!!(Hard Save):

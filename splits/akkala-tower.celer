@@ -1,56 +1,56 @@
 Akkala Tower:
 
-- .dir(SW):
+- .dir([7:30]):
     notes: .link([Akkala Tower]https://youtu.be/WaebWctGS_k?t=13207)
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::Z24:
     comment: " "
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::Z34:
     comment: On peak
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
     notes: Wake with bomb arrow, then use AA. Collect all amber, flint, and luminous stones. If you don't have 10 amber by now, break ores in Eldin and Rudania entry until you have 10.
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z27
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::Z19:
     comment: .rune(Magnesis) the boulder
 
 - _Korok::Z20
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::Z08
 
-- .dir(<W)
+- .dir([8:00])
 - _Npc::ZoraMale<ZoraMonument>:
     coord: [3720.59, 461.92, -532.05]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::Z17:
     comment: Top of Zora's Domain
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Chest::Special<Zora Helm>:
     coord: [3466.36, 499.22, -889.05]
     comment: .rune(Magnesis) chest in water
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z05
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::Z04
 
-- .dir(N>)
+- .dir([1:00])
 - _Tower::Akkala

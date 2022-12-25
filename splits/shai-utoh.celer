@@ -1,17 +1,17 @@
 Shai Utoh:
-- .dir(.S):
+- .dir([5:30]):
     notes: .link([Shai Utoh vod]https://youtu.be/T5MXXtNCbX0?t=12080)
 - _Korok::F39
 
-- .dir(E>) run
+- .dir([4:00]) run
 - _Korok::F40:
     comment: In mudpit
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::F34:
     comment: Pinwheel on large stump
 
-- .dir(<S)
+- .dir([5:00])
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
     notes: Thunder Magnet quest

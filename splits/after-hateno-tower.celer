@@ -1,10 +1,10 @@
 After Hateno Tower:
-- .dir(<W)
+- .dir([8:00])
 - _Korok::D57:
     comment: " "
-- .dir(NE) run
+- .dir([1:30]) run
 - _Korok::D58:
     comment: " "
-- .dir(N>)
+- .dir([1:00])
 - _Korok::D53:
     comment: " "

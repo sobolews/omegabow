@@ -4,46 +4,46 @@ Sasa Kai:
     notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
     hide-icon-on-map: true
 
-- .dir(W):
+- .dir([9:00]):
     notes: .link([Sasa Kai vod]https://youtu.be/T5MXXtNCbX0?t=1888)
 - _Npc<Flaxel>:
     comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
 
-- Drop .dir(NW)
+- Drop .dir([10:30])
 - _Npc<Canolo>:
     comment: Missing in Action
     coord: [-2187.78, 207.99, 1691.46]
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::W08:
     comment: In crack, during G32
 - _Korok::G32:
     comment: On broken bridge
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W10:
     comment: Bomb arrow from a distance
 
-- .dir(E) up
+- .dir([3:00]) up
 - _Boss::Talus::Luminous:
     coord: [-2277.50, 293.77, 1979.00]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::G35:
     comment: In overlook
 
-- .gale() + .dir(<W):
+- .gale() + .dir([8:00]):
     gale: 1
 
 - _Boss::Talus::Luminous:
     coord: [-2898.47, 305.79, 2210.99]
 
-- .dir(SW)
+- .dir([7:30])
 - _Memory::KaraKaraBazaar:
     comment: Memory
 
-- .dir(<W)
+- .dir([8:00])
 - _Npc::Gerudo<Rhondson>:
     comment: From the Ground Up
     coord: [-3269.43, 129.00, 2585.22]
@@ -57,10 +57,10 @@ Sasa Kai:
     comment: Eye of the Sandstorm
     coord: [-3282.89, 134.16, 2540.95]
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::W17
 
-- .dir(W) + .dir(W) + .dir(N) + .dir(N):
+- .dir([9:00]) + .dir([9:00]) + .dir([12:00]) + .dir([12:00]):
     coord: [-3587.5,2260.5]
 - Activate Pedestal:
     icon: tots

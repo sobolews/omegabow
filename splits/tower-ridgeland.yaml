@@ -1,14 +1,14 @@
 Ridgeland Tower:
-- .dir(<<N):
+- .dir([9:45]):
     notes: .link([Ridgeland Tower vod]https://youtu.be/T5MXXtNCbX0?t=17550)
 - _Korok::R03:
     comment: Up and glide left
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::H71:
     comment: Across the canyon
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 3
@@ -17,13 +17,13 @@ Ridgeland Tower:
 - _Korok::R02:
     comment: Hidden behind rocks
 
-- .dir(E>) + .dir(S)
+- .dir([4:00]) + .dir([6:00])
 - _Korok::R06
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::R09:
     comment: " "
 
-- .dir(.S)
+- .dir([5:30])
 - _Tower::Ridgeland:
     comment: Map 70.71%

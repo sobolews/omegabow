@@ -1,41 +1,41 @@
 Tabantha Tower:
-- .gale() + .dir(E>):
+- .gale() + .dir([4:00]):
     gale: 1
     notes: .link([Tabantha Tower vod]https://youtu.be/FgwSVGe8-o8?t=1189)
 - _Korok::T36
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::T32
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::T27:
     comment: 2 apples
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::T26
 
-- .dir(.N)
+- .dir([11:30])
 - _Korok::T23
 
-- .dir(SE)
+- .dir([4:30])
 - _Discover<Gisa Crater>
 - _Boss::Talus::Rare:
     coord: [-3929.30, 197.19, -1083.48]
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::T28:
     comment: " "
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::T29
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::T30:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::T24
 
-- .dir(W) + .dir(E) + midair
+- .dir([9:00]) + .dir([3:00]) + midair
 - _Tower::Tabantha:
     comment: Map 76.01%

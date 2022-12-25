@@ -2,17 +2,17 @@ Ze Kasho:
 - _Warp::Tower::Akkala:
     comment: WARP
 
-- .dir(S.) down
+- .dir([6:30]) down
 - _Korok::A42:
     comment: 
 
 - Drop down
 - _Korok::A43
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::A46
 
-- .dir(W.)
+- .dir([9:30])
 - _Discover<Akkala Bridge Ruins>:
     coord: [3170,-1357]
     notes: Glide through trigger to pebble
@@ -21,5 +21,5 @@ Ze Kasho:
       - to: [3089.92, 407.44, -1337.38]
       - to: [3112.55, 426.00, -1295.33]
 
-- .dir(.N)
+- .dir([11:30])
 - _Shrine::ZeKasho

@@ -1,5 +1,5 @@
 Taloh Naeg:
-- .dir(S) + .dir(E>) + .dir(S):
+- .dir([6:00]) + .dir([4:00]) + .dir([6:00]):
     notes: .link([Taloh Naeg vod]https://youtu.be/KYhfrqeINmE?t=3018)
 
 - _Npc::SheikaFemale<Impa>:
@@ -23,6 +23,6 @@ Taloh Naeg:
     coord: [1830.49, 222.41, 1044.89]
     comment: Talk twice
 
-- .dir(N)
+- .dir([12:00])
 - _Shrine::TalohNaeg:
    comment: Opal in chest

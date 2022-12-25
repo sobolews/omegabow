@@ -1,31 +1,31 @@
 Kema Zoos:
-- .dir(NW):
+- .dir([10:30]):
     notes: .link([Kema Zoos vod]https://youtu.be/T5MXXtNCbX0?t=3378)
 - _Korok::W02:
     comment: Offer 5
 
-- .dir(<W) run
+- .dir([8:00]) run
 - _Korok::G25:
     comment: Offer 4
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::W04:
     comment: Offer 3
 
-- .dir(<W) run
+- .dir([8:00]) run
 - _Korok::W05:
     comment: Offer 2
 
-- .dir(<N) glide
+- .dir([11:00]) glide
 - _Korok::W03:
     comment: Offer 1
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::W06:
     comment: Start bottom of pillar
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::G33
 
-- .dir(W) + midair
+- .dir([9:00]) + midair
 - _Shrine::KemaZoos

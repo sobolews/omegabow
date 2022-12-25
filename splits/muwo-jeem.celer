@@ -1,24 +1,24 @@
 Muwo Jeem:
-- .dir(E>):
+- .dir([4:00]):
     notes: .link([Muwo Jeem vod]https://youtu.be/FgwSVGe8-o8?t=7511)
 - _Korok::F22:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::F18
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::N64:
     comment: Stasis + bomb from a distance
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
     notes: Shoot from above, aim just below upper rim of hole
 
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Korok::F32
 
-- .dir(E>) + midair
+- .dir([4:00]) + midair
 - _Shrine::MuwoJeem:
     comment: Modest Test of Strength

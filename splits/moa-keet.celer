@@ -1,7 +1,7 @@
 Moa Keet:
-- .dir(E.) + midair
+- .dir([3:30]) + midair
 - _Korok::E44:
     comment: Among rocks by road
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::MoaKeet
