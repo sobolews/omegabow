@@ -51,7 +51,8 @@ Katah Chuki:
 - _Korok::C28
 
 - .dir(<W)
-- _Korok::C32
+- _Korok::C32:
+    comment: " "
 - _Korok::C27:
     comment: " "
 

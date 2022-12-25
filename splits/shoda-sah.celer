@@ -42,14 +42,16 @@ Shoda Sah:
     coord: [2078.62, 110.22, 3450.66]
 
 - .dir(W>)
-- _Korok::F35
+- _Korok::F35:
+    comment: " "
 
 - .dir(S)
 - _Korok::F46:
     comment: Behind waterfall
 
 - .dir(<W)
-- _Korok::F42
+- _Korok::F42:
+    comment: " "
 
 - .dir(<N)
 - _Boss::Talus::Stone:

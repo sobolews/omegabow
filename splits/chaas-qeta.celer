@@ -23,7 +23,8 @@ Chaas Qeta:
     comment: " "
 
 - .dir(E>)
-- _Korok::N62
+- _Korok::N62:
+    comment: " "
 
 - .dir(N)
 - .fury() .!!(Enemy Camp):

@@ -40,7 +40,8 @@ Mirro Shaz:
 - .dir(<E) + .dir(N>)
 - _Boss::Hinox::Black:
     coord: [2485.10, 152.09, -133.56]
-- _Korok::Z22
+- _Korok::Z22:
+    comment: " "
 
 - .dir(E>)
 - _Npc::ZoraFemale<Finley>:
@@ -103,7 +104,8 @@ Mirro Shaz:
 
 - .dir(S>):
     notes: .link([Mirro Shaz vod]https://youtu.be/T5MXXtNCbX0?t=15101)
-- _Korok::Z40
+- _Korok::Z40:
+    comment: " "
 
 - midair .dir(NW)
 - _Korok::Z30:

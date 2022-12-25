@@ -15,8 +15,10 @@ After Moa Keet:
 - _Discover<Maw Of Death Mountain>:
     hide-icon-on-map: true
     notes: Glide low to trigger location
-- _Korok::E41
-- _Korok::E42
+- _Korok::E41:
+    comment: " "
+- _Korok::E42:
+    comment: " "
 
 - .dir(S>>)
 - _Korok::E43

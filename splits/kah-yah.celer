@@ -10,7 +10,8 @@ Kah Yah:
     comment: On peak
 
 - .dir(S>)
-- _Korok::F57
+- _Korok::F57:
+    comment: " "
 
 - .dir(E)
 - _Chest<Any of 4 Chests>:

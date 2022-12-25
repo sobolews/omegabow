@@ -1,7 +1,8 @@
 Sha Gehma:
 - .dir(N) + .dir(<E):
     notes: .link([Sha Gehma vod]https://youtu.be/FgwSVGe8-o8?t=12991)
-- _Korok::H13
+- _Korok::H13:
+    comment: " "
 
 - .dir(N>)
 - _Korok::H05:

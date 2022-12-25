@@ -1,7 +1,8 @@
 Wahgo Katta:
 - .dir(N>) down:
     notes: .link([Wahgo Katta vod]https://youtu.be/T5MXXtNCbX0?t=9465)
-- _Korok::C48
+- _Korok::C48:
+    comment: " "
 
 - .dir(SE)
 - _Discover<Hyrule Garrison Ruins>:
