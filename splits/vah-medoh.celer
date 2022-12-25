@@ -1,15 +1,49 @@
 Vah Medoh:
-- Inside divine beast:
-    notes: .link([Revali's Gale vod]https://youtu.be/s1NM1eCjpX8?t=7276).
+- _Warp::Shrine::MoggLatan:
+    comment: WARP
+    notes: .link([Vah Medoh vod]https://youtu.be/KYhfrqeINmE?t=6529)
 
-- _Chest<Ancient Core>:
-    notes: Why does Ikurapan get this?
+- _Korok::R60
+- BLSS to Rito Village
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- Jump down
+- _Shop<General Shop>:
+    coord: [-3643.01, 290.64, -1823.43]
+    comment: Buy everything you can
+
+- .dir(.N)
+- _Korok::T02:
+    comment: Top of flight range
+
+- _Equipment::Bow<Swallow Bow>:
     hide-icon-on-map: true
+    comment: equip
+- _Npc::Rito<Teba>:
+    coord: [-3790.43, 267.42, -2320.79]
+- Shoot 5 Targets:
+    icon: tots
+    hide-icon-on-map: true
+
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+    # coord: [-3792.61, 283.47, -2300.19]
+
+- Enter Medoh:
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    notes: |
+      1 ancient arrow per cannon. Visual cues: .link([Left-Right]https://cdn.discordapp.com/attachments/293465650540838913/688224174937735188/a3.png), .link([Middle]https://cdn.discordapp.com/attachments/293465650540838913/688224173427785910/a4.png)
 
 - .boss(Windblight Ganon):
     icon: ganon
     hide-icon-on-map: true
-    comment: .rune(Stasis) → 2 body + 4 head
+    notes: Fire Arrow + .rune(Stasis) → 2 FDB body + 1 OB
 
 - .!!(Revali's Gale):
     icon: medoh-done

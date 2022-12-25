@@ -1,6 +1,6 @@
 Shae Katha:
 - .dir(S>) + .dir(W) midair:
-    notes: .link([Shae Katha vod]https://youtu.be/crHPwD-Ouqw?t=5877)
+    notes: .link([Shae Katha vod]https://youtu.be/T5MXXtNCbX0?t=11109)
 - _Korok::D48:
     comment: On ledge
 
@@ -9,17 +9,15 @@ Shae Katha:
 
 - .dir(E>)
 - _Korok::L07:
-    comment: .rune(Stasis) 5 hits, aim straight
+    comment: .rune(Stasis) 5 hits, aim at hole
 
 - .dir(S>)
 - _Korok::L19
 
 - .dir(E>)
-- _Korok::L20
+- _Korok::L20:
+    comment: Bring to other side of spring
 
-- Down
-- _Discover<Spring of Courage>:
-    coord: [879.50, 123.00, 2388.00]
 - Offer .item(Farosh Scale):
     icon: tots
     hide-icon-on-map: true

@@ -1,62 +1,54 @@
 Gorae Torr:
 - _Tod::Morning:
-    notes: To spawn Dinraal. If it's between 12:00am and 5:00am, make morning twice to properly advance a day.
+    notes: .link([Gorae Torr vod]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=6035). If it's between 12:00am and 5:00am, make morning twice to properly advance a day for Dinraal.
     hide-icon-on-map: true
 
-- .dir(<E) + midair:
-    notes: .link([Gorae Torr vod]https://youtu.be/mGUKIJv-Q_U?t=1934)
+- .dir(<E) + midair
 - _Korok::K04
 
 - .dir(W>)
 - _Korok::K01:
     comment: On far peak
 
-- .dir(N>):
-    time-override: 720
-- Kill .enemy(White-Maned Lynel):
-    icon: calamity
-    coord: [247.00, 173.39, -3668.50]
-    comment: Shock arrows + .fury()
-    fury: 3
-    
-- _Material<Lynel Hoof>:
-    hide-icon-on-map: true
-    notes: Save for quest. High chance of getting one, but if you don't, kill lynel near E01.
-
-- _Equipment::Weapon<Savage Lynel Crusher>:
-    hide-icon-on-map: true
+- .dir(.E)
 
 - Shoot Dinraal (Scale):
     icon: calamity
     hide-icon-on-map: true
 
 - _Tod::Morning:
-    # coord: [267.00, 173.39, -3668.50]
     hide-icon-on-map: true
-    notes: Look WEST back toward Qaza Tokki when sitting at campfire. Facing east can stop Dinraal from spawning.
+    notes: Look west when sitting at campfire. Facing east can stop Dinraal from spawning.
 
-- .dir(E)
 - _Korok::K02
+- _Material<Collect Scale>
+- Shoot Dinraal (Horn):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: and collect it
+- _Tod::Morning:
+    hide-icon-on-map: true
+    comment: Look west
 
-- .dir(E)
+- Kill .enemy(White-Maned Lynel):
+    icon: calamity
+    coord: [1257.69, 207.16, -3753.55]
+    comment: 2 OB headshots
+    
+- _Material<Lynel Hoof>:
+    hide-icon-on-map: true
+    notes: 94% chance to get one, but if you don't, kill lynel near A07.
+
 - _Korok::K03
 
 - Shoot Dinraal (Claw):
     icon: calamity
     hide-icon-on-map: true
-
-- _Tod::Morning:
-    # coord: [1163.40, 209.96, -3742.78]
-    hide-icon-on-map: true
+    comment: and collect it
 
 - .dir(E)
 - _Korok::E01:
-    notes: (Optional) Kill .enemy(Lynel) here if previous Lynel didn't drop hoof
-
-- Shoot Dinraal (Horn):
-    icon: calamity
-    hide-icon-on-map: true
-    notes: If you miss any parts, windbomb WEST or warp to Qaza Tokki, make morning, and return to the area to respawn Dinraal
+    comment: In eye of skeleton
 
 - .dir(E) + midair
 - _Korok::E02
@@ -65,6 +57,7 @@ Gorae Torr:
         - to: [1517.38, 209.04, -3703.94]
           away: true
     notes: Look back and zoom in
+    comment: SNAP
 
 - .dir(NE)
 - _Korok::E03
@@ -73,13 +66,14 @@ Gorae Torr:
     gale: 1
 - _Korok::E04
 
-- .dir(<S)
+- .dir(<<S)
 - _Korok::E05:
     comment: On pillar around shrine
 
-- .!!(Gut Check Challenge):
+- Gut Check Challenge:
     icon: tots
     hide-icon-on-map: true
-    comment: .dir(E) + .dir(W) midair
+    comment: .dir(W.) from tree and .gale()
+    gale: 1
 
 - _Shrine::GoraeTorr

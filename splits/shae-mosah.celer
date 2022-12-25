@@ -1,25 +1,38 @@
 Shae Mosah:
-- Equip metal shield:
-    notes: .link([Shae Mosah vod]https://youtu.be/mGUKIJv-Q_U?t=566)
-    icon: shield
+- Equip Metal Bow:
+    notes: .link([Shae Mosah vod]https://youtu.be/KYhfrqeINmE?t=15387)
+    icon: bow
     hide-icon-on-map: true
 
-- .dir(<<N):
-    notes: Bow will burn after 30s on fire or after entering some cutscenes while on fire. Cancel bow burning by pressing ZR, B.
+- .dir(<<N)
 - _Korok::E27
 
 - .dir(<W):
-    notes: Windbombs won't work on the first (and only the first) tick of burn damage. Either go fast or wait until the second tick.
+    notes: Windbombs won't work during the first of burn damage. Make sure to windbomb either before Link catches fire, or after the second tick.
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury() from ledge above
     fury: 3
 
-- .dir(.N)
+- .dir(N)
 - _Korok::E26:
     comment: " "
 
-- .dir(.N) to .loc(Southern Mine)
+- .dir(<W)
+- _Korok::E31
+- _Memory::EldinCanyon:
+    comment: Memory
+
+- .dir(N.)
+- _Korok::E24:
+    comment: " "
+
+- .dir(N>)
+- _Korok::E25:
+    comment: On skeleton in lava
+
+
+- .dir(N) to .loc(Southern Mine)
 
 - _Material<10 Fireproof Lizard>:
     movements:
@@ -32,49 +45,50 @@ Shae Mosah:
         - to: [1683.16, 430.31, -1948.15]
     notes: .link([Lizard route]https://twitter.com/bings_f/status/1441999069128261636)
 
-- _Npc<Kima>:
+- _Npc<Fireproof Lizard Guy>:
     coord: [1657.35, 430.17, -1960.60]
-    # comment: Fireproof Lizard Roundup
+    comment: Kima
 
 - _Equipment::Shield<Flamebreaker Armor>:
     hide-icon-on-map: true
     comment: Equip
 
 - _Tod::Night:
-    notes: (Optional) To talk to Greyson. Must have Flamebreaker Armor equipped.
+    notes: (Optional) To talk to Greyson. Must have Flamebreaker Armor equipped to sleep.
     hide-icon-on-map: true
 
 - _Npc::Goron<Greyson>:
     coord: [1656.63, 430.15, -1968.53]
-    # comment: From the Ground Up
+    comment: From the Ground Up
 
-- .dir(NW)
-- _Korok::E19
+- .dir(<<N)
+- _Korok::E19:
+    comment: " "
 
-- .dir(N>) + midair
+- .dir(N>) midair    
 - _Korok::E18:
     comment: " "
 
 - .dir(N)
-- _Korok::E14:
-    comment: Start on Daruk's head
-
-- .dir(W) short
-- _Korok::E13:
-    comment: Underneath arm
-
-- .dir(S.):
-    notes: The Rudania cutscene will likely trigger here so make sure bow is not burning.
 - _Discover<Stolock Bridge>:
     coord: [1648.20, 565.86, -2437.53]
     notes: Can discover by gliding over.
+
+- .dir(N) midair
+- _Korok::E14:
+    comment: Start on Daruk's head
+
+- .dir(W) run
+- _Korok::E13:
+    comment: Underneath arm
+
+- .dir(S>)
 - _Korok::E15:
     comment: In smiling Goron's mouth
 
 - .dir(NE) down
 - _Shop<Buy Goron Spice>:
     coord: [1689.61, 491.59, -2468.49]
-    comment: Potion Shop
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]

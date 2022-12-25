@@ -1,24 +1,22 @@
 Chaas Qeta:
-- .dir(N>):
-    notes: .link([Chaas Qeta vod]https://youtu.be/d2lvD_eFjVw?t=6795)
-- _Korok::F33
+- .dir(<N):
+    notes: .link([Chaas Qeta vod]https://youtu.be/FgwSVGe8-o8?t=7738)
+- _Korok::F33:
+    comment: On cliff ledge
 
 - .dir(W>) down
 - _Korok::N65
 
-- .dir(N>)
+- .dir(N)
 - _Korok::N61
 
 - .dir(E)
 - _Npc<Kass>:
     coord: [3746.19, 125.42, 2629.38]
     comment: The Hero's Cache
-
-- Down
 - _Chest::Special<Gold Rupee>:
     coord: [3773.34, 100.52, 2647.44]
     comment: .rune(Magnesis) chest in water
-    notes: The Hero's Cache
 
 - .dir(<N)
 - _Korok::N60:
@@ -33,13 +31,13 @@ Chaas Qeta:
     fury: 1
     notes: Sheep Rustlers
     coord: [4121.98, 113.17, 2369.62]
-    comment: Ancient arrow white boko
+    comment: Ancient arrow 2 survivors
 
 - .dir(NE)
 - _Korok::N54:
     notes: Palm fruit on nearby tree if needed
 
-- .dir(E>) + midair
+- .dir(E>) 
 - _Korok::N56:
     comment: " "
 
@@ -48,17 +46,15 @@ Chaas Qeta:
     comment: .fury()
     fury: 2
     coord: [4558.50, 105.41, 2465.00]
-
-- .dir(S)
 - _Korok::N63
 
-- .dir(<E) run
+- .dir(E) run
 - _Korok::N57
 
 - .dir(W>)
 - _Korok::N55:
     comment: " "
 
-- .dir(SW) + midairs
+- .dir(SW) + midair
 - _Shrine::ChaasQeta:
     comment: Major Test of Strength

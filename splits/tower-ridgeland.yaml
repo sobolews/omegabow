@@ -1,8 +1,8 @@
 Ridgeland Tower:
-- .dir(<N):
-    notes: .link([Ridgeland Tower vod]https://youtu.be/crHPwD-Ouqw?t=12599)
+- .dir(<<N):
+    notes: .link([Ridgeland Tower vod]https://youtu.be/T5MXXtNCbX0?t=17550)
 - _Korok::R03:
-    comment: Up on ledge against cliff
+    comment: Up and glide left
 
 - .dir(<N)
 - _Korok::H71:
@@ -14,14 +14,16 @@ Ridgeland Tower:
     fury: 3
     coord: [-2177.46, 322.30, -1585.39]
     notes: Waste a fury
-- _Korok::R02
+- _Korok::R02:
+    comment: Hidden behind rocks
 
-- .dir(<S) + .dir(E>)
+- .dir(E>) + .dir(S)
 - _Korok::R06
 
 - .dir(E>)
 - _Korok::R09:
     comment: " "
 
-- .dir(<S)
-- _Tower::Ridgeland
+- .dir(.S)
+- _Tower::Ridgeland:
+    comment: Map 70.71%

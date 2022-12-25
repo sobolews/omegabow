@@ -1,31 +1,33 @@
 Kayra Mah:
-- Run:
-    notes: .link([Kayra Mah vod]https://youtu.be/mGUKIJv-Q_U?t=5114)
-- _Npc::Goron<Bladon>:
-    comment: Text option 2-1
+- Equip metal bow, run:
+    icon: bow
+    notes: .link([Kayra Mah vod]https://youtu.be/KYhfrqeINmE?t=19901)
+- _Npc::Goron<Rock Roast Brother>:
+    comment: Bladon
+    notes: Text option 2-1
     coord: [1648.50, 490.02, -2472.50]
 
-- _Npc::Goron<Fugo>:
-    comment: Talk twice
+- _Npc::Goron<Headband Goron>:
+    comment: Fugo
+    notes: Talk twice
     coord: [1676.75,-2479.5]
 
-- _Npc::Gerudo<Ramella>:
-    comment: Talk twice
+- _Npc::Gerudo<Gerudo Lady>:
+    comment: Ramella
+    notes: Talk twice
     coord: [1707.75,-2422.5]
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 
-- _Chest::Special<Boulder Breaker>:
-    coord: [1740.58, 504.08, -2447.19]
-
 - .dir(E.) + .dir(.S)
-- _Npc::Goron<Dugby>:
+- _Npc::Goron<Goron Kid>:
     coord: [1787.98, 581.97, -2244.39]
-    comment: Death Mountain's Secret
+    comment: Dugby
+    notes: Death Mountain's Secret quest
 
 - .dir(SE)
-- _Npc::Goron<Gonguron>:
+- _Npc::Goron<Goron in Cave>:
     coord: [2045.68, 521.76, -2040.42]
     comment: A Brother's Roast
 

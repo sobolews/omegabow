@@ -1,73 +1,74 @@
 Korsh Ohu:
-- .dir(N>):
-    notes: .link([Korsh Ohu vod]https://youtu.be/mGUKIJv-Q_U?t=14080)
+- .dir(N):
+    notes: .link([Korsh Ohu vod]https://youtu.be/WaebWctGS_k?t=29687)
 - _Npc<Bozai>:
     coord: [-3750,2874]
     comment: 8th Heroine, Forgotten Sword
-    notes: Sand Boots will automatically equip (yay)
+    notes: Talk 3 times
     time-override: 360
 
 - .gale() + .dir(<W) midair:
     gale: 1
 - _Korok::W42:
-    comment: In water tower
+    comment: On water tower
 
 - .dir(W) down
-- _Npc::Gerudo<Calyban>:
-    comment: Mystery Polluter
+- _Npc::Gerudo<Wildberry lady>:
+    comment: Calyban
+    notes: Talk twice
     coord: [-3915.29, 169.20, 2954.60]
 
-- Down
-- _Npc::Gerudo<Liana>:
+- Down in training yard
+- _Equipment::Bow<Golden Bow>:
+    notes: (optional) extra bow to make a GEB
+- _Npc::Gerudo<Guard Captain>:
     notes: Search for Barta
-    comment: In training yard
+    comment: Liana
     coord: [-3912.83, 149.68, 2930.99]
 
-- _Npc::Gerudo<Malena>:
-    comment: In training yard
+- _Npc::Gerudo<Molduga Lady>:
+    comment: Malena
     coord: [-3866.5,2939.5]
-    notes: Medicinal Molduga; 2pm to 10pm she's on the steps to throne room
+    notes: "Medicinal Molduga: 2pm to 10pm she's on the steps to throne room, otherwise in training yard. Talk twice."
 
-- _Npc::Gerudo<Dalia>:
+- _Npc::Gerudo<Wildberries Kid>:
     coord: [-3833,2852.75]
-    notes: Mystery Polluter
-    comment: Before 8pm
+    comment: "Dalia: Before 8pm"
 
-- _Npc::Gerudo<Isha>:
-    comment: In main courtyard
-    notes: Tools of the Trade
+- _Npc::Gerudo<Flint Lady>:
+    comment: Isha
+    notes: In main courtyard, talk twice
     coord: [-3834.85, 149.52, 2875.26]
 
-- _Shop<Buy Fire Arrows>:
-    coord: [-3859.23, 149.24, 2916.02]
 - .!!(Dupe + Transmute):
     icon: tots
     hide-icon-on-map: true
-    notes: .link([Detailed instructions]https://docs.google.com/document/d/1olwIkxVQ4-vwHJ5F_HE7wqhlAGfggt5lTdeDjAQVTXQ/edit?usp=sharing)
+    notes: .link([Detailed instructions]https://docs.google.com/document/d/1vszvoS6mWW33GKgec1YI3fDCTCI3M9vnank8nYAw-SY/edit?usp=sharing), .link([Transmutation vod]https://youtu.be/WaebWctGS_k?t=29931)
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: Thunder Helm
+    notes: Equip Thunder Helm
 
-- Run
+- .dir(E)    
 - _Discover<Gerudo Secret Club>:
-    notes: Secret Club's Secret
+    notes: GSC♢
     coord: [-3792,2955.25]
     comment: Code 3-3-3-4
 
-- .dir(E>)
-- _Korok::W43:
-    comment: Behind, left, behind, right
+- .dir(E)
+- _Korok::W43
 
-- .dir(<E)
+- .dir(.E)
 - _Korok::W37
 
-- .dir(E>>)
+- .dir(SE)
 - _Korok::W44
 
-- .dir(N>) + midair
+- .dir(N>>)
 - _Korok::W35:
     comment: In arms of statue
+    notes: Can use bomb arrow from orb
 
 - Complete orb puzzle:
     icon: tots

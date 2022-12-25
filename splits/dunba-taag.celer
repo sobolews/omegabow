@@ -1,25 +1,28 @@
 Dunba Taag:
 - .dir(.N) run:
-    notes: .link([Dunba Taag vod]https://youtu.be/d2lvD_eFjVw?t=3652)
-- _Npc<Geggle>:
-    coord: [-2912.28, 274.78, -551.75]
-    notes: Cliffside Etchings
-    comment: Between 8am and midnight
+    notes: .link([Dunba Taag vod]https://youtu.be/FgwSVGe8-o8?t=4669)
+- _Npc::SheikaMale<Pointing guy>:
+    coord: [-2942.5,-485.5]
+    comment: Geggle
+    notes: Between 8am and midnight
 
-- Run
-- _Npc<Toren>:
+- _Npc<Guy at cookpot>:
     coord: [-2916.00, 274.73, -561.00]
-    comment: Gift for the Great Fairy
+    comment: Toren
+    notes: Talk twice. In stable if raining.
+- _Tod::Night:
+    notes: Timing for Zora's Domain quests and darner quest
 
-- .dir(W>) run
+- .dir(W) run
 - _Korok::T34:
-    comment: " "
+    comment: Starts under bridge
 
 - .dir(S>) down
 - _Korok::R28
 
-- .dir(E)
-- _Korok::R29
+- .dir(E) run
+- _Korok::R29:
+    comment: " "
 
 - .dir(N)
 - _Korok::R20
@@ -27,9 +30,7 @@ Dunba Taag:
 - .dir(N>)
 - _Discover<Tanagar Canyon Course>:
     coord: [-3119.20, -0.58, -627.77]
-
-- .dir(N)
 - _Korok::R12
 
-- .dir(N.) + midairs
+- .dir(N>) + midair
 - _Shrine::DunbaTaag

@@ -1,30 +1,33 @@
 Tutsuwa Nima:
 - .dir(W>) run:
-    notes: .link([Tutsuwa Nima vod]https://youtu.be/mGUKIJv-Q_U?t=3665)
-- _Npc<Hoz>:
+    notes: .link([Tutsuwa Nima vod]https://youtu.be/KYhfrqeINmE?t=18458)
+- _Npc<Soldier Guy>:
     coord: [4243.71, 231.44, -2746.65]
-    comment: Talk twice
-- _Npc<Nobo>:
+    comment: Hoz
+    notes: Talk twice
+- _Npc<Lady at cookpot>:
     coord: [4245.96, 231.45, -2747.83]
-    comment: Select "This area?"
+    notes: Select "This area?"
+    comment: Nobo
 - _Tod::Night:
     notes: For stalhorse, stalnox, and quests after Rudania
     hide-icon-on-map: true
 
-- .dir(W>>)
+- .dir(W>)
 - _Korok::A19
 
 - .dir(SW) surf
 - _Korok::A22
 
-- .dir(W>>)
+- .dir(W>)
 - _Korok::A18:
     comment: " "
 
 - midair .dir(S)
 - _Korok::A21:
     comment: Above spring
-- _Memory::SpringofPower
+- _Memory::SpringofPower:
+    comment: Memory
 - Offer .item(Dinraal Scale):
     icon: tots
     hide-icon-on-map: true

@@ -1,30 +1,31 @@
 Toh Yahsa:
 - .dir(W):
-    notes: .link([Toh Yahsa vod]https://youtu.be/crHPwD-Ouqw?t=12791)
+    notes: .link([Toh Yahsa vod]https://youtu.be/T5MXXtNCbX0?t=17743)
 - _Korok::R15:
     comment: " "
 
 - .dir(<N)
-- Send red orb:
+- Launch red orb:
     icon: tots
     coord: [-2135.60, 219.98, -909.20]
-    notes: Use Ancient Battleaxe. Just don't break it.
+    comment: Fully charge stasis
 
 - .dir(NW)
-- Send orange orb:
+- Launch orange orb:
     icon: tots
     coord: [-2271.02, 228.58, -1040.27]
+    comment: Fully charge stasis
 
 - .dir(NW)
 - _Korok::R08:
     comment: Against cliff
 
 - .dir(<S)
-- Take green orb:
+- Place green orb:
     icon: tots
     coord: [-2288.70, 235.47, -882.80]
 
-- Place all orbs:
+- Place other orbs:
     icon: tots
     hide-icon-on-map: true
 

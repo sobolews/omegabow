@@ -1,9 +1,10 @@
 Mirro Shaz:
 - Run (avoid flowers):
-    notes: .link([Mirro Shaz vod]https://youtu.be/crHPwD-Ouqw?t=9523)
-- _Npc<Magda>:
+    notes: .link([Letter Quest vod]https://youtu.be/T5MXXtNCbX0?t=14579)
+- _Npc<Flower Lady>:
     coord: [816.80, 115.22, 836.77]
-    comment: Watch Out for the Flowers
+    comment: Magda
+    notes: Talk once for quest
 
 - .dir(E>>)
 - _Discover<Eagus Bridge>:
@@ -31,17 +32,14 @@ Mirro Shaz:
 - .dir(<E) + .dir(N>)
 - _Korok::N01
 
-- .dir(N>)
+- .dir(N)
 - _Boss::Hinox::Red:
     coord: [1969.04, 115.44, 97.40]
-    comment: Ancient arrows
 - _Korok::Z41
 
-- .gale() + .dir(NE>):
-    gale: 1
+- .dir(<E) + .dir(N>)
 - _Boss::Hinox::Black:
     coord: [2485.10, 152.09, -133.56]
-    comment: Ancient arrows
 - _Korok::Z22
 
 - .dir(E>)
@@ -49,8 +47,8 @@ Mirro Shaz:
     coord: [2754.00, 189.53, -83.50]
     comment: Special Delivery
 
-- Shoot/bomb letter:
-    icon: tots
+- Destroy letter:
+    icon: bow
     hide-icon-on-map: true
     notes: When you return to Finley, the letter will respawn on land
 
@@ -64,14 +62,14 @@ Mirro Shaz:
     var-change:
         Monument: 1
 
-- .dir(S) run
+- .dir(S) run/drop
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2877.09, 229.49, -32.75]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- Down
+- S drop
 - _Discover<Oren Bridge>:
     coord: [2875.32, 187.50, 32.60]
 
@@ -85,87 +83,88 @@ Mirro Shaz:
 - .dir(NW)
 - _Korok::Z31
 
-- .dir(<E)
-- Deliver letter BLSS:
+- .dir(<<E)
+- Letter Quest:
     icon: tots
     hide-icon-on-map: true
     movements:
+        - to: [2754.00, 189.53, -83.50]
         - to: [2789,-250]
         - to: [2737,-341]
         - to: [2658,-370]
         - to: [2384,-248]
-    notes: Fall and let Mipha's Grace/fairy protect you, don't pull glider, and the letter will survive
-
-- _Npc<Sasan>:
-    coord: [1760.46, 115.80, -56.04]
-    comment: Special Delivery
+    notes: BLSS the letter to the guy at the tent. Fall and don't pull glider, and the letter will survive. Don't fall into water.
+    split-type: UserDefined
 
 - _Tod::Noon:
     coord: [1760.46, 115.80, -36.04]
-    notes: (Optional) You need to make it to Shamae at Mirro Shaz before 8pm and need it be after 9pm for a Stalnox
+    comment: For Balloon Girl and stalnox
+    notes: Make noon later if you can't get to Balloon Girl by 8pm.
 
-- .dir(S.)
+- .dir(S>):
+    notes: .link([Mirro Shaz vod]https://youtu.be/T5MXXtNCbX0?t=15101)
 - _Korok::Z40
 
-- midair .dir(W)
+- midair .dir(NW)
 - _Korok::Z30:
     comment: In building ruins
 
-- .dir(<W)
+- .dir(.W)
 - _Korok::Z29:
     comment: Among trees
 
 - .dir(<W)
-- _Korok::C46
+- _Korok::C46:
+    comment: Under bridge
 
-- .dir(S>>)
+- .dir(SW)
 - _Korok::C51:
     comment: On pillar
+    notes: Yiga Blademasters often appear through this segment. Kill one for a windcleaver if convenient.
 
-- .dir(<S)
-- _Memory::HyruleField
 
-- .gale() + .dir(W>):
+- .dir(.S)
+- _Memory::HyruleField:
+    comment: Memory
+
+- .gale() + .dir(.W):
     gale: 1
-- _Boss::Hinox::Blue:
-    coord: [421.00, 161.27, 329.50]
-    comment: Ancient arrows
-
-- .dir(S>)
 - _Korok::C56
 
-- .dir(NW)
+- .dir(N>)
+- _Boss::Hinox::Blue:
+    coord: [421.00, 161.27, 329.50]
+ 
+- .dir(W>)
 - _Korok::C50:
     comment: " "
-    notes: Chaos Ranch - ancient arrow everything
 
 - .dir(NW)
 - _Discover<Mabe Village Ruins>:
-    coord: [-48.50, 133.00, 175.00]
+    coord: [6.75,156.25]
 
-- _Korok::C44:
-    comment: On hill
+- _Korok::C44
 
 - .dir(E)
-- _Korok::C45
+- _Korok::C45:
+    comment: " "
 
-- .dir(NE)
+- .dir(N>)
 - _Korok::C34:
     comment: " "
 
-- .dir(N>) short
+- .dir(N.)
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
-    comment: Ancient arrows
 
-- .dir(E>)
+- .dir(E>) midair
 - _Korok::Z21:
     comment: " "
 
 - .dir(N)
 - _Korok::Z11
 
-- .dir(NE)
+- .dir(N>)
 - _Korok::C13:
     comment: On bridge
 
@@ -184,5 +183,4 @@ Mirro Shaz:
 - .dir(W>) short
 - _Korok::K33
 
-- .dir(N>) short
 - _Shrine::MirroShaz

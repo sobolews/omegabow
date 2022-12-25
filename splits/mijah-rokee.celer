@@ -1,9 +1,8 @@
 Mijah Rokee:
 - .dir(N):
-    notes: .link([Mijah Rokee vod]https://youtu.be/mGUKIJv-Q_U?t=9208)
+    notes: .link([Mijah Rokee vod]https://youtu.be/KYhfrqeINmE?t=23897)
 - _Korok::R38:
     comment: " "
-    notes: You need a Baked Apple for the Apple of My Eye quest. Can get one by using Great Flameblade at any apple tree korok.
 
 - .dir(S>)
 - _Korok::R47:
@@ -20,10 +19,12 @@ Mijah Rokee:
 - Down
 - _Tod::Night:
     coord: [-2758.84, 348.24, 206.35]
+    notes: If you missed the blood moon, skip this. When the next Blood Moon occurs, warp to Mogg Latan and windbomb over.
+
 - Activate .!!(Pedestal):
     comment: Remove armor
     icon: tots
     hide-icon-on-map: true
 - _Shrine::MijahRokee:
     comment: Major Test of Strength
-    notes: If you missed the blood moon, continue with the route. When the next Blood Moon occurs, warp to Mogg Latan and windbomb over.
+    notes: Keep armor removed until later

@@ -1,21 +1,18 @@
 Dah Kaso:
 - .dir(<W):
-    notes: .link([Dah Kaso vod]https://youtu.be/mGUKIJv-Q_U)
+    notes: .link([Dah Kaso vod]https://youtu.be/T5MXXtNCbX0?t=1141)
 - _Korok::C85
 
-- .dir(<SW)
+- .dir(SW)
 - _Korok::R80
 
-- .dir(NE>)
+- .dir(<E)
 - _Korok::C86
 
-- .dir(S.)
-- _Korok::G29
-
-- .dir(<E)
+- .dir(E>)
 - _Korok::C87
 
-- .dir(<S)
+- .dir(S)
 - _Korok::C89:
     comment: " "
 

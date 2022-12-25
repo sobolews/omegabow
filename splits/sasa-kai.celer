@@ -1,67 +1,59 @@
 Sasa Kai:
-- .dir(SW) short:
-    notes: .link([Sasa Kai vod]https://youtu.be/mGUKIJv-Q_U?t=11323)
-- _Npc<Oliff>:
-    comment: Missing in Action
-    coord: [-2055.00, 209.05, 1742.00]
-
-- .dir(W.)
-- _Npc<Flaxel>:
-    comment: Missing in Action
-    coord: [-2163.76, 249.00, 1707.54]
-- _Chest<5 Fire Arrows>:
-    hide-icon-on-map: true
-
-- .dir(NW) down
-- _Npc<Canolo>:
-    comment: Missing in Action
-    coord: [-2187.78, 207.99, 1691.46]
 
 - _Tod::Noon:
     notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
     hide-icon-on-map: true
 
-- .dir(<W)
+- .dir(W):
+    notes: .link([Sasa Kai vod]https://youtu.be/T5MXXtNCbX0?t=1888)
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+
+- Drop .dir(NW)
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
+
+- .dir(<<W)
+- _Korok::W08:
+    comment: In crack, during G32
 - _Korok::G32:
     comment: On broken bridge
-- _Korok::W08
 
 - .dir(<W)
 - _Korok::W10:
-    comment: " "
+    comment: Bomb arrow from a distance
 
-- .dir(E)
+- .dir(E) up
 - _Boss::Talus::Luminous:
     coord: [-2277.50, 293.77, 1979.00]
-    comment: Bomb arrow
 
 - .dir(<W)
 - _Korok::G35:
     comment: In overlook
-    notes: Pre-aim, walk onto start block, instant square-first windbomb
 
-- .gale() + .dir(W):
+- .gale() + .dir(<W):
     gale: 1
-    time-override: 999
 
 - _Boss::Talus::Luminous:
     coord: [-2898.47, 305.79, 2210.99]
-    comment: .fury() + Bomb arrow
-    fury: 1
 
 - .dir(SW)
-- _Memory::KaraKaraBazaar
+- _Memory::KaraKaraBazaar:
+    comment: Memory
 
 - .dir(<W)
 - _Npc::Gerudo<Rhondson>:
     comment: From the Ground Up
     coord: [-3269.43, 129.00, 2585.22]
 
-- _Npc::Rito<Guy>:
+- _Npc::Rito<Rito Guy>:
     comment: An Ice Guy
+    notes: Talk twice
     coord: [-3238.62, 130.10, 2574.56]
 
-- _Npc::SheikaMale<Nobiro>:
+- _Npc::SheikaMale<Guy on platform>:
     comment: Eye of the Sandstorm
     coord: [-3282.89, 134.16, 2540.95]
 
@@ -69,8 +61,8 @@ Sasa Kai:
 - _Korok::W17
 
 - .dir(W) + .dir(W) + .dir(N) + .dir(N):
-    coord: [-3607.5,2210.5]
-- Activate .!!(Pedestal):
+    coord: [-3587.5,2260.5]
+- Activate Pedestal:
     icon: tots
     hide-icon-on-map: true
     comment: 2:55pm to 3:50pm

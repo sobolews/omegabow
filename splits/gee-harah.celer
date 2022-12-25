@@ -1,18 +1,21 @@
 Gee Harah:
-- .dir(S.) way down:
-    notes: .link([Gee Harah vod]https://youtu.be/d2lvD_eFjVw?t=2446)
+- _Warp::Shrine::ShadaNaw:
+    line-color: violet
+    comment: WARP
+    notes: .link([Gee Harah vod]https://youtu.be/8Y2bjBn7LKM?t=16629)
+
+- .dir(S.) down under ice shelf
 - _Boss::Talus::Frost:
-    comment: Bomb arrows
     coord: [-3073.50, 478.42, -2918.50]
 
 - .dir(S>)
 - _Korok::H33
 
-- .gale():
+- .gale() + run .dir(E):
     gale: 1
 - _Korok::H34
 
-- .gale() + .dir(S>):
+- .gale() + .dir(S) down:
     gale: 1
 - _Korok::H46
 
@@ -24,31 +27,34 @@ Gee Harah:
 
 - .dir(N) run
 - _Korok::H50:
-    comment: Look .dir(E)
+    comment: Look .dir(E) over river
     movements:
         - to: [-2836.29, 501.88, -2423.84]
           away: true
 
 - _Korok::H47:
-    comment: Look .dir(NW)
+    comment: Look .dir(NW) at river head
     movements:
         - to: [-2900.08, 498.65, -2508.79]
           away: true
 
-- .dir(<N)
+- .dir(N)
 - _Korok::H44:
-    comment: In cave, right of flag
+    comment: Look NW, balloon under ledge
 
-- .dir(E>) surf
+- .dir(E) midair
 - _Korok::H45
 
 - .dir(S)
-- _Korok::H56
+- _Korok::H56:
+    comment: Along bridge
 
 - .dir(NE)
 - _Korok::H51:
-    comment: On ledge against cliff
+    comment: In cliff corner
 
 - .dir(E>)
-- _Shrine::GeeHarah:
-    notes: .link([Snowball strat]https://youtu.be/cbn3TgjVdDk)
+- Open cave door:
+    notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
+- _Shrine::GeeHarah
+    

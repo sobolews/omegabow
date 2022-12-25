@@ -1,9 +1,8 @@
 Ganon:
-- .dir(S>>) + .dir(S) midairs:
-    notes: .link([Ganon vod]https://youtu.be/mGUKIJv-Q_U?t=7259)
+- .dir(S>) + .dir(S) midairs:
+    notes: .link([Ganon vod]https://youtu.be/WaebWctGS_k?t=22937). Need a high-speed windbomb to escape korok forest. .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg). Another option is to warp to Eldin Tower and BLSS to the top of castle.
 - _Korok::X05:
     comment: Castle spire
-    notes:  .link([Easier movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
 
 - Down
 - _Korok::X06:
@@ -20,8 +19,8 @@ Ganon:
 - .dir(NE):
     coord: [-253.5,-1115.5]
 
-- .!!(SAVE THE GAME):
-    notes: For convenient location to reload
+- .!!(Hard Save):
+    notes: For convenient location to reload.
     icon: tots
 
 - .boss(Calamity):
@@ -29,12 +28,9 @@ Ganon:
     movements:
         - to: [-254.00, 191.01, -1061.37]
           away: true
-    split-type: UserDefined
-    notes: .rune(Fury) + .rune(Stasis) → skew bounce + 8 head shots; or just do the fight normally
 
-- " "
-- .boss(Dark Beast):
+- .boss(Dark Beast Ganon):
     icon: ganon
     hide-icon-on-map: true
     split-type: UserDefined
-    notes: Can skip Bow of Light. If you did skew bounce, clear skew and ragdoll glitch here.
+    notes: Can skip Bow of Light.

@@ -1,8 +1,40 @@
 Myahm Agana:
-- _Material<2 Apple>:
-    comment: In tree
-    # hide-icon-on-map: true
-    coord: [3794.90, 358.74, 2110.02]
+- _Tod::Noon:
+    hide-icon-on-map: true
+    comment: if raining
+    notes: Need no rain to deliver blue flame
+
+- .dir(<N)
+- _Npc<Horned Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+    comment: Ask for stamina
+
+- .dir(<E)
+- _Npc<Lady on dock>:
+    coord: [3434.98, 226.90, 2149.15]
+    comment: Clavia
+    notes: Secret of the Cedars shrine quest
+
+- .dir(N)
+- _Korok::N42:
+    comment: Past blue flame
+
+- .dir(<S) glide
+- Smuggle Blue Flame:
+    icon: tots
+    coord: [3447.5,1982]
+
+- .dir(E>) + .dir(E)
+- Activate .loc(Hateno Tech Lab):
+    icon: location
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+- Slated for Upgrades:
+    icon: camera-plus
+    hide-icon-on-map: true
+    notes: If less than 3 screws, upgrade sensor when you come back later
+
 
 - .dir(E) down
 - _Korok::N48:
@@ -10,7 +42,7 @@ Myahm Agana:
 
 - .!!(Save, close game, reload):
     icon: tots
-    notes: Clears inventory glitch and warps back up to tech lab
+    notes: (optional) Clears IST glitch and warps back up to tech lab. If you don't close game here, then you must do so before loading the save after killing Dark Beast Ganon. Do not load any saves from here on until you close the software, or your key items will get messed up.
     coord: [3805.5,2106.75]
     hide-icon-on-map: true
 
@@ -19,9 +51,10 @@ Myahm Agana:
     comment: " "
 
 - .dir(S>)
-- _Npc<Koyin>:
+- _Npc<Sheep Rustler lady>:
     coord: [3621.69, 283.36, 2098.13]
-    comment: Text option 2
+    comment: Koyin
+    notes: Choose option 2
 
 - .dir(<W)
 - _Shrine::MyahmAgana

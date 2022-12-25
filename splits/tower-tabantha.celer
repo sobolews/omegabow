@@ -1,7 +1,7 @@
 Tabantha Tower:
-- .gale() + .dir(E.):
+- .gale() + .dir(E>):
     gale: 1
-    notes: .link([Tabantha Tower vod]https://youtu.be/d2lvD_eFjVw?t=123)
+    notes: .link([Tabantha Tower vod]https://youtu.be/FgwSVGe8-o8?t=1189)
 - _Korok::T36
 
 - .dir(N>)
@@ -14,12 +14,12 @@ Tabantha Tower:
 - .dir(N>)
 - _Korok::T26
 
-- .dir(<N)
+- .dir(.N)
 - _Korok::T23
 
 - .dir(SE)
+- _Discover<Gisa Crater>
 - _Boss::Talus::Rare:
-    comment: Boulder Breaker
     coord: [-3929.30, 197.19, -1083.48]
 
 - .dir(<S)
@@ -37,4 +37,5 @@ Tabantha Tower:
 - _Korok::T24
 
 - .dir(W) + .dir(E) + midair
-- _Tower::Tabantha
+- _Tower::Tabantha:
+    comment: Map 76.01%

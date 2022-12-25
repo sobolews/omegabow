@@ -1,38 +1,39 @@
 Voo Lota:
-- Down:
-    notes: .link([Voo Lota vod]https://youtu.be/d2lvD_eFjVw?t=1148)
+- _Korok::T14:
+    comment: Step back, aim all the way up
+    notes: .link([Voo Lota vod]https://youtu.be/FgwSVGe8-o8?t=2180)
+
+- Glide down to cookpot
 - _Cook<Cook Salmon Meuniere>:
     comment: Wheat, butter, salmon
     
-- _Npc::Rito<Genli>:
+- _Npc::Rito<Green kid>:
     coord: [-3608.76, 296.75, -1797.82]
-    comment: Give salmon meuniere
-    notes: Recital at Warbler's Nest
+    comment: Genli
+    notes: Give Salmon Meuniere
 
-- Down
+- Jump down
 - _Npc::Rito<Fyson>:
     coord: [-3600.50, 287.60, -1814.47]
-    comment: From the Ground Up
+    comment: Invite to Tarrey Town
 
-- Run up
-- _Npc::SheikaMale<Jogo>:
+- Next room
+- _Npc::SheikaMale<Flint Guy>:
     coord: [-3605.16, 289.12, -1852.43]
-    comment: Give flint
-    notes: Spark of Romance
+    comment: Give 1 flint
 
-- Run up
-- _Npc::Rito<Cree>:
+- Run up to shop
+- _Npc::Rito<Blue kid>:
     coord: [-3606.34, 296.75, -1799.16]
-    comment: Recital at Warbler's Nest
+    comment: Cree
 
 - .dir(W)
 - _Korok::T17:
-    comment: " "
+    comment: On island pillar
 
 - .dir(S>)
 - _Boss::Hinox::Black:
     coord: [-3793.68, 246.02, -1557.10]
-    comment: Ancient arrows
 
 - .dir(W>>)
 - Activate .!!(Pedestal):

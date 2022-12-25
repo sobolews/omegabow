@@ -1,20 +1,20 @@
 Ketoh Wawai:
-- .dir(W) + .dir(SW):
-    notes: .link([Ketoh Wawai vod]https://youtu.be/mGUKIJv-Q_U?t=1669)
+- .dir(W) + .dir(S>):
+    notes: .link([Ketoh Wawai vod]https://youtu.be/KYhfrqeINmE?t=16538)
 - _Korok::H15
 
-- .dir(W) + .dir(S>)
+- .dir(.W) + .dir(S>)
 - _Korok::H22:
     comment: " "
+    notes: WB away while it's rolling, but don't get too far away.
 
 - .dir(SE) + midairs
 - _Korok::K11:
     comment: Peak far away
 
-- .dir(<<E) + .dir(NE)
+- .dir(<<E) + midair
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
-    comment: Ancient arrows
 
 - Activate .!!(Pedestal):
     hide-icon-on-map: true

@@ -1,9 +1,9 @@
 Rota Ooh:
 - .dir(S>):
-    notes: .link([Rota Ooh vod]https://youtu.be/mGUKIJv-Q_U?t=10122)
+    notes: .link([Rota Ooh vod]https://youtu.be/T5MXXtNCbX0?t=612)
 - _Korok::C61
 
-- .dir(W>)
+- .dir(W>) run
 - _Korok::C60
 
 - .dir(NW)
@@ -25,15 +25,16 @@ Rota Ooh:
 
 - .gale() + .dir(<N):
     gale: 1
-- _Memory::SanidinPark
+- _Memory::SanidinPark:
+    comment: Memory
 
-- .dir(S>>)
+- .dir(S>)
 - Tame White Horse:
     icon: tots
     coord: [-1674.17, 222.94, 807.44]
     comment: Royal White Stallion
 
-- Ride
+- Ride .dir(SW)
 - _Korok::R79
 
 - Ride to .loc(Outskirt Stable):
@@ -46,30 +47,29 @@ Rota Ooh:
         - to: [-1475,1175]
         - to: [-1449.49, 137.75, 1269.01]
 
-- _Npc<Trott>:
+- _Npc<Gourmet Meat Guy>:
     coord: [-1432.50, 137.72, 1264.50]
-    comment: A Rare Find
-    notes: Raw Gourmet Meat
+    comment: Trott
 
 - Register horse:
     icon: tots
     hide-icon-on-map: true
 
-- _Npc<Toffa>:
+- _Npc<White Horse Guy>:
     coord: [-1439.25, 137.72, 1278.45]
-    comment: Royal White Stallion
+    comment: Toffa
 
-- _Npc<Aliza>:
+- _Npc<Master Sword Lady>:
     coord: [-1400.00, 137.72, 1280.00]
-    comment: My Hero
-    notes: Get Star Fragment 1/3
+    comment: Aliza
+    notes: Star Fragment 1/3
 
 - .dir(<E) run
 - _Korok::C78
 
-- .dir(<<N)
+- .dir(<N)
 - _Korok::C72:
     comment: " "
 
-- .dir(<W)
+- .dir(<<W)
 - _Shrine::RotaOoh

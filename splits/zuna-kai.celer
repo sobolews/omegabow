@@ -4,18 +4,17 @@ Zuna Kai:
     coord: [2682.92, 469.68, -3472.12]
 
 - .dir(<E):
-    notes: .link([Zuna Kai vod]https://youtu.be/mGUKIJv-Q_U?t=2627)
+    notes: .link([Zuna Kai vod]https://youtu.be/KYhfrqeINmE?t=17426)
 - _Boss::Hinox::Black:
     coord: [2917.42, 343.68, -3561.40]
-    comment: Savage Lynel Crusher
 
-- .dir(<<E)
+- .dir(<<E midair)
 - _Korok::A01
 
-- .dir(<<S) down
+- .dir(<S) down
 - _Snap::Quest<Kilton>:
     coord: [3244.60, 82.63, -3448.81]
-    notes: It's common for the camera to not register Kilton. Take 3 snaps from different angles to be safe.
+    notes: It's common for the camera to not register Kilton. Take 2-3 snaps from different angles to be safe.
 
 - _Npc<Kilton>:
     comment: Talk
@@ -25,16 +24,18 @@ Zuna Kai:
     comment: .gale()
     gale: 1
 
-- .dir(<S)
+- .dir(S)
 - _Korok::A10:
     comment: " "
 
 - .dir(E)
-- _Korok::A11
 - _Snap::Quest<Blupee>:
+    notes: If the Blupees run away, you can take a backup picture later at Kakariko.
     movements:
-        - to: [3350.29, 164.95, -3062.80]
-          away: true
+      - to: [3350.10, 175.03, -3079.84]
+      - to: [3350.29, 164.95, -3062.80]
+        away: true
+- _Korok::A11
 
 - .dir(E)
 - _Korok::A12:
@@ -48,7 +49,6 @@ Zuna Kai:
     movements:
         - to: [3489.38, 179.10, -3335.79]
           away: true
-    comment: Ancient arrows
 
 - .dir(W>)
 - _Shrine::ZunaKai

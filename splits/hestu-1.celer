@@ -1,14 +1,19 @@
 Hestu 1:
-- .dir(S>) short:
-    notes: .link([Hestu 1 vod]https://youtu.be/s1NM1eCjpX8?t=6501)
+- _Warp::Shrine::TalohNaeg:
+    comment: (Kakariko Village) WARP
+    line-color: lime
+    notes: .link([Hestu vod]https://youtu.be/KYhfrqeINmE?t=6122
+
+- .dir(S>) short
 - _Npc::SheikaMale<Olkin>:
     coord: [1870.87, 227.97, 965.85]
     comment: Fortified Pumpkin
-    notes: At pumpkin patch before 5pm; goes to northern campfire at 5pm; starts running around the village at 8pm
+    notes: At pumpkin patch before 5pm; goes to shelter near northern campfire at 5pm; starts running around the village at 8pm
 
-- .dir(W)
+- .dir(W) run
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
+    comment: Unlock memories
 
 - .dir(E>) + .dir(SE)
 - Kill .enemy(Blue Bokoblins):
@@ -24,6 +29,7 @@ Hestu 1:
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
     comment: 2 bow slots
+    split-type: UserDefined
 
 - .dir(.W)
 - _Korok::D20:
@@ -37,8 +43,10 @@ Hestu 1:
 - _Korok::D18:
     comment: " "
 
-- _Warp::SOR:
+- Shrine of Resurrection:
+    split-type: Warp
+    icon: warp
     comment: WARP
 
 - _Korok::P09:
-    comment: Inside SoR
+    comment: In Link's bed

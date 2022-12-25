@@ -1,20 +1,20 @@
 Muwo Jeem:
 - .dir(E>):
-    notes: .link([Muwo Jeem vod]https://youtu.be/d2lvD_eFjVw?t=6539)
+    notes: .link([Muwo Jeem vod]https://youtu.be/FgwSVGe8-o8?t=7511)
 - _Korok::F22:
     comment: " "
 
 - .dir(NE)
 - _Korok::F18
 
-- .dir(N>>) run
-- _Korok::N64
-
 - .dir(E) run
+- _Korok::N64:
+    comment: Stasis + bomb from a distance
+
+- .dir(S) run
 - _Boss::Hinox::Red:
     coord: [3210.17, 172.01, 2996.33]
-    comment: Ancient arrows
-    notes: Shoot from above
+    notes: Shoot from above, aim just below upper rim of hole
 
 - .dir(S) + midair
 - _Korok::F32

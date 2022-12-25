@@ -1,26 +1,27 @@
 Kah Mael:
-- Jump out -> .dir(S>):
-    notes: .link([Kah Mael vod]https://youtu.be/d2lvD_eFjVw?t=11271)
+- Jump out + midair .dir(S>):
+    notes: .link([Kah Mael vod]https://youtu.be/FgwSVGe8-o8?t=12358)
 - _Korok::A55
 
-- .dir(<N)
+- .dir(.N)
 - _Korok::A54:
     comment: Pinwheel
-    notes: .link([Korok strat]https://twitter.com/TaoPlusPlus/status/1548114763384729600?s=20&t=JX61AlpH3ORlyUb73JbUtw)
 
 - .dir(<E)
 - _Korok::A53:
     comment: " "
 
 - .dir(E)
-- _Korok::Z07
+- _Korok::Z07:
+    comment: On island pillar
 
-- .dir(N) down
+- Drop down .dir(N)
 - _Korok::Z06:
     comment: On wood planks
 
 - .dir(N)
 - _Korok::Z01
 
-- .dir(S) down
-- _Shrine::KahMael
+- .dir(S) surf
+- _Shrine::KahMael:
+    comment: Under slab

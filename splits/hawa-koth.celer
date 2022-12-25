@@ -1,22 +1,26 @@
 Hawa Koth:
-- .dir(<<S):
-    notes: .link([Hawa Koth vod]https://youtu.be/mGUKIJv-Q_U?t=13376)
+- .dir(<S):
+    notes: .link([Hawa Koth vod]https://youtu.be/T5MXXtNCbX0?t=3851)
 - _Boss::Molduga:
     coord: [-4555.62, 137.14, 3256.35]
-    comment: Savage Lynel Crusher
+    notes: Shooting the molduga in the belly with OB and AA will kill in 1 shot
 
-- .dir(<W)
+- .dir(W)
 - _Korok::W51
 
-- midair .dir(S)
+- midair .dir(S) + midair
 - _Korok::W65
 
 - _Snap::Quest<Gerudo Great Skeleton>:
     coord: [-4863.96, 146.09, 3804.65]
+    comment: SNAP
 
 - Activate .loc(Fairy Fountain):
     coord: [-4870.20, 125.00, 3824.80]
     icon: tots
+
+- _Snap::Quest<Guardian Scout>:
+    comment: SNAP in shrine
 
 - _Shrine::HawaKoth:
     comment: Set skew outside

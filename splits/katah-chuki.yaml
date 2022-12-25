@@ -1,44 +1,44 @@
 Katah Chuki:
 - .dir(W):
-    notes: .link([Katah Chuki vod]https://youtu.be/crHPwD-Ouqw?t=11007)
-- _Korok::C09
+    notes: .link([Katah Chuki vod]https://youtu.be/T5MXXtNCbX0?t=16028)
+- _Korok::C09:
+    comment: Top of tree
+    notes: Fury keese if raining
 
 - .dir(SW)
 - _Korok::C11:
     comment: Inside hollow log
 
-- .dir(E)
+- .dir(E.)
 - _Korok::C12
 
 - .dir(<W)
 - _Korok::C19
 
-- .dir(<W)
+- .dir(.W)
 - _Discover<Orsedd Bridge>:
     coord: [517.11, 135.39, -497.24]
 
 - _Korok::C23
 
-- .dir(<N)
+- .dir(NW) midair
 - _Korok::C18
 
-- .dir(W>)
+- .dir(NW)
 - _Korok::C10:
-    comment: On bridge
+    comment: From bridge
 
-- .dir(<E)
+- .dir(<<E)
 - _Korok::C06:
     comment: " "
 
-- .dir(W>)
-- _Boss::Hinox::Stal:
-    comment: Ancient arrows
-    coord: [256.50, 142.49, -913.50]
-
+- .dir(W.)
 - _Korok::C05:
     comment: " "
+- _Boss::Hinox::Stal:
+    coord: [256.50, 142.49, -913.50]
 
-- .dir(NW) surf
+- .dir(W) surf
 - _Korok::C04
 
 - .dir(S>)
@@ -47,7 +47,7 @@ Katah Chuki:
 - .dir(S)
 - _Korok::C29
 
-- Down
+- Drop down
 - _Korok::C28
 
 - .dir(<W)

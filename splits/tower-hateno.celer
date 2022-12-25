@@ -1,6 +1,8 @@
 Hateno Tower:
-- .dir(S>)
-- _Korok::N59
+- .dir(S):
+    notes: .link([Hateno Tower vod]https://youtu.be/KYhfrqeINmE?t=5923)
+- _Korok::N59:
+    comment: " "
 
 - .dir(W)
 - _Korok::N58

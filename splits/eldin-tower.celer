@@ -1,6 +1,6 @@
 Eldin Tower:
 - .dir(N):
-    notes: .link([Eldin Tower vod]https://youtu.be/mGUKIJv-Q_U?t=341)
+    notes: .link([Eldin Tower vod]https://youtu.be/KYhfrqeINmE?t=15177)
 - _Korok::E34
 
 - .dir(NW) down
@@ -16,8 +16,7 @@ Eldin Tower:
 - _Korok::E33:
     comment: " "
 
-- .gale() + .dir(.W) midairs:
+- .dir(W) + midair + .gale():
     gale: 1
-    notes: .link([Alternate movement]https://youtu.be/7KzGFjpu1t4?t=14130)
 
 - _Tower::Eldin

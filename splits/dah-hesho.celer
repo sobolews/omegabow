@@ -1,13 +1,13 @@
 Dah Hesho:
 - .dir(W) down:
-    notes: .link([Dah Hesho vod]https://youtu.be/s1NM1eCjpX8?t=14853)
+    notes: .link([Dah Hesho vod]https://youtu.be/KYhfrqeINmE?t=14508)
 - _Korok::A41
 
-- .gale() .dir(N>):
+- .gale() .dir(NE):
     gale: 1
 - _Korok::A40
 
-- .dir(NE) down
+- .dir(N) down
 - _Korok::A39
 
 - .dir(<N)
@@ -17,7 +17,7 @@ Dah Hesho:
 - .dir(<E) + .dir(N>)
 - _Korok::E12
 
-- .dir(S) + midair
+- .dir(S)
 - _Korok::A25
 
 - .dir(S>)
@@ -44,7 +44,7 @@ Dah Hesho:
     coord: [3671.23, 195.66, -1511.54]
     comment: Hobbies of the Rich
 
-- .dir(<E)
+- .dir(E)
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: Talk twice
@@ -56,4 +56,3 @@ Dah Hesho:
 - .dir(W>)
 - _Shrine::DahHesho:
     comment: Minor Test of Strength
-    notes: Ikurapan does the skip. You can fight minor tests with .rune(Stasis) and 2 ancient arrows, .link([example fight]https://youtu.be/7KzGFjpu1t4?t=13671).

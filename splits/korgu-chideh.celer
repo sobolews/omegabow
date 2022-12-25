@@ -1,18 +1,23 @@
 Korgu Chideh:
-- _Korok::N66:
-    notes: .link([Korgu Chideh vod]https://youtu.be/d2lvD_eFjVw?t=7273)
+- Check speedfood:
+    notes: .link([Eventide vod]https://youtu.be/8Y2bjBn7LKM?t=23197)
+    icon: cook
+- Turn on Mipha's Grace:
+    icon: ruta-done
+    comment: if turned off earlier
+- _Korok::N66
 
-- .dir(E>>)
+- .dir(<S) + midair
 - _Boss::Hinox::Blue:
-    comment: Ancient arrow midair
+    comment: Kill without landing
     coord: [4537.11, 110.76, 3701.95]
-    notes: Also clear the camp from midair to make the 1st orb easier
 - Shoot arrow at ground:
-    icon: calamity
+    icon: bow
     hide-icon-on-map: true
     comment: Use single shot bow
 
-- Begin .!!(Stranded on Eventide)
+- Eventide:
+    icon: calamity
 
 - Pick up club, bow, arrow:
     icon: tots
@@ -27,6 +32,6 @@ Korgu Chideh:
         - to: [4500.46, 109.56, 3392.43]
         - to: [4674.92, 168.30, 3742.44]
 
-- .gale():
+- .gale() to shrine:
     gale: 1
 - _Shrine::KorguChideh

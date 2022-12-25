@@ -1,7 +1,10 @@
 Tho Kayu:
-- .gale() + .dir(S.):
+- Step back and .gale():
     gale: 1
-    notes: .link([Tho Kayu vod]https://youtu.be/mGUKIJv-Q_U?t=13188)
+    notes: .link([Tho Kayu vod]https://youtu.be/T5MXXtNCbX0?t=3670)
+- _Korok::W09:
+    comment: Top of skeleton
+- .dir(S)    
 - _Korok::W13:
     comment: Top of skeleton
 
@@ -13,21 +16,17 @@ Tho Kayu:
 - _Korok::W25
 
 - midair .dir(<S)
-- Equip Barbarian Legs:
-    icon: shield
-    hide-icon-on-map: true
-    
 - _Boss::Molduga:
     coord: [-4832.61, 133.21, 2800.42]
-    comment: .fury()
-    fury: 3
-
-- _Material<Molduga Guts>:
-    comment: Medicinal Molduga
-    hide-icon-on-map: true
+    comment: .fury() + OB
+    fury: 1
 
 - Light 4 fires:
     icon: calamity
+    hide-icon-on-map: true
+
+- _Material<Molduga Guts>:
+    comment: Medicinal Molduga
     hide-icon-on-map: true
 
 - _Shrine::ThoKayu

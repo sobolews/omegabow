@@ -1,47 +1,52 @@
 Lake Tower:
+- _Tod::Night:
+    comment: if raining
+  
 - .dir(E):
-    notes: .link([Lake Tower vod]https://youtu.be/crHPwD-Ouqw?t=1184)
-- _Npc::ZoraFemale<Mei>:
+    notes: .link([Lake Tower vod]https://youtu.be/T5MXXtNCbX0?t=6487)
+- _Npc::ZoraFemale<Zora Lady>:
     coord: [-226.89, 90.03, 2577.47]
     comment: Wife Washed Away
 
 - .dir(<E)
 - _Korok::L26
 
-- .dir(<N) down
+- Glide left
 - _Korok::L15:
     comment: In broken pillar
 
 - _Korok::L14:
     comment: " "
 
-- .gale() + .dir(<N):
+- .dir(N) + .gale():
     gale: 1
 - _Korok::D54
 
-- .dir(<S) down
-- _Korok::L09:
-    notes: Shooting Farosh will make her fly away and avoid having her updraft interfere with L30
+- _Tod::Night:
+    comment: if you didn't before
+
+- Drop .dir(S)
+- _Korok::L09
 
 - .dir(<S)
 - _Korok::L27:
     comment: In fountain
 
-- Look .!!(Southeast) in the sky:
+- Look .dir(SE) in the sky:
     icon: tots
     hide-icon-on-map: true
     notes: For Salvager chest. Watch it land.
 
-- .dir(<S) run
+- Run to left side of bridge
 - _Korok::L30
 
-- .dir(<S) down
-- _Korok::L31
+- _Korok::L31:
+    comment: below bridge
 
 - .dir(E)
 - _Korok::L32
 
-- .dir(E>)
+- .dir(E)
 - _Korok::L33:
     comment: Pinwheel
 
@@ -49,7 +54,7 @@ Lake Tower:
 - _Chest::Special<Salvager Headwear>:
     coord: [126.03, 92.65, 2710.94]
 
-- .dir(<<S) short
+- Run .dir(S) along shore
 - _Korok::L39
 
 - .dir(E)
@@ -62,14 +67,15 @@ Lake Tower:
 - _Korok::L42:
     comment: " "
 
-- .dir(W) surf
+- .dir(W) run
 - _Korok::L43
 
-- .dir(<<W)
+- .dir(SW)
 - _Korok::L51:
-    comment: 2 .rune(Stasis) hits
-    notes: We need a windcleaver for Weapon Connoisseur. Pick up one from any Yiga that spawns or get one during Lakna Rokee later.
+    comment: 2.5 .rune(Stasis) hits
+    notes: 2 hits with 2-handed weapon + 1 hit with 1-handed
 
 - .gale() + .dir(W):
     gale: 1
-- _Tower::Lake
+- _Tower::Lake:
+    comment: Map 43.67%

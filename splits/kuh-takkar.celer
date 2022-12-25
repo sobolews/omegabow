@@ -1,12 +1,15 @@
 Kuh Takkar:
-- .dir(<S) + midair:
-    notes: .link([Kuh Takkar vod]https://youtu.be/s1NM1eCjpX8?t=8135)
+- _Warp::Shrine::MoggLatan:
+    comment: WARP
+
+- .dir(S>) super + midair
 - _Korok::G19
 
-- .dir(<<N) + .dir(W)
-- _Korok::G13
+- .dir(NW) + .dir(W)
+- _Korok::G13:
+    comment: Top of tree
 
-- .dir(.N) + .dir(W)
+- .dir(N) + .dir(W>)
 - _Korok::G10
 
 - .dir(W) + .dir(S)
@@ -17,14 +20,15 @@ Kuh Takkar:
 - Melt ice with Fire Arrows:
     icon: tots
     hide-icon-on-map: true
-    comment: 7 or 8
 - Kill .enemy(Ice Wizzrobe):
     icon: calamity
     hide-icon-on-map: true
 - _Equipment::Weapon<Ice Rod>:
     coord: [-3076.70, 591.10, 1226.90]
-    notes: For Freezing Rod
+    comment: Freezing Rod quest
+    hide-icon-on-map: true
 - _Material<Luminous Stones>:
-    notes: For Luminous Stone Gathering
+    comment: Luminous Stone Gathering
+    notes: 10 needed, can get more later. Take any flint you get too.
     hide-icon-on-map: true
 - _Shrine::KuhTakkar

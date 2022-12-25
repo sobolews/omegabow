@@ -1,13 +1,13 @@
 Yah Rin:
 - .gale() + .dir(W) midair:
     gale: 1
-    notes: .link([Yah Rin vod]https://youtu.be/crHPwD-Ouqw?t=8736)
+    notes: .link([Yah Rin vod]https://youtu.be/T5MXXtNCbX0?t=13843)
 - _Korok::F37:
     comment: " "
 
 - .dir(S) swim
 - _Boss::Talus::Stone:
-    comment: .fury()
+    comment: .fury() from above
     fury: 1
     coord: [3272.52, 133.05, 3409.85]
 
@@ -15,48 +15,48 @@ Yah Rin:
 - _Korok::F45:
     comment: On house with 3 trees
 
-- .dir(S) run
+- .dir(S) near shore
 - _Material<Hearty Blueshell Snail>:
     comment: What's for Dinner?
     coord: [2948.86, 106.06, 3462.70]
 
-# - _Shop<Buy Octo Balloon>:
-#     coord: [2952.58, 107.66, 3493.43]
-#     notes: For Balloon Flight
-#     comment: (Optional) Only if missing 1
+- _Shop<Buy Octo Balloon>:
+    coord: [2952.58, 107.66, 3493.43]
+    notes: From shop on pier
+    comment: (Optional) If needed
 
-- .dir(W)
-- _Npc<Kiana>:
-    coord: [2884.25, 112.44, 3413.51]
-    notes: What's for Dinner?
-    comment: Before 6pm
-- _Npc<Sebasto>:
+- .dir(NW) along shore
+- _Npc::SheikaMale<Harpoon Guy>:
     coord: [2886.5,3442.5]
-    comment: Take Back the Sea
-    notes: On the beach during a clear day
+    comment: Sebasto
+    notes: Take Back the Sea quest. In house if raining.
+
+- _Material<Palm Fruit>:
+    coord: [2873.80, 106.90, 3432.06]
+    notes: For korok later
+
+- .dir(NE) by house
+- _Npc::SheikaFemale<Mom with Kid>:
+    coord: [2884.25, 112.44, 3413.51]
+    notes: What's for Dinner? quest
+    comment: Before 6pm
+
 - _Korok::F44:
     comment: Shoot apple off palm tree
-    notes: The korok didn't trigger here even though Ikurapan shoots the apple. Backup below.
-
+    notes: Occasionally the korok will fail to trigger after removing the apple. Come back to it after the shrine and it should be fixed.
 - .dir(SE) run
-- _Npc<Rozel>:
-    comment: Select "About the ocean..."
-    notes: On the docks when it's not raining
+- _Npc<Old Man on dock>:
+    comment: Rozel
+    notes: Select "About the ocean...". Talk twice. In house when raining.
     coord: [2887.5,3495.5]
-
-# - .dir(SW) run
-# - _Material<Palm Fruit>:
-#     coord: [2873.80, 106.90, 3432.06]
-#     notes: For korok later
 
 - .dir(<E)
 - _Korok::F36:
     comment: On boat
-    # notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
+    notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
 
 - .dir(W>)
 - _Shrine::YahRin
 
-- .dir(W>)
-- _Korok::F31:
-    notes: Ikurapan windbombs .dir(S) to F44 again to get the korok to trigger.
+- .dir(W>>)
+- _Korok::F31

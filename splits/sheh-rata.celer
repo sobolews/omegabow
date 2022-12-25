@@ -1,48 +1,47 @@
 Sheh Rata:
-- .dir(N) short:
-    notes: .link([Sheh Rata vod]https://youtu.be/s1NM1eCjpX8?t=7804)
+- _Warp::Shrine::KayaWan:
+    comment: WARP
+
 - _Chest<Knight's Broadsword>:
     coord: [826.64, 112.80, 123.61]
     comment: .rune(Magnesis) out of water
-- _Npc<Izra>:
+- _Npc<Talk to Guy>:
     hide-icon-on-map: true
-    comment: Text option 2
+    comment: Izra
+    notes: Text option 2
 
-- Run
 - _Discover<Wetland Stable>:
     coord: [888.06, 131.29, 173.67]
 - _Npc<Hestu>:
     coord: [870.83, 131.54, 203.47]
     comment: 3 bow, 2 weapon slots
 
-- .dir(S) short
+- .dir(S) run
 - _Korok::Z37:
-    # notes: .link([Example movement]https://twitter.com/TaoPlusPlus/status/1541460437455470593?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg)
     comment: Among thorns
 
 - .dir(<E)
 - _Korok::Z38
-- _Equipment::Bow<Wooden Bow>:
-    coord: [1429.44, 115.67, 148.95]
 
-- .dir(E.)
+- .dir(E>)
 - _Discover<Goponga Village Ruins>:
     coord: [1580.16, 109.80, 312.15]
 
 - midair .dir(N)
 - _Korok::Z39
 
-- .dir(.N)
+- .dir(<N)
 - _Discover<Moor Garrison Ruins>:
     coord: [1534.40, 120.58, -155.90]
 - _Equipment::Bow<2 Spiked Boko Bow>:
     comment: Steal from bokos
     coord: [1534.40, 120.58, -175.90]
-    notes: If here early enough, can take while they're asleep. Otherwise, use a shock arrow.
+    notes: If here early enough, can take while they're asleep. Otherwise kill them.
 
 - .dir(.N)
 - _Shrine::ShehRata
 
-- .dir(N>)
+- .dir(NE):
+    notes: .link([Kuh Takkar vod]https://youtu.be/KYhfrqeINmE?t=7742)
 - _Korok::Z12:
     comment: " "

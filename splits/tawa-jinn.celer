@@ -1,16 +1,17 @@
 Tawa Jinn:
-- .dir(<S):
-    notes: .link([Tawa Jinn vod]https://youtu.be/d2lvD_eFjVw?t=6308)
+- _Warp::Tower::Hateno:
+    comment: WARP
+    notes: .link([Tawa Jinn vod]https://youtu.be/FgwSVGe8-o8?t=7511)
+
+- .dir(<S) far
 - _Korok::F14:
     comment: " "
 
-- .dir(<W) swim
+- .dir(W)
 - _Boss::Hinox::Red:
     coord: [2768.06, 258.13, 2711.58]
-    comment: Ancient arrows
 
-- .dir(W)
-- Return orb:
+- Deliver orb:
     icon: tots
     coord: [2648.43, 324.55, 2822.85]
 
@@ -21,10 +22,8 @@ Tawa Jinn:
 - .dir(.S)
 - _Boss::Hinox::Blue:
     coord: [2693.70, 273.89, 2967.57]
-    comment: Ancient arrows
 
-- .dir(<N)
-- Return orb:
+- Deliver orb:
     icon: tots
     coord: [2632.47, 321.84, 2848.53]
 
