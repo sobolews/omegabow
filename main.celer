@@ -256,3 +256,4 @@ _route:
     - " "
     - " "
     - (?=) Older Routes >> .link([Ikurapan v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/ikurapan) (2022-09-14), .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
+    - (^?) .link([Changelog from Ikurapan v1]https://pastebin.com/raw/a5SQpBXi)
