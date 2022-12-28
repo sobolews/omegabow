@@ -6,6 +6,7 @@ Vah Medoh:
 - _Korok::R60
 - BLSS to Rito Village
 - _Npc::Rito<Kaneli>:
+    comment: Owl Elder
     coord: [-3627.20, 323.57, -1830.81]
 
 - _Npc::Rito<Saki>:
