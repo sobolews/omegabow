@@ -2,7 +2,7 @@ IST:
 - Talk to shopkeeper:
     icon: npc-sheika-male
     comment: before doing anything else
-    notes: .link([IST vod]https://youtu.be/WaebWctGS_k?t=2881)
+    notes: .link([IST vod]https://youtu.be/WaebWctGS_k?t=2881). Check that your .link([inventory is correct]https://docs.google.com/presentation/d/1VtW4hljhJaKoVFy4P9D2BY3c5xGXhp5fEvtVPO-GR0c/edit?usp=sharing). 
 - IST + omegabow:
     icon: link
     hide-icon-on-map: true
