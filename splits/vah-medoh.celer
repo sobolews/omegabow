@@ -44,7 +44,7 @@ Vah Medoh:
 - .boss(Windblight Ganon):
     icon: ganon
     hide-icon-on-map: true
-    notes: Fire Arrow + .rune(Stasis) → 2 FDB body + 1 OB
+    notes: Check VOD for 1-cycle setup. Avoid head shots. Ancient Arrow + .rune(Stasis) → 3 FDB body + 1 OB
 
 - .!!(Revali's Gale):
     icon: medoh-done
