@@ -54,7 +54,8 @@ Shae Mosah:
     comment: Equip
 
 - _Tod::Night:
-    notes: (Optional) To talk to Greyson. Must have Flamebreaker Armor equipped to sleep.
+    comment: if needed
+    notes: To talk to Greyson. Must have Flamebreaker Armor equipped to sleep.
     hide-icon-on-map: true
 
 - _Npc::Goron<Greyson>:
