@@ -92,6 +92,7 @@ Shae Mosah:
     coord: [1689.61, 491.59, -2468.49]
 
 - _Npc::Goron<Bludo>:
+    comment: Goron Elder
     coord: [1713.95, 498.05, -2446.92]
 
 - .dir(N>)
