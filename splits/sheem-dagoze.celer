@@ -85,7 +85,7 @@ Sheem Dagoze:
 - _Korok::X15
 
 - Clip out to .loc(Guard's Chamber):
-    notes: .link([Clip and OOB movement]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=12240). Clear ragdoll.
+    notes: .link([Clip and OOB movement]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=12240). To clip back in, climb and press B when Link is angled outwards from the wall. Clear ragdoll.
 - _Chest<Shard of Naydra's Fang>:
     coord: [-356.28, 172.41, -810.58]
     time-override: 274
