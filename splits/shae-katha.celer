@@ -1,20 +1,20 @@
 Shae Katha:
-- .dir(S>) + .dir(W) midair:
+- .dir([7:00]) + .dir([9:00]) midair:
     notes: .link([Shae Katha vod]https://youtu.be/T5MXXtNCbX0?t=11109)
 - _Korok::D48:
     comment: On ledge
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::D50
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::L07:
     comment: .rune(Stasis) 5 hits, aim at hole
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::L19
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::L20:
     comment: Bring to other side of spring
 

@@ -1,5 +1,5 @@
 Shora Hah:
-- .dir(<N):
+- .dir([11:00]):
     notes: .link([Shora Hah vod]https://youtu.be/KYhfrqeINmE?t=15944)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
@@ -10,29 +10,29 @@ Shora Hah:
 - _Korok::E08:
     comment: Top of northern mine
 
-- .dir(.E) super
+- .dir([2:30]) super
 - _Korok::E09:
     comment: On rock arch
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::E06:
     comment: Down in corner
     notes: Ore deposits here for amber if still needed
 
-- .gale() + .dir(<W):
+- .gale() + .dir([8:00]):
     gale: 1
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
     notes: Igneo taluses have the best chance to drop flint. Collect drops here and from the remaining three igneo taluses until you have 11 flint.
 
-- .dir(S>) + midair
+- .dir([7:00]) + midair
 - _Korok::E11:
     comment: Rock above, circle below
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::E10
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::E07:
     comment: Top of crab island
 

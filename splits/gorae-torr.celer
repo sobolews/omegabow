@@ -3,14 +3,14 @@ Gorae Torr:
     notes: .link([Gorae Torr vod]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=6035). If it's between 12:00am and 5:00am, make morning twice to properly advance a day for Dinraal.
     hide-icon-on-map: true
 
-- .dir(<E) + midair
+- .dir([2:00]) + midair
 - _Korok::K04
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K01:
     comment: On far peak
 
-- .dir(.E)
+- .dir([2:30])
 
 - Shoot Dinraal (Scale):
     icon: calamity
@@ -46,11 +46,11 @@ Gorae Torr:
     hide-icon-on-map: true
     comment: and collect it
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::E01:
     comment: In eye of skeleton
 
-- .dir(E) + midair
+- .dir([3:00]) + midair
 - _Korok::E02
 - _Snap::Quest<Eldin Great Skeleton>:
     movements:
@@ -59,21 +59,21 @@ Gorae Torr:
     notes: Look back and zoom in
     comment: SNAP
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::E03
 
-- .gale() + .dir(E.) midair:
+- .gale() + .dir([3:30]) midair:
     gale: 1
 - _Korok::E04
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::E05:
     comment: On pillar around shrine
 
 - Gut Check Challenge:
     icon: tots
     hide-icon-on-map: true
-    comment: .dir(W.) from tree and .gale()
+    comment: .dir([9:30]) from tree and .gale()
     gale: 1
 
 - _Shrine::GoraeTorr

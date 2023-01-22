@@ -1,11 +1,11 @@
 Shoqa Tatone:
-- .dir(S):
+- .dir([6:00]):
     notes: .link([Shoqa Tatone vod]https://youtu.be/T5MXXtNCbX0?t=8396)
 - Start L65 race:
     icon: tots
     coord: [546.27, 231.59, 3580.35]
 
-- .dir(E) ride horse:
+- .dir([3:00]) ride horse:
     movements:
         - to: [502,3447.5]
         - to: [274,3465.5]
@@ -16,46 +16,46 @@ Shoqa Tatone:
     icon: tots
     coord: [161.5,3487]
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::L65:
     coord: [271.72, 222.37, 3289.59]
     comment: " "
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::L70:
     comment: " "
 
-- .dir(E>) short
+- .dir([4:00]) short
 - _Korok::L71
 
-- .gale() + .dir(S):
+- .gale() + .dir([6:00]):
     gale: 1
 - _Korok::L73:
     comment: Pinwheel on peak
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::L74:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::L76:
     comment: " "
 
-- .dir(S>) up
+- .dir([7:00]) up
 - _Korok::L91
 
-- .dir(SW) surf
+- .dir([7:30]) surf
 - _Korok::L90:
     comment: By the pond
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::L89:
     comment: " "
 
-- .dir(<N) run
+- .dir([11:00]) run
 - _Korok::L88
 
-- .dir(W)
+- .dir([9:00])
 - _Npc<Loone>:
     coord: [104.50, 109.30, 3825.50]
     comment: Guardian Slideshow

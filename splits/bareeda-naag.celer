@@ -1,27 +1,27 @@
 Bareeda Naag:
-- .dir(SW) run:
+- .dir([7:30]) run:
     notes: .link([Bareeda Naag vod]https://youtu.be/FgwSVGe8-o8?t=1606)
 - _Memory::AncientColumns:
     comment: Memory
 
-- .dir(NW) run
+- .dir([10:30]) run
 - _Korok::T35:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::T37:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::T33:
     comment: Pinwheel
 
-- .dir(NW) short
+- .dir([10:30]) short
 - Activate .loc(Fairy Fountain):
     icon: tots
     coord: [-3541.00, 294.88, -745.00]
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::T31:
     comment: In small cave
 
@@ -29,14 +29,14 @@ Bareeda Naag:
     coord: [-3426,-729.75]
     notes: For Bareeda Naag
 
-- .dir(N>)
+- .dir([1:00])
 - _Boss::Talus::Rare:
     coord: [-3248.40, 291.68, -1078.12]
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::T20
 
-- .dir(<<N)
+- .dir([9:45])
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true

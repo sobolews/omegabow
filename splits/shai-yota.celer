@@ -1,16 +1,16 @@
 Shai Yota:
-- .dir(E>):
+- .dir([4:00]):
     notes: .link([Shai Yota vod]https://youtu.be/FgwSVGe8-o8?t=11864)
 - _Korok::Z53
 - _Korok::Z52
     
-- .dir(.E) super
+- .dir([2:30]) super
 - _Korok::Z45
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z46
 
-- .dir(<S)
+- .dir([5:00])
 - Activate Pedestal:
     icon: tots
     coord: [4226.75,312.75]

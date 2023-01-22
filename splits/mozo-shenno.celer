@@ -3,6 +3,6 @@ Mozo Shenno:
     line-color: dodgerblue
     comment: WARP
 
-- .dir(.W)
+- .dir([8:30])
 - _Shrine::MozoShenno:
     comment: Major Test of Strength

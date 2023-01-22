@@ -4,42 +4,42 @@ Hestu 1:
     line-color: lime
     notes: .link([Hestu vod]https://youtu.be/KYhfrqeINmE?t=6122
 
-- .dir(<S) short
+- .dir([5:00]) short
 - _Npc::SheikaMale<Olkin>:
     coord: [1870.87, 227.97, 965.85]
     comment: Fortified Pumpkin
     notes: At pumpkin patch before 5pm; goes to shelter near northern campfire at 5pm; starts running around the village at 8pm
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
     comment: Unlock memories
 
-- .dir(E>) + .dir(SE)
+- .dir([4:00]) + .dir([4:30])
 - Kill .enemy(Blue Bokoblins):
     icon: calamity
     coord: [2163,1380.125]
 - _Chest::Special<Hestu's Maracas>:
     coord: [2172.24, 218.76, 1369.20]
 
-- .dir(E) glide
+- .dir([3:00]) glide
 - _Korok::D21
 
-- .dir(W)
+- .dir([9:00])
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
     comment: 2 bow slots
     split-type: UserDefined
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::D20:
     comment: On bridge
 
-- .dir(<<N)
+- .dir([9:45])
 - _Korok::D19:
     comment: On island
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::D18:
     comment: " "
 

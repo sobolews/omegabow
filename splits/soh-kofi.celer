@@ -1,8 +1,8 @@
 Soh Kofi:
-- .dir(N>>) down
+- .dir([1:15]) down
 - _Discover<Inogo Bridge>:
     coord: [2344.50, 119.50, -247.89]
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::SohKofi:
     comment: Minor Test of Strength

@@ -6,44 +6,44 @@ Mirro Shaz:
     comment: Magda
     notes: Talk once for quest
 
-- .dir(E>>)
+- .dir([4:15])
 - _Discover<Eagus Bridge>:
     coord: [969.69, 129.13, 942.83]
 
 - _Korok::D01:
     comment: Below bridge
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::Z47
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::Z48
 
-- .dir(E>>) short
+- .dir([4:15]) short
 - _Korok::Z49:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::Z50
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::Z60
 
-- .dir(<E) + .dir(N>)
+- .dir([2:00]) + .dir([1:00])
 - _Korok::N01
 
-- .dir(N)
+- .dir([12:00])
 - _Boss::Hinox::Red:
     coord: [1969.04, 115.44, 97.40]
 - _Korok::Z41
 
-- .dir(<E) + .dir(N>)
+- .dir([2:00]) + .dir([1:00])
 - _Boss::Hinox::Black:
     coord: [2485.10, 152.09, -133.56]
 - _Korok::Z22:
     comment: " "
 
-- .dir(E>)
+- .dir([4:00])
 - _Npc::ZoraFemale<Finley>:
     coord: [2754.00, 189.53, -83.50]
     comment: Special Delivery
@@ -53,17 +53,17 @@ Mirro Shaz:
     hide-icon-on-map: true
     notes: When you return to Finley, the letter will respawn on land
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::Z23
 
-- .dir(SE)
+- .dir([4:30])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2868.11, 249.51, -68.34]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(S) run/drop
+- .dir([6:00]) run/drop
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2877.09, 229.49, -32.75]
     comment: .v(Monument)/10
@@ -74,17 +74,17 @@ Mirro Shaz:
 - _Discover<Oren Bridge>:
     coord: [2875.32, 187.50, 32.60]
 
-- .dir(S.)
+- .dir([6:30])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [2838.09, 228.01, 188.33]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::Z31
 
-- .dir(<<E)
+- .dir([1:45])
 - Letter Quest:
     icon: tots
     hide-icon-on-map: true
@@ -102,87 +102,87 @@ Mirro Shaz:
     comment: For Balloon Girl and stalnox
     notes: Make noon later if you can't get to Balloon Girl by 8pm.
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::Z40:
     notes: .link([Mirro Shaz vod]https://youtu.be/T5MXXtNCbX0?t=15101)
     comment: " "
 
-- midair .dir(NW)
+- midair .dir([10:30])
 - _Korok::Z30:
     comment: In building ruins
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::Z29:
     comment: Among trees
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C46:
     comment: Under bridge
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::C51:
     comment: On pillar
     notes: Yiga Blademasters often appear through this segment. Kill one for a windcleaver if convenient.
 
 
-- .dir(.S)
+- .dir([5:30])
 - _Memory::HyruleField:
     comment: Memory
 
-- .gale() + .dir(.W):
+- .gale() + .dir([8:30]):
     gale: 1
 - _Korok::C56
 
-- .dir(N>)
+- .dir([1:00])
 - _Boss::Hinox::Blue:
     coord: [421.00, 161.27, 329.50]
  
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C50:
     comment: " "
 
-- .dir(NW)
+- .dir([10:30])
 - _Discover<Mabe Village Ruins>:
     coord: [6.75,156.25]
 
 - _Korok::C44
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::C45:
     comment: " "
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C34:
     comment: " "
 
-- .dir(N.)
+- .dir([12:30])
 - _Boss::Hinox::Blue:
     coord: [626.49, 123.09, -305.54]
 
-- .dir(E>) midair
+- .dir([4:00]) midair
 - _Korok::Z21:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::Z11
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C13:
     comment: On bridge
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::K35
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::Z02:
     comment: Starts in big tree
 - _Korok::Z03
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::K34:
     comment: " "
 
-- .dir(W>) short
+- .dir([10:00]) short
 - _Korok::K33
 
 - _Shrine::MirroShaz

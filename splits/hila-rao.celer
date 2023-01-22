@@ -3,55 +3,55 @@ Hila Rao:
     line-color: red
     comment: WARP
 
-- .dir(<E)
+- .dir([2:00])
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [1186.62, 254.28, 1642.77]
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::D16:
     comment: On small island
 
-- .dir(W>)
+- .dir([10:00])
 - Steal horse:
     icon: calamity
     coord: [927.95, 117.06, 1211.55]
 
-- .dir(S>) ride
+- .dir([7:00]) ride
 - _Korok::D25:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::D29:
     comment: On small island
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::D28
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::D23
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::D24:
     comment: " "
 
-- .dir(E) surf
+- .dir([3:00]) surf
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [705.34, 137.62, 1471.88]
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::D15
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::D13:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Discover<Horwell Bridge>:
     coord: [680.19, 111.37, 977.87]
 
-- .dir(NE)
+- .dir([1:30])
 - _Shrine::HilaRao

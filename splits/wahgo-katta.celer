@@ -1,33 +1,33 @@
 Wahgo Katta:
-- .dir(N>) down:
+- .dir([1:00]) down:
     notes: .link([Wahgo Katta vod]https://youtu.be/T5MXXtNCbX0?t=9465)
 - _Korok::C48:
     comment: " "
 
-- .dir(SE)
+- .dir([4:30])
 - _Discover<Hyrule Garrison Ruins>:
     coord: [-596.50, 132.50, 571.50]
 - _Korok::C54
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::C49
 
-- midair .dir(SE)
+- midair .dir([4:30])
 - _Korok::C55:
     comment: Two trees left of guardian
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C64
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C70:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::C71
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::C65
 
-- .dir(SE)
+- .dir([4:30])
 - _Shrine::WahgoKatta

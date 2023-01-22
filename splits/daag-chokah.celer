@@ -1,5 +1,5 @@
 Daag Chokah:
-- BLSS .dir(NW) from tower step:
+- BLSS .dir([10:30]) from tower step:
     notes: .link([Daag Chokah vod]https://youtu.be/WaebWctGS_k?t=21638)
 
 - _Discover<Lost Woods>:
@@ -10,7 +10,7 @@ Daag Chokah:
     coord: [256.19, 281.61, -2229.61]
     notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
 
-- .dir(E) to .loc(top of Deku tree)
+- .dir([3:00]) to .loc(top of Deku tree)
 - _Npc<Walton>:
     coord: [407.59, 334.17, -2180.27]
     # notes: Riddles of Hyrule
@@ -23,7 +23,7 @@ Daag Chokah:
     coord: [427.59, 334.17, -2180.27]
     comment: SNAP
 
-- Drop .dir(E)
+- Drop .dir([3:00])
 - Activate .loc(Keo Ruug):
     icon: shrine
     coord: [474.69, 248.84, -2167.82]
@@ -55,7 +55,7 @@ Daag Chokah:
     coord: [417.15, 248.60, -2085.43]
 
 - _Equipment::Weapon<Double Axe>:
-    comment: By tree near .dir(SE) path
+    comment: By tree near .dir([4:30]) path
     coord: [432.67, 261.88, -2029.57]
 
 

@@ -1,59 +1,59 @@
 Rucco Maag:
-- .dir(E>>):
+- .dir([4:15]):
     notes: .link([Rucco Maag vod]https://youtu.be/FgwSVGe8-o8?t=11338)
 - _Korok::N40
 
-- .dir(<N) + midair
+- .dir([11:00]) + midair
 - _Korok::N25:
     comment: " "
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::Z61:
     comment: On island
 - _Korok::Z62:
     comment: " "
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::Z59:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::Z58
 
 - _Boss::Hinox::Blue:
     coord: [4442.00, 160.79, 350.94]
 
-- .dir(<W)
+- .dir([8:00])
 - _Npc::Rito<Kass>:
     coord: [4151.39, 109.13, 346.02]
 
-- .dir(S)
+- .dir([6:00])
 - Blow up 3 rock piles:
     icon: tots
     coord: [4155,452.75]
 - _Korok::Z56:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::Z57
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N12
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::Z55
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::Z54
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::N14
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::Z51:
     movements:
       - to: [3215.92, 106.15, 704.48]
       - to: [3271.14, 105.92, 656.82]
 
-- .dir(N.)
+- .dir([12:30])
 - _Shrine::RuccoMaag

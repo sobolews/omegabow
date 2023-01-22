@@ -1,40 +1,40 @@
 Rota Ooh:
-- .dir(S>):
+- .dir([7:00]):
     notes: .link([Rota Ooh vod]https://youtu.be/T5MXXtNCbX0?t=612)
 - _Korok::C61
 
-- .dir(W>) run
+- .dir([10:00]) run
 - _Korok::C60
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::C57
 
-- .dir(SW) surf
+- .dir([7:30]) surf
 - _Discover<Gleeok Bridge>:
     coord: [-1310.03, 111.74, 786.85]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C58
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::C59:
     comment: .rune(Cryo) block
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R74
 
-- .gale() + .dir(<N):
+- .gale() + .dir([11:00]):
     gale: 1
 - _Memory::SanidinPark:
     comment: Memory
 
-- .dir(S>)
+- .dir([7:00])
 - Tame White Horse:
     icon: tots
     coord: [-1674.17, 222.94, 807.44]
     comment: Royal White Stallion
 
-- Ride .dir(SW)
+- Ride .dir([7:30])
 - _Korok::R79
 
 - Ride to .loc(Outskirt Stable):
@@ -64,12 +64,12 @@ Rota Ooh:
     comment: Aliza
     notes: Star Fragment 1/3
 
-- .dir(<E) run
+- .dir([2:00]) run
 - _Korok::C78
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::C72:
     comment: " "
 
-- .dir(<<W)
+- .dir([7:45])
 - _Shrine::RotaOoh

@@ -4,32 +4,32 @@ Qaza Tokki:
     coord: [1593.5,-3090.5]
     notes: .link([Qaza Tokki vod]https://youtu.be/KYhfrqeINmE?t=16246)
 
-- .dir(<W)
+- .dir([8:00])
 - _Boss::Talus::Igneo:
     coord: [1336.10, 507.31, -3043.21]
     notes: Collect flint if needed
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::K08:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K07:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K06:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::K05:
     comment: Use bullet time
 
-- .dir(W) + midairs
+- .dir([9:00]) + midairs
 - _Korok::H16:
     comment: In tree
 
-- midair .dir(N>):
+- midair .dir([1:00]):
     coord: [-777.25,-3525]
     notes: See map for where to drop in
 

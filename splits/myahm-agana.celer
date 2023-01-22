@@ -7,27 +7,27 @@ Myahm Agana:
 - Eat speedfood + 3 stam food:
     notes: To make room for cooking later
 
-- .dir(<N)
+- .dir([11:00])
 - _Npc<Horned Statue>:
     coord: [3285.60, 217.60, 2197.58]
     comment: Ask for stamina
 
-- .dir(<E)
+- .dir([2:00])
 - _Npc<Lady on dock>:
     coord: [3434.98, 226.90, 2149.15]
     comment: Clavia
     notes: Secret of the Cedars shrine quest
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::N42:
     comment: Past blue flame
 
-- .dir(<S) glide
+- .dir([5:00]) glide
 - Smuggle Blue Flame:
     icon: tots
     coord: [3447.5,1982]
 
-- .dir(E>) + .dir(E)
+- .dir([4:00]) + .dir([3:00])
 - Activate .loc(Hateno Tech Lab):
     icon: location
     movements:
@@ -39,7 +39,7 @@ Myahm Agana:
     notes: If less than 3 screws, upgrade sensor when you come back later
 
 
-- .dir(E) down
+- .dir([3:00]) down
 - _Korok::N48:
     comment: " "
 
@@ -49,15 +49,15 @@ Myahm Agana:
     coord: [3805.5,2106.75]
     hide-icon-on-map: true
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::N43:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Npc<Sheep Rustler lady>:
     coord: [3621.69, 283.36, 2098.13]
     comment: Koyin
     notes: Choose option 2
 
-- .dir(<W)
+- .dir([8:00])
 - _Shrine::MyahmAgana

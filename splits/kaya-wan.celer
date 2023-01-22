@@ -1,5 +1,5 @@
 Kaya Wan:
-- BLSS .dir(NE) to .loc(Hyrule Castle):
+- BLSS .dir([1:30]) to .loc(Hyrule Castle):
     notes: .link([Kaya Wan vod]https://youtu.be/KYhfrqeINmE?t=2588)
 - Drop 4 Tree Branch:
     icon: equipment
@@ -8,7 +8,7 @@ Kaya Wan:
 - _Chest<5 Fire Arrow>:
     coord: [-45.00, 209.58, -823.87]
 
-- .dir(<W) to balcony
+- .dir([8:00]) to balcony
 - _Chest<3 Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
 - _Equipment::Bow<Royal Bow>:
@@ -17,13 +17,13 @@ Kaya Wan:
     icon: bow
     hide-icon-on-map: true
 
-- .dir(S)
+- .dir([6:00])
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
     notes: Looking for 0-3 Screws, 1 Spring and 1 Shaft. Pick up a Core if you get one. Do not pick up extra.
 
-- .dir(<S) → BLSS .dir(SE)
+- .dir([5:00]) → BLSS .dir([4:30])
 - _Shrine::KayaWan:
     comment: Ancient Core in chest
     notes: Skip Ancient Core if you already have one

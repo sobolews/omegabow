@@ -91,7 +91,7 @@ Great Plateau:
     notes: Clear ragdoll glitch in shrine
     comment: Magnesis shrine
 
-- .dir(<S) low angle
+- .dir([5:00]) low angle
 - _Tower::GreatPlateau
 
 - Jump down
@@ -99,12 +99,12 @@ Great Plateau:
     coord: [-572.50, 178.89, 1696.50]
     comment: Glitched cutscene
 
-- BLSS .dir(S) to .loc(Tree):
+- BLSS .dir([6:00]) to .loc(Tree):
     movements:
         - to: [-674.5,1953]
         - to: [-839.5,2274.5]
 
-- WB .dir(.W) up to shrine
+- WB .dir([8:30]) up to shrine
 - _Shrine::OwaDaim:
     comment: Stasis shrine
 
@@ -113,7 +113,7 @@ Great Plateau:
 - _Shrine::KehNamut:
     comment: Cryonis shrine
 
-- BLSS .dir(E) to Temple of Time
+- BLSS .dir([3:00]) to Temple of Time
 
 - .!!(Paraglider):
     icon: king

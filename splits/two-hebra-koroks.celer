@@ -3,9 +3,9 @@ Two Hebra Koroks:
     icon: ruta-enter
     hide-icon-on-map: true
     notes: (optional) Turn off Mipha's Grace now if you want to ensure it's charged for Eventide.
-- .dir(E)
+- .dir([3:00])
 
 - _Korok::H21
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::H12

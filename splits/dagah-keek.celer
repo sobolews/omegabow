@@ -24,14 +24,14 @@ Dagah Keek:
     comment: Wife Washed Away
     notes: 7:00am to 8:00pm, Fronk is at the pillar. Otherwise he is .link([at the pools]https://youtu.be/3EltLt0dpks?t=2686).
 
-- .dir(W>) + .dir(N)
+- .dir([10:00]) + .dir([12:00])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3207.40, 344.67, -736.45]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(S>)
+- .dir([7:00])
 - Activate .!!(Pedestal):
     icon: calamity
     comment: Slam attack with Trident

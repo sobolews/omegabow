@@ -1,5 +1,5 @@
 Dunba Taag:
-- .dir(.N) run:
+- .dir([11:30]) run:
     notes: .link([Dunba Taag vod]https://youtu.be/FgwSVGe8-o8?t=4669)
 - _Npc::SheikaMale<Pointing guy>:
     coord: [-2942.5,-485.5]
@@ -13,24 +13,24 @@ Dunba Taag:
 - _Tod::Night:
     notes: Timing for Zora's Domain quests and darner quest
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Korok::T34:
     comment: Starts under bridge
 
-- .dir(S>) down
+- .dir([7:00]) down
 - _Korok::R28
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Korok::R29:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R20
 
-- .dir(N>)
+- .dir([1:00])
 - _Discover<Tanagar Canyon Course>:
     coord: [-3119.20, -0.58, -627.77]
 - _Korok::R12
 
-- .dir(N>) + midair
+- .dir([1:00]) + midair
 - _Shrine::DunbaTaag

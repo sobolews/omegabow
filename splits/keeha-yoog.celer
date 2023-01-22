@@ -1,38 +1,38 @@
 Keeha Yoog:
-- .dir(<E):
+- .dir([2:00]):
     notes: .link([Keeha Yoog vod]https://youtu.be/T5MXXtNCbX0?t=2709)
 - _Korok::G08:
     comment: Eat stamina food
 
-- .dir(NW) surf
+- .dir([10:30]) surf
 - _Korok::G04
 
-- .gale() + .dir(N>):
+- .gale() + .dir([1:00]):
     gale: 1
 - _Korok::G05
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::G01:
     comment: " "
 
-- .dir(<S) surf
+- .dir([5:00]) surf
 - _Discover<Statue of the 8th Heroine>:
     coord: [-4371.52, 528.87, 516.98]
 - _Snap::Quest<Statue of the 8th Heroine>
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::G02:
     comment: " "
 
-- .dir(N) + .dir(E>):
+- .dir([12:00]) + .dir([4:00]):
     coord: [-3968.58, 552.57, 331.92]
 - _Korok::G03
 
-- .dir(E) + .dir(<S)
+- .dir([3:00]) + .dir([5:00])
 - _Korok::G06:
     comment: On platform against cliff
 
-- Jump + midair .dir(W)
+- Jump + midair .dir([9:00])
 - Shoot Pedestal:
     icon: tots
     hide-icon-on-map: true

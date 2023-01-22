@@ -5,6 +5,6 @@ Hebra Tower:
 - _Korok::H61:
     comment: On peak
 
-- .dir(E>)
+- .dir([4:00])
 - _Tower::Hebra:
     comment: Map 80.72%

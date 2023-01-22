@@ -1,28 +1,28 @@
 Pumaag Nitae:
-- .dir(SW):
+- .dir([7:30]):
     notes: .link([Pumaag Nitae vod]https://youtu.be/T5MXXtNCbX0?t=6947)
 - _Korok::L48:
     comment: On small ledge against cliff
 
-- .dir(SE) short
+- .dir([4:30]) short
 - _Korok::L49
 
-- .dir(NE) down
+- .dir([1:30]) down
 - _Korok::L50:
     comment: Against cliff, hard to see
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::L59:
     comment: " "
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::L60:
     comment: Up against cliff
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::L52
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::L53:
     comment: " "
 

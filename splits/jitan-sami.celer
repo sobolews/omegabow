@@ -3,19 +3,19 @@ Jitan Sami:
     comment: WARP
     line-color: yellow
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::N44
 
-- .dir(<N) + midairs to Naydra
+- .dir([11:00]) + midairs to Naydra
 - Shoot an eye:
     icon: bow
     coord: [3965,1353]
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::N18:
     comment: " "
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::N24:
     comment: " "
 
@@ -25,26 +25,26 @@ Jitan Sami:
     icon: bow
     hide-icon-on-map: true
 
-- midair .dir(<S)
+- midair .dir([5:00])
 - _Korok::N31:
     comment: Far down
 
-- .dir(<<W)
+- .dir([7:45])
 - Shoot an eye:
     icon: bow
     hide-icon-on-map: true
 - _Korok::N39:
     comment: " "
 
-- .dir(W>) + midairs
+- .dir([10:00]) + midairs
 - _Korok::N21:
     comment: Far peak
 
-- .dir(E.)
+- .dir([3:30])
 - _Korok::N29:
     comment: Glide out to cryo block
 
-- .dir(<E):
+- .dir([2:00]):
     coord: [3241.75,1472.75]
 
 - _Korok::N30:
@@ -56,7 +56,7 @@ Jitan Sami:
 
 - _Korok::N22
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::N23:
     comment: " "
 

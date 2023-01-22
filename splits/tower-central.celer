@@ -1,61 +1,61 @@
 Central Tower:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Central Tower vod]https://youtu.be/T5MXXtNCbX0?t=8946)
 - _Boss::Talus::Luminous:
     coord: [-971.13, 355.71, 3236.14]
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::L41
 
-- .dir(<<E)
+- .dir([1:45])
 - _Korok::L37
 
-- midair .dir(N)
+- midair .dir([12:00])
 - _Korok::L23
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::P17:
     comment: On ledge under Plateau wall
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Korok::P16:
     comment: " "
 
-- .gale() + .dir(NW) midair:
+- .gale() + .dir([10:30]) midair:
     gale: 1
 - _Korok::P15
 
-- .dir(NW) surf
+- .dir([10:30]) surf
 - _Korok::P14:
     comment: On ledge under Plateau wall
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::P07
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::P08:
     comment: Under bridge
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::P03:
     comment: Other side of hill
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::C80:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::C79
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::C74:
     comment: High on coliseum wall
 
-- Glide .dir(NW) down
+- Glide .dir([10:30]) down
 - _Korok::C73:
     comment: " "
 
-- .dir(<N)
+- .dir([11:00])
 - _Discover<Aquame Bridge>:
     coord: [-1128.81, 142.45, 1017.05]
 - _Korok::C67:
@@ -63,15 +63,15 @@ Central Tower:
 - _Korok::C68:
     comment: Shoot nut under bridge
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::C66
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::C52
 
-- .dir(<E) + midair
+- .dir([2:00]) + midair
 - _Korok::C53
 
-- .dir(<E)
+- .dir([2:00])
 - _Tower::Central:
     comment: Map 49.37%

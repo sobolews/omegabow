@@ -1,5 +1,5 @@
 Mogg Latan:
-- BLSS .dir(W>) to Satori Mountain:
+- BLSS .dir([10:00]) to Satori Mountain:
     coord: [-2203.83, 267.93, 792.66]
     notes: .link([Mogg Latan vod]https://youtu.be/KYhfrqeINmE?t=2338)
 
@@ -9,7 +9,7 @@ Mogg Latan:
 - _Material<2 Endura Shroom>:
     notes: Save one to cook, can eat the other
 
-- .dir(W)
+- .dir([9:00])
 - _Material<2 Courser Bee Honey>:
     movements:
       - to: [-2469.11, 319.03, 746.31]
@@ -21,12 +21,12 @@ Mogg Latan:
     comment: optional
     notes: Eat immediately
 
-- .dir(W>)
+- .dir([10:00])
 - _Material<3 Fleet-Lotus Seed>:
     coord: [-2558.07, 306.99, 655.56]
     notes: Do not eat
 
-- .dir(E.)
+- .dir([3:30])
 - _Material<1 Rushroom>:
     coord: [-2349.25, 355.64, 672.69]
     notes: Do not eat
@@ -36,13 +36,13 @@ Mogg Latan:
     coord: [-2338.68, 348.73, 678.83]
     notes: Do not eat. Do not pick up extra acorns.
 
-- .dir(N>)
+- .dir([1:00])
 - _Material<10 Hearty Durians>:
     coord: [-2196.75, 410.21, 443.15]
     notes: Eat as needed, but save one for quest
 - _Material<2+ Wood>
 
-- .dir(W)
+- .dir([9:00])
 - _Material<3 Raw Bird Drumstick>:
     notes: Murder the crows near the shrine. If you get here at night and they're gone, substitute with 3 apples near Impa's house. You can use extra for food if needed, but keep at least 3.
     comment: Scrap

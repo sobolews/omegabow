@@ -4,33 +4,33 @@ Tu Kaloh:
     hide-icon-on-map: true
     notes: .link([Tu Kaloh vod]https://youtu.be/KYhfrqeINmE?t=17712) Watch the Salvager chest until it lands, or it can despawn. After it lands, check the weather to see if it will rain when delivering the blue flame. If it will be raining, make morning or noon now to avoid rain and night enemies.
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::A02
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::A03
 
-- .dir(E>)
+- .dir([4:00])
 - _Chest::Special<Salvager Vest>:
     coord: [3636.00, 302.00, -3520.00]
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::A04
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::A13
 
-- Run .dir(N):
+- Run .dir([12:00]):
     coord: [4010.5,-3209.5] 
 
 - _Korok::A07
 
-- .dir(E>)
+- .dir([4:00])
 - .!!(Smuggle Blue Flame):
     icon: tots
     coord: [4155.5,-3170.5]
 
-- .dir(E) super
+- .dir([3:00]) super
 - _Korok::A16:
     notes: Getting the korok will un-smuggle the torch. Carefully jump down without running or pulling paraglider to finish delivery.
 
@@ -50,14 +50,14 @@ Tu Kaloh:
     comment: Text options 1-1-3
     notes: The Skull's Eye quest
 
-- Run .dir(W)
+- Run .dir([9:00])
 - _Korok::A15
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::A14:
     comment: " "
 
-- .dir(N>) midair to .loc(Lomei Labyrinth):
+- .dir([1:00]) midair to .loc(Lomei Labyrinth):
     notes: See map for where to drop in
     coord: [4627,-3693.5]
 

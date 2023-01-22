@@ -1,44 +1,44 @@
 Qukah Nata:
-- .dir(S) short:
+- .dir([6:00]) short:
     notes: .link([Qukah Nata vod]https://youtu.be/T5MXXtNCbX0?t=12778)
 - _Korok::F19:
     comment: Swim up with Zora Armor
 
-- .dir(N) short:
+- .dir([12:00]) short:
     notes: Midair or climb up beside waterfall
 - _Korok::F17:
     comment: Middle of pond
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::F20:
     comment: " "
 
-- .dir(N) + midair
+- .dir([12:00]) + midair
 - _Korok::F11:
     comment: On peak
 
-- .dir(N.)
+- .dir([12:30])
 - _Korok::F08
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::F12
 
-- .dir(<N) short
+- .dir([11:00]) short
 - _Korok::F09:
     comment: .rune(Stasis) 2 hits
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::F06:
     comment: On peak
 
-- .dir(E) down
+- .dir([3:00]) down
 - _Korok::F07
 
-- .gale() + .dir(<<W):
+- .gale() + .dir([7:45]):
     gale: 1
 - _Korok::F13
 
-- .dir(E>>)
+- .dir([4:15])
 - _Boss::Hinox::Black:
     coord: [2420.75, 327.47, 2782.60]
     
@@ -46,18 +46,18 @@ Qukah Nata:
     icon: tots
     coord: [2616.91, 323.39, 2823.60]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F21
 
 - .!!(Unequip) metal:
     icon: shield
     hide-icon-on-map: true
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F29:
     comment: Block in lake
 
-- .dir(SE) run
+- .dir([4:30]) run
 - .!!(Re-equip) metal:
     icon: shield
     hide-icon-on-map: true
@@ -65,7 +65,7 @@ Qukah Nata:
     coord: [2081.89, 287.42, 3226.31]
     comment: Song of Storms
 
-- .dir(<<W)
+- .dir([7:45])
 - Reveal shrine:
     icon: tots
     hide-icon-on-map: true

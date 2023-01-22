@@ -3,57 +3,57 @@ Faron Tower:
     coord: [879.50, 123.00, 2388.00]
     notes: Need to walk out past statue to trigger it
 
-- .dir(W):
+- .dir([9:00]):
     notes: .link([Faron Tower vod]https://youtu.be/T5MXXtNCbX0?t=11350)
 - _Korok::L13
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::L18
 - _Korok::L17
 
-- .dir(N>) run
+- .dir([1:00]) run
 - _Korok::L12:
     comment: " "
 
-- .gale() + .dir(S>):
+- .gale() + .dir([7:00]):
     gale: 1
 - _Korok::L28
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::L29:
     comment: On hill
 
-- .dir(E>>) down
+- .dir([4:15]) down
 - _Korok::L34:
     comment: .rune(Stasis) 1-hander jump attack
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::L35
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::L45
 
-- .dir(SE) down
+- .dir([4:30]) down
 - _Korok::L54:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Discover<Zonai Ruins>:
     coord: [889.86, 124.08, 2937.35]
 
-- .dir(SW) run
+- .dir([7:30]) run
 - _Korok::L56:
     comment: " "
 
-- .dir(S>) run
+- .dir([7:00]) run
 - _Npc::Rito<Kass>:
     coord: [815.25, 117.95, 3063.44]
     comment: The Serpent's Jaws
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::L57
 
-- .dir(E>>)
+- .dir([4:15])
 - _Korok::F24:
     comment: Hidden in tree
 
@@ -62,23 +62,23 @@ Faron Tower:
 
 - _Korok::F23
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::L58
 
-- .dir(.N)
+- .dir([11:30])
 - _Korok::L46
 
-- .dir(N) + midairs
+- .dir([12:00]) + midairs
 - _Korok::F02:
     comment: Starts on far peak
 
-- .dir(N.)
+- .dir([12:30])
 - _Boss::Talus::Stone:
     comment: .fury()
     fury: 1
     coord: [1257.12, 355.80, 2176.52]
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::F05:
     comment: Pinwheel
 - _Korok::F01:
@@ -87,38 +87,38 @@ Faron Tower:
           away: true
     notes: .link([Visual cue]https://youtu.be/T5MXXtNCbX0?t=11835) if not raining
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::F04:
     comment: " "
 
-- .dir(NW) glide
+- .dir([10:30]) glide
 - _Korok::F03:
     comment: Pinwheel
 
-- .dir(S)
+- .dir([6:00])
 - _Boss::Hinox::Red:
     coord: [1330.55, 180.38, 2623.94]
 
-- .dir(S) to cave
+- .dir([6:00]) to cave
 - _Korok::F10:
     comment: .gale()
     gale: 1
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::F16:
     comment: .gale()
     gale: 1
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F15
 
-- .dir(E>) run
+- .dir([4:00]) run
 - _Boss::Hinox::Red:
     coord: [1493.39, 306.77, 3092.14]
 
-- .dir(S>) surf down
+- .dir([7:00]) surf down
 - _Korok::F25
 
-- .dir(SW)
+- .dir([7:30])
 - _Tower::Faron:
     comment: Map 56.98%

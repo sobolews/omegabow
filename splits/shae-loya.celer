@@ -1,43 +1,43 @@
 Shae Loya:
-- .dir(<E) down:
+- .dir([2:00]) down:
     notes: .link([Shae Loya vod]https://youtu.be/FgwSVGe8-o8?t=4078)
 - _Discover<Pondo's Lodge>:
     coord: [-2076.70, 389.70, -2080.90]
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::H67
 
-- .dir(S) surf
+- .dir([6:00]) surf
 - _Korok::H70
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::H69:
     comment: " "
 
-- midair .dir(<W)
+- midair .dir([8:00])
 - _Korok::H72
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::T18
 
-- .dir(N)
+- .dir([12:00])
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3
     coord: [-2864.50, 408.98, -1825.91]
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::H65:
     comment: Top of tree in island
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::H66:
     comment: " "
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::T11
 
-- .dir(SW) glide
+- .dir([7:30]) glide
 - _Npc::Rito<Rito guy on bridge>:
     coord: [-3308.27, 227.83, -1803.34]
     comment: Gisane
@@ -49,10 +49,10 @@ Shae Loya:
     comment: Lester
     notes: Talk twice
 
-- .dir(S) super
+- .dir([6:00]) super
 - _Korok::T21
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::T19:
     movements:
         - to: [-3151.57, 185.50, -1563.28]
@@ -60,37 +60,37 @@ Shae Loya:
     comment: Drownwarp
     notes: To drownwarp, use bullet time to fully drain stamina before falling into lilypads.
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::T22:
     comment: Hidden in corner
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::T25
 
-- .dir(<E) + midair
+- .dir([2:00]) + midair
 - _Korok::R05
 
-- .dir(S) surf
+- .dir([6:00]) surf
 - _Discover<Footrace Check-In>:
     coord: [-2638.00, 282.34, -1175.00]
 
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Korok::R13:
     comment: Above waterfall
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R17:
     comment: On peak
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::R22:
-    comment: Look .dir(NW)
+    comment: Look .dir([10:30])
     movements:
         - to: [-2390,-398.5]
         - to: [-2434.11, 319.87, -491.04]
           away: true
 - _Korok::R31:
-    comment: Look .dir(S)
+    comment: Look .dir([6:00])
     movements:
         - to: [-2370.11, 307.05, -345.31]
           away: true
@@ -99,12 +99,12 @@ Shae Loya:
         - to: [-2370.05, 261.70, -419.59]
           away: true
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R30:
     comment: " "
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::R21
 
-- .dir(W.)
+- .dir([9:30])
 - _Shrine::ShaeLoya

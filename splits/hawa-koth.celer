@@ -1,14 +1,14 @@
 Hawa Koth:
-- .dir(<S):
+- .dir([5:00]):
     notes: .link([Hawa Koth vod]https://youtu.be/T5MXXtNCbX0?t=3851)
 - _Boss::Molduga:
     coord: [-4555.62, 137.14, 3256.35]
     notes: Shooting the molduga in the belly with OB and AA will kill in 1 shot
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::W51
 
-- midair .dir(S) + midair
+- midair .dir([6:00]) + midair
 - _Korok::W65
 
 - _Snap::Quest<Gerudo Great Skeleton>:

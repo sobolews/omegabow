@@ -50,28 +50,28 @@ Camera:
     icon: bow
     hide-icon-on-map: true
 
-# - .dir(<N)
+# - .dir([11:00])
 # - _Npc<Horned Statue>:
 #     coord: [3285.60, 217.60, 2197.58]
 #     comment: Ask for stamina
 
-# - .dir(<E)
+# - .dir([2:00])
 # - _Npc<Clavia>:
 #     coord: [3434.98, 226.90, 2149.15]
 #     comment: Secret of the Cedars
 #     notes: (Optional) If you didn't talk to her during inventory corruption
 
-# - .dir(N.)
+# - .dir([12:30])
 # - _Korok::N42:
 #     comment: Past blue flame
 
-# - .dir(<S) short
+# - .dir([5:00]) short
 # - .!!(Smuggle Blue Flame):
 #     icon: tots
 #     coord: [3447.5,1982]
 #     notes: .link([Example]https://youtu.be/Bg0r6gWb5wY)
 
-# - .dir(E>) + .dir(E)
+# - .dir([4:00]) + .dir([3:00])
 # - Activate .loc(Hateno Tech Lab):
 #     icon: location
 #     movements:

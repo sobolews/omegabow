@@ -9,13 +9,13 @@ Lakna Rokee:
     comment: Unless it's 12pm-3pm
     hide-icon-on-map: true
 
-- .dir(E):
+- .dir([3:00]):
     notes: Backup blupee picture here along path if needed
 - _Snap::Quest<Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
     comment: SNAP for Pikango
 
-- .dir(<W)
+- .dir([8:00])
 - Return 2 cuccos:
     icon: tots
     hide-icon-on-map: true
@@ -77,7 +77,7 @@ Lakna Rokee:
     coord: [1899.75,1035.75]
     comment: Lasli (talk twice)
 
-- .dir(W.)
+- .dir([9:30])
 - _Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
     comment: Map 89.82%
@@ -100,51 +100,51 @@ Lakna Rokee:
 - _Korok::D02:
     comment: Beside Impa's house
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::D04:
     comment: On ledge
 - _Korok::D05:
     comment: Village gate
 
-- .dir(E) + .dir(SE) 
+- .dir([3:00]) + .dir([4:30]) 
 - _Korok::D12
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::D08
 - _Korok::D06:
     comment: On village gate
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::N07:
     comment: " "
 
-- .dir(<S) surf
+- .dir([5:00]) surf
 - _Korok::N08
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::N10
 
 - .gale():
     gale: 2
 - _Korok::N09
 
-- .dir(S.) + .dir(S.)
+- .dir([6:30]) + .dir([6:30])
 - _Korok::D07:
     comment: On tallest peak
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::D11:
     comment: On peak
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::D10:
     comment: On peak
 
-- Drop down .dir(W)
+- Drop down .dir([9:00])
 - _Korok::D09:
     comment: " "
 
-- .dir(NE):
+- .dir([1:30]):
     time-override: 360
 - .fury() waste:
     fury: 1

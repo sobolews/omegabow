@@ -1,23 +1,23 @@
 After Tutsuwa Nima:
-- .dir(S.):
+- .dir([6:30]):
     notes: .link([Daqa Koh vod]https://youtu.be/KYhfrqeINmE?t=18754)
 - _Korok::A26
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::A20
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::A27
 
-- .dir(E) run
+- .dir([3:00]) run
 - _Snap::Quest<Stalhorse>:
     coord: [4016.50, 159.88, -2355.50]
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Hinox::Stal:
     coord: [4146.69, 130.35, -2225.24]
 
-- .dir(S.) + midairs
+- .dir([6:30]) + midairs
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: Talk twice

@@ -1,15 +1,15 @@
 Rin Oyaa:
-- .dir(E>):
+- .dir([4:00]):
     notes: .link([Rin Oyaa vod]https://youtu.be/FgwSVGe8-o8?t=13133)
 - _Korok::H06
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::H14
 
-- .dir(S.) + midair
+- .dir([6:30]) + midair
 - _Korok::H37
 
-- .dir(<<S):
+- .dir([4:45]):
     notes: Pick up/put down rock and stand on it to windbomb
 - _Npc<Stalhorse lady in stable>:
     coord: [-1641.43, 339.19, -2561.69]

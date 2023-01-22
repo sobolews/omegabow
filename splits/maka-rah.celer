@@ -1,85 +1,85 @@
 Maka Rah:
-- Climb + surf  .dir(<W):
+- Climb + surf  .dir([8:00]):
     notes: .link([Maka Rah vod]https://youtu.be/8Y2bjBn7LKM?t=20097)
 - _Korok::H26
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::H19:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::H18:
     comment: Top of bare tree
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::H17:
     comment: Snowy ledge
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::H24:
     comment: Starts on canyon floor
 
-- .dir(E>) + midair
+- .dir([4:00]) + midair
 - _Korok::H25
 
-- .dir(.W) + midair
+- .dir([8:30]) + midair
 - _Korok::H32:
     comment: " "
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::H40:
     comment: On peak
 
-- .dir(W>)
+- .dir([10:00])
 - _Boss::Hinox::Black:
     coord: [-4531.00, 333.45, -2679.27]
 
-- .dir(S)
+- .dir([6:00])
 - Start T06 race:
     icon: tots
     coord: [-4495.71, 342.71, -2510.34]
     notes: Do H53, H60, T08 while the race timer is going.
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::H53:
     comment: On peak
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::H60:
     comment: Pinwheel, can use bullet time
 
-- .dir(.S)
+- .dir([5:30])
 - _Korok::T08
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::T06:
     comment: Finish race
     movements:
         - to: [-4396.84, 183.40, -2049.88]
 
-- .dir(E>) run
+- .dir([4:00]) run
 - _Korok::T07:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::T01:
     comment: On cliff past rubble
 
-- .dir(.N) + midair
+- .dir([11:30]) + midair
 - _Discover<Sturnida Hot Spring>:
     notes: Drop down above hot spring, then glide to updraft.
     coord: [-4080.50, 173.00, -2720.00]
 
-- .dir(<N) midair
+- .dir([11:00]) midair
 - _Korok::H39:
     comment: " "
 
-- .dir(.S) short
+- .dir([5:30]) short
 - _Korok::H41
 
-- .dir(SE) surf down
+- .dir([4:30]) surf down
 - _Korok::H42:
     comment: In corner against cliff
 
-- .dir(E) to cave entrance
+- .dir([3:00]) to cave entrance
 - _Shrine::MakaRah

@@ -20,18 +20,18 @@ Kayra Mah:
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 
-- .dir(E.) + .dir(.S)
+- .dir([3:30]) + .dir([5:30])
 - _Npc::Goron<Goron Kid>:
     coord: [1787.98, 581.97, -2244.39]
     comment: Dugby
     notes: Death Mountain's Secret quest
 
-- .dir(SE)
+- .dir([4:30])
 - _Npc::Goron<Goron in Cave>:
     coord: [2045.68, 521.76, -2040.42]
     comment: A Brother's Roast
 
-- .dir(SW)
+- .dir([7:30])
 - Deliver rock meat:
     icon: tots
     movements:

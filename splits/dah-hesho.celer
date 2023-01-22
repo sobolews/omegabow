@@ -1,39 +1,39 @@
 Dah Hesho:
-- .dir(W) down:
+- .dir([9:00]) down:
     notes: .link([Dah Hesho vod]https://youtu.be/KYhfrqeINmE?t=14508)
 - _Korok::A41
 
-- .gale() .dir(NE):
+- .gale() .dir([1:30]):
     gale: 1
 - _Korok::A40
 
-- .dir(N) down
+- .dir([12:00]) down
 - _Korok::A39
 
-- .dir(<N)
+- .dir([11:00])
 - _Discover<Shadow Hamlet Ruins>:
     coord: [3053.78, 438.86, -2299.47]
 
-- .dir(<E) + .dir(N>)
+- .dir([2:00]) + .dir([1:00])
 - _Korok::E12
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::A25
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::A30
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::A31
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::A32:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::A37
 
-- .dir(S>)
+- .dir([7:00])
 - Kill .enemy(Stalker 1):
     icon: calamity
     coord: [3624.82, 195.25, -1602.62]
@@ -44,15 +44,15 @@ Dah Hesho:
     coord: [3671.23, 195.66, -1511.54]
     comment: Hobbies of the Rich
 
-- .dir(E)
+- .dir([3:00])
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
     comment: Talk twice
 
-- .dir(S) + midair
+- .dir([6:00]) + midair
 - _Korok::A49:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::DahHesho:
     comment: Minor Test of Strength

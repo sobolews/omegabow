@@ -1,18 +1,18 @@
 Ketoh Wawai:
-- .dir(W) + .dir(S>):
+- .dir([9:00]) + .dir([7:00]):
     notes: .link([Ketoh Wawai vod]https://youtu.be/KYhfrqeINmE?t=16538)
 - _Korok::H15
 
-- .dir(.W) + .dir(S>)
+- .dir([8:30]) + .dir([7:00])
 - _Korok::H22:
     comment: " "
     notes: WB away while it's rolling, but don't get too far away.
 
-- .dir(SE) + midairs
+- .dir([4:30]) + midairs
 - _Korok::K11:
     comment: Peak far away
 
-- .dir(<<E) + midair
+- .dir([1:45]) + midair
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
 

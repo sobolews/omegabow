@@ -1,22 +1,22 @@
 Zalta Wa:
-- .dir(S) short:
+- .dir([6:00]) short:
     notes: .link([Zalta Wa vod]https://youtu.be/T5MXXtNCbX0?t=17996)
 - _Korok::R14
 
-- .dir(<<S) super
+- .dir([4:45]) super
 - _Korok::R23:
     notes: Complete R24 before the last flower of R23
 - _Korok::R24:
     comment: " "
 
-- .dir(NE) run
+- .dir([1:30]) run
 - _Korok::R18:
     comment: .gale()
     gale: 1
 
-- .dir(<<S)
+- .dir([4:45])
 - _Korok::R25:
     comment: " "
 
-- .dir(.E)
+- .dir([2:30])
 - _Shrine::ZaltaWa

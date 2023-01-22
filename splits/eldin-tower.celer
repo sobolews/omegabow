@@ -1,22 +1,22 @@
 Eldin Tower:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Eldin Tower vod]https://youtu.be/KYhfrqeINmE?t=15177)
 - _Korok::E34
 
-- .dir(NW) down
+- .dir([10:30]) down
 - _Korok::E30
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::E29
 
-- .dir(S>) + .dir(<W)
+- .dir([7:00]) + .dir([8:00])
 - _Korok::E32
 
-- .dir(SE) short
+- .dir([4:30]) short
 - _Korok::E33:
     comment: " "
 
-- .dir(W) + midair + .gale():
+- .dir([9:00]) + midair + .gale():
     gale: 1
 
 - _Tower::Eldin

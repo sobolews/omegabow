@@ -1,18 +1,18 @@
 Mijah Rokee:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Mijah Rokee vod]https://youtu.be/KYhfrqeINmE?t=23897)
 - _Korok::R38:
     comment: " "
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R47:
     comment: Pinwheel
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R37:
     comment: Ledge on cliff
 
-- .dir(<W) + midairs
+- .dir([8:00]) + midairs
 - _Npc::Rito<Kass>:
     coord: [-2778.84, 348.24, 206.35]
 

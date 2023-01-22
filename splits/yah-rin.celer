@@ -1,21 +1,21 @@
 Yah Rin:
-- .gale() + .dir(W) midair:
+- .gale() + .dir([9:00]) midair:
     gale: 1
     notes: .link([Yah Rin vod]https://youtu.be/T5MXXtNCbX0?t=13843)
 - _Korok::F37:
     comment: " "
 
-- .dir(S) swim
+- .dir([6:00]) swim
 - _Boss::Talus::Stone:
     comment: .fury() from above
     fury: 1
     coord: [3272.52, 133.05, 3409.85]
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::F45:
     comment: On house with 3 trees
 
-- .dir(S) near shore
+- .dir([6:00]) near shore
 - _Material<Hearty Blueshell Snail>:
     comment: What's for Dinner?
     coord: [2948.86, 106.06, 3462.70]
@@ -25,7 +25,7 @@ Yah Rin:
     notes: From shop on pier
     comment: (Optional) If needed
 
-- .dir(NW) along shore
+- .dir([10:30]) along shore
 - _Npc::SheikaMale<Harpoon Guy>:
     coord: [2886.5,3442.5]
     comment: Sebasto
@@ -35,7 +35,7 @@ Yah Rin:
     coord: [2873.80, 106.90, 3432.06]
     notes: For korok later
 
-- .dir(NE) by house
+- .dir([1:30]) by house
 - _Npc::SheikaFemale<Mom with Kid>:
     coord: [2884.25, 112.44, 3413.51]
     notes: What's for Dinner? quest
@@ -44,19 +44,19 @@ Yah Rin:
 - _Korok::F44:
     comment: Shoot apple off palm tree
     notes: Occasionally the korok will fail to trigger after removing the apple. Come back to it after the shrine and it should be fixed.
-- .dir(SE) run
+- .dir([4:30]) run
 - _Npc<Old Man on dock>:
     comment: Rozel
     notes: Select "About the ocean...". Talk twice. In house when raining.
     coord: [2887.5,3495.5]
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::F36:
     comment: On boat
     notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::YahRin
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::F31

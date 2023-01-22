@@ -1,20 +1,20 @@
 Neez Yohma:
-- .dir(E):
+- .dir([3:00]):
     notes: .link([Neez Yohma vod]https://youtu.be/KYhfrqeINmE?t=12633)
 - _Korok::Z42:
     comment: Way below
 
-- .dir(E) + midair
+- .dir([3:00]) + midair
 - _Korok::Z43
 
-- .dir(E>) and curve left
+- .dir([4:00]) and curve left
 - _Korok::Z44
 
-- .dir(E)
+- .dir([3:00])
 - _Boss::Hinox::Blue:
     coord: [3526.26, 251.18, 364.97]
 
-- .dir(<N)
+- .dir([11:00])
 - _Material<2 Hylian Shroom>:
     coord: [3391.02, 307.70, 81.86]
     notes: Save for transmutation
@@ -25,48 +25,48 @@ Neez Yohma:
     var-change:
         Monument: 1
 
-- .dir(W)
+- .dir([9:00])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3265.50, 341.84, 38.70]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(W>) down
+- .dir([10:00]) down
 - _Korok::Z33
 
-- .dir(<W)
+- .dir([8:00])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3099.83, 236.67, 70.72]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(N>) turn
+- .dir([1:00]) turn
 - _Discover<Luto's Crossing>:
     coord: [3085.11, 263.68, 8.17]
     notes: Discover location as you fly over
 
 - _Korok::Z32
 
-- .dir(<N)
+- .dir([11:00])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3062.39, 184.92, -216.65]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(E.)
+- .dir([3:30])
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3260.31, 241.83, -145.22]
     comment: .v(Monument)/10
     var-change:
         Monument: 1
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::Z25
 
-- .dir(N)
+- .dir([12:00])
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
 

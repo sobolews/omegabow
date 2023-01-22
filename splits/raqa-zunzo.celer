@@ -4,29 +4,29 @@ Raqa Zunzo:
     coord: [-4818.86, 130.23, 3713.28]
     notes: .link([Raqa Zunzo vod]https://youtu.be/T5MXXtNCbX0?t=4102)
 
-- .dir(<E) far
+- .dir([2:00]) far
 - _Korok::W55
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::W61
 
-- midair .dir(E>)
+- midair .dir([4:00])
 - _Korok::W66
 
 - _Boss::Molduga:
     coord: [-4191.12, 126.91, 3797.45]
 
-- .dir(<<E)
+- .dir([1:45])
 - _Boss::Molduga:
     coord: [-3799.06, 118.76, 3653.43]
 
 - _Korok::W57:
     comment: Snipe in tree above oasis
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::W56
 
-- .dir(N)
+- .dir([12:00])
 - .loc(Sand Seal Race):
     icon: tots
     hide-icon-on-map: true

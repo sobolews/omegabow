@@ -44,15 +44,15 @@ Lanayru Tower:
 - _Korok::Z16:
     comment: In carved flower
 
-- .gale() + .dir(W) midairs:
+- .gale() + .dir([9:00]) midairs:
     gale: 1
     coord: [3324,-348]
 - _Korok::Z15:
     comment: High up against cliff
 
-- .dir(.W) down
+- .dir([8:30]) down
 - _Korok::Z14
 
-- .dir(S>)
+- .dir([7:00])
 - _Tower::Lanayru:
     comment: Map 85.69%

@@ -1,21 +1,21 @@
 Kah Okeo:
-- .dir(E>):
+- .dir([4:00]):
     notes: .link([Kah Okeo vod]https://youtu.be/8Y2bjBn7LKM?t=13299)
 - _Korok::C24:
     comment: Small hill near bridge
 
-- .dir(<N)
+- .dir([11:00])
 - _Korok::R26:
     comment: " "
 
 - _Korok::R27:
     comment: Under bridge
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::R44:
     comment: " "
 
-- run .dir(S>)
+- run .dir([7:00])
 - _Korok::R43:
     comment: Hanging under bridge
 
@@ -24,134 +24,134 @@ Kah Okeo:
     gale: 1
     notes: If it's raining soon, skip the gale here to use later at R54.
 
-- .dir(<W)
+- .dir([8:00])
 - _Korok::R42:
     comment: " "
 
-- .dir(SE)
+- .dir([4:30])
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]
 
-- .dir(.S)
+- .dir([5:30])
 - _Discover<Ancient Tree Stump>:
     coord: [-1111.99, 170.44, 430.91]
 - _Korok::C47:
     comment: " "
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::C37
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::R58
 
-- .dir(W) + .dir(W>)
+- .dir([9:00]) + .dir([10:00])
 - _Korok::R57
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::R56
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::R55:
     comment: In tree stump
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::R54:
     notes: Use GALE to get to top of tree if raining
 
-- .dir(.N) + climb
+- .dir([11:30]) + climb
 - _Korok::R53:
     comment: On peak
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R52:
     comment: In pink tree
 
 - _Tod::Night:
     notes: If needed for stalnox. Make sure it's night before approaching the first flower of next korok.
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::R61
 
-- .dir(S) short
+- .dir([6:00]) short
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
 
 - _Korok::R62:
     comment: " "
 
-- .dir(E>) far down
+- .dir([4:00]) far down
 - _Korok::R68:
     comment: Pinwheel
 - _Korok::R69:
     comment: Snipe from pinwheel
 
-- .dir(S) far
+- .dir([6:00]) far
 - _Korok::R78:
     comment: Near forest path
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R77:
     comment: In tree
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::R75:
-    comment: Bomb arrow .dir(NW)
+    comment: Bomb arrow .dir([10:30])
     movements:
         - to: [-2340.70, 249.87, 1104.58]
         - to: [-2393.37, 233.05, 1047.34]
           away: true
 - _Korok::R76
 
-- .dir(<W) + climb
+- .dir([8:00]) + climb
 - _Korok::G14:
     comment: Pinwheel
 
-- .dir(N>) far 
+- .dir([1:00]) far 
 - _Korok::R70
 
-- .dir(W) short
+- .dir([9:00]) short
 - _Korok::R73:
     comment: Stasis and shoot boulder
 
-- .dir(W>>)
+- .dir([10:15])
 - _Korok::R67
 
-- .dir(NE) run
+- .dir([1:30]) run
 - _Korok::R66:
     comment: Magnesis balls
     notes: Do the one in the water first, to avoid a weird glitch that can cause magnesis to stop working. 
 
-- .dir(NE) run
+- .dir([1:30]) run
 - _Korok::R65
 
-- .dir(N) run
+- .dir([12:00]) run
 - _Korok::R64
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::R51
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::R63
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R50:
     comment: In tree
     notes: Snipe with bomb arrow from high above
 
-- midair .dir(<N)
+- midair .dir([11:00])
 - _Boss::Talus::Rare:
     comment: .fury()
     fury: 3
     coord: [-3137.50, 317.31, 72.90]
 
-- .dir(.W) down
+- .dir([8:30]) down
 - _Korok::R46
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::R36:
     comment: On close edge of canyon
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R35:
     comment: " "
 
@@ -161,12 +161,12 @@ Kah Okeo:
         - to: [-3861.73, 101.01, -147.16]
           away: true
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::R33
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::R32:
     comment: Pinwheel
 
-- .dir(N>)
+- .dir([1:00])
 - _Shrine::KahOkeo

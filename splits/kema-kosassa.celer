@@ -9,10 +9,10 @@ Kema Kosassa:
     comment: Pinwheel on rock
     notes: Can backflip for bullet time
 
-- .dir(W>)
+- .dir([10:00])
 - _Korok::G30
 
-- .dir(<N)
+- .dir([11:00])
 - _Boss::Talus::Luminous:
     coord: [-4312.07, 418.11, 1446.89]
     comment: .fury()
@@ -20,21 +20,21 @@ Kema Kosassa:
 
 - _Korok::G21
 
-- .dir(S) + midair .dir(N)
+- .dir([6:00]) + midair .dir([12:00])
 - _Korok::G16
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::G20
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::G15:
     comment: Up the cliff
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::G11:
     comment: " "
 
-- .dir(W>) + midairs
+- .dir([10:00]) + midairs
 - _Korok::G07:
     comment: On cliff above shrine
 

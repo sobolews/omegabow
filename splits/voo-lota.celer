@@ -27,15 +27,15 @@ Voo Lota:
     coord: [-3606.34, 296.75, -1799.16]
     comment: Cree
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::T17:
     comment: On island pillar
 
-- .dir(S>)
+- .dir([7:00])
 - _Boss::Hinox::Black:
     coord: [-3793.68, 246.02, -1557.10]
 
-- .dir(W>>)
+- .dir([10:15])
 - Activate .!!(Pedestal):
     icon: tots
     hide-icon-on-map: true

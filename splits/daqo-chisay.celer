@@ -3,11 +3,11 @@ Daqo Chisay:
     coord: [-3655.84, 471.90, 1837.15]
     comment: Text option 2-1-1
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::W29:
     comment: " "
 
-- .dir(S.)
+- .dir([6:30])
 - _Npc::SheikaMale<Guy near shrine>:
     comment: Benja
     coord: [-3804.64, 149.50, 2818.36]

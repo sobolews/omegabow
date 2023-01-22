@@ -1,21 +1,21 @@
 Dah Kaso:
-- .dir(<W):
+- .dir([8:00]):
     notes: .link([Dah Kaso vod]https://youtu.be/T5MXXtNCbX0?t=1141)
 - _Korok::C85
 
-- .dir(SW)
+- .dir([7:30])
 - _Korok::R80
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::C86
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::C87
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::C89:
     comment: " "
 
-- .dir(W>>)
+- .dir([10:15])
 - _Shrine::DahKaso:
     comment: Minor Test of Strength

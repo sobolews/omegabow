@@ -1,5 +1,5 @@
 Bosh Kala:
-- .dir(S) surf:
+- .dir([6:00]) surf:
     notes: .link([Bosh Kala vod]https://youtu.be/T5MXXtNCbX0?t=9713)
 - _Npc<Lady in Stable>:
     coord: [345.00, 121.73, 1091.50]
@@ -11,7 +11,7 @@ Bosh Kala:
     comment: Gotter
     notes: Talk twice. In stable if raining.
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::C77
 - _Korok::D14:
     comment: Under bridge
@@ -20,10 +20,10 @@ Bosh Kala:
 - _Discover<Owlan Bridge>:
     coord: [325.48, 102.49, 1273.41]
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::D22
 
-- .dir(W)
+- .dir([9:00])
 - Kill .enemy(Red Moblin):
     icon: calamity
     coord: [132.65, 116.42, 1397.90]
@@ -31,23 +31,23 @@ Bosh Kala:
 - _Equipment::Weapon<Moblin Club>:
     comment: Weapon Connoisseur
 
-- .dir(SW) run
+- .dir([7:30]) run
 - _Korok::C84:
     comment: " "
 
-- .dir(S)
+- .dir([6:00])
 - _Discover<East Post Ruins>:
     notes: Glide below the height of the pole to trigger the location.
 - _Korok::D26
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::D27
 
-- .dir(S)
+- .dir([6:00])
 - _Korok::D34
 
-- .dir(W) run
+- .dir([9:00]) run
 - _Korok::D33
 
-- .dir(W>)
+- .dir([10:00])
 - _Shrine::BoshKala

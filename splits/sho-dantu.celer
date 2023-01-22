@@ -1,10 +1,10 @@
 Sho Dantu:
-- .gale() + .dir(E>):
+- .gale() + .dir([4:00]):
     notes: .link([Sho Dantu vod]https://youtu.be/T5MXXtNCbX0?t=3122)
     gale: 1
 - _Korok::G09
 
-- Updraft + .dir(<W)
+- Updraft + .dir([8:00])
 - _Snap::Quest<Forgotten Sword>:
     comment: SNAP
     notes: This picture is lenient, so long as you zoom in and get the top of the sword in the picture.
@@ -13,11 +13,11 @@ Sho Dantu:
         - to: [-3966.65, 766.14, 969.19]
           away: true
 
-- .dir(.S)
+- .dir([5:30])
 - _Boss::Talus::Rare:
     coord: [-3804.76, 602.57, 1204.77]
 
-- .dir(<S)
+- .dir([5:00])
 - _Material<10 Wildberry>:
     coord: [-3663.94, 569.99, 1536.07]
     comment: Mystery Polluter
@@ -25,11 +25,11 @@ Sho Dantu:
 - _Korok::G26:
     comment: " "
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::W01:
     comment: Ledge in opening
 
-- .dir(S>)
+- .dir([7:00])
 - Activate Pedestal:
     icon: tots
     hide-icon-on-map: true

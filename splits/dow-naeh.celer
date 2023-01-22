@@ -1,6 +1,6 @@
 Dow Naeh:
-- .dir(<E) + .dir(<W):
-    notes: .link([Dow Naeh vod]https://youtu.be/KYhfrqeINmE?t=11825). Windbomb .dir(<E) away from the mountain, until you reach the trees on the minimap, and then back. Otherwise, Naydra will not spawn. Make morning at the spot marked on the map, and point the camera up at the peak of the mountain.
+- .dir([2:00]) + .dir([8:00]):
+    notes: .link([Dow Naeh vod]https://youtu.be/KYhfrqeINmE?t=11825). Windbomb .dir([2:00]) away from the mountain, until you reach the trees on the minimap, and then back. Otherwise, Naydra will not spawn. Make morning at the spot marked on the map, and point the camera up at the peak of the mountain.
 
 - _Tod::Morning:
     coord: [3976,1296.5]
@@ -27,11 +27,11 @@ Dow Naeh:
     icon: material
     hide-icon-on-map: true
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N17:
     comment: " "
 
-- .dir(<<W)
+- .dir([7:45])
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
 
@@ -40,15 +40,15 @@ Dow Naeh:
         - to: [3261.15, 263.12, 1211.79]
           away: true
 
-- .dir(<N)
+- .dir([11:00])
 - _Memory::LanayruRoad:
     comment: Memory
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::N15
 
-- .dir(E.)
+- .dir([3:30])
 - _Korok::N16
 
-- .dir(S)
+- .dir([6:00])
 - _Shrine::DowNaeh

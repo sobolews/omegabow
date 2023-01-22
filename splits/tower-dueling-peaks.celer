@@ -1,65 +1,65 @@
 Dueling Peaks Tower:
 
-- .dir(S) run:
+- .dir([6:00]) run:
     notes: .link([Dueling Peaks Tower vod]https://youtu.be/T5MXXtNCbX0?t=9991)
 - _Korok::D32:
     comment: " "
 
-- .dir(S.)
+- .dir([6:30])
 - _Korok::D31
 
-- .dir(S>)
+- .dir([7:00])
 - _Korok::D44:
     comment: On ruins
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::P12:
     comment: Behind shrine
 
 - Down
 - _Korok::P13
 
-- .dir(N>)
+- .dir([1:00])
 - _Discover<Outpost Ruins>:
     coord: [-233.33, 113.99, 1671.11]
 
-- .dir(<S)
+- .dir([5:00])
 - _Boss::Talus::Luminous:
     comment: .fury()
     fury: 2
     coord: [-176.93, 132.59, 1771.62]
 
-- .dir(S) run
+- .dir([6:00]) run
 - _Korok::D43
 
-- .dir(<S) + .dir(E>)
+- .dir([5:00]) + .dir([4:00])
 - _Korok::L03:
     comment: .gale() to cryo block
     gale: 1
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::L10:
     comment: " "
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::L11
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::L16:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Korok::L05:
     comment: In big hollow tree stump
 
 - Surf to bottom of log
 - _Korok::L06
 
-- .dir(NW)
+- .dir([10:30])
 - _Korok::L02:
     comment: In hollow tree stump
 
-- .dir(N) short
+- .dir([12:00]) short
 - _Korok::L01
 
 - _Boss::Talus::Stone:
@@ -67,44 +67,44 @@ Dueling Peaks Tower:
     fury: 1
     coord: [359.34, 114.45, 1904.01]
 
-- .dir(S>>)
+- .dir([7:15])
 - _Korok::L04
 
-- .dir(<N)
+- .dir([11:00])
 - _Memory::WestNecluda:
     comment: Memory
 - _Korok::D45:
     comment: Behind statues
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::D35:
     comment: Pinwheel
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::D36:
     comment: In hollow log
 - _Material<Blue Nightshade>:
     hide-icon-on-map: true
     comment: Grab during D36 chase
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::D46:
     comment: " "
 
-- .dir(NE)
+- .dir([1:30])
 - _Korok::D37
 
-- .dir(SE) run
+- .dir([4:30]) run
 - _Korok::D38:
     comment: In cave
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::D47
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::D39:
     comment: " "
 
-- .dir(N)
+- .dir([12:00])
 - _Tower::DuelingPeaks:
     comment: Map 53.43%

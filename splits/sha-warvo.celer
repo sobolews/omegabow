@@ -7,18 +7,18 @@ Sha Warvo:
     hide-icon-on-map: true
     notes: DON'T use until you dupe it
 
-- .dir(W.)
+- .dir([9:30])
 - _Korok::T10
 
-- .dir(.W)
+- .dir([8:30])
 - _Korok::T13
 
 - _Npc::Rito<Kheel>:
     coord: [-3979.33, 271.21, -1751.18]
     comment: Warbler's Nest
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::T04
 
-- .dir(N)
+- .dir([12:00])
 - _Shrine::ShaWarvo

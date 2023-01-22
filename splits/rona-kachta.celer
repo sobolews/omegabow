@@ -1,75 +1,75 @@
 Rona Kachta:
-- .dir(.W):
+- .dir([8:30]):
     notes: .link([Rona Kachta vod]https://youtu.be/FgwSVGe8-o8?t=13320)
 - _Korok::H52
 
-- .dir(E>)
+- .dir([4:00])
 - _Korok::H58
 
-- .dir(<S)
+- .dir([5:00])
 - _Korok::H62:
     comment: Pinwheel on cliff edge
 
-- .dir(<E) down
+- .dir([2:00]) down
 - _Korok::H59
 
-- .dir(N>)
+- .dir([1:00])
 - _Korok::H38:
     comment: In corner against cliff
 
-- .dir(E.)
+- .dir([3:30])
 - _Korok::K10:
     comment: " "
 
-- .dir(<<W)
+- .dir([7:45])
 - _Korok::K12
 
 - _Tod::Night:
     hide-icon-on-map: true
     notes: For Stalnox and Kilton
 
-- .gale() + .dir(S>):
+- .gale() + .dir([7:00]):
     gale: 1
 
 - _Boss::Hinox::Stal:
     coord: [-1273.50, 213.08, -2113.50]
 
-- .dir(SW)
+- .dir([7:30])
 - _Npc::SheikaMale<Leviathan Bones brothers>:
     coord: [-1541.84, 212.23, -1804.59]
     comment: Inside if raining
 
-- .dir(<W)
+- .dir([8:00])
 - _Discover<Maritta Exchange Ruins>:
     coord: [-1781.57, 220.00, -1685.07]
     notes: Discover while gliding to R01
 - _Korok::R01
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::H68
 
-- .dir(S) down in corner
+- .dir([6:00]) down in corner
 - _Korok::K22
 
-- .dir(N) + .dir(<E)
+- .dir([12:00]) + .dir([2:00])
 - _Korok::K20:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::K21
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::K15:
     comment: On large pillar
 
-- .dir(W)
+- .dir([9:00])
 - _Korok::H63:
     comment: " "
 
-- .dir(<E)
+- .dir([2:00])
 - _Korok::K13
 
-- .dir(S) down
+- .dir([6:00]) down
 - _Korok::K14
 
 - .gale() + BLSS:

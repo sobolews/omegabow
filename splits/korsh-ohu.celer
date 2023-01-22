@@ -1,5 +1,5 @@
 Korsh Ohu:
-- .dir(N):
+- .dir([12:00]):
     notes: .link([Korsh Ohu vod]https://youtu.be/WaebWctGS_k?t=29687)
 - _Npc<Bozai>:
     coord: [-3750,2874]
@@ -7,12 +7,12 @@ Korsh Ohu:
     notes: Talk 3 times
     time-override: 360
 
-- .gale() + .dir(<W) midair:
+- .gale() + .dir([8:00]) midair:
     gale: 1
 - _Korok::W42:
     comment: On water tower
 
-- .dir(W) down
+- .dir([9:00]) down
 - _Npc::Gerudo<Wildberry lady>:
     comment: Calyban
     notes: Talk twice
@@ -50,22 +50,22 @@ Korsh Ohu:
     comment: Thunder Helm
     notes: Equip Thunder Helm
 
-- .dir(E)    
+- .dir([3:00])    
 - _Discover<Gerudo Secret Club>:
     notes: GSC♢
     coord: [-3792,2955.25]
     comment: Code 3-3-3-4
 
-- .dir(E)
+- .dir([3:00])
 - _Korok::W43
 
-- .dir(.E)
+- .dir([2:30])
 - _Korok::W37
 
-- .dir(SE)
+- .dir([4:30])
 - _Korok::W44
 
-- .dir(N>>)
+- .dir([1:15])
 - _Korok::W35:
     comment: In arms of statue
     notes: Can use bomb arrow from orb
