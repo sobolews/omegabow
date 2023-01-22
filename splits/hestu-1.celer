@@ -4,7 +4,7 @@ Hestu 1:
     line-color: lime
     notes: .link([Hestu vod]https://youtu.be/KYhfrqeINmE?t=6122
 
-- .dir(S>) short
+- .dir(<S) short
 - _Npc::SheikaMale<Olkin>:
     coord: [1870.87, 227.97, 965.85]
     comment: Fortified Pumpkin
