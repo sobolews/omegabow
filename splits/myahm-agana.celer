@@ -4,6 +4,9 @@ Myahm Agana:
     comment: if raining
     notes: Need no rain to deliver blue flame
 
+- Eat speedfood + 3 stam food:
+    notes: To make room for cooking later
+
 - .dir(<N)
 - _Npc<Horned Statue>:
     coord: [3285.60, 217.60, 2197.58]
