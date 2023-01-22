@@ -17,7 +17,7 @@ Dila Maag:
 - _Korok::W16:
     comment: .rune(Stasis), 1 hit w/ two-hander
 
-- .dir(RN) short
+- .dir(N>) short
 - _Korok::W11
 
 - _Equipment::Weapon<Fire Rod>:
@@ -60,7 +60,7 @@ Dila Maag:
 - _Korok::W50:
     comment: " "
 
-- .dir(RS)
+- .dir(S>)
 - _Korok::W58:
     comment: " "
 
