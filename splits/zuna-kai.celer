@@ -8,7 +8,7 @@ Zuna Kai:
 - _Boss::Hinox::Black:
     coord: [2917.42, 343.68, -3561.40]
 
-- .dir(<<E midair)
+- .dir([2:00]) midair
 - _Korok::A01
 
 - .dir([5:00]) down
