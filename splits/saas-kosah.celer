@@ -54,7 +54,7 @@ Saas Kosah:
     icon: tots
     hide-icon-on-map: true
 - _Tod::Night:
-    notes: (Optional) If close to blood moon, making night will cancel it while you're in castle and give you enough time to get to Mijah Rokee.
+    notes: (Optional) If close to blood moon, making night will cancel it while you're in castle and give you enough time to get to Mijah Rokee. Do not sleep if it's between 9pm-midnight.
 
 - _Shrine::SaasKosah:
     comment: Major Test of Strength
