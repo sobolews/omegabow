@@ -74,6 +74,7 @@ Gorae Torr:
     icon: tots
     hide-icon-on-map: true
     comment: .dir(W.) from tree and .gale()
+    notes: Collect 5 red rupees
     gale: 1
 
 - _Shrine::GoraeTorr
