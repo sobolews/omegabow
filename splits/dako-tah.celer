@@ -16,6 +16,10 @@ Dako Tah:
     hide-icon-on-map: true
     comment: Select "I want it!"
 
+- _Equipment::Bow<Golden Bow>:
+    comment: Corner of training yard
+    notes: (optional extra bow)
+
 - _Npc::Gerudo<Guard Leader>:
     coord: [-3912.83, 149.68, 2930.99]
     notes: Search for Barta quest
