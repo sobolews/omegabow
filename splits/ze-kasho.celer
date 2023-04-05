@@ -15,7 +15,7 @@ Ze Kasho:
 - .dir(W.)
 - _Discover<Akkala Bridge Ruins>:
     coord: [3170,-1357]
-    notes: Glide through trigger to pebble
+    notes: Glide through location trigger on the way to pebble
 - _Korok::A45:
     movements:
       - to: [3089.92, 407.44, -1337.38]
