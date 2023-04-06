@@ -13,6 +13,7 @@ Kaya Wan:
     coord: [-254.00, 209.67, -742.37]
 - _Equipment::Bow<Royal Bow>:
     hide-icon-on-map: true
+    notes: Don't shoot it until Hateno, its durability gets transferred to your omegabow.
 - 5 Arrows:
     icon: bow
     hide-icon-on-map: true
