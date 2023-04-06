@@ -81,7 +81,7 @@ Kao Makagh:
 - _Npc<Start Horse Minigame>:
     coord: [514.26, 152.72, 3449.75]
     comment: Blynne
-    notes: Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle.
+    notes: Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle. Can dismount horse to restart if needed.
 
 - .dir(S)
 - _Shrine::KaoMakagh
