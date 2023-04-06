@@ -102,4 +102,4 @@
 - .dir(E)
 - Final Memory:
     icon: memory-final
-    split-type: Memory
+    coord: [1983.90, 124.12, 1912.69]
