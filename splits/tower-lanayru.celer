@@ -7,7 +7,7 @@ Lanayru Tower:
 - _Npc::ZoraMale<Blue frog kid>:
     coord: [3320.59, 244.66, -474.01]
     comment: Tumbo
-    notes: 7am-8pm near Mipha's statue. Talk twice.
+    notes: 7am-4pm near Mipha's statue, 4pm-8pm near Fronk. Talk twice.
 
 - _Npc::ZoraMale<Luminous Stones guy>:
     coord: [3290.09, 244.86, -451.28]
