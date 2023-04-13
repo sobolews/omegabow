@@ -21,7 +21,7 @@ Sasa Kai:
 - _Korok::G32:
     comment: On broken bridge
 
-- .dir(<W)
+- .dir(S>)
 - _Korok::W10:
     comment: Bomb arrow from a distance
 
