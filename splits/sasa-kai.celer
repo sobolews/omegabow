@@ -43,7 +43,6 @@ Sasa Kai:
 - _Memory::KaraKaraBazaar:
     comment: Memory
 
-- .dir(<W)
 - _Npc::Gerudo<Rhondson>:
     comment: From the Ground Up
     coord: [-3269.43, 129.00, 2585.22]
