@@ -2,7 +2,7 @@ Kaam Yatak:
 - _Warp::Shrine::OwaDaim:
     # line-color: violet
     comment: (Stasis shrine) WARP
-    notes: "Check map: 30.68%"
+    notes: "Check map: 30.68% (if you skipped blood moon shrine, 30.60%)"
 
 - .dir(.E)
 - _Korok::P18
