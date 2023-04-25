@@ -2,7 +2,7 @@ Saas Kosah:
 - Continue:
     icon: tots
     hide-icon-on-map: true
-    notes: Close game first if IST glitch is still active.
+    notes: Close game first if IST glitch is still active. Wait until you get back to the main menu to close game.
 
 - .dir(N) down:
     notes: .link([Saas Kosah vod]https://youtu.be/WaebWctGS_k?t=23346)
