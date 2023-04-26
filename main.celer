@@ -8,7 +8,7 @@ _project:
   version: 1.0
 
 _route:
-- (==) Bingo IST route by Makonede
+- (==) Bingo IST route by Makonede - gets 999 fairies, speedfood, and stamina food
 - "-":
   - _Chest<Soldier's Bow>:
       movements:
