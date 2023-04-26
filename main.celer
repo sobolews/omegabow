@@ -9,6 +9,7 @@ _project:
 
 _route:
 - (==) Bingo IST route by Makonede - gets 999 fairies, speedfood, and stamina food
+- "(?=) Warning: this involves hard saving which will destroy your bingo file. It's recommended to use an NSO or homebrew backup. If you can't, you can avoid the hard saves by getting an autosave instead (sit at a campfire after waiting a while)."
 - "-":
   - _Chest<Soldier's Bow>:
       movements:
@@ -63,20 +64,22 @@ _route:
   - _Material<5 Lotus Seeds>
   - _Warp::Shrine::TalohNaeg:
       comment: WARP
-  - _Material<4 Apples>:
-      comment: Impa House stairs
-      coord: [1809.18, 218.99, 994.71]
   - Goddess Statue:
       comment: 1 stamina
       coord: [1841.25,998.75]
       icon: memory-final
+  - _Material<4 Apples>:
+      comment: Impa House stairs
+      coord: [1809.18, 218.99, 994.71]
   - _Cook<Cook all carrots>:
-      coord: [1805.25,1021]
       hide-icon-on-map: true
+      notes: Cook meals in this order
   - _Cook<Cook 1 apple>:
       hide-icon-on-map: true
   - _Cook<Cook all lotus seeds>:
       hide-icon-on-map: true
+  - Arrow shop:
+      coord: [1818.25,1038]
   - Drop 1 shroom/pepper/apple
   - Break 3 slots:
       notes: Use shroom/pepper/apple + guardian part for check item (both times)
