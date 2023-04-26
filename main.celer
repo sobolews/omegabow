@@ -65,7 +65,7 @@ _route:
   - _Warp::Shrine::TalohNaeg:
       comment: WARP
   - Goddess Statue:
-      comment: 1 stamina
+      comment: Redeem 1 essence
       coord: [1841.25,998.75]
       icon: memory-final
   - _Material<4 Apples>:
