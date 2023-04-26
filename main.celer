@@ -2,258 +2,113 @@
 _project:
   authors:
     - "BingsF"
-  description: "This route follows .link([BingsF's 15:40 run]https://www.speedrun.com/botw/run/ywvpqrpz) from 2022-12-10."
-  name: 100% (Omegabow v1 Dec-2022)
-  url: https://celer.itntpiston.app/#/gh/sobolews/omegabow/
+  description: "Bingo IST Route by Makonede - gets 999 fairies, speedfood, and stamina food"
+  name: Bingo IST
+  url: https://celer.itntpiston.app/#/gh/sobolews/
   version: 1.0
 
-_config:
-  split-format:
-    Shrine: "{{Korok}} - {{_}}"
-    Warp: "{{Korok}} - Warp {{_}}"
-
 _route:
-  - (==) This route follows .link([BingsF's 15:40 run]https://www.speedrun.com/botw/run/ywvpqrpz) from 2022-12-10. VODs for some segments may link to other runs with better examples of the same movement. For older routes, see the end of the document. For a version of the route with clock-based directions, see .link([here]https://celer.itntpiston.app/#/gh/sobolews/omegabow/omegabow-v1-clock).
-  - (?=) Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
-  - (==) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
-  - (?=) Questions or Corrections? Join the .link([BOTW Speedrunning discord]	https://discord.gg/94YzaMFZxC) and ask in the 100% channel! 
-  - "(==) Recommended options (bottom of screen): |\nTheme: Granatus | Split Settings: Split on Shrine, Tower, Other."
-
-  - Before Starting:
-    - __use__ Before Starting
-
-  - Great Plateau:
-    - __use__ Great Plateau
-
-  - Material Gathering:
-    - __use__ Mogg Latan
-    - __use__ Kaya Wan
-    - __use__ Daka Tuss
-    - __use__ Taloh Naeg
-    - __use__ Enter Hateno
-
-  - Hateno 1:
-    - __use__ IST
-    - __use__ Myahm Agana
-    - __use__ Hateno Tower
-    - __use__ After Hateno Tower
-
-  - Hestu 1:
-    - __use__ Hestu 1
-
-  - Vah Medoh:
-    - __use__ Vah Medoh
-
-  - Hestu 2:
-    - __use__ Sha Warvo
-    - __use__ After Sha Warvo
-    - __use__ Sheh Rata
-
-  - Vah Naboris:
-    - __use__ Kuh Takkar
-    - __use__ Gerudo Tower
-    - __use__ Daqo Chisay
-    - __use__ Kohga
-    - __use__ Vah Naboris
-
-  - East Desert:
-    - __use__ Dako Tah
-    - __use__ Wasteland Tower
-    - __use__ Dila Maag
-    - __use__ Suma Sahma
-    - __use__ Misae Suma
-
-  - Naydra:
-    - __use__ After Misae Suma
-    - __use__ Jitan Sami
-    - __use__ Dow Naeh
-
-  - Vah Ruta:
-    - __use__ Mezza Lo
-    - __use__ Neez Yohma
-    - __use__ Vah Ruta
-
-  - South Akkala:
-    - __use__ Dagah Keek
-    - __use__ Akkala Tower
-    - __use__ Dah Hesho
-    - __use__ Sah Dahaj
-    - __use__ Eldin Tower
-
-  - Eldin:
-    - __use__ Shae Mosah
-    - __use__ Shora Hah
-    - __use__ Qaza Tokki
-    - __use__ Ketoh Wawai
-    - __use__ Gorae Torr
-
-  - North Akkala:
-    - __use__ Zuna Kai
-    - __use__ Tu Kaloh
-    - __use__ Katosa Aug
-    - __use__ Tutsuwa Nima
-    - __use__ After Tutsuwa Nima
-
-  - Vah Rudania:
-    - __use__ Daqa Koh
-    - __use__ Vah Rudania
-    - __use__ Kayra Mah
-    - __use__ Qua Raym
-    - __use__ Woodland Tower
-
-  - Korok Forest:
-    - __use__ Daag Chokah
-    - __use__ Keo Ruug
-    - __use__ Maag Halan
-    - __use__ Kuhn Sidajj
-
-  - Blood Moon:
-    - __use__ Ganon
-    - __use__ Saas Kosah
-    - __use__ Sheem Dagoze
-    - __use__ Mijah Rokee
-    - __use__ After Mijah Rokee
-
-  - Gerudo Canyon:
-    - __use__ Kaam Yatak
-    - __use__ Rota Ooh
-    - __use__ Dah Kaso
-    - __use__ Joloo Nah
-    - __use__ Sasa Kai
-
-  - Gerudo Highlands:
-    - __use__ Kema Kosassa
-    - __use__ Keeha Yoog
-    - __use__ Sho Dantu
-    - __use__ Kema Zoos
-
-  - Gerudo Desert:
-    - __use__ Tho Kayu
-    - __use__ Hawa Koth
-    - __use__ Raqa Zunzo
-    - __use__ Korsh Ohu
-    - __use__ Kay Noh
-    - __use__ After Kay Noh
-
-  - Lake/Horse Minigames:
-    - __use__ Jee Noh
-    - __use__ Ya Naga
-    - __use__ Lake Tower
-    - __use__ Pumaag Nitae
-    - __use__ Kao Makagh
-    - __use__ Shoqa Tatone
-    - __use__ Ishto Soh
-
-  - Central:
-    - __use__ Central Tower
-    - __use__ Wahgo Katta
-    - __use__ Bosh Kala
-    - __use__ Dueling Peaks Tower
-    - __use__ Shee Vaneer
-    - __use__ Shee Venath
-    - __use__ Ree Dahee
-
-  - Faron:
-    - __use__ Shae Katha
-    - __use__ Faron Tower
-    - __use__ Shai Utoh
-    - __use__ Shoda Sah
-    - __use__ Qukah Nata
-    - __use__ Kah Yah
-    - __use__ Yah Rin
-    - __use__ Tarrey Town 3
-
-  - Letter Quest:
-    - __use__ Hila Rao
-    - __use__ Mirro Shaz
-
-  - Castle Town:
-    - __use__ Namika Ozz
-    - __use__ Katah Chuki
-    - __use__ Noya Neha
-
-  - Ridgeland:
-    - __use__ Monya Toma
-    - __use__ Maag Norah
-    - __use__ Ridgeland Tower
-    - __use__ Toh Yahsa
-    - __use__ Zalta Wa
-    - __use__ Kah Okeo
-
-  - Tabantha:
-    - __use__ Tabantha Tower
-    - __use__ Tena Kosah
-    - __use__ Bareeda Naag
-    - __use__ Akh Vaquot
-    - __use__ Voo Lota
-
-  - Hebra North:
-    - __use__ Shada Naw
-    - __use__ Two Hebra Koroks
-    - __use__ Hia Miu
-    - __use__ To Quomo
-
-  - Hebra South:
-    - __use__ Gee Harah
-    - __use__ Lanno Kooh
-    - __use__ Hebra Tower
-    - __use__ Shae Loya
-    - __use__ Dunba Taag
-    - __use__ After Dunba Taag
-
-  - Hebra West:
-    - __use__ Mozo Shenno
-    - __use__ Maka Rah
-    - __use__ Tarrey Town 5
-
-  - Eldin/Akkala Cleanup:
-    - __use__ Lanayru Tower
-    - __use__ Soh Kofi
-    - __use__ Tah Muhl
-    - __use__ Moa Keet
-    - __use__ After Moa Keet
-    - __use__ Ze Kasho
-    - __use__ Ritaag Zumo
-    - __use__ After Ritaag Zumo
-
-  - Eventide:
-    - __use__ Tawa Jinn
-    - __use__ Muwo Jeem
-    - __use__ Chaas Qeta
-    - __use__ Korgu Chideh
-
-  - Kakariko/Hateno Cleanup:
-    - __use__ Lakna Rokee
-    - __use__ Kam Urog
-    - __use__ Toto Sah
-    - __use__ Ha Dahamar
-    - __use__ Tahno Oah
-
-  - Lanayru Cleanup:
-    - __use__ Rucco Maag
-    - __use__ Shai Yota
-    - __use__ Kenai Shakah
-    - __use__ Kah Mael
-
-  - Hebra East:
-    - __use__ Goma Asaagh
-    - __use__ Rok Uwog
-    - __use__ Sha Gehma
-    - __use__ Rin Oyaa
-
-  - Forgotten Temple:
-    - __use__ Rona Kachta
-
-  - 100% Cleanup:
-    - __use__ After Rona Kachta
-    - __use__ 100% Cleanup
-
-    - "100%":
-        notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
-        split-type: UserDefined
-        icon: memory-final
-    - " "
-    - " "
-    - " "
-    - (?=) Older Routes >> .link([Ikurapan v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/ikurapan) (2022-09-14), .link([Omegafairy v2]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v2) (2022-08-08), .link([Omegafairy v1]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/omegafairy.v1) (2022-07-15), .link([HeartyBass]https://celer.itntpiston.app/#/gh/taoplusplus/corrupted.granatus/heartybass) (2022-07-05)
-    - (^?) .link([Changelog from Ikurapan v1]https://pastebin.com/raw/a5SQpBXi)
+- (==) Bingo IST route by Makonede
+- "-":
+  - _Chest<Soldier's Bow>:
+      movements:
+        - to: [-816, 1971]
+          warp: true
+  - 5 Arrows:
+      comment: in pot below
+      icon: bow
+      hide-icon-on-map: true
+  - _Equipment::Weapon<Boko Club>:
+      comment: from bokoblin
+      hide-icon-on-map: true
+  - _Material<Guardian Part>:
+      coord: [-836.10, 224.51, 1955.83]
+      comment: IST check item
+  - W to boko camp
+  - _Equipment::Weapon<2 Spears, 1 Torch>:
+      coord: [-964.50, 238.84, 1953.28]
+      comment: grab quickly
+  - _Equipment::Shield<Pot Lid>:
+      hide-icon-on-map: true
+  - _Material<Seared Steak>:
+      comment: for healing
+      hide-icon-on-map: true
+      notes: Eat this before IST!
+  - _Material<Shrooms>:
+      hide-icon-on-map: true
+      comment: Keep 3 for IST
+  - _Material<Peppers>:
+      hide-icon-on-map: true
+      comment: Keep 3 for IST
+  - Throw and pickup boko club to put in 4th slot
+  - BLSS from top of snowy area gate:
+      coord: [-983,2020]
+  - ...through Dueling Peaks...:
+      coord: [1062,1856]
+      notes: Try to speedcap before the gap to make steering easier
+  - ...and turn north toward the waterfall:
+      coord: [1658,2022]
+  - Land at the hill near the maraca camp:
+      coord: [2140,1401]
+  - N + midair to fairy fountain:
+      coord: [1978,841.5]
+  - _Material<Fairy>:
+      comment: 1 or more
+  - _Material<Carrot>:
+      comment: 2 or more
+  - _Shrine::TalohNaeg:
+      comment: Activate
+  - BLSS N from elevator:
+      coord: [1954.03, 115.02, 396.67]
+  - _Material<5 Lotus Seeds>
+  - _Warp::Shrine::TalohNaeg:
+      comment: WARP
+  - _Material<4 Apples>:
+      comment: Impa House stairs
+      coord: [1809.18, 218.99, 994.71]
+  - Goddess Statue:
+      comment: 1 stamina
+      coord: [1841.25,998.75]
+      icon: memory-final
+  - _Cook<Cook all carrots>:
+      coord: [1805.25,1021]
+      hide-icon-on-map: true
+  - _Cook<Cook 1 apple>:
+      hide-icon-on-map: true
+  - _Cook<Cook all lotus seeds>:
+      hide-icon-on-map: true
+  - Drop 1 shroom/pepper/apple
+  - Break 3 slots:
+      notes: Use shroom/pepper/apple + guardian part for check item (both times)
+  - Pick up everything
+  - Break 3 slots
+  - Equip Pot Lid:
+      hide-icon-on-map: true
+      icon: shield
+  - Equip Boko Club (4th slot):
+      hide-icon-on-map: true
+      icon: equipment
+  - Save
+  - Eat Fairy + all 3 Meals:
+      hide-icon-on-map: true
+      icon: material
+  - Drop Bow:
+      hide-icon-on-map: true
+      icon: bow
+  - Drop Pot Lid:
+      hide-icon-on-map: true
+      icon: shield
+  - Drop and Pickup all Weapons:
+      hide-icon-on-map: true
+      icon: equipment
+  - Unequip Weapon:
+      hide-icon-on-map: true
+      icon: equipment
+  - Reload Hard Save
+  - Save
+  - Close Game:
+      icon: sor
+  - Reload
+  - Eat one of each meal:
+      hide-icon-on-map: true
+      icon: cook

@@ -1,8 +1,0 @@
-Mozo Shenno:
-- _Warp::Shrine::ShadaNaw:
-    line-color: dodgerblue
-    comment: WARP
-
-- .dir(.W)
-- _Shrine::MozoShenno:
-    comment: Major Test of Strength

@@ -1,8 +1,0 @@
-Maag Halan:
-- .dir(E)
-- _Npc<Damia>:
-    coord: [564.99, 264.83, -2160.65]
-    comment: Start Trial of Wood
-
-- .dir(LE)
-- _Shrine::MaagHalan
