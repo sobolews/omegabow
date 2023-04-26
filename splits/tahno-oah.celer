@@ -88,7 +88,7 @@ Tahno Oah:
 - _Npc<Nebb>:
     coord: [3352.40, 225.55, 2138.81]
     comment: Weapon Connoisseur
-    notes: Turn in all weapons
+    notes: Turn in all weapons. Nebb wakes at 8am.
 
 - _Npc::SheikaMale<Cricket guy + hotel lady>:
     coord: [3418.24, 226.84, 2121.22]
