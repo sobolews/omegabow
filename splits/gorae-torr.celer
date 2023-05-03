@@ -21,7 +21,8 @@ Gorae Torr:
     notes: Look west when sitting at campfire. Facing east can stop Dinraal from spawning.
 
 - _Korok::K02
-- _Material<Collect Scale>
+- _Material<Collect Scale>:
+    hide-icon-on-map: true
 - Shoot Dinraal (Horn):
     icon: calamity
     hide-icon-on-map: true
@@ -34,6 +35,7 @@ Gorae Torr:
     icon: calamity
     coord: [1257.69, 207.16, -3753.55]
     comment: 2 OB headshots
+    notes: Don't use ancient arrow
     
 - _Material<Lynel Hoof>:
     hide-icon-on-map: true
