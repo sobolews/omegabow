@@ -46,7 +46,6 @@ Lanayru Tower:
 
 - .gale() + .dir(W) midairs:
     gale: 1
-    coord: [3324,-348]
 - _Korok::Z15:
     comment: High up against cliff
 
